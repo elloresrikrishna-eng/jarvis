@@ -11,7 +11,7 @@
     "V05_Window_Shelving",
     "V06_Curved_Seating_Hero"
   ],
-  "current_action": "Continue each view independently through its authoritative per-view state. V06 is publishing a corrected Layer 03 candidate from the exact external JARVIS rejection and must stop for a new exact-SHA decision.",
+  "current_action": "Continue each view independently through its authoritative per-view state. V06 is READY_FOR_JARVIS_REVIEW at Layer 03 on artifact 9345373457 and must not advance without a new exact-SHA external JARVIS decision.",
   "per_view_state_path": "projects/pulla-reddy/state/",
   "coordinator_instruction": "projects/pulla-reddy/CURRENT_INSTRUCTION.md",
   "quality_holds": [],

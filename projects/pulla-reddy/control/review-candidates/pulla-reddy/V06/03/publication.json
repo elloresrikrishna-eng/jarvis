@@ -1,0 +1,21 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V06",
+  "layer_id": "03",
+  "candidate_sha256": "6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f",
+  "artifact_name": "jarvis-pulla-reddy-v06-l03-6de8f029666f",
+  "artifact_id": "9345373457",
+  "workflow_run_id": "32194514959",
+  "workflow_commit_sha": "3d3d3b65ccaf1e52ac327fcd07cf6d19d182d778",
+  "artifact_archive_digest": "sha256:aa1e5079dc60ac0fae48138d70bde2f9ad2c7f2354a03bc829b7507f0c16d9ff",
+  "failed_publication_attempts": [
+    {
+      "workflow_run_id": "32194455330",
+      "reason": "Initial shallow checkout did not contain the push parent; no artifact was created."
+    }
+  ],
+  "state": "READY_FOR_JARVIS_REVIEW",
+  "jarvis_approval": false,
+  "published_at": "2026-08-18T22:50:13Z"
+}

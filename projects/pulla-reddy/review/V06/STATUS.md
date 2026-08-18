@@ -7,6 +7,8 @@ The exact external JARVIS rejection `jarvis-v06-l03-04a37c42-reject-001` was con
 - Layer: `03` (unchanged)
 - Deterministic QA: `PASSED`
 - JARVIS approval: `NOT GRANTED`
-- State: `PUBLISHING_JARVIS_ARTIFACT`
+- Artifact ID: `9345373457`
+- Workflow run ID: `32194514959`
+- State: `READY_FOR_JARVIS_REVIEW`
 
 V06 must not advance. The revised SHA requires a new external JARVIS decision.
