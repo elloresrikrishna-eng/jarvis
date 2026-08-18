@@ -1,0 +1,10 @@
+{
+  "project": "G Pulla Reddy Sweets, HSR",
+  "view": "V03_Reverse_Retail",
+  "source_page": 4,
+  "status": "codex_action_required",
+  "current_task": "Initialize lane, extract source, and create Layer 00 night base with all electric lighting off.",
+  "approved_through_layer": -1,
+  "review_path": "projects/pulla-reddy/review/V03/",
+  "user_decision_required": false
+}
