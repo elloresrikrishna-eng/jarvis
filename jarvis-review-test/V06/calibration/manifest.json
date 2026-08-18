@@ -1,0 +1,46 @@
+{
+  "protocol": "JARVIS_CONNECTOR_CALIBRATION_V1",
+  "project": "G Pulla Reddy Sweets",
+  "view": "V06 Curved Seating",
+  "layer": "03",
+  "source_image": "jarvis-review-test/V06/layer_03.png",
+  "source_sha256": "04a37c428a1ff4f4d88f20d9ce08881534d8874b689d602af9afdc4e1cd9bc45",
+  "encoding": "base64",
+  "samples": [
+    {
+      "path": "jarvis-review-test/V06/calibration/sample_0250.txt",
+      "characters": 250,
+      "sha256": "2444e16c8a06816a431ce613fb221378143d26fa7acb9aa9dcd5ce24e7f5c193",
+      "first_16": "iVBORw0KGgoAAAAN",
+      "last_16": "Lvavy83pM/jvfk2/"
+    },
+    {
+      "path": "jarvis-review-test/V06/calibration/sample_0500.txt",
+      "characters": 500,
+      "sha256": "c138c65a56f7ecf06aa03ab88d442f1cd1bddaadc10fc3784b89bdd45f757b08",
+      "first_16": "iVBORw0KGgoAAAAN",
+      "last_16": "0GPkM+ONxSXxntW7"
+    },
+    {
+      "path": "jarvis-review-test/V06/calibration/sample_1000.txt",
+      "characters": 1000,
+      "sha256": "0644c11c630d49fdeabc6978ba043d5fffcc0248a0800b290966de4ba1c86b42",
+      "first_16": "iVBORw0KGgoAAAAN",
+      "last_16": "m32an86Hv/r58+np"
+    },
+    {
+      "path": "jarvis-review-test/V06/calibration/sample_2000.txt",
+      "characters": 2000,
+      "sha256": "1902b2112fd62aeb0481c973616bcc39676b0d3d0917b1ccb3398af47fd8e600",
+      "first_16": "iVBORw0KGgoAAAAN",
+      "last_16": "EuE384olyVfhMhlz"
+    },
+    {
+      "path": "jarvis-review-test/V06/calibration/sample_4000.txt",
+      "characters": 4000,
+      "sha256": "eb296d9897bb40eb8197ff6a7b8a4b45bcaf312741f4ca5662414086e792086c",
+      "first_16": "iVBORw0KGgoAAAAN",
+      "last_16": "EmK3OundoeLiwbeM"
+    }
+  ]
+}
