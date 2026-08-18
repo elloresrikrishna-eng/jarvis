@@ -1,9 +1,18 @@
 {
   "project": "G Pulla Reddy Sweets, HSR",
-  "view": "V01_Main_Retail",
-  "status": "waiting_for_chatgpt_review",
-  "current_layer": 1,
-  "approved_through_layer": 0,
-  "next_required_action": "Independent ChatGPT visual/design review of reworked Layer 01",
+  "mode": "parallel_multiview_experiment",
+  "view": "MULTIVIEW_COORDINATOR",
+  "status": "codex_action_required",
+  "active_views": [
+    "V01_Main_Retail",
+    "V02_Curved_Seating",
+    "V03_Reverse_Retail",
+    "V04_Product_Elevation",
+    "V05_Window_Shelving",
+    "V06_Curved_Seating_Hero"
+  ],
+  "current_action": "Launch V02-V06 in parallel and publish independent Layer 00 review packages. Keep V01 frozen at the reworked Layer 01 review gate.",
+  "per_view_state_path": "projects/pulla-reddy/state/",
+  "coordinator_instruction": "projects/pulla-reddy/CURRENT_INSTRUCTION.md",
   "user_decision_required": false
 }
