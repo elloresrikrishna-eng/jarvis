@@ -1,75 +1,67 @@
 {
+  "package_version": "V01-layer-01-rework-v4",
   "project": "G Pulla Reddy Sweets, HSR",
   "view": "V01_Main_Retail",
-  "submission_state": "waiting_for_chatgpt_review",
-  "approved_through_layer": 0,
-  "approved_parent": {
-    "filename": "layer-00-base-dark.png",
-    "local_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-00-base-dark.png",
-    "dimensions": {
-      "width": 1624,
-      "height": 968
-    }
+  "status_after_publish": "waiting_for_chatgpt_review",
+  "source_filename": "source-view-01-original.jpg",
+  "approved_parent_filename": "layer-00-base-dark.png",
+  "candidate_filename": "layer-01-front-display-counter-downlights-v4.png",
+  "candidate_layer_number": 1,
+  "dimensions": {
+    "width": 1624,
+    "height": 968
   },
-  "candidate": {
-    "filename": "layer-01-front-display-counter-downlights.png",
-    "local_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-01-front-display-counter-downlights.png",
-    "sha256": "98B9E6EC6E857DEC19F84FBE833B69111CBBD24962213462D7FF0C1B82B49113",
-    "layer_number": 1,
-    "purpose": "Front sweet display counter downlighting",
-    "dimensions": {
-      "width": 1624,
-      "height": 968
-    },
-    "creation_status": "complete",
-    "exact_new_lighting_circuit": "Controlled deep-recessed 3000K downlighting above the long right glass sweet counter and secondary left front counter, with local physically necessary spill only."
-  },
-  "continuity": {
-    "camera_crop_alignment_changed": false,
-    "alignment_check": "Edge-gradient comparison, best alignment offset x=0, y=0",
-    "architecture_changed": false,
-    "ceiling_grid_changed": false,
-    "materials_changed": false,
-    "products_changed": false,
-    "furniture_changed": false,
-    "previous_lighting_layer_changed_unexpectedly": false,
-    "cumulative_method": "Positive-only lighting contribution composited over approved Layer 00",
-    "negative_rgb_channel_deltas": 0,
-    "protected_regions_exactly_frozen": [
-      "rear center",
-      "central merchandise display",
-      "left wall shelves",
-      "right wall shelves"
-    ]
-  },
-  "lighting": {
-    "cct_kelvin": 3000,
-    "visible_fixture_body": false,
-    "fixture_reading": "Tiny dark deep-recessed apertures with restrained warm inner glint",
-    "global_exposure_brightening": false,
-    "unrelated_lighting_activated": false,
-    "right_counter_mean_luminance_delta": 21.28,
-    "left_counter_mean_luminance_delta": 11.79
+  "exact_new_lighting_circuit": "Deep-recessed 3000K downlighting over the principal right and left-front sweet display counters only",
+  "camera_or_crop_alignment_changed": false,
+  "architecture_materials_products_changed": false,
+  "previous_lighting_changed_unexpectedly": false,
+  "global_exposure_changed": false,
+  "added_cct_kelvin": 3000,
+  "visible_fixture_bodies_introduced": false,
+  "candidate_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "local_paths": {
+    "source": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/source-view-01-original.jpg",
+    "approved_parent": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-00-base-dark.png",
+    "candidate": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-01-front-display-counter-downlights-v4.png"
   },
   "review_assets": [
     {
       "filename": "layer-01-front-display-counter-downlights-preview.jpg",
-      "dimensions": {
-        "width": 1200,
-        "height": 715
-      },
-      "purpose": "Review-sized Layer 01 preview"
+      "purpose": "Fresh review-sized candidate preview",
+      "status": "created"
     },
     {
       "filename": "layer-00-vs-layer-01.jpg",
-      "dimensions": {
-        "width": 1576,
-        "height": 519
-      },
-      "purpose": "Approved Layer 00 versus Layer 01 comparison"
+      "purpose": "Approved parent versus reworked candidate",
+      "status": "created"
+    },
+    {
+      "filename": "DESIGN_INTENT_CHECK.md",
+      "purpose": "Hierarchy, beam, glass, and correction rationale",
+      "status": "created"
+    },
+    {
+      "filename": "SELF_QA.md",
+      "purpose": "Technical and visual self-check evidence",
+      "status": "created"
     }
   ],
+  "qa_summary": {
+    "negative_channel_deltas": 0,
+    "ceiling_max_pixel_delta": 0,
+    "central_display_max_pixel_delta": 0,
+    "rear_seating_max_pixel_delta": 0,
+    "right_counter_mean_luminance_delta": 15.156,
+    "left_counter_mean_luminance_delta": 9.077,
+    "clipped_output_channels": 0,
+    "mean_positive_rgb_delta": [
+      30.567,
+      21.384,
+      8.085
+    ]
+  },
   "warnings": [
-    "Fine generative variation may remain within intentionally lit counter regions; review glass reflections and preferred light intensity."
+    "Independent visual/design review remains mandatory; Codex self-QA is not approval.",
+    "Unpublished downstream local files created under a retracted earlier release are not current or approved."
   ]
 }

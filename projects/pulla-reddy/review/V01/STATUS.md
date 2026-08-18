@@ -1,53 +1,44 @@
-# V01 Main Retail | Layer 01 Review Status
+# V01 Main Retail | Layer 01 Rework Review Status
 
-## State
+## Current control state
 
-Layer 00 is approved and remains the immutable parent. Layer 01 has been produced locally and submitted for ChatGPT review. Production is stopped at Layer 01. Layer 02 has not been generated.
+Layer 00 remains the only approved cumulative parent.
 
-## Authoritative local masters
+A fresh Layer 01 candidate has been rebuilt from Layer 00 only and is submitted for independent ChatGPT visual/design review. No Layer 02 work is released by this package.
 
+## Authoritative local files
+
+- Source: `D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/source-view-01-original.jpg`
 - Approved parent: `D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-00-base-dark.png`
-- Layer 01 candidate: `D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-01-front-display-counter-downlights.png`
+- Reworked candidate: `D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-01-front-display-counter-downlights-v4.png`
 
-Both files are 1624 x 968 pixels.
+All three files are 1624 x 968 at the render stage, except the source is the original JPEG at the same dimensions.
 
-## Exact circuit introduced
+## Candidate scope
 
-Controlled deep-recessed 3000K downlighting serving only:
+Layer 01 adds only deep-recessed 3000K downlighting over:
 
-- the long glass sweet display counter on the right;
-- the secondary front display/service counter on the left;
-- physically necessary local spill immediately around those counters.
+- the long right-hand sweet display counter;
+- the smaller left-front display counter.
 
-No other lighting family was activated.
-
-## Autonomous corrections completed
-
-1. The first lighting proposal contained ceiling apertures that read too brightly. These were corrected to tiny, dark, deep-recessed apertures with restrained warm inner glints.
-2. The initial candidate darkened unrelated rear and shelf zones. The final master was rebuilt as a positive-only lighting contribution over approved Layer 00.
-3. Camera and crop were normalized to the approved 1624 x 968 parent with zero detected alignment offset.
-4. Protected rear, central-display and wall-shelf control regions were restored to exact Layer 00 pixels.
-
-## Final QA evidence
-
-- Best edge alignment offset: x=0, y=0.
-- Negative RGB channel deltas relative to Layer 00: 0.
-- Rear center, central display, left wall shelves and right wall shelves: exact pixel freeze in tested control regions.
-- Right counter region mean luminance increase: 21.28.
-- Left counter region mean luminance increase: 11.79.
-- No Layer 02 work has started.
+The rework tightens the counter-localized beam footprints, reduces floor spill, neutralizes the earlier orange bias, keeps the ceiling completely at Layer 00, and restores unrelated shelves, the central display, and rear seating to exact Layer 00 pixels.
 
 ## Review assets
 
 - `layer-01-front-display-counter-downlights-preview.jpg`
 - `layer-00-vs-layer-01.jpg`
-- `manifest.json`
+- `DESIGN_INTENT_CHECK.md`
 - `SELF_QA.md`
+- `manifest.json`
 
-## Requested review
+## Important review posture
 
-Please approve Layer 01 or publish a correction instruction through `CURRENT_INSTRUCTION.md` and set `STATE.json` to `codex_action_required`.
+The technical QA evidence confirms continuity but is not design approval. The candidate is intentionally waiting for independent visual/design review under `REVIEWER_RUBRIC.md`.
 
-## Known uncertainty
+## Local downstream note
 
-The proposed light appearance originated from a generative edit, but the final cumulative master applies only positive lighting contribution over the approved parent. Fine detail within the intentionally lit counter regions should still be independently reviewed, particularly glass reflection quality and preferred intensity.
+Some downstream files were generated locally under an earlier full-sequence release that Jarvis retracted while production was in progress. They were not published by this package, are not approved, and must not be treated as current cumulative parents.
+
+## Stop condition
+
+Production stops at reworked Layer 01. Layer 02 must not advance until Jarvis explicitly approves and releases it.
