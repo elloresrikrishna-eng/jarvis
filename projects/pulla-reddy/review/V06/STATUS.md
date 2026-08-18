@@ -1,14 +1,22 @@
-# V06 Layer 03 | JARVIS return path
+# V06 Curved Seating Hero | Current Review Status
 
-The exact external JARVIS rejection `jarvis-v06-l03-04a37c42-reject-001` was consumed once.
+## Current state
 
-- Rejected candidate SHA-256: `04a37c428a1ff4f4d88f20d9ce08881534d8874b689d602af9afdc4e1cd9bc45`
-- Revised candidate SHA-256: `6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f`
-- Layer: `03` (unchanged)
-- Deterministic QA: `PASSED`
-- JARVIS approval: `NOT GRANTED`
-- Artifact ID: `9345373457`
-- Workflow run ID: `32194514959`
-- State: `READY_FOR_JARVIS_REVIEW`
+**REJECTED / CODEX ACTION REQUIRED**
 
-V06 must not advance. The revised SHA requires a new external JARVIS decision.
+The corrected Layer 03 candidate `6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f` was independently reviewed from artifact `9345373457`.
+
+Its under-seater correction is visually improved and should be retained as the later Layer 03 target character, but the candidate cannot be approved because the mandatory shared V02/V06 planter is absent and no valid planter-bearing Layer 00 parent chain exists.
+
+Decision: `jarvis-v06-l03-6de8f029-reject-002`
+
+Review: `JARVIS_REVIEW_LAYER_03_6de8f029_REJECTED.md`
+
+## Required next action
+
+1. Establish and publish `projects/pulla-reddy/SHARED_PLANTER_SPEC.md`.
+2. Rebuild V06 Layer 00 with the shared planter present and all electric lighting off.
+3. Publish Layer 00 review evidence and stop for independent review.
+4. Do not advance to Layer 04 and do not treat the current Layer 03 as an approved parent.
+
+The presentation gate remains locked.
