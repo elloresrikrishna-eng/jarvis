@@ -1,0 +1,11 @@
+{
+  "project": "G Pulla Reddy Sweets, HSR",
+  "view": "V06_Curved_Seating_Hero",
+  "source_page": 7,
+  "status": "codex_action_required",
+  "current_task": "Initialize lane, extract source, reuse the authoritative V02 planter geometry, and create Layer 00 night base with planter present and all lights off.",
+  "approved_through_layer": -1,
+  "review_path": "projects/pulla-reddy/review/V06/",
+  "shared_dependency": "V02 and V06 planter geometry lock",
+  "user_decision_required": false
+}
