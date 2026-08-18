@@ -1,44 +1,41 @@
-# Current Instruction | V01 Main Retail | Execute 10-Step Queue
+# Current Instruction | V01 Main Retail | Execute Task 01 Only
 
 Layer 00 and Layer 01 are approved and locked.
 
-Do not recreate or reinterpret either approved layer.
-
-## Required action now
-
-Execute the released autonomous work plan in:
+Use:
 
 `projects/pulla-reddy/V01_EXECUTION_QUEUE.md`
 
-Use:
+and
 
 `projects/pulla-reddy/REVIEWER_RUBRIC.md`
 
-as the quality standard for your own internal pre-publication checks. The independent ChatGPT reviewer will also use this rubric and may be stricter than your self-QA.
+as the authoritative production and quality references.
 
-## Execution mode
+## Execute now
 
-Proceed through Tasks 01 to 10 in order.
+Complete **Task 01 | Layer 02 Wall-Wash** only.
 
-For each task:
+Starting from approved Layer 01, add only recessed 3000K wall-washer downlights serving all visible wall-mounted shelving compositions. Keep the effect selective, not a blanket wash. Preserve Layer 01 exactly.
 
-1. Complete the task locally in the existing `V01_Main_Retail` workspace.
-2. Preserve all global project locks.
-3. Run objective QA.
-4. If the candidate clearly fails any hard rule, correct it before proceeding.
-5. Publish the task result/review package into Jarvis with an explicit task number and status.
-6. Continue to the next queue item only if the current task passes your internal QA and no `blocked_user_decision` state is required.
+## After Task 01
 
-Do not wait for Srikrishna between routine tasks.
+Publish the complete Task 01 review package to Jarvis, including preview, side-by-side comparison, manifest, and self-QA.
 
-## Important
+Then set `STATE.json` to `waiting_for_chatgpt_review` with `current_layer` 2 and `approved_through_layer` 1.
 
-The reviewer is intentionally independent. Do not treat your own `SELF_QA.md` as proof of approval. The external reviewer may reject technically valid work for weak hierarchy, poor product appetite appeal, fixture visibility, bad glass behavior, over-ambient lighting, poor shelf-light character, weak presentation value or other design-quality reasons defined in `REVIEWER_RUBRIC.md`.
+STOP.
 
-## Final state
+Do not execute Task 02 until the independent ChatGPT reviewer explicitly approves Task 01 and releases Task 02 through Jarvis.
 
-After Task 10:
+## Review gate rule for all future tasks
 
-- if all mandatory gates pass, set `STATE.json` to `view_complete`;
-- if a genuine subjective design decision remains, set `blocked_user_decision`;
-- do not start View 02.
+This is the permanent operating model:
+
+Codex produces one queue task -> publishes review package -> stops -> independent reviewer either approves and releases the next task, or rejects and issues an exact correction for the same task.
+
+Codex must not self-approve progression between queue tasks.
+
+If rejected, correct only the rejected task while keeping all approved parents frozen, republish, and wait again.
+
+Srikrishna is not part of routine approvals or corrections.
