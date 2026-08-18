@@ -1,0 +1,22 @@
+{
+  "project": "G Pulla Reddy Sweets",
+  "view": "V06 Curved Seating",
+  "layer": "03",
+  "status": "READY_FOR_REVIEW",
+  "image_path": "jarvis-review-test/V06/layer_03.png",
+  "requested_change": "concealed under-seater lighting and complete state",
+  "source_sha256": "04a37c428a1ff4f4d88f20d9ce08881534d8874b689d602af9afdc4e1cd9bc45",
+  "reviewer": "JARVIS_CHATGPT",
+  "decision": "PENDING",
+  "source_filename": "layer-03-concealed-under-seater-lighting.png",
+  "source_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V06_Curved_Seating_Hero/layer-03-concealed-under-seater-lighting.png",
+  "source_dimensions": {
+    "width": 1625,
+    "height": 968,
+    "unit": "pixels"
+  },
+  "source_file_type": "image/png",
+  "source_size_bytes": 1856627,
+  "copy_method": "byte-for-byte file copy",
+  "conversion_performed": false
+}
