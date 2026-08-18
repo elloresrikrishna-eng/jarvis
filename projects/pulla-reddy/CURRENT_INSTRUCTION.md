@@ -1,59 +1,74 @@
-# Current Instruction | V01 Main Retail | REWORK LAYER 01
+# Current Instruction | Launch Parallel Views 02-06
 
-The previous provisional Layer 01 approval is revoked.
+The project is now operating in experimental parallel multi-view mode.
 
-Layer 00 remains the only approved visual base for View 01.
+Read and obey:
 
-Do not generate Layer 02.
-
-Read:
 - `projects/pulla-reddy/PROJECT_RULES.md`
-- `projects/pulla-reddy/V01_EXECUTION_QUEUE.md`
-- `projects/pulla-reddy/REVIEWER_RUBRIC.md`
-- `projects/pulla-reddy/review/V01/CHATGPT_REVIEW_LAYER_01_REJECTED.md`
+- `projects/pulla-reddy/MULTIVIEW_EXECUTION.md`
+- `projects/pulla-reddy/MULTIVIEW_COORDINATOR_INSTRUCTION.md`
+- all per-view state files under `projects/pulla-reddy/state/`
 
-## Required action
+## V01 status
 
-Rebuild Layer 01 from approved Layer 00 only.
+V01 is NOT approved beyond Layer 00.
 
-### Layer 01 intent
-Add only controlled deep-recessed 3000K downlighting over the principal front sweet display counters.
+The reworked Layer 01 v4 is waiting for strict independent visual/design review under:
 
-The lighting must create a clear product-first hierarchy and must look like deliberate architectural lighting rather than generic image brightening.
+`projects/pulla-reddy/review/V01/`
 
-### Visual targets
-- sweets immediately become the strongest visual attraction;
-- clear but restrained pools of light with believable beam direction and falloff;
-- recessed sources remain visually quiet, dark and deep-set;
-- no ceiling-dot effect;
-- warm appetising product rendering without orange cast or blown highlights;
-- glass remains transparent/readable with no ugly hot spots;
-- unrelated shelves, walls, central displays and rear seating remain visually at Layer 00;
-- no ambient fill and no global exposure lift.
+Do not start V01 Layer 02. Do not use any earlier unpublished downstream V01 files as approved parents. Leave the V01 lane frozen while the other views launch.
 
-### Absolute locks
-Preserve exactly:
-- camera, crop, perspective and focal character;
-- architecture and ceiling grid;
-- counters, products, shelves, furniture and materials;
-- approved Layer 00 outside physically necessary spill.
+## Required coordinator action now
 
-## Self-correction before review
-If the first attempt feels flat, overly bright, too diffuse, too spotty, too orange, or creates visible luminous apertures, iterate autonomously before publishing.
+Initialize and start V02 through V06 as independent production lanes immediately.
 
-## Review output
-Publish a fresh Layer 01 review package under `projects/pulla-reddy/review/V01/` with:
-- updated `STATUS.md`;
-- updated `manifest.json`;
-- updated `SELF_QA.md`;
-- fresh Layer 01 preview;
-- fresh Layer 00 vs Layer 01 side-by-side;
-- a short `DESIGN_INTENT_CHECK.md` explaining how the final candidate achieves product hierarchy, beam realism and glass control.
+Use safe parallel agents/tasks where supported. If true parallel agents are unavailable, initialize all five lanes during this run and then execute them round-robin without waiting for V01.
 
-Then set `STATE.json` to `waiting_for_chatgpt_review`, with:
-- `current_layer`: 1
-- `approved_through_layer`: 0
-- `next_required_action`: `Independent ChatGPT visual/design review of reworked Layer 01`
-- `user_decision_required`: false
+For each view:
 
-STOP after publishing. Do not advance to Layer 02 until explicitly approved.
+1. Use the source mapping in `MULTIVIEW_EXECUTION.md`.
+2. Create or confirm the correct local folder under `D:/Codex/G Pulla Reddy Sweets/01_Views/`.
+3. Keep all view assets directly inside that one folder. Do not create layer or revision subfolders.
+4. Extract the authoritative source image from the root project PDF.
+5. Lock camera, crop, perspective, architecture, ceiling grid, materials, furniture and products.
+6. Create Layer 00 first.
+7. Publish a dedicated review package under `projects/pulla-reddy/review/V0X/` with `STATUS.md`, `manifest.json`, `SELF_QA.md`, a review-sized candidate preview and source-versus-Layer-00 comparison.
+8. Update only that view's state file under `projects/pulla-reddy/state/`.
+9. Stop that lane at `waiting_for_chatgpt_review` after its Layer 00 package is published. Do not mix files or states between views.
+
+## Shared V02 / V06 planter requirement
+
+Before generating either Layer 00, establish one shared planter design and record it in:
+
+`projects/pulla-reddy/SHARED_PLANTER_SPEC.md`
+
+The spec must lock:
+
+- planter geometry and material language;
+- planting height, density and rhythm;
+- relationship to the curved built-in seater;
+- how it remains physically consistent across V02 and V06;
+- later concealed 3000K planter-lighting intent for soft foliage shadows.
+
+Use the same planter design in V02 and V06 from Layer 00 onward. The planter is present but unlit in Layer 00.
+
+## Quality rules
+
+- 3000K only for later electric-lighting layers.
+- Recessed, concealed or integrated lighting only.
+- No visible pendants, tracks or surface fixtures.
+- No global exposure cheating.
+- No architecture or camera drift.
+- No speculative redesign beyond the explicitly required shared planter.
+- Correct objective defects autonomously before publishing.
+
+## Coordinator report
+
+After all five lanes are initialized and their Layer 00 packages are either published or actively running, create or update:
+
+`projects/pulla-reddy/COORDINATOR_STATUS.md`
+
+Report each view's local folder, source page, current task/layer, review path, state, blockers and shared dependencies.
+
+Do not assemble the final presentation yet.
