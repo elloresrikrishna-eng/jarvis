@@ -1,13 +1,11 @@
 {
   "project": "G Pulla Reddy Sweets, HSR",
   "view": "V01_Main_Retail",
-  "status": "codex_action_required",
+  "status": "waiting_for_chatgpt_review",
   "current_layer": 1,
   "approved_through_layer": 0,
   "candidate": "layer-01-front-display-counter-downlights-v4.png",
-  "current_task": "Publish connector-readable visual evidence pack only. Do not change the candidate and do not start Layer 02.",
-  "instruction": "projects/pulla-reddy/instructions/V01_VISUAL_EVIDENCE_TRANSPORT.md",
-  "next_required_action": "Create the V01 connector evidence pack, then return to waiting_for_chatgpt_review for independent visual judgement.",
+  "next_required_action": "Independent visual review using connector evidence pack",
   "user_feedback": "The user did not like the earlier V01 layers. Treat this lane as calibration and apply a higher design bar.",
   "user_decision_required": false
 }

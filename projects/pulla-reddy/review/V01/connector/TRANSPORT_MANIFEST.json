@@ -1,0 +1,137 @@
+{
+    "view":  "V01_Main_Retail",
+    "purpose":  "Connector-readable visual evidence for independent Layer 01 v4 review",
+    "processing":  "Crop, resize and JPEG compression only. No colour, exposure, sharpening, denoise, relighting, retouching or annotation changes.",
+    "authoritative":  {
+                          "parent":  {
+                                         "filename":  "layer-00-base-dark.png",
+                                         "sha256":  "17f3d0fdb900ef897762ab4df0f464ea04d6ae09808569073d0c7863cc5b3fd9",
+                                         "width":  1624,
+                                         "height":  968
+                                     },
+                          "candidate":  {
+                                            "filename":  "layer-01-front-display-counter-downlights-v4.png",
+                                            "sha256":  "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+                                            "width":  1624,
+                                            "height":  968
+                                        }
+                      },
+    "files":  [
+                  {
+                      "filename":  "parent-full-480.jpg",
+                      "source_authoritative_file":  "layer-00-base-dark.png",
+                      "crop_coordinates_source_pixels":  "full_frame",
+                      "output_width":  480,
+                      "output_height":  286,
+                      "byte_size":  9877,
+                      "sha256":  "18e2ab7d5cd6c0e77b8b2ed371e6b63b1a320b820a819b07e04bb6a2fada90fc",
+                      "jpeg_quality":  60
+                  },
+                  {
+                      "filename":  "candidate-full-480.jpg",
+                      "source_authoritative_file":  "layer-01-front-display-counter-downlights-v4.png",
+                      "crop_coordinates_source_pixels":  "full_frame",
+                      "output_width":  480,
+                      "output_height":  286,
+                      "byte_size":  10079,
+                      "sha256":  "00cbd825bc17b8bc101bca77aebad11229f10d5c8f91718f4a057003d145114d",
+                      "jpeg_quality":  50
+                  },
+                  {
+                      "filename":  "parent-right-counter-crop-512.jpg",
+                      "source_authoritative_file":  "layer-00-base-dark.png",
+                      "crop_coordinates_source_pixels":  {
+                                                             "name":  "right_counter",
+                                                             "x":  700,
+                                                             "y":  140,
+                                                             "width":  900,
+                                                             "height":  760
+                                                         },
+                      "output_width":  512,
+                      "output_height":  432,
+                      "byte_size":  9416,
+                      "sha256":  "368b794f0daa411cd2ea4eacaaa50c9aa93eb82194c37f94804f280d3e601ef7",
+                      "jpeg_quality":  30
+                  },
+                  {
+                      "filename":  "candidate-right-counter-crop-512.jpg",
+                      "source_authoritative_file":  "layer-01-front-display-counter-downlights-v4.png",
+                      "crop_coordinates_source_pixels":  {
+                                                             "name":  "right_counter",
+                                                             "x":  700,
+                                                             "y":  140,
+                                                             "width":  900,
+                                                             "height":  760
+                                                         },
+                      "output_width":  512,
+                      "output_height":  432,
+                      "byte_size":  9609,
+                      "sha256":  "8c8516816bd61e10e6b2667aa4634e64d9b0d5e310ec0e3aa0cfd2860efe848a",
+                      "jpeg_quality":  20
+                  },
+                  {
+                      "filename":  "parent-left-counter-crop-512.jpg",
+                      "source_authoritative_file":  "layer-00-base-dark.png",
+                      "crop_coordinates_source_pixels":  {
+                                                             "name":  "left_counter",
+                                                             "x":  0,
+                                                             "y":  160,
+                                                             "width":  700,
+                                                             "height":  700
+                                                         },
+                      "output_width":  512,
+                      "output_height":  512,
+                      "byte_size":  9957,
+                      "sha256":  "1de487dfad9e58041e7f6354ede0d899652b8eac4bba51ccfb7b4fdd7558ee5c",
+                      "jpeg_quality":  40
+                  },
+                  {
+                      "filename":  "candidate-left-counter-crop-512.jpg",
+                      "source_authoritative_file":  "layer-01-front-display-counter-downlights-v4.png",
+                      "crop_coordinates_source_pixels":  {
+                                                             "name":  "left_counter",
+                                                             "x":  0,
+                                                             "y":  160,
+                                                             "width":  700,
+                                                             "height":  700
+                                                         },
+                      "output_width":  512,
+                      "output_height":  512,
+                      "byte_size":  10117,
+                      "sha256":  "ad6358c4fb7475634e4edad62f85011b17f86deb4cdea47426534ae14b4218cd",
+                      "jpeg_quality":  35
+                  },
+                  {
+                      "filename":  "parent-ceiling-glass-crop-512.jpg",
+                      "source_authoritative_file":  "layer-00-base-dark.png",
+                      "crop_coordinates_source_pixels":  {
+                                                             "name":  "ceiling_glass",
+                                                             "x":  500,
+                                                             "y":  0,
+                                                             "width":  1100,
+                                                             "height":  650
+                                                         },
+                      "output_width":  512,
+                      "output_height":  303,
+                      "byte_size":  9755,
+                      "sha256":  "517af9df99e7bafeeb9043297cae4532a3f4306a08fae0bd73fbac657e63d3c2",
+                      "jpeg_quality":  50
+                  },
+                  {
+                      "filename":  "candidate-ceiling-glass-crop-512.jpg",
+                      "source_authoritative_file":  "layer-01-front-display-counter-downlights-v4.png",
+                      "crop_coordinates_source_pixels":  {
+                                                             "name":  "ceiling_glass",
+                                                             "x":  500,
+                                                             "y":  0,
+                                                             "width":  1100,
+                                                             "height":  650
+                                                         },
+                      "output_width":  512,
+                      "output_height":  303,
+                      "byte_size":  9471,
+                      "sha256":  "4b0e316f9f958693f2d15ed34fc93503706a19fcc5fbd7841fc9f7886cbad8dd",
+                      "jpeg_quality":  35
+                  }
+              ]
+}
