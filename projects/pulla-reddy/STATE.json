@@ -1,9 +1,9 @@
 {
   "project": "G Pulla Reddy Sweets, HSR",
   "view": "V01_Main_Retail",
-  "status": "codex_action_required",
-  "current_layer": 0,
+  "status": "waiting_for_chatgpt_review",
+  "current_layer": 1,
   "approved_through_layer": 0,
-  "next_required_action": "Codex generate Layer 01 front sweet display counter lighting from approved Layer 00",
+  "next_required_action": "ChatGPT review Layer 01 package under projects/pulla-reddy/review/V01",
   "user_decision_required": false
 }

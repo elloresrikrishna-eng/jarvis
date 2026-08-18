@@ -2,27 +2,27 @@
   "project": "G Pulla Reddy Sweets, HSR",
   "view": "V01_Main_Retail",
   "submission_state": "waiting_for_chatgpt_review",
-  "source": {
-    "filename": "source-view-01-original.jpg",
-    "local_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/source-view-01-original.jpg",
-    "origin": "Page 2, 3D VIEW 01, authoritative source PDF",
+  "approved_through_layer": 0,
+  "approved_parent": {
+    "filename": "layer-00-base-dark.png",
+    "local_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-00-base-dark.png",
     "dimensions": {
       "width": 1624,
       "height": 968
-    },
-    "extraction": "Original embedded JPEG extracted without recompression"
+    }
   },
   "candidate": {
-    "filename": "layer-00-base-dark.png",
-    "local_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-00-base-dark.png",
-    "layer_number": 0,
-    "purpose": "Full-night immutable base with all electric lighting off",
+    "filename": "layer-01-front-display-counter-downlights.png",
+    "local_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-01-front-display-counter-downlights.png",
+    "sha256": "98B9E6EC6E857DEC19F84FBE833B69111CBBD24962213462D7FF0C1B82B49113",
+    "layer_number": 1,
+    "purpose": "Front sweet display counter downlighting",
     "dimensions": {
       "width": 1624,
       "height": 968
     },
     "creation_status": "complete",
-    "exact_new_lighting_circuit": "None. Layer 00 extinguishes all proposed electric lighting."
+    "exact_new_lighting_circuit": "Controlled deep-recessed 3000K downlighting above the long right glass sweet counter and secondary left front counter, with local physically necessary spill only."
   },
   "continuity": {
     "camera_crop_alignment_changed": false,
@@ -33,33 +33,43 @@
     "products_changed": false,
     "furniture_changed": false,
     "previous_lighting_layer_changed_unexpectedly": false,
-    "previous_layer_note": "Not applicable. Layer 00 is the base."
+    "cumulative_method": "Positive-only lighting contribution composited over approved Layer 00",
+    "negative_rgb_channel_deltas": 0,
+    "protected_regions_exactly_frozen": [
+      "rear center",
+      "central merchandise display",
+      "left wall shelves",
+      "right wall shelves"
+    ]
   },
   "lighting": {
-    "electric_lighting_on": false,
-    "visible_new_luminaires": false,
+    "cct_kelvin": 3000,
+    "visible_fixture_body": false,
+    "fixture_reading": "Tiny dark deep-recessed apertures with restrained warm inner glint",
     "global_exposure_brightening": false,
-    "cct_note": "No electric lighting is active in Layer 00."
+    "unrelated_lighting_activated": false,
+    "right_counter_mean_luminance_delta": 21.28,
+    "left_counter_mean_luminance_delta": 11.79
   },
   "review_assets": [
     {
-      "filename": "layer-00-base-dark-preview.jpg",
+      "filename": "layer-01-front-display-counter-downlights-preview.jpg",
       "dimensions": {
         "width": 1200,
         "height": 715
       },
-      "purpose": "Review-sized candidate preview"
+      "purpose": "Review-sized Layer 01 preview"
     },
     {
-      "filename": "source-vs-layer-00.jpg",
+      "filename": "layer-00-vs-layer-01.jpg",
       "dimensions": {
         "width": 1576,
         "height": 519
       },
-      "purpose": "Side-by-side visual comparison"
+      "purpose": "Approved Layer 00 versus Layer 01 comparison"
     }
   ],
   "warnings": [
-    "Fine pixel-level texture variation may exist because the night conversion used a generative image edit; no structural drift is visually evident."
+    "Fine generative variation may remain within intentionally lit counter regions; review glass reflections and preferred light intensity."
   ]
 }

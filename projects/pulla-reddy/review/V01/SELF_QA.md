@@ -1,19 +1,25 @@
-# V01 Layer 00 | Self QA
+# V01 Layer 01 | Self QA
 
 | Quality gate | Result | Evidence |
 |---|---|---|
-| Camera and crop continuity | PASS | Source and candidate are both 1624 x 968. Best edge alignment offset is x=0, y=0. |
-| Architecture continuity | PASS | No visible geometry, wall, counter, shelf or spatial change detected. |
-| Ceiling-grid continuity | PASS | Grid layout, proportions and perspective remain consistent. |
-| Furniture and product continuity | PASS | No visible movement or addition detected. |
-| Previous-layer freeze | N/A | Layer 00 is the immutable base. |
-| Intended illumination state | PASS | All proposed electric lighting is off. |
-| 3000K-only lighting | PASS / N/A | No electric lighting is active. |
-| No visible non-recessed luminaires added | PASS | No fixture or object was introduced. |
-| No global exposure brightening | PASS | The source was darkened to the required night base; no exposure lift was used. |
-| Shelf, counter and wall-wash lighting off | PASS | No active glow or focused electric-light effect remains. |
-| Residual architectural readability | PASS | Low-level ambient visibility retains legibility without making the frame black. |
-| Rendering defects | PASS | No obvious crop seam, geometry break, bloom, haze or added object detected. |
+| Camera and crop continuity | PASS | Both masters are 1624 x 968. Best edge alignment offset is x=0, y=0. |
+| Architecture continuity | PASS | Final master is approved Layer 00 plus positive-only light contribution. |
+| Ceiling-grid continuity | PASS | Grid geometry is inherited from Layer 00. Apertures are small, dark and deep recessed. |
+| Furniture and product continuity | PASS | No product, counter, shelf or furniture movement detected. |
+| Previous-layer freeze | PASS | No RGB channel is darker than Layer 00. Tested protected regions are exact parent pixels. |
+| Exact released circuit only | PASS | Only the long right counter and secondary left front counter receive downlighting and local spill. |
+| 3000K lighting | PASS | Added contribution is warm 3000K with no cool or mixed-CCT source. |
+| No visible non-recessed luminaires | PASS | No pendant, track or surface fixture is present. Recessed apertures remain visually quiet. |
+| No global exposure cheat | PASS | Rear, central-display and wall-shelf control regions have zero luminance change. |
+| No wall-wash or shelf-integrated light | PASS | Both wall-shelf control regions are exact Layer 00 pixels. |
+| No central-display, circulation or rear seating light | PASS | Central and rear control regions are exact Layer 00 pixels. |
+| Counter hierarchy | PASS | Right counter is strongest, with restrained secondary emphasis on the left counter. |
+| Glass reflection control | PASS | No obvious white blobs, blown reflections, bloom or mirror-like glare detected. |
+| Rendering defects | PASS | No seam, crop mismatch, geometry break, added object, haze or watermark detected. |
+
+## Autonomous correction record
+
+The first proposal was rejected internally because ceiling apertures were visually bright. A later quantitative check found unrelated zones had darkened. The published candidate corrects both issues by using quiet recessed apertures and compositing only positive lighting contribution over the approved parent.
 
 ## Overall assessment
 
@@ -21,4 +27,4 @@ Reasonably compliant and ready for ChatGPT review.
 
 ## Uncertainty
 
-The image edit is generative, so extremely fine texture-level variance may remain even though no structural drift is visually evident. The side-by-side review image is provided for independent inspection.
+Fine variation within the intentionally illuminated counter regions may remain from the generative lighting proposal. Independent review should focus on glass behavior, appetising product rendering and preferred counter-light intensity.

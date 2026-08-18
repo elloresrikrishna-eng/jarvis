@@ -1,40 +1,53 @@
-# V01 Main Retail | Layer 00 Review Status
+# V01 Main Retail | Layer 01 Review Status
 
 ## State
 
-Layer 00 has been produced locally and submitted for ChatGPT review. Production is stopped at Layer 00. Layer 01 has not been generated.
+Layer 00 is approved and remains the immutable parent. Layer 01 has been produced locally and submitted for ChatGPT review. Production is stopped at Layer 01. Layer 02 has not been generated.
 
 ## Authoritative local masters
 
-- Source: `D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/source-view-01-original.jpg`
-- Candidate: `D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-00-base-dark.png`
+- Approved parent: `D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-00-base-dark.png`
+- Layer 01 candidate: `D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-01-front-display-counter-downlights.png`
 
 Both files are 1624 x 968 pixels.
 
-## Candidate intent
+## Exact circuit introduced
 
-Full-night base condition with all proposed electric lighting off. The ceiling panels, wall-wash pools, shelf illumination, counter illumination and seating illumination are extinguished. Restrained residual environmental visibility remains so the architecture can still be read.
+Controlled deep-recessed 3000K downlighting serving only:
 
-## Production notes
+- the long glass sweet display counter on the right;
+- the secondary front display/service counter on the left;
+- physically necessary local spill immediately around those counters.
 
-- Source image was extracted without recompression from page 2, titled 3D VIEW 01.
-- No planter was introduced because the curved seater planter zone is not meaningfully visible in this view.
-- Candidate was normalized to the source dimensions.
-- Edge-alignment verification reports zero horizontal and zero vertical displacement.
-- No visible non-recessed luminaires were introduced.
-- No Layer 01 work has started.
+No other lighting family was activated.
+
+## Autonomous corrections completed
+
+1. The first lighting proposal contained ceiling apertures that read too brightly. These were corrected to tiny, dark, deep-recessed apertures with restrained warm inner glints.
+2. The initial candidate darkened unrelated rear and shelf zones. The final master was rebuilt as a positive-only lighting contribution over approved Layer 00.
+3. Camera and crop were normalized to the approved 1624 x 968 parent with zero detected alignment offset.
+4. Protected rear, central-display and wall-shelf control regions were restored to exact Layer 00 pixels.
+
+## Final QA evidence
+
+- Best edge alignment offset: x=0, y=0.
+- Negative RGB channel deltas relative to Layer 00: 0.
+- Rear center, central display, left wall shelves and right wall shelves: exact pixel freeze in tested control regions.
+- Right counter region mean luminance increase: 21.28.
+- Left counter region mean luminance increase: 11.79.
+- No Layer 02 work has started.
 
 ## Review assets
 
-- `layer-00-base-dark-preview.jpg`: review-sized candidate
-- `source-vs-layer-00.jpg`: side-by-side source and candidate
-- `manifest.json`: structured production metadata
-- `SELF_QA.md`: locked-rule checks
+- `layer-01-front-display-counter-downlights-preview.jpg`
+- `layer-00-vs-layer-01.jpg`
+- `manifest.json`
+- `SELF_QA.md`
 
 ## Requested review
 
-Please approve Layer 00 or publish a correction instruction through `CURRENT_INSTRUCTION.md` and set `STATE.json` to `codex_action_required`.
+Please approve Layer 01 or publish a correction instruction through `CURRENT_INSTRUCTION.md` and set `STATE.json` to `codex_action_required`.
 
 ## Known uncertainty
 
-No structural drift is visually evident and alignment is zero-shift. Because the lighting change used a generative image edit, very fine pixel-level texture variation may exist and should be judged from the supplied comparison.
+The proposed light appearance originated from a generative edit, but the final cumulative master applies only positive lighting contribution over the approved parent. Fine detail within the intentionally lit counter regions should still be independently reviewed, particularly glass reflection quality and preferred intensity.
