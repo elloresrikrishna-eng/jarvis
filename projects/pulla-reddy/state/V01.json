@@ -1,0 +1,11 @@
+{
+  "project": "G Pulla Reddy Sweets, HSR",
+  "view": "V01_Main_Retail",
+  "status": "waiting_for_chatgpt_review",
+  "current_layer": 1,
+  "approved_through_layer": 0,
+  "candidate": "layer-01-front-display-counter-downlights-v4.png",
+  "next_required_action": "Strict independent visual/design review of the reworked Layer 01. Do not advance to Layer 02 until approved.",
+  "user_feedback": "The user did not like the earlier V01 layers. Treat this lane as calibration and apply a higher design bar.",
+  "user_decision_required": false
+}
