@@ -16,10 +16,11 @@
     "decision_id": "jarvis-v06-l03-6de8f029-reject-002",
     "immutable": true
   },
+  "correction_instruction": "projects/pulla-reddy/instructions/V06_PARENT_CHAIN_REPAIR.md",
   "preserve_for_future_layer_03": "The corrected under-seater character in candidate 6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f is the visual target after the parent chain is repaired: source concealed, no luminous ribbon, restrained floor pool, approximately 40% lower contribution than the original rejected Layer 03.",
   "review_path": "projects/pulla-reddy/review/V06/",
   "shared_dependency": "V02 and V06 require one authoritative shared planter specification before either curved-seating Layer 00 can be approved.",
-  "next_required_action": "Create projects/pulla-reddy/SHARED_PLANTER_SPEC.md, rebuild V06 Layer 00 with that planter present and unlit, publish the standard Layer 00 review package, set V06 to waiting_for_chatgpt_review, and stop.",
+  "next_required_action": "Read projects/pulla-reddy/instructions/V06_PARENT_CHAIN_REPAIR.md. Create SHARED_PLANTER_SPEC.md, rebuild V06 Layer 00 with that planter present and unlit, publish the standard Layer 00 review package, set V06 to waiting_for_chatgpt_review, and stop.",
   "jarvis_approval": false,
   "presentation_gate": "LOCKED",
   "user_decision_required": false
