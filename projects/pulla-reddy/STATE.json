@@ -1,9 +1,9 @@
 {
   "project": "G Pulla Reddy Sweets, HSR",
   "view": "V01_Main_Retail",
-  "status": "waiting_for_chatgpt_review",
+  "status": "codex_action_required",
   "current_layer": 1,
-  "approved_through_layer": 0,
-  "next_required_action": "ChatGPT review Layer 01 package under projects/pulla-reddy/review/V01",
+  "approved_through_layer": 1,
+  "next_required_action": "Codex complete all remaining released View 01 layers autonomously per CURRENT_INSTRUCTION.md, then publish final review package",
   "user_decision_required": false
 }
