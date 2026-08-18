@@ -1,0 +1,65 @@
+{
+  "project": "G Pulla Reddy Sweets, HSR",
+  "view": "V01_Main_Retail",
+  "submission_state": "waiting_for_chatgpt_review",
+  "source": {
+    "filename": "source-view-01-original.jpg",
+    "local_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/source-view-01-original.jpg",
+    "origin": "Page 2, 3D VIEW 01, authoritative source PDF",
+    "dimensions": {
+      "width": 1624,
+      "height": 968
+    },
+    "extraction": "Original embedded JPEG extracted without recompression"
+  },
+  "candidate": {
+    "filename": "layer-00-base-dark.png",
+    "local_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-00-base-dark.png",
+    "layer_number": 0,
+    "purpose": "Full-night immutable base with all electric lighting off",
+    "dimensions": {
+      "width": 1624,
+      "height": 968
+    },
+    "creation_status": "complete",
+    "exact_new_lighting_circuit": "None. Layer 00 extinguishes all proposed electric lighting."
+  },
+  "continuity": {
+    "camera_crop_alignment_changed": false,
+    "alignment_check": "Edge-gradient comparison, best alignment offset x=0, y=0",
+    "architecture_changed": false,
+    "ceiling_grid_changed": false,
+    "materials_changed": false,
+    "products_changed": false,
+    "furniture_changed": false,
+    "previous_lighting_layer_changed_unexpectedly": false,
+    "previous_layer_note": "Not applicable. Layer 00 is the base."
+  },
+  "lighting": {
+    "electric_lighting_on": false,
+    "visible_new_luminaires": false,
+    "global_exposure_brightening": false,
+    "cct_note": "No electric lighting is active in Layer 00."
+  },
+  "review_assets": [
+    {
+      "filename": "layer-00-base-dark-preview.jpg",
+      "dimensions": {
+        "width": 1200,
+        "height": 715
+      },
+      "purpose": "Review-sized candidate preview"
+    },
+    {
+      "filename": "source-vs-layer-00.jpg",
+      "dimensions": {
+        "width": 1576,
+        "height": 519
+      },
+      "purpose": "Side-by-side visual comparison"
+    }
+  ],
+  "warnings": [
+    "Fine pixel-level texture variation may exist because the night conversion used a generative image edit; no structural drift is visually evident."
+  ]
+}
