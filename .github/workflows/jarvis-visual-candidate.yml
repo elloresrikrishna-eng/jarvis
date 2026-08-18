@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Check out exact revision
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Resolve and verify content-addressed candidate
         id: candidate
