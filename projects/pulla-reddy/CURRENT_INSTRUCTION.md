@@ -1,96 +1,121 @@
-# Current Instruction | V01 Main Retail | Release Layer 01
+# Current Instruction | V01 Main Retail | Release All Remaining Layers
 
 ## Approval status
 
-Layer 00 is approved and is now the immutable parent for all subsequent work.
+Layer 00 and Layer 01 are approved as the locked cumulative parents.
 
-Approved parent file:
+Approved files:
 
-`D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-00-base-dark.png`
+- `D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-00-base-dark.png`
+- `D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-01-front-display-counter-downlights.png`
 
-Do not recreate, reinterpret or relight Layer 00.
+Do not recreate or reinterpret either approved layer.
 
 ## Required action now
 
-Generate **Layer 01 only**.
+Complete the entire remaining View 01 lighting sequence autonomously from the approved Layer 01 parent.
 
-### Layer 01 | Front sweet display counter lighting
+You are explicitly released to generate every remaining layer in sequence without waiting for intermediate ChatGPT approvals, provided every layer passes the locked project rules and your own QA checks before you advance.
 
-Starting strictly from the approved Layer 00 image, add only controlled recessed 3000K downlighting above the principal front sweet display counters visible in this view:
+Follow `V01_TASK.md` and `PROJECT_RULES.md` exactly.
 
-- the long glass sweet display counter on the right;
-- the secondary front display/service counter on the left where appropriate to the same lighting family.
+The intended remaining sequence is:
 
-### Lighting intent
+### Layer 02 | Wall shelf wall-wash
+Add only recessed 3000K wall-washer downlights serving the visible wall-mounted shelving compositions.
 
-- The sweets and front product displays become the strongest visual priority in the scene.
-- Use deep-recessed, visually quiet downlights only.
-- No fixture body should pop out or become a visual object.
-- The light must feel warm, high-quality and appetising at 3000K.
-- Use controlled beam placement to illuminate products and counter surfaces without flattening the whole room.
-- Avoid harsh reflected luminaire hot spots, white blobs or mirror-like glare in the counter glass.
-- Allow only physically believable local spill from this counter-lighting circuit.
+- no visible fixture bodies
+- no blanket ambient flood
+- softly model cream walls and timber shelves
+- improve vertical merchandise readability
+- preserve Layer 01 exactly outside physically necessary spill
 
-### Absolute exclusions for this layer
+### Layer 03 | Concealed shelf-integrated lighting
+Add concealed 3000K shelf-integrated lighting to every visible wall-mounted shelf, following the user's office Minions display-shelf intent.
 
-Do not add or activate:
+- hidden source
+- no visible LED dots or raw strip
+- gentle shelf/product glow
+- Layer 02 wall-wash remains unchanged
 
-- wall-washer lighting;
-- integrated shelf lighting;
-- central merchandise-display lighting;
-- circulation lighting;
-- rear seating lighting;
-- under-seater lighting;
-- planter lighting;
-- ceiling-panel glow;
-- broad ambient fill;
-- any decorative, pendant, track-mounted or surface-mounted luminaire;
-- any global exposure increase.
+### Layer 04 | Central merchandise / circulation emphasis
+Add only the minimum recessed 3000K lighting needed to give the central freestanding merchandise displays and circulation zone visual legibility.
 
-### Continuity locks
+- selective pools, not blanket illumination
+- retail hierarchy remains product-first
+- ceiling must not become visually dominant
 
-Preserve exactly:
+### Layer 05 | Rear seating comfort
+Add only recessed 3000K lighting required to give the visible rear seating zone comfortable local illumination.
 
-- camera position, focal length, perspective and crop;
-- architecture and ceiling grid;
-- counters, shelves, furniture and products;
-- materials, colours and spatial proportions;
-- every characteristic of the approved Layer 00 outside the physically necessary effect of the new counter-lighting circuit.
+- softer than counter lighting
+- calm hospitality character
+- no pendants, decorative fittings, tracks or surface lights
 
-`Layer 01 = approved Layer 00 + exactly one new counter-lighting circuit.`
+### Layer 06 | Under-seater glow if meaningful built-in seater is visible
+If a built-in seater is meaningfully visible in this View 01 camera, add only concealed 3000K under-seater lighting.
 
-If the candidate shows camera drift, architectural change, product movement, material change, unintended lighting, incorrect CCT, glass-reflection defects or a global exposure lift, correct it autonomously before publishing.
+If it is not meaningfully visible, omit this layer and treat Layer 05 as the final cumulative rendered layer.
 
-## Output
+Do not invent planter lighting in View 01 unless the curved planter/seater zone is genuinely visible and required by the project rules.
 
-Save the high-resolution local master directly inside:
+## Autonomous production rule
+
+For every layer:
+
+1. Start from the immediately previous approved/generated cumulative layer.
+2. Add exactly one new lighting family.
+3. Run continuity and self-QA before advancing.
+4. If camera, crop, architecture, materials, furniture, products, previous lighting, CCT, fixture visibility, reflections or exposure fail, correct the layer yourself before proceeding.
+5. Do not ask Srikrishna routine questions.
+6. Continue automatically to the next released layer once the current layer passes QA.
+
+## Absolute locks
+
+- all electric lighting remains 3000K
+- recessed / concealed / integrated only
+- no visible pendant, track, surface or decorative luminaires
+- no camera or crop drift
+- no architecture or material drift
+- no product/furniture movement
+- no global exposure cheating
+- previous-layer freeze is mandatory
+- final render is simply the last cumulative approved layer, with no extra unlisted lighting
+
+## Sketch
+
+If the View 01 Ashwamedha-style concept sketch has not yet been produced, generate it as part of this full release using the exact same camera and architectural base. It is not a lighting layer and does not alter the cumulative render sequence.
+
+## Final outputs
+
+Keep high-resolution masters directly in:
 
 `D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail`
 
-Preferred filename:
-
-`layer-01-front-display-counter-downlights.png`
-
-Then update the Jarvis review package under:
+Then publish a complete final review package under:
 
 `projects/pulla-reddy/review/V01/`
 
-Include or update:
+Include/update:
 
-- `STATUS.md`;
-- `manifest.json`;
-- `SELF_QA.md`;
-- a review-sized Layer 01 preview;
-- a side-by-side comparison of approved Layer 00 and Layer 01.
+- `STATUS.md`
+- `manifest.json`
+- `SELF_QA.md`
+- review-sized preview of every generated layer
+- one contact sheet showing Sketch, Layer 00, Layer 01, every remaining layer, and Final in order
+- any relevant side-by-side QA comparisons
+- exact local master paths
+- exact final-layer number
+- any unresolved uncertainty
 
-After publishing the review package, update `STATE.json` to:
+## State when finished
+
+When the entire View 01 sequence is genuinely complete and the final review package exists, update `STATE.json` to:
 
 - `status`: `waiting_for_chatgpt_review`
-- `current_layer`: `1`
-- `approved_through_layer`: `0`
-- `next_required_action`: `ChatGPT review Layer 01 package under projects/pulla-reddy/review/V01`
+- `current_layer`: final generated layer number
+- `approved_through_layer`: `1`
+- `next_required_action`: `ChatGPT final review of complete View 01 sequence under projects/pulla-reddy/review/V01`
 - `user_decision_required`: `false`
 
-Stop there.
-
-Do not generate Layer 02 until ChatGPT explicitly releases it through Jarvis.
+Do not start View 02.
