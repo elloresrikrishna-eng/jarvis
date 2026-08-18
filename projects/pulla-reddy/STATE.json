@@ -11,10 +11,12 @@
     "V05_Window_Shelving",
     "V06_Curved_Seating_Hero"
   ],
-  "current_action": "Continue each view independently through its authoritative per-view state. V06 is READY_FOR_JARVIS_REVIEW at Layer 03 on artifact 9345373457 and must not advance without a new exact-SHA external JARVIS decision.",
+  "current_action": "Continue unrelated views independently. For the curved-seating shared dependency, establish SHARED_PLANTER_SPEC.md through V02/V06, then rebuild V06 from Layer 00 with the planter present and unlit. V06 Layer 03 candidate 6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f is rejected and must not advance.",
   "per_view_state_path": "projects/pulla-reddy/state/",
   "coordinator_instruction": "projects/pulla-reddy/CURRENT_INSTRUCTION.md",
-  "quality_holds": [],
+  "quality_holds": [
+    "V06 parent-chain repair required: mandatory shared V02/V06 planter is absent, SHARED_PLANTER_SPEC.md does not exist, and the current Layer 03 cannot be approved until the planter-bearing Layer 00 through Layer 02 chain is independently rebuilt."
+  ],
   "presentation_state": "WAITING_FOR_ALL_VIEWS",
   "presentation_generation": "LOCKED",
   "user_decision_required": false
