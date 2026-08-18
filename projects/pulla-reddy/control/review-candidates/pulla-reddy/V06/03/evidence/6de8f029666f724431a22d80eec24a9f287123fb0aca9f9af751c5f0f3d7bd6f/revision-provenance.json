@@ -1,0 +1,36 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "operation": "v06-layer-03-under-seat-contribution-only",
+  "created_at": "2026-08-18T22:43:27.962Z",
+  "inputs": {
+    "approved_parent": {
+      "path": "D:\\Codex\\G Pulla Reddy Sweets\\01_Views\\V06_Curved_Seating_Hero\\layer-02-perimeter-wall-wash.png",
+      "sha256": "c39e8ae994ff63e6e5b05b545cde6728ddf6cd986e2f2420df2276542218a2d3"
+    },
+    "rejected_candidate": {
+      "path": "D:\\Codex\\G Pulla Reddy Sweets\\01_Views\\V06_Curved_Seating_Hero\\layer-03-concealed-under-seater-lighting.png",
+      "sha256": "04a37c428a1ff4f4d88f20d9ce08881534d8874b689d602af9afdc4e1cd9bc45"
+    },
+    "imagegen_revision": {
+      "path": "C:\\Users\\info\\.codex\\generated_images\\01a016f2-4cb2-7ef3-a086-41a7946fcdee\\exec-a6aee5da-a825-42ab-bebe-0a4c37fe5da9.png",
+      "sha256": "814030719d5b19dc70c5a63788e08011d059d43144a581203d3f6b77ce30ec42"
+    }
+  },
+  "output": {
+    "path": "D:\\Codex\\G Pulla Reddy Sweets\\01_Views\\V06_Curved_Seating_Hero\\layer-03-concealed-under-seater-lighting-v5.png",
+    "sha256": "6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f"
+  },
+  "invariants": {
+    "dimensions": "1625x968",
+    "negative_parent_deltas_allowed": false,
+    "pixels_outside_original_layer_03_positive_contribution_changed": false,
+    "maximum_contribution_factor": 0.73,
+    "brightest_source_factor_multiplier": 0.9,
+    "weak_reach_taper_below_luminance_delta": 8
+  },
+  "metrics": {
+    "changed_pixels": 297953,
+    "mean_factor_over_changed_pixels": 0.5220770666306147,
+    "aggregate_contribution_factor": 0.6142611059178557
+  }
+}

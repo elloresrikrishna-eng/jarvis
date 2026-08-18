@@ -1,6 +1,12 @@
 # G Pulla Reddy Sweets | Presentation Assembly Stage
 
-This stage begins only after all V01 render tasks are independently approved.
+This stage begins only after every required layer in every required view has an exact external JARVIS `APPROVE` decision bound to that layer's immutable candidate SHA-256.
+
+Current machine state: `WAITING_FOR_ALL_VIEWS`
+
+Presentation generation: `LOCKED`
+
+Deterministic QA, worker-authored metadata, and legacy review records cannot substitute for JARVIS approval. A worker cannot approve its own output.
 
 ## Reference decks
 

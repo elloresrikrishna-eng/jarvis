@@ -11,15 +11,11 @@
     "V05_Window_Shelving",
     "V06_Curved_Seating_Hero"
   ],
-  "current_action": "Continue parallel launch through each view's authoritative per-view state. V01 remains frozen at its reworked Layer 01 visual review gate. V06 has a control hold: its out-of-sequence Layer 03 bridge submission is rejected and it must return to shared-planter setup plus Layer 00 submission before any downstream layer can be reviewed.",
+  "current_action": "Continue each view independently through its authoritative per-view state. V06 is publishing a corrected Layer 03 candidate from the exact external JARVIS rejection and must stop for a new exact-SHA decision.",
   "per_view_state_path": "projects/pulla-reddy/state/",
   "coordinator_instruction": "projects/pulla-reddy/CURRENT_INSTRUCTION.md",
-  "quality_holds": [
-    {
-      "view": "V06_Curved_Seating_Hero",
-      "reason": "Layer 03 submitted without approved Layer 00/01/02 parent chain and before SHARED_PLANTER_SPEC.md exists",
-      "required_action": "Establish shared planter spec, submit Layer 00 only, and stop for independent review"
-    }
-  ],
+  "quality_holds": [],
+  "presentation_state": "WAITING_FOR_ALL_VIEWS",
+  "presentation_generation": "LOCKED",
   "user_decision_required": false
 }

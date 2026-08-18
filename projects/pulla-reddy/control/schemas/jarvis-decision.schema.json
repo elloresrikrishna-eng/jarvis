@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jarvis-loop.local/schemas/jarvis-decision.schema.json",
+  "title": "JARVIS Decision",
+  "description": "Canonical, candidate-bound decision produced by an external JARVIS reviewer.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "protocol_version",
+    "project_id",
+    "view_id",
+    "layer_id",
+    "candidate_sha256",
+    "reviewed_artifact_id",
+    "reviewed_workflow_run_id",
+    "decision",
+    "review_summary",
+    "required_changes",
+    "hard_locks",
+    "reviewer",
+    "reviewed_at",
+    "decision_id"
+  ],
+  "properties": {
+    "protocol_version": { "const": "jarvis-return-path-v1" },
+    "project_id": { "$ref": "#/$defs/pathSegment" },
+    "view_id": { "$ref": "#/$defs/pathSegment" },
+    "layer_id": { "$ref": "#/$defs/pathSegment" },
+    "candidate_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "reviewed_artifact_id": { "$ref": "#/$defs/githubDecimalId" },
+    "reviewed_workflow_run_id": { "$ref": "#/$defs/githubDecimalId" },
+    "decision": { "enum": ["APPROVE", "REJECT", "HOLD"] },
+    "review_summary": { "$ref": "#/$defs/nonEmptyText" },
+    "required_changes": {
+      "type": "array",
+      "maxItems": 100,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/nonEmptyText" }
+    },
+    "hard_locks": {
+      "type": "array",
+      "maxItems": 100,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/nonEmptyText" }
+    },
+    "reviewer": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9._:-]{0,126}[A-Za-z0-9])?$"
+    },
+    "reviewed_at": { "type": "string", "format": "date-time" },
+    "decision_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9._-]{0,126}[A-Za-z0-9])?$"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "decision": { "const": "REJECT" } },
+        "required": ["decision"]
+      },
+      "then": {
+        "properties": {
+          "required_changes": { "type": "array", "minItems": 1 },
+          "hard_locks": { "type": "array", "minItems": 1 }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "pathSegment": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9 ._-]{0,126}[A-Za-z0-9])?$"
+    },
+    "githubDecimalId": { "type": "string", "pattern": "^[1-9][0-9]*$" },
+    "nonEmptyText": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20000,
+      "pattern": "\\S"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "decision": {
+    "protocol_version": "jarvis-return-path-v1",
+    "project_id": "pulla-reddy",
+    "view_id": "V06",
+    "layer_id": "03",
+    "candidate_sha256": "04a37c428a1ff4f4d88f20d9ce08881534d8874b689d602af9afdc4e1cd9bc45",
+    "reviewed_artifact_id": "9344343943",
+    "reviewed_workflow_run_id": "32191474510",
+    "decision": "REJECT",
+    "review_summary": "The concealed under-seater lighting is visually too dominant. The nearly continuous warm luminous ribbon competes with the intended lighting hierarchy rather than quietly supporting the seating.",
+    "required_changes": [
+      "Reduce perceived under-seater intensity approximately 30–40%.",
+      "Pull the brightest emission further underneath the seating.",
+      "Conceal the apparent source more convincingly.",
+      "Preserve a subtle warm reflected pool on the floor.",
+      "Reduce the visual reach of the under-seat glow.",
+      "The effect should gently detach the seating from the floor rather than trace the furniture geometry."
+    ],
+    "hard_locks": [
+      "Do not modify wall wash.",
+      "Do not modify table lighting.",
+      "Do not modify global exposure.",
+      "Do not modify global CCT.",
+      "Do not modify architecture.",
+      "Do not modify materials.",
+      "Do not modify camera.",
+      "Do not modify crop.",
+      "Do not advance to another layer.",
+      "Regenerate V06 Layer 03 only."
+    ],
+    "reviewer": "JARVIS_CHATGPT",
+    "reviewed_at": "2026-08-18T22:33:20.974Z",
+    "decision_id": "jarvis-v06-l03-04a37c42-reject-001"
+  },
+  "candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V06_Curved_Seating_Hero/layer-03-concealed-under-seater-lighting.png",
+  "candidate_sha256": "04a37c428a1ff4f4d88f20d9ce08881534d8874b689d602af9afdc4e1cd9bc45",
+  "claimed_at": "2026-08-18T22:35:47.439Z",
+  "action": "REVISE_SAME_LAYER",
+  "resulting_layer_id": "03",
+  "revision_instruction": "# JARVIS SAME-LAYER REVISION\n\nDecision ID: jarvis-v06-l03-04a37c42-reject-001\nCandidate SHA-256: 04a37c428a1ff4f4d88f20d9ce08881534d8874b689d602af9afdc4e1cd9bc45\nProject/View/Layer: pulla-reddy / V06 / 03\n\nRegenerate Layer 03 only. Do not advance to another layer. The rejected candidate remains immutable.\n\n## Required changes (verbatim)\n\n1. Reduce perceived under-seater intensity approximately 30–40%.\n2. Pull the brightest emission further underneath the seating.\n3. Conceal the apparent source more convincingly.\n4. Preserve a subtle warm reflected pool on the floor.\n5. Reduce the visual reach of the under-seat glow.\n6. The effect should gently detach the seating from the floor rather than trace the furniture geometry.\n\n## Hard locks (verbatim)\n\n- Do not modify wall wash.\n- Do not modify table lighting.\n- Do not modify global exposure.\n- Do not modify global CCT.\n- Do not modify architecture.\n- Do not modify materials.\n- Do not modify camera.\n- Do not modify crop.\n- Do not advance to another layer.\n- Regenerate V06 Layer 03 only.\n\nOnly the required correction may change. Preserve every hard lock exactly.\n"
+}

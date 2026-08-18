@@ -1,14 +1,26 @@
 {
+  "protocol_version": "jarvis-return-path-v1",
   "project": "G Pulla Reddy Sweets, HSR",
+  "project_id": "pulla-reddy",
   "view": "V06_Curved_Seating_Hero",
+  "view_id": "V06",
   "source_page": 7,
-  "status": "codex_action_required",
-  "current_task": "CONTROL RESET: discard the out-of-sequence Layer 03 review submission. Establish the shared V02/V06 planter spec, then initialize V06 and create Layer 00 night base with the planter present and all electric lighting off. Publish the standard Layer 00 review package and stop.",
-  "approved_through_layer": -1,
+  "status": "PUBLISHING_JARVIS_ARTIFACT",
+  "current_layer_id": "03",
+  "current_task": "Publish the corrected V06 Layer 03 candidate and stop for a new exact-SHA external JARVIS decision.",
+  "active_candidate_sha256": "6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f",
+  "active_candidate_manifest": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V06/03/active.json",
+  "approved_parent_sha256": "c39e8ae994ff63e6e5b05b545cde6728ddf6cd986e2f2420df2276542218a2d3",
+  "rejected_candidate": {
+    "sha256": "04a37c428a1ff4f4d88f20d9ce08881534d8874b689d602af9afdc4e1cd9bc45",
+    "decision_id": "jarvis-v06-l03-04a37c42-reject-001",
+    "immutable": true
+  },
   "review_path": "projects/pulla-reddy/review/V06/",
-  "shared_dependency": "V02 and V06 planter geometry lock",
-  "invalid_submission": "jarvis-review-test/V06/layer_03.png",
-  "invalid_submission_reason": "Layer 03 was submitted before any reviewer-approved V06 Layer 00/01/02 chain existed and before SHARED_PLANTER_SPEC.md was established.",
-  "next_required_action": "Create SHARED_PLANTER_SPEC.md, then submit V06 Layer 00 only for independent review.",
+  "deterministic_qa": "PASSED",
+  "jarvis_approval": false,
+  "next_required_action": "Wait for the new GitHub Actions artifact, then stop at READY_FOR_JARVIS_REVIEW.",
+  "presentation_gate": "LOCKED",
+  "superseded_control_history": "The older Layer 00 reset and shared-planter instruction is retained in Git history but superseded by the newer explicit JARVIS Layer 03 return-path instruction.",
   "user_decision_required": false
 }

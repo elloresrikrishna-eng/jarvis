@@ -1,0 +1,17 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "state": "WAITING_FOR_ALL_VIEWS",
+  "required_views": {
+    "V01": ["00", "01", "02", "03", "04", "05", "06"],
+    "V02": ["00", "01", "02", "03", "04", "05", "06"],
+    "V03": ["00", "01", "02", "03", "04", "05"],
+    "V04": ["00", "01", "02", "03", "04"],
+    "V05": ["00", "01", "02", "03", "04"],
+    "V06": ["00", "01", "02", "03", "04", "05", "06"]
+  },
+  "complete_views": [],
+  "presentation_generation": "LOCKED",
+  "reason": "Every required layer in every required view must have an exact external JARVIS APPROVE decision before presentation generation can begin.",
+  "updated_at": "2026-08-18T22:43:29.037Z"
+}

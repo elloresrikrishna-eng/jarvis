@@ -1,0 +1,117 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "qa_version": "pulla-reddy-v06-layer03-return-path-v1",
+  "completed_at": "2026-08-18T22:43:29.037Z",
+  "project_id": "pulla-reddy",
+  "view_id": "V06",
+  "layer_id": "03",
+  "parent_sha256": "c39e8ae994ff63e6e5b05b545cde6728ddf6cd986e2f2420df2276542218a2d3",
+  "rejected_candidate_sha256": "04a37c428a1ff4f4d88f20d9ce08881534d8874b689d602af9afdc4e1cd9bc45",
+  "revised_candidate_sha256": "6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f",
+  "deterministic_qa": {
+    "version": "pulla-reddy-v06-layer03-return-path-v1",
+    "passed": true,
+    "hardFailure": false,
+    "dimensionsMatch": true,
+    "aspectRatioMatch": true,
+    "parentDimensions": {
+      "width": 1625,
+      "height": 968
+    },
+    "candidateDimensions": {
+      "width": 1625,
+      "height": 968
+    },
+    "alignment": {
+      "offsetX": 0,
+      "offsetY": 0,
+      "confidence": 0.9797053311126488,
+      "correlation": 0.9761239189560574,
+      "aligned": true,
+      "method": "multi-scale-edge-cosine-correlation"
+    },
+    "difference": {
+      "changedPixelRatio": 0.13595677050222504,
+      "meanLuminanceDelta": 2.094940443139128,
+      "meanAbsoluteLuminanceDelta": 2.094940443139128,
+      "positiveLuminanceRatio": 0.13301907183725364,
+      "negativeLuminanceRatio": 0,
+      "changeBoundingBox": {
+        "left": 54,
+        "top": 428,
+        "width": 1571,
+        "height": 453
+      },
+      "globalExposureShift": false,
+      "globalExposureEvidence": "Changed 13.60%; mean luminance delta 2.09; mean absolute delta 2.09",
+      "protectedRegionViolation": false,
+      "outsideAllowedChangedRatio": 0,
+      "regions": [
+        {
+          "region": "locked_upper_frame",
+          "roles": [
+            "ceiling",
+            "control",
+            "protected"
+          ],
+          "changedPixelRatio": 0,
+          "meanLuminanceDelta": 0,
+          "positiveLuminanceRatio": 0,
+          "negativeLuminanceRatio": 0,
+          "maxAbsoluteDelta": 0,
+          "violation": false
+        },
+        {
+          "region": "original_layer_03_contribution_envelope",
+          "roles": [
+            "key",
+            "allowed"
+          ],
+          "changedPixelRatio": 0.23887872431210389,
+          "meanLuminanceDelta": 3.6808516318701345,
+          "positiveLuminanceRatio": 0.23371712988095159,
+          "negativeLuminanceRatio": 0,
+          "maxAbsoluteDelta": 129,
+          "violation": false
+        }
+      ]
+    },
+    "integrity": {
+      "valid": true,
+      "nearlyBlank": false,
+      "clippedHighlightRatio": 0,
+      "clippedShadowRatio": 0.00047870311506675146,
+      "unexpectedBorder": false,
+      "warnings": []
+    },
+    "failures": [],
+    "warnings": [],
+    "completedAt": "2026-08-18T22:43:28.918Z"
+  },
+  "contribution_audit": {
+    "same_dimensions": true,
+    "parent_channel_darkening_count": 0,
+    "exceeds_rejected_contribution_count": 0,
+    "outside_original_contribution_changed_count": 0,
+    "rejected_visible_contribution_pixels": 260707,
+    "candidate_visible_contribution_pixels": 209239,
+    "aggregate_contribution_factor": 0.6047817313667423,
+    "contribution_reduction": 0.3952182686332577,
+    "brightest_emission_factor": 0.5954979765542276
+  },
+  "checks": {
+    "exact_parent_sha256": true,
+    "exact_rejected_sha256": true,
+    "new_candidate_sha256": true,
+    "same_dimensions": true,
+    "no_parent_channel_darkening": true,
+    "never_exceeds_rejected_contribution": true,
+    "outside_original_layer_03_contribution_unchanged": true,
+    "perceived_contribution_reduction_in_requested_range": true,
+    "brightest_emission_reduced_further": true,
+    "visual_reach_reduced": true
+  },
+  "passed": true,
+  "jarvis_approval": false,
+  "next_state": "READY_FOR_JARVIS_REVIEW"
+}

@@ -1,0 +1,20 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V06",
+  "layer_id": "03",
+  "state": "READY_FOR_JARVIS_REVIEW",
+  "candidate_sha256": "6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f",
+  "candidate_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V06/03/candidates/6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f.png",
+  "local_candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V06_Curved_Seating_Hero/layer-03-concealed-under-seater-lighting-v5.png",
+  "artifact_name": "jarvis-pulla-reddy-v06-l03-6de8f029666f",
+  "approved_parent_sha256": "c39e8ae994ff63e6e5b05b545cde6728ddf6cd986e2f2420df2276542218a2d3",
+  "revises_candidate_sha256": "04a37c428a1ff4f4d88f20d9ce08881534d8874b689d602af9afdc4e1cd9bc45",
+  "consumed_decision_id": "jarvis-v06-l03-04a37c42-reject-001",
+  "deterministic_qa": {
+    "passed": true,
+    "path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V06/03/evidence/6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f/deterministic-qa.json"
+  },
+  "jarvis_approval": false,
+  "created_at": "2026-08-18T22:43:29.037Z"
+}

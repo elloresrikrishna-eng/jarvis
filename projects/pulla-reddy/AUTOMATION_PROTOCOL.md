@@ -1,5 +1,24 @@
 # Pulla Reddy Autonomous Production Protocol
 
+## Active architecture | JARVIS return path v1
+
+The active production review path is:
+
+`WORKER -> DETERMINISTIC QA -> GITHUB ACTIONS IMAGE ARTIFACT -> EXTERNAL JARVIS REVIEW -> STRUCTURED GITHUB DECISION -> WORKER`
+
+Canonical decisions are stored relative to this project control root at:
+
+- `control/decisions/<project>/<view>/<layer>/latest.json`
+- `control/decisions/<project>/<view>/<layer>/history/<decision-id>.json`
+
+Every decision is schema validated and bound to the exact candidate SHA-256. Immutable history, a create-only claim, and an immutable consumption record prevent replay. Views run independently; one view's rejection cannot block another view. Within one view, only one active candidate per layer is allowed.
+
+The direct OpenAI API visual reviewer and the internal Codex reviewer are `LEGACY / INACTIVE`. Neither may grant production approval. `OPENAI_API_KEY` and `OPENAI_REVIEW_MODEL` are not required by the active loop.
+
+Only an exact external JARVIS `APPROVE` decision can complete a required layer. Presentation generation stays locked at `WAITING_FOR_ALL_VIEWS` until every required view is complete.
+
+The sections below describe the earlier scheduled-run protocol and are retained as historical operating context. Where they conflict with this active architecture, JARVIS return path v1 controls.
+
 This protocol exists to remove Srikrishna from the repetitive prompt-carrying loop between ChatGPT and Codex.
 
 ## Roles
