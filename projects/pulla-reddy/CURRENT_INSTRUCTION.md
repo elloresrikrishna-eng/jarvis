@@ -1,41 +1,59 @@
-# Current Instruction | V01 Main Retail | Execute Task 01 Only
+# Current Instruction | V01 Main Retail | REWORK LAYER 01
 
-Layer 00 and Layer 01 are approved and locked.
+The previous provisional Layer 01 approval is revoked.
 
-Use:
+Layer 00 remains the only approved visual base for View 01.
 
-`projects/pulla-reddy/V01_EXECUTION_QUEUE.md`
+Do not generate Layer 02.
 
-and
+Read:
+- `projects/pulla-reddy/PROJECT_RULES.md`
+- `projects/pulla-reddy/V01_EXECUTION_QUEUE.md`
+- `projects/pulla-reddy/REVIEWER_RUBRIC.md`
+- `projects/pulla-reddy/review/V01/CHATGPT_REVIEW_LAYER_01_REJECTED.md`
 
-`projects/pulla-reddy/REVIEWER_RUBRIC.md`
+## Required action
 
-as the authoritative production and quality references.
+Rebuild Layer 01 from approved Layer 00 only.
 
-## Execute now
+### Layer 01 intent
+Add only controlled deep-recessed 3000K downlighting over the principal front sweet display counters.
 
-Complete **Task 01 | Layer 02 Wall-Wash** only.
+The lighting must create a clear product-first hierarchy and must look like deliberate architectural lighting rather than generic image brightening.
 
-Starting from approved Layer 01, add only recessed 3000K wall-washer downlights serving all visible wall-mounted shelving compositions. Keep the effect selective, not a blanket wash. Preserve Layer 01 exactly.
+### Visual targets
+- sweets immediately become the strongest visual attraction;
+- clear but restrained pools of light with believable beam direction and falloff;
+- recessed sources remain visually quiet, dark and deep-set;
+- no ceiling-dot effect;
+- warm appetising product rendering without orange cast or blown highlights;
+- glass remains transparent/readable with no ugly hot spots;
+- unrelated shelves, walls, central displays and rear seating remain visually at Layer 00;
+- no ambient fill and no global exposure lift.
 
-## After Task 01
+### Absolute locks
+Preserve exactly:
+- camera, crop, perspective and focal character;
+- architecture and ceiling grid;
+- counters, products, shelves, furniture and materials;
+- approved Layer 00 outside physically necessary spill.
 
-Publish the complete Task 01 review package to Jarvis, including preview, side-by-side comparison, manifest, and self-QA.
+## Self-correction before review
+If the first attempt feels flat, overly bright, too diffuse, too spotty, too orange, or creates visible luminous apertures, iterate autonomously before publishing.
 
-Then set `STATE.json` to `waiting_for_chatgpt_review` with `current_layer` 2 and `approved_through_layer` 1.
+## Review output
+Publish a fresh Layer 01 review package under `projects/pulla-reddy/review/V01/` with:
+- updated `STATUS.md`;
+- updated `manifest.json`;
+- updated `SELF_QA.md`;
+- fresh Layer 01 preview;
+- fresh Layer 00 vs Layer 01 side-by-side;
+- a short `DESIGN_INTENT_CHECK.md` explaining how the final candidate achieves product hierarchy, beam realism and glass control.
 
-STOP.
+Then set `STATE.json` to `waiting_for_chatgpt_review`, with:
+- `current_layer`: 1
+- `approved_through_layer`: 0
+- `next_required_action`: `Independent ChatGPT visual/design review of reworked Layer 01`
+- `user_decision_required`: false
 
-Do not execute Task 02 until the independent ChatGPT reviewer explicitly approves Task 01 and releases Task 02 through Jarvis.
-
-## Review gate rule for all future tasks
-
-This is the permanent operating model:
-
-Codex produces one queue task -> publishes review package -> stops -> independent reviewer either approves and releases the next task, or rejects and issues an exact correction for the same task.
-
-Codex must not self-approve progression between queue tasks.
-
-If rejected, correct only the rejected task while keeping all approved parents frozen, republish, and wait again.
-
-Srikrishna is not part of routine approvals or corrections.
+STOP after publishing. Do not advance to Layer 02 until explicitly approved.
