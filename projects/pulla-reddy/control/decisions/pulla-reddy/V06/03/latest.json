@@ -3,32 +3,30 @@
   "project_id": "pulla-reddy",
   "view_id": "V06",
   "layer_id": "03",
-  "candidate_sha256": "04a37c428a1ff4f4d88f20d9ce08881534d8874b689d602af9afdc4e1cd9bc45",
-  "reviewed_artifact_id": "9344343943",
-  "reviewed_workflow_run_id": "32191474510",
+  "candidate_sha256": "6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f",
+  "reviewed_artifact_id": "9345373457",
+  "reviewed_workflow_run_id": "32194514959",
   "decision": "REJECT",
-  "review_summary": "The concealed under-seater lighting is visually too dominant. The nearly continuous warm luminous ribbon competes with the intended lighting hierarchy rather than quietly supporting the seating.",
+  "review_summary": "The Layer 03 under-seater correction itself is materially better than the rejected predecessor: intensity and visual reach are reduced, the source is less apparent, and the floor pool is calmer. It still cannot be approved because V06 violates an upstream locked project rule: the mandatory shared V02/V06 planter is absent, SHARED_PLANTER_SPEC.md does not exist, and V02 is still awaiting initialisation. Therefore V06 has no valid reviewer-approved Layer 00 parent chain containing the required permanent planter, so Layer 03 cannot legally become an approved cumulative parent.",
   "required_changes": [
-    "Reduce perceived under-seater intensity approximately 30–40%.",
-    "Pull the brightest emission further underneath the seating.",
-    "Conceal the apparent source more convincingly.",
-    "Preserve a subtle warm reflected pool on the floor.",
-    "Reduce the visual reach of the under-seat glow.",
-    "The effect should gently detach the seating from the floor rather than trace the furniture geometry."
+    "Stop V06 progression and repair the authoritative parent chain rather than advancing to Layer 04.",
+    "Establish the shared V02/V06 planter design first and publish projects/pulla-reddy/SHARED_PLANTER_SPEC.md. The same planter geometry, material language, planting height, density and rhythm must be used in both curved-seating views.",
+    "Rebuild V06 Layer 00 from the authoritative source with the shared planter physically present behind the curved seater and all electric lighting off, then publish the standard Layer 00 review package and stop for independent review.",
+    "Only after V06 Layer 00 is approved may Layer 01 and Layer 02 be regenerated sequentially from their approved immediate parents, followed by a new Layer 03 candidate.",
+    "When Layer 03 is regenerated after the parent-chain repair, preserve the successful visual character of candidate 6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f: approximately 40% lower contribution than the original rejected Layer 03, brightest emission pulled under the seat, no obvious luminous ribbon, and only a restrained warm reflected pool on the floor.",
+    "For each regenerated step, publish a parent-versus-candidate comparison so previous-layer freeze and planter persistence can be visually verified, not only asserted by SELF_QA."
   ],
   "hard_locks": [
-    "Do not modify wall wash.",
-    "Do not modify table lighting.",
-    "Do not modify global exposure.",
-    "Do not modify global CCT.",
-    "Do not modify architecture.",
-    "Do not modify materials.",
-    "Do not modify camera.",
-    "Do not modify crop.",
-    "Do not advance to another layer.",
-    "Regenerate V06 Layer 03 only."
+    "Camera, crop, focal character and perspective remain locked to the authoritative source.",
+    "Original architecture, ceiling grid, furniture, tables, chairs, materials and colours remain locked except for the explicitly mandated continuous planter intervention behind the curved built-in seater.",
+    "The planter must exist from Layer 00 onward and must be unlit in Layer 00.",
+    "No electric-lighting circuit may be present in Layer 00.",
+    "All later added electric lighting remains 3000K and recessed, concealed or integrated only.",
+    "Do not globally change exposure or gamma while rebuilding the chain.",
+    "Do not treat the current Layer 03 candidate as an approved parent and do not advance to Layer 04.",
+    "Presentation generation remains locked until all views have valid independently approved completion packages."
   ],
   "reviewer": "JARVIS_CHATGPT",
-  "reviewed_at": "2026-08-18T22:33:20.974Z",
-  "decision_id": "jarvis-v06-l03-04a37c42-reject-001"
+  "reviewed_at": "2026-08-18T23:10:01Z",
+  "decision_id": "jarvis-v06-l03-6de8f029-reject-002"
 }
