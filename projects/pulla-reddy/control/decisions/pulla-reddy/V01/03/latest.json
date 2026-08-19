@@ -3,22 +3,25 @@
   "project_id": "pulla-reddy",
   "view_id": "V01",
   "layer_id": "03",
-  "candidate_sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af",
-  "reviewed_artifact_id": "9353602039",
-  "reviewed_workflow_run_id": "32219997021",
-  "decision": "APPROVE",
-  "review_summary": "Independent JARVIS visual review approves V01 Layer 03. The GitHub Actions artifact was downloaded and candidate.png independently hashed to 9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af, exactly matching the candidate manifest and published state. Against the approved Layer 02 parent, the new contribution remains confined to the three wall-shelf compositions. The shelf merchandise gains a gentle integrated warm glow and slightly stronger local material response without creating raw strip lines, LED-dot texture, visible surface fixtures, or a bright shelf-edge graphic. The previously approved wall-wash and counter hierarchy remain visually intact, the sweet counter is still the strongest retail destination, the ceiling stays quiet, and unrelated circulation, seating, central-display, and counter zones do not visibly shift. The difference is restrained but legible enough to communicate the intended second shelf-lighting family in a layered presentation while keeping the office-display-shelf character rather than generic cabinet strip lighting.",
-  "required_changes": [],
+  "candidate_sha256": "8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba",
+  "reviewed_artifact_id": "9367566108",
+  "reviewed_workflow_run_id": "32259287910",
+  "decision": "HOLD",
+  "review_summary": "JARVIS reviewed the control-plane evidence for repaired V01 Layer 03 and retrieved GitHub Actions artifact 9367566108 from workflow run 32259287910. The publisher job verifies the content-addressed candidate with sha256sum before copying that exact file to candidate.png in the artifact, and the published candidate SHA is 8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba, matching active.json and the candidate provenance. Deterministic QA also reports exact 1624 x 968 dimensions, 0,0 registration, changes confined to the three permitted shelf zones, no unrelated-zone change, no darkening, and a warm added RGB order consistent with the intended 3000K shelf contribution. These checks are necessary but are not sufficient for approval. The current reviewer runtime cannot expose the downloaded binary artifact image or repository JPEG review previews to the visual inspection channel, so JARVIS cannot independently inspect the exact candidate for source concealment, shelf-light quality, product/material response, hierarchy, beam realism, glass/reflection behaviour, or subtle scene drift. In accordance with the independent-review rubric, this candidate is therefore placed on HOLD rather than approved from deterministic QA alone. No design defect is asserted by this HOLD and no design correction is requested until the exact render can be visually inspected.",
+  "required_changes": [
+    "Restore or provide a reviewer-accessible binary image path for the exact candidate SHA 8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba and its exact approved Layer 02 parent, then rerun independent JARVIS visual review.",
+    "Do not regenerate or alter the current candidate merely because of this HOLD. The blocker is reviewer-side visual evidence access, not a confirmed lighting-design defect."
+  ],
   "hard_locks": [
-    "Candidate 9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af is the immutable approved V01 Layer 03 parent and must not be regenerated or reinterpreted unless explicitly reopened by JARVIS.",
-    "Camera, crop, focal character, perspective, architecture, ceiling grid, counters, shelves, furniture, products, materials, and colours remain locked for all later V01 layers.",
-    "Approved Layer 01 counter lighting, Layer 02 wall-wash, and Layer 03 concealed shelf-integrated lighting are frozen in intensity, colour, source concealment, beam character, reflections, and shadow behaviour except for physically unavoidable interaction from a newly added circuit.",
-    "All later electric lighting remains 3000K and recessed, concealed, or integrated only. No pendant, track, surface fixture, raw LED strip line, or LED-dot texture is permitted.",
-    "Layer 04 must equal approved Layer 03 plus exactly one newly released central-merchandise or circulation lighting family. Unrelated zones may not brighten, darken, or shift colour without physical cause.",
-    "Do not use global exposure or gamma changes to simulate added light.",
-    "Presentation generation remains locked until every required view has valid independent JARVIS approvals through completion."
+    "Candidate 8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba and approved parent c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27 remain immutable evidence while this HOLD is active.",
+    "The repaired 1624 x 968 coordinate grid remains authoritative. Camera, crop, focal character, perspective, architecture, ceiling grid, counters, shelves, furniture, products, materials and colours remain locked.",
+    "Approved Layer 01 counter downlighting and repaired Layer 02 wall-wash remain frozen in intensity, colour, beam character, reflections and shadow behaviour except for physically unavoidable interaction from the Layer 03 circuit.",
+    "Layer 03 may contain only concealed integrated 3000K lighting to the visible wall-mounted shelves. No raw LED strip line, visible LED dots, glowing shelf edge, decorative fixture, pendant, track or surface fixture is permitted.",
+    "No global exposure or gamma change is permitted, and unrelated circulation, seating, central-display, counter and ceiling zones must remain frozen.",
+    "HOLD is not APPROVE. Candidate 8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba must not be consumed as an approved Layer 03 parent and repaired Layer 04 must not begin.",
+    "Presentation generation remains locked until every required view is independently approved through completion and the repaired V01 chain passes its required continuity audit."
   ],
   "reviewer": "JARVIS_CHATGPT",
-  "reviewed_at": "2026-08-19T05:56:48Z",
-  "decision_id": "jarvis-v01-l03-9c855ce5-approve-001"
+  "reviewed_at": "2026-08-19T14:10:30Z",
+  "decision_id": "jarvis-v01-l03-8e2a2b19-hold-001"
 }
