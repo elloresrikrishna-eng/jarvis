@@ -1,0 +1,25 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "03",
+  "candidate_sha256": "8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba",
+  "reviewed_artifact_id": "9367566108",
+  "reviewed_workflow_run_id": "32259287910",
+  "decision": "APPROVE",
+  "review_summary": "Independent external JARVIS visual review approves the repaired V01 Layer 03 shelf-integrated lighting candidate 8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba. The exact GitHub Actions artifact 9367566108 was downloaded, candidate.png independently hashed to the published SHA, and visually compared side by side against the exact approved repaired Layer 02 parent c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27 retrieved from artifact 9365354131. The added contribution is limited to the three wall-mounted shelf compositions and reads as a restrained concealed 3000K integrated shelf-light family rather than a raw strip or generic image brightening. Shelf merchandise gains gentle local warmth and readability, especially across the left foreground, left-mid and right wall displays, while the source remains hidden with no visible LED dots, luminous shelf-edge ribbon or decorative fixture appearance. Brass uprights remain material elements rather than glowing sources. The sweet counters remain clearly dominant, the repaired wall-wash remains intact as the underlying vertical modelling, and the new shelf layer stays secondary in hierarchy. The ceiling remains visually quiet, product colours remain believable rather than orange, and unrelated central merchandise, rear hospitality, circulation and counter lighting do not visibly shift. The layer is deliberately subtle but is legible in direct parent-versus-candidate comparison and is strong enough to justify its own presentation step without flattening the retail hierarchy. Together with the verified 0,0 registration and zero protected-zone changes, this candidate is approved as the immutable repaired V01 Layer 03 parent for Layer 04.",
+  "required_changes": [],
+  "hard_locks": [
+    "Candidate 8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba is the approved immutable repaired V01 Layer 03 parent and must not be regenerated, rebalanced or reinterpreted unless explicitly reopened by JARVIS.",
+    "The repaired 1624 x 968 coordinate grid remains authoritative for every downstream V01 layer. Camera, crop, focal character, perspective, architecture, ceiling grid, counters, shelves, furniture, products, materials and colours remain locked.",
+    "Approved Layer 01 counter downlighting, repaired Layer 02 wall-wash and repaired Layer 03 concealed shelf-integrated lighting are frozen in intensity, colour, source concealment, beam character, reflections and shadow behaviour except for physically unavoidable interaction from a newly released circuit.",
+    "V01 Layer 04 must equal the exact approved repaired Layer 03 parent plus only selective recessed 3000K lighting for the central freestanding merchandise display and the minimum physically necessary adjacent circulation support.",
+    "Layer 04 must keep the hierarchy sweet counters first, wall merchandise second, central freestanding merchandise third, hospitality/background subordinate, and ceiling visually quiet.",
+    "No visible pendant, track, surface fixture, raw LED strip line, LED-dot texture, glowing ceiling aperture, broad ambient floor wash, global exposure lift or gamma change is permitted.",
+    "Historical defective Layers 04-06 and Final remain immutable evidence but are invalid as raster parents. The repaired chain must continue sequentially from this approved candidate.",
+    "Contact-sheet/review-board production and presentation generation remain locked until repaired Layers 04-06 and Final are independently re-approved and a fresh cross-layer continuity audit passes."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T14:17:50Z",
+  "decision_id": "jarvis-v01-l03-8e2a2b19-approve-002"
+}
