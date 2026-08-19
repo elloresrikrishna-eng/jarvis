@@ -1,0 +1,132 @@
+{
+  "package_id": "GPRS-V03-2026-08-19",
+  "status": "ready_for_chatgpt_review",
+  "view": "V03_Reverse_Retail",
+  "source": {
+    "pdf": "26.08.12 -G Pulla Reddy-HSR-Sweets-3D View.pdf",
+    "page": 4,
+    "zero_based_index": 3,
+    "title": "3D VIEW 03",
+    "image": "source-page-04-3d-view-03-original.jpg",
+    "dimensions": [
+      1622,
+      969
+    ],
+    "sha256": "2AD09579F662E1D12ED024E1DEF45B25CA394EE4B133A0AAC359A1EE02506A85",
+    "immutable": true,
+    "extraction": "native embedded JPEG without recompression"
+  },
+  "review_contact_sheet": "review-package-v03-reverse-retail.png",
+  "review_transition_sheet": "review-transitions-v03-reverse-retail.png",
+  "bundle": "jarvis-review-package-v03-reverse-retail.zip",
+  "prompt_set": "production-prompts-view-03.md",
+  "layers": [
+    {
+      "file": "layer-00-base-dark.png",
+      "dimensions": [
+        1622,
+        969
+      ],
+      "mean_luminance": 23.83,
+      "negative_channel_deltas": null,
+      "changed_pixels": null,
+      "sha256": "A6056C69BAAAB4912169E78E0D7883FA666BC215E3CF3144C3DF03EFCCB80A1A",
+      "delta": "All proposed circuits off, controlled residual ambient only"
+    },
+    {
+      "file": "layer-01-front-counter-downlights.png",
+      "dimensions": [
+        1622,
+        969
+      ],
+      "mean_luminance": 25.13,
+      "negative_channel_deltas": 0,
+      "changed_pixels": 135897,
+      "sha256": "BE3FF41762CE04ACA48AF8E0A1AC10FFDA6183B3C85FAB2D503F5D19A003173C",
+      "delta": "Layer 00 plus recessed 3000K counter downlights"
+    },
+    {
+      "file": "layer-02-wall-shelf-wall-wash.png",
+      "dimensions": [
+        1622,
+        969
+      ],
+      "mean_luminance": 27.9,
+      "negative_channel_deltas": 0,
+      "changed_pixels": 214011,
+      "sha256": "BA30CBFB274407EB883CB500F67A3C8759CE973F26B174FDD4024669E92348AE",
+      "delta": "Layer 01 plus recessed 3000K wall-shelf wash"
+    },
+    {
+      "file": "layer-03-concealed-shelf-integrated-lighting.png",
+      "dimensions": [
+        1622,
+        969
+      ],
+      "mean_luminance": 29.64,
+      "negative_channel_deltas": 0,
+      "changed_pixels": 162553,
+      "sha256": "2735D8D8662976CB8DB371B2FA409C7E9481FCECFEECF76E51316FA83C573528",
+      "delta": "Layer 02 plus concealed 3000K shelf lighting"
+    },
+    {
+      "file": "layer-04-central-merchandise-circulation.png",
+      "dimensions": [
+        1622,
+        969
+      ],
+      "mean_luminance": 31.29,
+      "negative_channel_deltas": 0,
+      "changed_pixels": 141085,
+      "sha256": "F4C3DDDFB46F73EE5511F800AB4BE0E270931976A117426EF6B64B0D01D6588D",
+      "delta": "Layer 03 plus central merchandise and circulation accents"
+    },
+    {
+      "file": "layer-05-seating-comfort-downlights.png",
+      "dimensions": [
+        1622,
+        969
+      ],
+      "mean_luminance": 34.29,
+      "negative_channel_deltas": 0,
+      "changed_pixels": 169517,
+      "sha256": "B15111AC16797B7441BE6BEDED04CF651FE8035B9B4B1D363284D526645C0FC1",
+      "delta": "Layer 04 plus recessed 3000K seating-comfort downlights"
+    }
+  ],
+  "final": {
+    "file": "final-render-view-03.png",
+    "identical_to": "layer-05-seating-comfort-downlights.png",
+    "sha256": "B15111AC16797B7441BE6BEDED04CF651FE8035B9B4B1D363284D526645C0FC1"
+  },
+  "checks": [
+    "camera_and_geometry_continuity",
+    "product_furniture_and_material_continuity",
+    "cumulative_one_circuit_delta",
+    "zero_negative_channel_deltas",
+    "3000K_consistency",
+    "recessed_concealed_integrated_sources_only",
+    "no_global_exposure_change",
+    "physical_beam_falloff_and_bounce_plausibility",
+    "exact_1622x969_dimensions",
+    "final_byte_identity"
+  ],
+  "review_response": {
+    "decision": [
+      "APPROVE V03",
+      "REVISE V03"
+    ],
+    "revision_fields": [
+      "layer_filename",
+      "image_location",
+      "failed_constraint",
+      "corrective_instruction",
+      "locked_elements"
+    ]
+  },
+  "handoff": {
+    "mode": "local_jarvis_ready_package",
+    "external_publish_attempted": false,
+    "reason": "No Jarvis command, connector or project publisher is available in this workspace"
+  }
+}
