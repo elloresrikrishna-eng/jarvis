@@ -5,7 +5,7 @@
   "view": "V02_Curved_Seating",
   "view_id": "V02",
   "source_page": 3,
-  "status": "READY_FOR_JARVIS_REVIEW",
+  "status": "codex_action_required",
   "current_layer": 1,
   "current_layer_id": "01",
   "approved_through_layer": 0,
@@ -14,133 +14,24 @@
   "approved_parent_decision_id": "jarvis-v02-l00-c0db62b7-approve-001",
   "approved_parent_artifact_id": "9375332898",
   "approved_parent_workflow_run_id": "32279722544",
-  "current_task": "Stop for independent external JARVIS visual review of V02 Layer 01.",
-  "current_instruction": "projects/pulla-reddy/instructions/V02_LAYER01_WALL_WASH.md",
-  "next_required_action": "External JARVIS review. Do not modify this candidate and do not start another layer without an exact candidate-bound decision.",
+  "current_task": "Correct V02 Layer 01 recessed 3000K wall-wash from the exact approved Layer 00 parent. Increase presentation legibility and replace faint isolated glow patches with a believable vertically coherent wall-washer distribution while preserving all hard locks.",
+  "current_instruction": "projects/pulla-reddy/instructions/V02_LAYER01_WALL_WASH_CORRECTION_001.md",
+  "next_required_action": "Execute the released correction instruction, publish a fresh revisioned Layer 01 candidate through the GitHub Actions binary review-artifact path, verify provenance and remote retrievability, set V02 to READY_FOR_JARVIS_REVIEW, and stop. Do not begin integrated shelf lighting without exact candidate-bound approval.",
   "last_approved_candidate_sha256": "c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540",
   "last_approved_decision_id": "jarvis-v02-l00-c0db62b7-approve-001",
   "jarvis_approval": false,
+  "rejected_candidate": {
+    "filename": "layer-01-wall-wash-candidate-r1.png",
+    "sha256": "af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619",
+    "artifact_id": "9382819486",
+    "workflow_run_id": "32300516233",
+    "decision_id": "jarvis-v02-l01-af3045bc-reject-001",
+    "immutable": true,
+    "reason": "Wall-wash was too weak at presentation scale and read as faint isolated glow patches rather than a clear restrained vertical wall-washer layer."
+  },
   "review_path": "projects/pulla-reddy/review/V02/",
-  "shared_dependency": "Shared V02/V06 planter is now locked by SHARED_PLANTER_SPEC.md and approved Layer 00 candidates in both views.",
+  "shared_dependency": "Shared V02/V06 planter is locked by SHARED_PLANTER_SPEC.md and approved Layer 00 candidates in both views; planter remains physically present and unlit in V02 Layer 01.",
   "presentation_gate": "LOCKED",
   "user_decision_required": false,
-  "candidate": "layer-01-wall-wash-candidate-r1.png",
-  "candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V02_Seating_Lounge/layer-01-wall-wash-candidate-r1.png",
-  "candidate_sha256": "af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619",
-  "artifact_name": "jarvis-pulla-reddy-v02-l01-af3045bc9902",
-  "artifact_id": "9382819486",
-  "workflow_run_id": "32300516233",
-  "publication_commit_sha": "1c29bbe6af02f970994bd16479acc19dcacd5756",
-  "remote_retrievability_verified": true,
-  "remote_candidate_sha256": "af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619",
-  "provenance_valid": true,
-  "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V02/01/active.json",
-  "dispatcher_job_id": "jarvis-pulla-reddy-v02-c385b2ccd7cd328579d90baa",
-  "dispatcher_provenance": {
-    "protocol_version": "jarvis-dispatcher-v0.1",
-    "worker_prompt_contract_version": "jarvis-worker-prompt-contract-v0.2",
-    "job_id": "jarvis-pulla-reddy-v02-c385b2ccd7cd328579d90baa",
-    "kind": "LANE",
-    "triggering_state_path": "projects/pulla-reddy/state/V02.json",
-    "triggering_state_sha": "f7774855565e9a0f88ca9fb870fc2d5d764477c8",
-    "triggering_state_hash": "f3b908e4adad39268e3f0f9e1dba1a8170e194d937eebbd7abe3c12db3f558e1",
-    "triggering_decision_id": "jarvis-v02-l00-c0db62b7-approve-001",
-    "source_documents": [
-      {
-        "path": "projects/pulla-reddy/AUTOMATION_PROTOCOL.md",
-        "blob_sha": "b8081e06144e5b9f0473b7d195b296a6c6fc326c",
-        "content_hash": "f294ae7ac024be508b16c983689702acdddbf0335e5f7b64685864917099020c"
-      },
-      {
-        "path": "projects/pulla-reddy/control/decisions/pulla-reddy/V02/00/latest.json",
-        "blob_sha": "f4187a54dd884ef9370dd162635b844c5b1fc5bb",
-        "content_hash": "0a93cc13788c55e1cae070531acbe857d6fe062f15aeacd13d081a3a148ec467"
-      },
-      {
-        "path": "projects/pulla-reddy/control/presentation-gate.json",
-        "blob_sha": "006fd6ffe7792533cbe6c91a94659e6d24c2e3f0",
-        "content_hash": "74423d30b9e380b2bda8f0e12daec9c9e92b91a3be52d8cf39ba439af18df1af"
-      },
-      {
-        "path": "projects/pulla-reddy/CURRENT_INSTRUCTION.md",
-        "blob_sha": "a507be351532e26a04da3b4b1dce259be6366955",
-        "content_hash": "6f5481336e20ce97cfb507556ca9a00e7b0f38104be5504aa5afd42f40af16cd"
-      },
-      {
-        "path": "projects/pulla-reddy/instructions/V02_LAYER01_WALL_WASH.md",
-        "blob_sha": "d7b75d63483b3b03f8364d58b848e1edbbd02888",
-        "content_hash": "8e0c4ae8c9730dc1775fea3ef29d2da4d870cc20d34f02bc8c6ff31098b94979"
-      },
-      {
-        "path": "projects/pulla-reddy/instructions/V06_PARENT_CHAIN_REPAIR.md",
-        "blob_sha": "54750778ff3bdba3afeb3236a8c12c9b39ee53ee",
-        "content_hash": "264aebb7cd820908004f85708d5ebab4b02176fe98c58d4f71da7fb9be602388"
-      },
-      {
-        "path": "projects/pulla-reddy/MULTIVIEW_COORDINATOR_INSTRUCTION.md",
-        "blob_sha": "1602e4b7867e2728c032432b0678137495e0b449",
-        "content_hash": "d7960d072cce54ae2ead00d4dfa77d016d25e7ac1d970851c2035666cc95f909"
-      },
-      {
-        "path": "projects/pulla-reddy/MULTIVIEW_EXECUTION.md",
-        "blob_sha": "22387dac18e061cc0cb7ea2e1916c217f9526f8e",
-        "content_hash": "a252493d16b6a227d3a330454d08008970b4c15fe307b277e4183c54fe2c7bbb"
-      },
-      {
-        "path": "projects/pulla-reddy/PROJECT_RULES.md",
-        "blob_sha": "23b4135fa97e75b87d0cde6270b7407b036453b6",
-        "content_hash": "f40c5e26185d5a7d521da81c8d723dcf1c1486dd61de9143b26f0e0cb2273e99"
-      },
-      {
-        "path": "projects/pulla-reddy/SHARED_PLANTER_SPEC.md",
-        "blob_sha": "da063e55f2372f1390cb31957dadd3fd629e7754",
-        "content_hash": "dd5dab4d3c309cf978ff312a5d4bac1b6f8e33e300bf1819df880607b19ab62d"
-      },
-      {
-        "path": "projects/pulla-reddy/state/V02.json",
-        "blob_sha": "f7774855565e9a0f88ca9fb870fc2d5d764477c8",
-        "content_hash": "f3b908e4adad39268e3f0f9e1dba1a8170e194d937eebbd7abe3c12db3f558e1"
-      }
-    ],
-    "worker_terminal_state": "WORK_PRODUCT_READY",
-    "worker_summary": "Created one revisioned V02 Layer 01 candidate from the byte-verified approved Layer 00 parent. The contribution is strictly additive and confined to the two released shelf-wall zones plus permitted low-energy floor bounce. Local QA reports 0% darkening, 0% unrelated activation, and 0% strong unrelated activation. No approval or later layer was authored.",
-    "worker_warnings": [
-      "Remote publication and retrievability remain dispatcher-owned and were not performed by this worker."
-    ]
-  },
-  "review_files": [
-    {
-      "path": "projects/pulla-reddy/review/V02/STATUS.md",
-      "sha256": "990e4e411273a5ba2957a8f0ddfd7127e5e19e0e6d3f5a588c030972052557f1"
-    },
-    {
-      "path": "projects/pulla-reddy/review/V02/manifest.json",
-      "sha256": "69a58ae8363d122bb149319458b0af83d592289bf894358d4bf75abc1239dee9"
-    },
-    {
-      "path": "projects/pulla-reddy/review/V02/SELF_QA.md",
-      "sha256": "d9793cee07a5bf5558b9b7005a4ec7ed498a712d94a79d25f615b1f0768fae70"
-    },
-    {
-      "path": "projects/pulla-reddy/review/V02/deterministic_qa.json",
-      "sha256": "1eceb2fb259cc6836cd9cce82798e125323695b3fda8952d1707d5ae58b0f3ad"
-    },
-    {
-      "path": "projects/pulla-reddy/review/V02/layer-01-preview.jpg",
-      "sha256": "fe8f2513d8cf22d3276aa26a356dcdf1079692e324f159ffabda0f647121b32b"
-    },
-    {
-      "path": "projects/pulla-reddy/review/V02/layer-00-vs-layer-01-comparison.jpg",
-      "sha256": "7061a1e14adf573e21c1bcfa0b538c2a7520d7a22c2b533947f34e6eeee9b860"
-    },
-    {
-      "path": "projects/pulla-reddy/review/V02/layer-01-shelf-crop.png",
-      "sha256": "52a6f14599d9175e3479dc528dfdfda6874bfc17392a4f9d07086153e0d2db0a"
-    },
-    {
-      "path": "projects/pulla-reddy/review/V02/layer-01-difference.png",
-      "sha256": "7ff276cfc8c3ff458a59babf52e9dae906ebe6285c2bedd6262b96c9aa92b803"
-    }
-  ],
-  "updated_at": "2026-08-19T20:48:27.336Z"
+  "updated_at": "2026-08-19T21:09:48Z"
 }
