@@ -4,18 +4,18 @@
   "view_id": "V01",
   "layer_id": "05",
   "state": "READY_FOR_JARVIS_REVIEW",
-  "candidate_sha256": "eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065",
-  "candidate_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/05/candidates/eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065.png",
-  "local_candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-05-rear-seating-comfort-v3.png",
-  "artifact_name": "jarvis-pulla-reddy-v01-l05-eda764d05c88",
-  "approved_parent_sha256": "58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837",
-  "approved_parent_decision_id": "jarvis-v01-l04-58553357-approve-001",
+  "candidate_sha256": "f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca",
+  "candidate_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/05/candidates/f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca.png",
+  "local_candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-05-rear-seating-comfort-v5.png",
+  "artifact_name": "jarvis-pulla-reddy-v01-l05-f8335d6a5081",
+  "approved_parent_sha256": "a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e",
+  "approved_parent_decision_id": "jarvis-v01-l04-a3d00e75-approve-002",
   "deterministic_qa": {
     "passed": true,
-    "path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/05/evidence/eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065/deterministic-qa.json"
+    "path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/05/evidence/f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca/deterministic-qa.json"
   },
-  "provenance_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/05/evidence/eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065/generation-provenance.json",
+  "provenance_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/05/evidence/f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca/generation-provenance.json",
   "jarvis_approval": false,
-  "publication_attempt": 1,
-  "created_at": "2026-08-19T07:35:18.697Z"
+  "publication_attempt": 2,
+  "created_at": "2026-08-19T15:28:08.724630Z"
 }

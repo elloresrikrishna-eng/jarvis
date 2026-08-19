@@ -1,0 +1,53 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "05",
+  "candidate_sha256": "f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca",
+  "approved_parent_sha256": "a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e",
+  "approved_parent_decision_id": "jarvis-v01-l04-a3d00e75-approve-002",
+  "generation_method": "OpenAI built-in image-edit lighting guide followed by deterministic exact-parent positive-only localized compositing",
+  "pixel_parent": {
+    "filename": "layer-04-central-merchandise-circulation-v5.png",
+    "sha256": "a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e",
+    "role": "Only raster pixel parent"
+  },
+  "lighting_guide": {
+    "filename": "layer-05-repair-imagegen-lighting-guide-raw.png",
+    "sha256": "2c573f8273ed40b785396c67ff062d45481e93bcd363ac032b13a7ead456ba9f",
+    "role": "Lighting-distribution guide only, never a raster parent",
+    "processing": "Only positive RGB suggestions inside two explicit rear table/seating ellipses and one weaker local-floor ellipse were applied to the exact approved parent; central merchandise and all retail zones were excluded."
+  },
+  "historical_layer_05": {
+    "filename": "layer-05-rear-seating-comfort-v3.png",
+    "role": "Non-authoritative process and target-zone reference only",
+    "pixels_reused": false,
+    "used_as_raster_parent": false
+  },
+  "new_circuit": "Restrained deep-recessed 3000K rear seating comfort lighting only",
+  "excluded_circuits": [
+    "under-seater lighting",
+    "new counter lighting",
+    "new wall-wash or shelf-integrated lighting",
+    "new central-merchandise or circulation lighting",
+    "general ambient or ceiling lighting"
+  ],
+  "coordinate_guarantee": {
+    "dimensions": [
+      1624,
+      968
+    ],
+    "best_registration_dx": 0,
+    "best_registration_dy": 0,
+    "zero_shift_edge_correlation": 0.99842083
+  },
+  "continuity_guarantee": {
+    "negative_rgb_deltas": 0,
+    "changed_pixels_outside_allowed_rear_zones": 0,
+    "changed_pixel_fraction": 0.02855095,
+    "full_frame_mean_luminance_shift": 0.231303,
+    "protected_regions_exactly_frozen": true
+  },
+  "published_local_filename": "layer-05-rear-seating-comfort-v5.png",
+  "created_at": "2026-08-19T15:28:08.724630Z"
+}
