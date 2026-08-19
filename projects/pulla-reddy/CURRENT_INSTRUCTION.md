@@ -1,4 +1,4 @@
-# Current Instruction | Parallel Production After V01 Repaired Layer 04 Approval
+# Current Instruction | Parallel Production After V01 Repaired Layer 05 Approval
 
 ## Immediate objective
 
@@ -13,31 +13,31 @@ Read and obey:
 - all per-view state files under `projects/pulla-reddy/state/`
 - all current JARVIS decisions under `projects/pulla-reddy/control/decisions/`
 
-## Priority 1 | V01 repaired Layer 05 rear seating comfort
+## Priority 1 | V01 repaired Layer 06 under-seater lighting
 
-The repaired V01 Layer 04 candidate:
+The repaired V01 Layer 05 candidate:
 
-`a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e`
+`f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca`
 
 is independently APPROVED under:
 
-`jarvis-v01-l04-a3d00e75-approve-002`
+`jarvis-v01-l05-f8335d6a-approve-002`
 
-JARVIS downloaded the exact GitHub Actions candidate artifact `9369801718`, independently verified the candidate SHA, separately retrieved the exact approved repaired Layer 03 parent from artifact `9367566108`, and visually compared the full-resolution pair. The released central-merchandise contribution passes the design gate: the central rack becomes a restrained third-tier destination, the immediate floor pool stays local and soft, sweet counters remain first, wall merchandise remains second, hospitality remains subdued, ceiling stays quiet, product colour remains believable, and no unrelated visual drift or exposure lift is apparent. Deterministic QA confirms `dx=0, dy=0`, zero protected-zone change and no changes outside the released central-merchandise/minimum-circulation region.
+JARVIS downloaded the exact GitHub Actions candidate artifact `9372085257`, independently verified the candidate SHA, separately retrieved the exact approved repaired Layer 04 parent from artifact `9369801718`, and directly compared the full-resolution pair. The new rear-seating contribution passes the design gate: two calm warm seating/table pools make hospitality comfortably readable while remaining clearly subordinate to the sweet counters, wall merchandise and central merchandise. The ceiling remains visually quiet, the effect reads as restrained 3000K comfort light rather than theatrical feature lighting, and no unrelated visual drift or exposure lift is apparent. Deterministic QA confirms `dx=0, dy=0`, zero protected-zone change and no changes outside the released rear hospitality zones.
 
-This repaired Layer 04 is now the immutable V01 pixel parent.
+This repaired Layer 05 is now the immutable V01 pixel parent.
 
 Execute:
 
-`projects/pulla-reddy/instructions/V01_LAYER05_REAR_SEATING_REPAIR.md`
+`projects/pulla-reddy/instructions/V01_LAYER06_UNDER_SEATER_REPAIR.md`
 
-Build a NEW repaired Layer 05 from exact repaired Layer 04. Add only restrained deep-recessed 3000K rear-seating comfort lighting. Keep the hospitality zone softer and calmer than the sweet counters, wall merchandise and central merchandise. Preserve approved Layers 01-04 exactly and maintain `dx=0, dy=0` registration on the repaired coordinate grid. Do not use any historical defective Layer 05 raster as a pixel parent.
+Build a NEW repaired Layer 06 from exact repaired Layer 05. Add only restrained concealed 3000K under-seater lighting to the meaningfully visible built-in rear banquette. The source must remain fully hidden; the effect must read as a soft, local reflected floor glow rather than a luminous ribbon or dramatic floating bench. Preserve approved Layers 01-05 exactly and maintain `dx=0, dy=0` registration on the repaired coordinate grid. Do not use any historical defective Layer 06 raster as a pixel parent.
 
 Publish through the GitHub Actions binary review-artifact path, verify provenance and remote retrievability, set V01 to `READY_FOR_JARVIS_REVIEW`, and stop.
 
-Do not begin repaired Layer 06 until the exact repaired Layer 05 candidate receives candidate-bound independent JARVIS approval.
+Do not begin repaired Final/composite work until the exact repaired Layer 06 candidate receives candidate-bound independent JARVIS approval and the next repaired-chain release is explicit.
 
-Historical Layer 05, Layer 06 and Final imagery remain immutable evidence but invalid as production parents until the repaired chain is rebuilt sequentially and re-approved. V01 contact-sheet/review-board production stays locked until repaired Final and a fresh continuity audit pass.
+Historical Layer 06 and Final imagery remain immutable evidence but invalid as production parents until the repaired chain is rebuilt sequentially and re-approved. V01 contact-sheet/review-board production stays locked until repaired Final and a fresh continuity audit pass.
 
 ## Priority 2 | V03 Layer 01 counter downlighting
 
