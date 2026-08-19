@@ -1,0 +1,25 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V05",
+  "layer_id": "00",
+  "candidate_sha256": "76326a4e726229fc343ee401b49a696d4132968c9e776e0d05e07546c9e42be1",
+  "reviewed_artifact_id": "9375215478",
+  "reviewed_workflow_run_id": "32279380250",
+  "decision": "APPROVE",
+  "review_summary": "Independent external JARVIS review approves V05 Layer 00. The exact GitHub Actions artifact candidate was downloaded and independently hashed to 76326a4e726229fc343ee401b49a696d4132968c9e776e0d05e07546c9e42be1, matching the published candidate manifest and state. Visually, the image reads as a legitimate lights-off night base: the window shelving, counters, merchandise, ceiling grid, glazing and material palette remain legible without any proposed electric-lighting family becoming active. There are no visible luminous fixtures, shelf strips, counter downlight pools or scene-wide exposure lift. The darkness is sufficient to establish a clean parent for later selective lighting without becoming nearly blank. Deterministic QA independently reports 0,0 registration, matched dimensions and no integrity warnings, which supports but does not replace the visual approval.",
+  "required_changes": [],
+  "hard_locks": [
+    "Candidate 76326a4e726229fc343ee401b49a696d4132968c9e776e0d05e07546c9e42be1 is the immutable approved V05 Layer 00 parent.",
+    "Camera, crop, perspective, architecture, ceiling grid, glazing, counters, shelves, products, furniture, materials and colours remain locked for all later V05 layers.",
+    "Layer 00 remains the all-electric-lighting-off baseline and must never be retroactively brightened or reinterpreted.",
+    "All later added electric lighting remains 3000K and recessed, concealed or integrated only; no visible pendant, track, surface fixture, raw strip or LED-dot pattern is permitted.",
+    "Each later V05 layer must equal the exact approved immediate parent plus one released lighting family only.",
+    "Do not use global exposure or gamma changes to simulate added light.",
+    "Legacy later-layer files that pre-existed this approved chain are non-authoritative and must not be used as parents unless regenerated from the approved chain.",
+    "Presentation generation remains locked until every required view has valid independent JARVIS approvals through completion."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T17:07:49Z",
+  "decision_id": "jarvis-v05-l00-76326a4e-approve-001"
+}
