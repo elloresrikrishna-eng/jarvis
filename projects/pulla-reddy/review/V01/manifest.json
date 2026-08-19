@@ -5,7 +5,7 @@
   "view": "V01_Main_Retail",
   "task_layer_id": "08",
   "task_kind": "final-composite",
-  "status_after_publish": "PUBLISHING_REVIEW_ARTIFACT",
+  "status_after_publish": "READY_FOR_JARVIS_REVIEW",
   "approved_layer_06_filename": "layer-06-concealed-under-seater-glow-v2.png",
   "approved_layer_06_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
   "approved_layer_06_decision_id": "jarvis-v01-l06-a059b104-approve-001",
@@ -27,14 +27,14 @@
   "new_lighting_families_introduced": 0,
   "artifact_publication": {
     "artifact_name": "jarvis-pulla-reddy-v01-l08-a059b10401f0",
-    "artifact_id": null,
-    "workflow_run_id": null,
-    "workflow_commit_sha": null,
-    "artifact_archive_digest": null,
-    "remote_download_verified": false,
-    "remote_candidate_sha256": null,
+    "artifact_id": "9361335925",
+    "workflow_run_id": "32242528619",
+    "workflow_commit_sha": "ec2ebaf7448481c41f9253f011ec36d2ae7183c3",
+    "artifact_archive_digest": "sha256:9d3bfdc89d92b8a0d6e5952badbcd580a5d04721cc90d0e230ae12fda9108a69",
+    "remote_download_verified": true,
+    "remote_candidate_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
     "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/08/publication.json",
-    "published_at": null
+    "published_at": "2026-08-19T10:26:46.674Z"
   },
   "local_paths": {
     "approved_layer_06": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-06-concealed-under-seater-glow-v2.png",
