@@ -1,6 +1,6 @@
 # V01 Main Retail | Layer 04 Candidate
 
-Status: `PUBLISHING_ARTIFACT`
+Status: `READY_FOR_JARVIS_REVIEW`
 
 Candidate: `layer-04-central-merchandise-circulation-v4.png`
 
@@ -25,8 +25,14 @@ Selective deep-recessed 3000K lighting for the central circular freestanding mer
 - Global mean luminance shift: `+0.141173`, entirely localized.
 - No visible luminaire body, glowing aperture, broad wash, mixed CCT or negative exposure adjustment.
 
-## Review transport
+## Verified GitHub Actions transport
 
-The exact candidate is staged for the GitHub Actions binary artifact workflow as `jarvis-pulla-reddy-v01-l04-58553357484f`. Artifact ID, workflow run ID and independent remote hash verification will be added after publication succeeds.
+- Artifact name: `jarvis-pulla-reddy-v01-l04-58553357484f`
+- Artifact ID: `9355045008`
+- Workflow run ID: `32224475803`
+- Publication commit: `14a82ee930ed9873e23b1f0b6dc2852ada0c7179`
+- Artifact archive digest: `sha256:987527517aade6f7802529b25a0db3dd7a15a95ff02b310e512895beee763911`
+- Downloaded `candidate.png` SHA-256: `58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837`
+- Candidate manifest and generated artifact provenance match the same hash, commit and run.
 
-Do not begin Layer 05 without exact candidate-bound independent JARVIS approval.
+Independent external JARVIS review remains mandatory. Do not begin Layer 05 without exact candidate-bound approval.

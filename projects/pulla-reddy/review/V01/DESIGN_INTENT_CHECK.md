@@ -1,23 +1,21 @@
-# V01 Layer 01 Rework | Design Intent Check
+# V01 Layer 04 | Design Intent Check
 
 ## Product hierarchy
 
-The long right-hand sweet counter is the first visual destination because it receives the strongest counter-localized contribution. The smaller left display receives a softer companion contribution. The ceiling, wall shelves, central display, and rear hospitality zone remain at the approved Layer 00 state, preserving the intended retail-first contrast.
+The principal sweet counters remain the strongest destination, the approved wall-shelf compositions remain second, and the newly illuminated circular central merchandise rack reads as a controlled third tier. The rear hospitality zone remains calm and unlit by this circuit.
 
 ## Beam realism
 
-The candidate uses overlapping localized footprints along the counter geometry rather than a uniform scene-wide lift. The receiving sweets, white counter surfaces, and immediately adjacent floor show controlled warm response and soft falloff. No luminous ceiling dots or visible fixture faces are introduced, so the recessed source remains subordinate to its effect.
+The contribution is confined to the merchandise rack and a tight adjacent floor pool consistent with deep-recessed 3000K sources above. There is no broad circulation wash, ceiling glow or visible fixture aperture.
 
-## Product color and CCT
+## Continuity
 
-The early rework was too orange and was not submitted. The final contribution was color-balanced to retain warm 3000K appetite appeal while preserving cream, yellow, white, and red product separation. No output-channel clipping is present.
+`Layer 04 v4 = approved Layer 03 + central-merchandise/circulation circuit only.`
 
-## Glass control
+All pixels outside the two permitted central zones are exact approved Layer 03 pixels. The counters, wall-wash, shelf-integrated light, ceiling, rear seating and foreground remain frozen.
 
-The base glass geometry and reflections remain locked. Added highlights are restrained to the counter-light response, with no white blobs, bloom, glowing glass edges, or duplicated reflection patterns.
+## Exposure and colour
 
-## Layer purity
+The full-frame mean luminance shift is only `+0.141173` and is fully explained by the local circuit. There are no negative channel deltas, no global gamma change, no target clipping and no mixed-CCT contamination.
 
-`Layer 01 v4 = approved Layer 00 + counter-downlight circuit only.`
-
-Protected ceiling, shelf, central-display, and rear-seating regions are exact Layer 00 pixels. Layer 02 is not part of this package and must not advance without explicit Jarvis approval.
+Layer 05 remains locked pending exact candidate-bound JARVIS approval.
