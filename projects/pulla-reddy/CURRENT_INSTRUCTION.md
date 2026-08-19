@@ -1,4 +1,4 @@
-# Current Instruction | Parallel Production After V01 Concept-Sketch Approval
+# Current Instruction | Parallel Production After V01 Final Composite Approval
 
 ## Immediate objective
 
@@ -13,31 +13,27 @@ Read and obey:
 - all per-view state files under `projects/pulla-reddy/state/`
 - all current JARVIS decisions under `projects/pulla-reddy/control/decisions/`
 
-## Priority 1 | V01 Final Composite
+## Priority 1 | V01 Cross-Layer Continuity Audit
 
-The exact V01 lighting concept sketch is independently approved.
+The exact Final V01 Composite is independently approved.
 
-Approved concept sketch:
-
-`0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78`
-
-Decision:
-
-`jarvis-v01-l07-0b0e4bac-approve-001`
-
-The approved cumulative render remains:
+Approved final render:
 
 `a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30`
 
+Decision:
+
+`jarvis-v01-l08-a059b104-approve-001`
+
+The approved Final V01 Composite is byte-for-byte identical to the approved Layer 06 master and is now immutable.
+
 Execute:
 
-`projects/pulla-reddy/instructions/V01_FINAL_COMPOSITE.md`
+`projects/pulla-reddy/instructions/V01_CROSS_LAYER_CONTINUITY_AUDIT.md`
 
-Create task/layer ID `08` as the Final V01 Composite. The final render must be exactly the last approved cumulative Layer 06 render. Do not regenerate, relight, rebalance, denoise, sharpen, recolour, crop, rescale or reinterpret it. Prefer a byte-for-byte copy of the approved Layer 06 PNG so the SHA-256 remains unchanged.
+Create task/layer ID `09` as the V01 Cross-Layer Continuity Audit. Audit the exact independently approved chain from Source through Layer 00, Layers 01-06, the approved concept sketch and Final Composite. Publish `CROSS_LAYER_QA.md`, machine metrics, hash/decision manifest, and remotely retrievable labeled audit/contact sheets. Do not silently rewrite any approved layer if a defect is found. Publish the audit result and stop V01 at `READY_FOR_JARVIS_REVIEW`.
 
-Publish through the GitHub Actions binary review-artifact path, verify remote retrievability and provenance, then stop V01 at `READY_FOR_JARVIS_REVIEW`.
-
-Do not begin the V01 cross-layer continuity audit until the exact Final V01 Composite receives candidate-bound independent JARVIS approval.
+Do not begin the V01 contact-sheet/review-board task until the exact audit package receives candidate-bound independent JARVIS approval.
 
 ## Priority 2 | V03 Layer 01 counter downlighting
 
@@ -67,20 +63,13 @@ The shared planter is mandatory and must exist physically from Layer 00 onward i
 
 If `projects/pulla-reddy/SHARED_PLANTER_SPEC.md` does not exist, create it first from the authoritative project rules and source geometry. Lock one shared design covering geometry, material language, planting height, density, rhythm, relationship to the curved built-in seater, cross-view consistency, and later concealed 3000K planter-lighting intent.
 
-Then:
-
-1. Build/rebuild V02 Layer 00 from its authoritative source with the shared planter present and ALL electric lighting off.
-2. Build/rebuild V06 Layer 00 from its authoritative source with the same shared planter present and ALL electric lighting off.
-3. Preserve camera, crop, perspective, architecture, ceiling grid, furniture, products, materials and colours except for the explicitly mandated planter intervention.
-4. Publish each Layer 00 through the GitHub Actions binary review-artifact path.
-5. Set each lane to `READY_FOR_JARVIS_REVIEW` and stop that lane for independent review.
-6. Do not rebuild later layers until the exact Layer 00 candidate for that view is independently approved.
+Then build/rebuild V02 and V06 Layer 00 from their authoritative sources with the exact shared planter present and all electric lighting off. Publish each through the GitHub Actions binary review-artifact path and stop each lane at `READY_FOR_JARVIS_REVIEW`. Do not rebuild later layers until the exact Layer 00 candidate for that view is independently approved.
 
 The previously rejected V06 Layer 03 candidate remains invalid as a parent. Its restrained under-seat character may only be reused after the parent chain is repaired.
 
 ## Priority 4 | V04/V05
 
-Continue each lane independently from its current valid Layer 00 initialization state. If a lane is `codex_action_required`, execute the current valid instruction rather than waiting for the user. Publish the resulting candidate through the same GitHub Actions binary review-artifact path and stop at `READY_FOR_JARVIS_REVIEW`.
+Continue each lane independently from its current valid Layer 00 initialization state. If a lane is `codex_action_required`, execute the current valid instruction rather than waiting for the user. Publish the resulting candidate through the GitHub Actions binary review-artifact path and stop at `READY_FOR_JARVIS_REVIEW`.
 
 Never self-approve. Deterministic QA is Gate 1, not design approval.
 
