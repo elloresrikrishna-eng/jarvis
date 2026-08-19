@@ -1,4 +1,4 @@
-# Current Instruction | Parallel Production After V01 Final Composite Approval
+# Current Instruction | Parallel Production After V01 Continuity Failure
 
 ## Immediate objective
 
@@ -13,27 +13,35 @@ Read and obey:
 - all per-view state files under `projects/pulla-reddy/state/`
 - all current JARVIS decisions under `projects/pulla-reddy/control/decisions/`
 
-## Priority 1 | V01 Cross-Layer Continuity Audit
+## Priority 1 | V01 Layer 02 coordinate-continuity repair
 
-The exact Final V01 Composite is independently approved.
+The V01 Cross-Layer Continuity Audit candidate:
 
-Approved final render:
+`6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e`
 
-`a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30`
+is rejected as a completion gate under:
 
-Decision:
+`jarvis-v01-l09-6a9f3e21-reject-001`
 
-`jarvis-v01-l08-a059b104-approve-001`
+because it proves a blocking coordinate-continuity defect beginning at historical Layer 02. JARVIS independently retrieved the exact Layer 01 and Layer 02 artifacts, verified their SHA-256 values and reproduced the one-pixel vertical registration mismatch.
 
-The approved Final V01 Composite is byte-for-byte identical to the approved Layer 06 master and is now immutable.
+The last valid immutable render parent is exact approved Layer 01:
+
+`bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217`
 
 Execute:
 
-`projects/pulla-reddy/instructions/V01_CROSS_LAYER_CONTINUITY_AUDIT.md`
+`projects/pulla-reddy/instructions/V01_LAYER02_COORDINATE_REPAIR.md`
 
-Create task/layer ID `09` as the V01 Cross-Layer Continuity Audit. Audit the exact independently approved chain from Source through Layer 00, Layers 01-06, the approved concept sketch and Final Composite. Publish `CROSS_LAYER_QA.md`, machine metrics, hash/decision manifest, and remotely retrievable labeled audit/contact sheets. Do not silently rewrite any approved layer if a defect is found. Publish the audit result and stop V01 at `READY_FOR_JARVIS_REVIEW`.
+Build a NEW Layer 02 from the exact approved Layer 01 parent. Add only the released recessed 3000K wall-wash family. Preserve the useful wall-wash design character of the historical Layer 02 as a visual reference, but do not use that defective raster as a pixel parent and do not simply shift it to hide the defect.
 
-Do not begin the V01 contact-sheet/review-board task until the exact audit package receives candidate-bound independent JARVIS approval.
+The repaired candidate must be exactly `1624 x 968`, must have best registration `dx=0, dy=0` against Layer 01, must preserve protected regions without broad negative deltas, must not use global exposure/gamma changes, and must retain the counter-led hierarchy with a quiet ceiling.
+
+Publish through the GitHub Actions binary review-artifact path, verify provenance and remote retrievability, set V01 to `READY_FOR_JARVIS_REVIEW`, and stop.
+
+Do not begin repaired Layer 03 until repaired Layer 02 receives exact candidate-bound independent JARVIS approval.
+
+Historical Layers 02-06 and Final remain immutable evidence but are invalid as production parents until the chain is rebuilt sequentially and re-approved. The concept sketch remains communication-only. V01 contact-sheet/review-board production remains locked until the repaired chain reaches Final and a fresh continuity audit passes.
 
 ## Priority 2 | V03 Layer 01 counter downlighting
 
