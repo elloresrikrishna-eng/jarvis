@@ -1,4 +1,4 @@
-# Current Instruction | Parallel Production After V01 Layer 02 Repair Approval
+# Current Instruction | Parallel Production After V01 Repaired Layer 03 Approval
 
 ## Immediate objective
 
@@ -13,31 +13,31 @@ Read and obey:
 - all per-view state files under `projects/pulla-reddy/state/`
 - all current JARVIS decisions under `projects/pulla-reddy/control/decisions/`
 
-## Priority 1 | V01 repaired Layer 03 shelf-integrated lighting
+## Priority 1 | V01 repaired Layer 04 central merchandise / circulation
 
-The repaired V01 Layer 02 candidate:
+The repaired V01 Layer 03 candidate:
 
-`c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27`
+`8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba`
 
 is independently APPROVED under:
 
-`jarvis-v01-l02-c6bb3f56-approve-002`
+`jarvis-v01-l03-8e2a2b19-approve-002`
 
-The exact GitHub Actions artifact was retrieved and visually compared against exact approved Layer 01. The coordinate repair passes and the wall-wash design remains appropriately secondary to the sweet-counter hierarchy.
+JARVIS downloaded the exact GitHub Actions candidate artifact `9367566108`, independently verified the candidate SHA, separately retrieved the exact repaired Layer 02 parent from artifact `9365354131`, and visually compared the pair. The concealed shelf-integrated contribution passes the design gate: source hidden, no raw strip/dots/glowing edge, wall-wash preserved, sweet counters still dominant, product colour believable, ceiling quiet, and no unrelated visual drift. Deterministic QA confirms `dx=0, dy=0` and zero protected-zone change.
 
-This repaired Layer 02 is now the immutable V01 pixel parent.
+This repaired Layer 03 is now the immutable V01 pixel parent.
 
 Execute:
 
-`projects/pulla-reddy/instructions/V01_LAYER03_SHELF_INTEGRATED_REPAIR.md`
+`projects/pulla-reddy/instructions/V01_LAYER04_CENTRAL_MERCHANDISE_REPAIR.md`
 
-Build a NEW Layer 03 from exact repaired Layer 02. Add only concealed integrated 3000K shelf lighting to all visible wall-mounted shelves. The source must remain hidden with no raw LED strip line, visible LED dots or glowing shelf-edge ribbon. Preserve the approved Layer 01 counter downlighting and repaired Layer 02 wall-wash exactly. Maintain `dx=0, dy=0` registration on the repaired coordinate grid. Do not use any historical defective Layer 03 raster as a pixel parent.
+Build a NEW repaired Layer 04 from exact repaired Layer 03. Add only selective deep-recessed 3000K lighting for the central freestanding merchandise display and the minimum physically necessary adjacent circulation support. Keep the cumulative hierarchy: sweet counters first, wall merchandise second, central merchandise third, hospitality/background subordinate, ceiling quiet. Preserve approved Layers 01-03 exactly and maintain `dx=0, dy=0` registration on the repaired coordinate grid. Do not use any historical defective Layer 04 raster as a pixel parent.
 
 Publish through the GitHub Actions binary review-artifact path, verify provenance and remote retrievability, set V01 to `READY_FOR_JARVIS_REVIEW`, and stop.
 
-Do not begin repaired Layer 04 until the exact repaired Layer 03 candidate receives candidate-bound independent JARVIS approval.
+Do not begin repaired Layer 05 until the exact repaired Layer 04 candidate receives candidate-bound independent JARVIS approval.
 
-Historical Layers 03-06 and Final remain immutable evidence but invalid as production parents until the chain is rebuilt sequentially and re-approved. V01 contact-sheet/review-board production stays locked until the repaired chain reaches Final and a fresh continuity audit passes.
+Historical Layers 04-06 and Final remain immutable evidence but invalid as production parents until the chain is rebuilt sequentially and re-approved. V01 contact-sheet/review-board production stays locked until repaired Final and a fresh continuity audit pass.
 
 ## Priority 2 | V03 Layer 01 counter downlighting
 
