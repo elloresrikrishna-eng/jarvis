@@ -1,0 +1,52 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "03",
+  "candidate_sha256": "8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba",
+  "approved_parent_sha256": "c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27",
+  "approved_parent_decision_id": "jarvis-v01-l02-c6bb3f56-approve-002",
+  "generation_method": "OpenAI built-in image-edit lighting guide followed by deterministic exact-parent additive compositing and exact protected-anchor restoration",
+  "pixel_parent": {
+    "filename": "layer-02-wall-shelf-wall-wash-v4.png",
+    "sha256": "c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27",
+    "role": "Only raster pixel parent"
+  },
+  "lighting_guide": {
+    "filename": "layer-03-repair-imagegen-lighting-guide.png",
+    "role": "Lighting-distribution guide only, never a raster parent",
+    "processing": "Only positive warm channel deltas inside three explicit wall-shelf masks were feathered and added to the exact approved parent."
+  },
+  "historical_layer_03": {
+    "filename": "layer-03-concealed-shelf-integrated-lighting-v3.png",
+    "sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af",
+    "role": "Visual design reference only",
+    "pixels_reused": false,
+    "used_as_raster_parent": false
+  },
+  "new_circuit": "Concealed integrated 3000K shelf lighting to all visible wall-mounted shelf compositions",
+  "excluded_circuits": [
+    "central merchandise or circulation lighting",
+    "rear seating comfort lighting",
+    "under-seater lighting"
+  ],
+  "coordinate_guarantee": {
+    "dimensions": [
+      1624,
+      968
+    ],
+    "best_registration_dx": 0,
+    "best_registration_dy": 0,
+    "zero_shift_edge_correlation": 0.99729156
+  },
+  "continuity_guarantee": {
+    "negative_rgb_deltas": 0,
+    "changed_pixels_outside_allowed_shelf_zones": 0,
+    "darker_pixel_fraction_gt_3": 0.0,
+    "changed_pixel_fraction": 0.13719759,
+    "full_frame_mean_luminance_shift": 0.839245,
+    "central_ceiling_anchor_exactly_frozen": true
+  },
+  "published_local_filename": "layer-03-concealed-shelf-integrated-lighting-v5.png",
+  "created_at": "2026-08-19T13:32:01.489172Z"
+}

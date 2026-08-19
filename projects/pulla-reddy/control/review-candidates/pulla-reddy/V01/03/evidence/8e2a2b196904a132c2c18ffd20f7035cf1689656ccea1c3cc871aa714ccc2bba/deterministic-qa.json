@@ -1,0 +1,284 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "03",
+  "candidate_kind": "repaired sequential Layer 03 from approved repaired Layer 02",
+  "approved_parent": {
+    "filename": "layer-02-wall-shelf-wall-wash-v4.png",
+    "sha256": "c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27",
+    "decision_id": "jarvis-v01-l02-c6bb3f56-approve-002",
+    "dimensions": [
+      1624,
+      968
+    ]
+  },
+  "candidate": {
+    "filename": "layer-03-concealed-shelf-integrated-lighting-v5.png",
+    "sha256": "8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba",
+    "dimensions": [
+      1624,
+      968
+    ]
+  },
+  "registration": {
+    "best_dx": 0,
+    "best_dy": 0,
+    "best_correlation": 0.99729156,
+    "zero_shift_correlation": 0.99729156,
+    "search_radius_pixels": 3,
+    "scores": {
+      "-3,-3": 0.48458058,
+      "-2,-3": 0.47988325,
+      "-1,-3": 0.47630456,
+      "0,-3": 0.4967711,
+      "1,-3": 0.46759915,
+      "2,-3": 0.45908242,
+      "3,-3": 0.46176237,
+      "-3,-2": 0.53664184,
+      "-2,-2": 0.5443185,
+      "-1,-2": 0.5311957,
+      "0,-2": 0.55688125,
+      "1,-2": 0.52416354,
+      "2,-2": 0.51979995,
+      "3,-2": 0.50070816,
+      "-3,-1": 0.58476502,
+      "-2,-1": 0.65075243,
+      "-1,-1": 0.69141835,
+      "0,-1": 0.69200832,
+      "1,-1": 0.66062623,
+      "2,-1": 0.60982496,
+      "3,-1": 0.54902935,
+      "-3,0": 0.62142795,
+      "-2,0": 0.67932624,
+      "-1,0": 0.81391209,
+      "0,0": 0.99729156,
+      "1,0": 0.81473672,
+      "2,0": 0.67938912,
+      "3,0": 0.62168801,
+      "-3,1": 0.54720771,
+      "-2,1": 0.60790068,
+      "-1,1": 0.65758842,
+      "0,1": 0.6894269,
+      "1,1": 0.68950158,
+      "2,1": 0.64832538,
+      "3,1": 0.58262467,
+      "-3,2": 0.49973935,
+      "-2,2": 0.51879489,
+      "-1,2": 0.52222633,
+      "0,2": 0.55536002,
+      "1,2": 0.53005373,
+      "2,2": 0.54239917,
+      "3,2": 0.53476876,
+      "-3,3": 0.46175528,
+      "-2,3": 0.45908916,
+      "-1,3": 0.4668586,
+      "0,3": 0.49640507,
+      "1,3": 0.47638586,
+      "2,3": 0.47924969,
+      "3,3": 0.48391467
+    }
+  },
+  "full_frame": {
+    "parent_mean_luminance": 30.119225,
+    "candidate_mean_luminance": 30.958469,
+    "mean_luminance_shift": 0.839245,
+    "minimum_luminance_delta": 0.0,
+    "maximum_luminance_delta": 17.783401,
+    "changed_pixels": 215679,
+    "changed_pixel_fraction": 0.13719759,
+    "changed_pixels_outside_allowed_shelf_zones": 0,
+    "darker_pixel_fraction_gt_3": 0.0,
+    "exact_difference_bbox": [
+      0,
+      87,
+      1624,
+      533
+    ]
+  },
+  "regions": {
+    "left_foreground_shelves_target": {
+      "box": [
+        0,
+        112,
+        239,
+        421
+      ],
+      "parent_mean_luminance": 39.78529,
+      "candidate_mean_luminance": 47.006939,
+      "mean_luminance_shift": 7.221649,
+      "minimum_luminance_delta": 0.0,
+      "maximum_luminance_delta": 17.426399,
+      "changed_pixel_fraction": 0.91107771,
+      "darker_pixel_fraction_gt_3": 0.0
+    },
+    "left_mid_shelves_target": {
+      "box": [
+        348,
+        188,
+        486,
+        467
+      ],
+      "parent_mean_luminance": 26.118401,
+      "candidate_mean_luminance": 30.174088,
+      "mean_luminance_shift": 4.055692,
+      "minimum_luminance_delta": 0.0,
+      "maximum_luminance_delta": 16.2768,
+      "changed_pixel_fraction": 0.71954704,
+      "darker_pixel_fraction_gt_3": 0.0
+    },
+    "right_wall_shelves_target": {
+      "box": [
+        1300,
+        116,
+        1624,
+        506
+      ],
+      "parent_mean_luminance": 37.985058,
+      "candidate_mean_luminance": 42.383102,
+      "mean_luminance_shift": 4.398043,
+      "minimum_luminance_delta": 0.0,
+      "maximum_luminance_delta": 17.783401,
+      "changed_pixel_fraction": 0.71308959,
+      "darker_pixel_fraction_gt_3": 0.0
+    },
+    "central_ceiling_registration_anchor": {
+      "box": [
+        500,
+        0,
+        1290,
+        315
+      ],
+      "parent_mean_luminance": 15.221611,
+      "candidate_mean_luminance": 15.221611,
+      "mean_luminance_shift": 0.0,
+      "minimum_luminance_delta": 0.0,
+      "maximum_luminance_delta": 0.0,
+      "changed_pixel_fraction": 0.0,
+      "darker_pixel_fraction_gt_3": 0.0
+    },
+    "central_display": {
+      "box": [
+        540,
+        420,
+        880,
+        680
+      ],
+      "parent_mean_luminance": 14.534657,
+      "candidate_mean_luminance": 14.534657,
+      "mean_luminance_shift": 0.0,
+      "minimum_luminance_delta": 0.0,
+      "maximum_luminance_delta": 0.0,
+      "changed_pixel_fraction": 0.0,
+      "darker_pixel_fraction_gt_3": 0.0
+    },
+    "rear_seating": {
+      "box": [
+        520,
+        270,
+        900,
+        415
+      ],
+      "parent_mean_luminance": 24.180061,
+      "candidate_mean_luminance": 24.180061,
+      "mean_luminance_shift": 0.0,
+      "minimum_luminance_delta": 0.0,
+      "maximum_luminance_delta": 0.0,
+      "changed_pixel_fraction": 0.0,
+      "darker_pixel_fraction_gt_3": 0.0
+    },
+    "right_counter": {
+      "box": [
+        930,
+        430,
+        1260,
+        760
+      ],
+      "parent_mean_luminance": 51.247128,
+      "candidate_mean_luminance": 51.247128,
+      "mean_luminance_shift": 0.0,
+      "minimum_luminance_delta": 0.0,
+      "maximum_luminance_delta": 0.0,
+      "changed_pixel_fraction": 0.0,
+      "darker_pixel_fraction_gt_3": 0.0
+    },
+    "left_counter": {
+      "box": [
+        160,
+        500,
+        330,
+        790
+      ],
+      "parent_mean_luminance": 35.2304,
+      "candidate_mean_luminance": 35.2304,
+      "mean_luminance_shift": 0.0,
+      "minimum_luminance_delta": 0.0,
+      "maximum_luminance_delta": 0.0,
+      "changed_pixel_fraction": 0.0,
+      "darker_pixel_fraction_gt_3": 0.0
+    },
+    "circulation_floor": {
+      "box": [
+        500,
+        650,
+        1000,
+        950
+      ],
+      "parent_mean_luminance": 33.613323,
+      "candidate_mean_luminance": 33.613323,
+      "mean_luminance_shift": 0.0,
+      "minimum_luminance_delta": 0.0,
+      "maximum_luminance_delta": 0.0,
+      "changed_pixel_fraction": 0.0,
+      "darker_pixel_fraction_gt_3": 0.0
+    }
+  },
+  "warm_3000k_contribution": {
+    "left_foreground_shelves_target": {
+      "mean_added_rgb_over_changed_pixels": [
+        11.872511,
+        7.213126,
+        3.373506
+      ],
+      "warm_channel_order_red_ge_green_ge_blue": true,
+      "negative_channel_values": 0
+    },
+    "left_mid_shelves_target": {
+      "mean_added_rgb_over_changed_pixels": [
+        8.849408,
+        5.024834,
+        2.234154
+      ],
+      "warm_channel_order_red_ge_green_ge_blue": true,
+      "negative_channel_values": 0
+    },
+    "right_wall_shelves_target": {
+      "mean_added_rgb_over_changed_pixels": [
+        9.929239,
+        5.438539,
+        2.312865
+      ],
+      "warm_channel_order_red_ge_green_ge_blue": true,
+      "negative_channel_values": 0
+    }
+  },
+  "checks": {
+    "exact_parent_hash_verified": true,
+    "dimensions_exact_1624x968": true,
+    "registration_optimum_zero_zero": true,
+    "zero_negative_rgb_deltas": true,
+    "zero_luminance_darkening_gt_3": true,
+    "all_changed_pixels_inside_allowed_shelf_zones": true,
+    "localized_changed_fraction_below_20_percent": true,
+    "full_frame_mean_shift_below_2": true,
+    "all_three_shelf_compositions_distinct": true,
+    "warm_3000k_channel_order_in_all_targets": true,
+    "central_ceiling_anchor_exactly_frozen": true,
+    "central_display_exactly_frozen": true,
+    "rear_seating_exactly_frozen": true,
+    "right_counter_exactly_frozen": true,
+    "left_counter_exactly_frozen": true,
+    "circulation_floor_exactly_frozen": true
+  },
+  "passed": true
+}
