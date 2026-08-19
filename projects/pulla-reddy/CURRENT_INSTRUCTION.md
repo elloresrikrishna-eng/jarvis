@@ -1,4 +1,4 @@
-# Current Instruction | Parallel Production After V01 Layer 05 Approval
+# Current Instruction | Parallel Production After V01 Layer 06 Approval
 
 ## Immediate objective
 
@@ -13,27 +13,27 @@ Read and obey:
 - all per-view state files under `projects/pulla-reddy/state/`
 - all current JARVIS decisions under `projects/pulla-reddy/control/decisions/`
 
-## Priority 1 | V01 Layer 06 under-seater lighting
+## Priority 1 | V01 lighting concept sketch
 
-V01 Layer 05 rear-seating comfort candidate is independently approved.
+V01 Layer 06 concealed under-seater candidate is independently approved.
 
-Approved immutable parent:
+Approved immutable cumulative render:
 
-`eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065`
+`a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30`
 
 Decision:
 
-`jarvis-v01-l05-eda764d0-approve-001`
+`jarvis-v01-l06-a059b104-approve-001`
 
 Execute:
 
-`projects/pulla-reddy/instructions/V01_LAYER06_UNDER_SEATER.md`
+`projects/pulla-reddy/instructions/V01_LIGHTING_CONCEPT_SKETCH.md`
 
-Create Layer 06 from the exact approved Layer 05 parent. The built-in rear banquette is meaningfully visible in V01, so add only restrained concealed 3000K under-seater lighting to that built-in seating. The source must remain fully hidden. The effect should read as a quiet, tight floor glow rather than a visible luminous strip or dramatic floating bench. Preserve all approved counter, wall-wash, shelf-integrated, central-merchandise and rear-seating comfort lighting exactly apart from unavoidable local interaction.
+Create the Ashwamedha lighting concept sketch using the exact locked source camera, crop, perspective and architecture. Convert architecture to restrained charcoal/grayscale and indicate only the six approved lighting families selectively in warm amber/orange. The sketch is a communication artifact, not a new lighting layer and not a redesign. It must map cleanly to the approved render chain and must not invent fixtures, effects, geometry or a seventh lighting family.
 
-Publish through the GitHub Actions binary review-artifact path and stop V01 at `READY_FOR_JARVIS_REVIEW` after remote retrievability and provenance are verified.
+Publish through the GitHub Actions binary review-artifact path with source-versus-sketch evidence and a mapping of each amber annotation/effect to the approved lighting families. Stop V01 at `READY_FOR_JARVIS_REVIEW` after remote retrievability and provenance are verified.
 
-Do not begin the V01 lighting concept sketch until Layer 06 receives exact candidate-bound independent JARVIS approval.
+Do not begin the Final V01 Composite until the exact concept-sketch candidate receives candidate-bound independent JARVIS approval.
 
 ## Priority 2 | V03 Layer 01 counter downlighting
 
