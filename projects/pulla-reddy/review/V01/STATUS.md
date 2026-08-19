@@ -1,6 +1,6 @@
 # V01 Main Retail | Repaired Layer 02 Wall-Wash Candidate
 
-Status: PUBLICATION_PENDING
+Status: READY_FOR_JARVIS_REVIEW
 
 Task/layer ID: 02 (coordinate-continuity repair)
 
@@ -39,4 +39,15 @@ Only controlled deep-recessed 3000K wall-washer illumination was added to the vi
 - manifest.json
 - content-addressed deterministic-qa.json and generation-provenance.json
 
-GitHub Actions artifact identifiers will be recorded after remote publication and retrieval verification. V01 remains locked at repaired Layer 02; Layer 03 must not begin without exact candidate-bound JARVIS approval.
+## GitHub Actions transport
+
+- Artifact name: jarvis-pulla-reddy-v01-l02-c6bb3f56cd3f
+- Artifact ID: 9365354131
+- Workflow run ID: 32253524484
+- Publication commit: fa550aa06ec67c00ddb30373ce15b5df83121a9a
+- Artifact archive digest: sha256:71095a2ef12a4fc2d79cff27efa9b1984a1d7926cc6c3d288c57e2fe94030de8
+- Downloaded candidate.png SHA-256: c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27
+- Candidate manifest and generated artifact provenance match the same candidate hash, publication commit and workflow run.
+- Remote retrievability verified: true
+
+Independent candidate-bound JARVIS review is required. V01 remains locked at repaired Layer 02; Layer 03 must not begin without exact approval.
