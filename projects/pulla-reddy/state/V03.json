@@ -1,97 +1,24 @@
 {
-  "project": "G Pulla Reddy Sweets, HSR",
-  "view": "V03_Reverse_Retail",
-  "source_page": 4,
-  "status": "READY_FOR_JARVIS_REVIEW",
-  "current_task": "Stop for independent external JARVIS visual review of V03 Layer 00.",
-  "approved_through_layer": -1,
-  "review_path": "projects/pulla-reddy/review/V03/",
-  "user_decision_required": false,
   "protocol_version": "jarvis-return-path-v1",
+  "project": "G Pulla Reddy Sweets, HSR",
   "project_id": "pulla-reddy",
+  "view": "V03_Reverse_Retail",
   "view_id": "V03",
-  "current_layer": 0,
-  "current_layer_id": "00",
-  "candidate": "layer-00-base-dark.png",
-  "candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V03_Reverse_Retail/layer-00-base-dark.png",
-  "candidate_sha256": "a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a",
-  "approved_parent": "source-page-04-3d-view-03-original.jpg",
-  "approved_parent_sha256": "2ad09579f662e1d12ed024e1def45b25ca394ee4b133a0aac359a1ee02506a85",
-  "artifact_name": "jarvis-pulla-reddy-v03-l00-a6056c69baaa",
-  "artifact_id": "9353996410",
-  "workflow_run_id": "32221280077",
-  "publication_commit_sha": "33b3eb3340ae2e65606fda23e82628f74c316bdc",
-  "remote_retrievability_verified": true,
-  "remote_candidate_sha256": "a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a",
-  "provenance_valid": true,
-  "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V03/00/active.json",
-  "dispatcher_job_id": "jarvis-pulla-reddy-v03-4a757ee77431e1f5fcdc3aa0",
-  "dispatcher_provenance": {
-    "protocol_version": "jarvis-dispatcher-v0.1",
-    "job_id": "jarvis-pulla-reddy-v03-4a757ee77431e1f5fcdc3aa0",
-    "kind": "LANE",
-    "triggering_state_path": "projects/pulla-reddy/state/V03.json",
-    "triggering_state_sha": "8cf11b99e016833e60e164fbc44f4658f44ed8a6",
-    "triggering_state_hash": "e450d9db5b99d9eae2a3116c294cb743934cd0d657053bf0e7043a71551397e7",
-    "source_documents": [
-      {
-        "path": "projects/pulla-reddy/AUTOMATION_PROTOCOL.md",
-        "blob_sha": "b8081e06144e5b9f0473b7d195b296a6c6fc326c",
-        "content_hash": "f294ae7ac024be508b16c983689702acdddbf0335e5f7b64685864917099020c"
-      },
-      {
-        "path": "projects/pulla-reddy/control/presentation-gate.json",
-        "blob_sha": "006fd6ffe7792533cbe6c91a94659e6d24c2e3f0",
-        "content_hash": "74423d30b9e380b2bda8f0e12daec9c9e92b91a3be52d8cf39ba439af18df1af"
-      },
-      {
-        "path": "projects/pulla-reddy/CURRENT_INSTRUCTION.md",
-        "blob_sha": "e108864746ac0977a4f19f86be4c0724128bb5ab",
-        "content_hash": "aef385097200b091dc024a5332cc7a562dbb80e1ee58f0f0bfe9441bc8cca660"
-      },
-      {
-        "path": "projects/pulla-reddy/MULTIVIEW_COORDINATOR_INSTRUCTION.md",
-        "blob_sha": "1602e4b7867e2728c032432b0678137495e0b449",
-        "content_hash": "d7960d072cce54ae2ead00d4dfa77d016d25e7ac1d970851c2035666cc95f909"
-      },
-      {
-        "path": "projects/pulla-reddy/MULTIVIEW_EXECUTION.md",
-        "blob_sha": "22387dac18e061cc0cb7ea2e1916c217f9526f8e",
-        "content_hash": "a252493d16b6a227d3a330454d08008970b4c15fe307b277e4183c54fe2c7bbb"
-      },
-      {
-        "path": "projects/pulla-reddy/PROJECT_RULES.md",
-        "blob_sha": "23b4135fa97e75b87d0cde6270b7407b036453b6",
-        "content_hash": "f40c5e26185d5a7d521da81c8d723dcf1c1486dd61de9143b26f0e0cb2273e99"
-      },
-      {
-        "path": "projects/pulla-reddy/state/V03.json",
-        "blob_sha": "8cf11b99e016833e60e164fbc44f4658f44ed8a6",
-        "content_hash": "e450d9db5b99d9eae2a3116c294cb743934cd0d657053bf0e7043a71551397e7"
-      }
-    ],
-    "worker_terminal_state": "WORK_PRODUCT_READY",
-    "worker_summary": "V03 Layer 00 night base exists at the authoritative 1622×969 source dimensions with all electric lighting off. Camera, crop, architecture, materials, furniture, products, and ceiling geometry are preserved. No approval was authored and no later-layer work was performed by this worker.",
-    "worker_warnings": [
-      "The assigned workspace already contained historical Layer 01–05 files when this worker started. They were not modified or treated as approved.",
-      "The sandbox blocked access outside the assigned workspace and prevented creating fresh control-plane files. Existing candidate provenance and SHA-256 records were therefore used."
-    ]
-  },
-  "review_files": [
-    {
-      "path": "projects/pulla-reddy/review/V03/layer-00-base-dark.png",
-      "sha256": "a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a"
-    },
-    {
-      "path": "projects/pulla-reddy/review/V03/source-page-04-3d-view-03-original.jpg",
-      "sha256": "2ad09579f662e1d12ed024e1def45b25ca394ee4b133a0aac359a1ee02506a85"
-    },
-    {
-      "path": "projects/pulla-reddy/review/V03/manifest.json",
-      "sha256": "1a67893a48ba89ee965c26eb749e5b93d9349a7a9f7e6b02b44f63b8118d66c8"
-    }
-  ],
-  "next_required_action": "External JARVIS review. Do not modify this candidate and do not start another layer without an exact candidate-bound decision.",
-  "jarvis_approval": false,
-  "updated_at": "2026-08-19T05:55:40.668Z"
+  "source_page": 4,
+  "status": "codex_action_required",
+  "current_layer": 1,
+  "current_layer_id": "01",
+  "approved_through_layer": 0,
+  "approved_parent": "layer-00-base-dark.png",
+  "approved_parent_sha256": "a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a",
+  "approved_parent_decision_id": "jarvis-v03-l00-a6056c69-approve-001",
+  "current_task": "Create Layer 01 controlled recessed 3000K downlighting over the visible sweet display counter(s) from the exact approved Layer 00 parent only.",
+  "current_instruction": "projects/pulla-reddy/instructions/V03_LAYER01_COUNTER_DOWNLIGHTING.md",
+  "next_required_action": "Execute the released Layer 01 instruction, publish the exact candidate through the GitHub Actions binary review-artifact path, verify provenance and remote retrievability, set V03 to READY_FOR_JARVIS_REVIEW, and stop. Do not start the V03 wall-wash layer without exact candidate-bound approval.",
+  "jarvis_approval": true,
+  "last_approved_candidate_sha256": "a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a",
+  "last_approved_decision_id": "jarvis-v03-l00-a6056c69-approve-001",
+  "review_path": "projects/pulla-reddy/review/V03/",
+  "presentation_gate": "LOCKED",
+  "user_decision_required": false
 }
