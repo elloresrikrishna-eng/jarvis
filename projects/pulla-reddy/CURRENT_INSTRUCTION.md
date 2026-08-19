@@ -1,4 +1,4 @@
-# Current Instruction | Parallel Production After V01 Layer 04 Approval
+# Current Instruction | Parallel Production After V01 Layer 05 Approval
 
 ## Immediate objective
 
@@ -13,27 +13,27 @@ Read and obey:
 - all per-view state files under `projects/pulla-reddy/state/`
 - all current JARVIS decisions under `projects/pulla-reddy/control/decisions/`
 
-## Priority 1 | V01 Layer 05 rear seating comfort
+## Priority 1 | V01 Layer 06 under-seater lighting
 
-V01 Layer 04 central-merchandise / circulation candidate is independently approved.
+V01 Layer 05 rear-seating comfort candidate is independently approved.
 
 Approved immutable parent:
 
-`58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837`
+`eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065`
 
 Decision:
 
-`jarvis-v01-l04-58553357-approve-001`
+`jarvis-v01-l05-eda764d0-approve-001`
 
 Execute:
 
-`projects/pulla-reddy/instructions/V01_LAYER05_REAR_SEATING_COMFORT.md`
+`projects/pulla-reddy/instructions/V01_LAYER06_UNDER_SEATER.md`
 
-Create Layer 05 from the exact approved Layer 04 parent. Add only restrained recessed 3000K comfort lighting for the visible rear seating / hospitality zone. Keep the rear area clearly softer and calmer than the sweet counters, wall shelves and central merchandise. Preserve all approved counter, wall-wash, shelf-integrated and central-merchandise lighting exactly apart from unavoidable local interaction.
+Create Layer 06 from the exact approved Layer 05 parent. The built-in rear banquette is meaningfully visible in V01, so add only restrained concealed 3000K under-seater lighting to that built-in seating. The source must remain fully hidden. The effect should read as a quiet, tight floor glow rather than a visible luminous strip or dramatic floating bench. Preserve all approved counter, wall-wash, shelf-integrated, central-merchandise and rear-seating comfort lighting exactly apart from unavoidable local interaction.
 
 Publish through the GitHub Actions binary review-artifact path and stop V01 at `READY_FOR_JARVIS_REVIEW` after remote retrievability and provenance are verified.
 
-Do not begin Layer 06 until Layer 05 receives exact candidate-bound independent JARVIS approval.
+Do not begin the V01 lighting concept sketch until Layer 06 receives exact candidate-bound independent JARVIS approval.
 
 ## Priority 2 | V03 Layer 01 counter downlighting
 
