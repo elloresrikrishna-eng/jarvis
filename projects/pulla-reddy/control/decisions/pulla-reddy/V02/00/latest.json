@@ -1,0 +1,25 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V02",
+  "layer_id": "00",
+  "candidate_sha256": "c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540",
+  "reviewed_artifact_id": "9375332898",
+  "reviewed_workflow_run_id": "32279722544",
+  "decision": "APPROVE",
+  "review_summary": "Independent external JARVIS review approves V02 Layer 00. The exact GitHub Actions artifact candidate was downloaded and independently hashed to c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540, matching the published candidate state. Visually, the image reads as a legitimate all-electric-lighting-off night base with the required continuous planter physically present behind the curved built-in seater and remaining unlit. The planter's terracotta/tile material language, dark timber cap, planting height, density and rhythm are visually consistent with the separately reviewed V06 repaired Layer 00, satisfying the shared V02/V06 planter intent at the design-review level. Camera, crop, perspective, ceiling grid, seating geometry, tables, chairs, shelving and material palette remain coherent, and no proposed lighting family, visible fixture or scene-wide exposure lift is active. Deterministic provenance and hash evidence support but do not replace the visual approval.",
+  "required_changes": [],
+  "hard_locks": [
+    "Candidate c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540 is the immutable approved V02 Layer 00 parent.",
+    "The shared V02/V06 planter geometry, material language, planting height, density and rhythm recorded in SHARED_PLANTER_SPEC.md must persist unchanged from Layer 00 onward unless explicitly reopened by JARVIS.",
+    "The planter remains physically present but unlit in Layer 00.",
+    "Camera, crop, focal character, perspective, architecture, ceiling grid, built-in seating, tables, chairs, counters, shelves, materials and colours remain locked for all later V02 layers.",
+    "All later added electric lighting remains 3000K and recessed, concealed or integrated only.",
+    "Each later V02 layer must equal the exact approved immediate parent plus one released lighting family only.",
+    "Do not use global exposure or gamma changes to simulate added light.",
+    "Presentation generation remains locked until every required view has valid independent JARVIS approvals through completion."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T17:12:00Z",
+  "decision_id": "jarvis-v02-l00-c0db62b7-approve-001"
+}
