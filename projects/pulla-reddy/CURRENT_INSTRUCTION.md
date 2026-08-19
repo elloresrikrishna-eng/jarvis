@@ -1,81 +1,80 @@
-# Current Instruction | Parallel Production After V01 Repaired Layer 05 Approval
+# Current Instruction | Parallel Production After Latest Independent Approvals
 
 ## Immediate objective
 
-Keep every valid production lane moving independently. Do not wait for user intervention where the locked project rules already determine the answer.
+Keep every valid production lane moving independently. Do not wait for user intervention where locked project rules already determine the answer.
 
 Read and obey:
 
 - `projects/pulla-reddy/PROJECT_RULES.md`
 - `projects/pulla-reddy/MULTIVIEW_EXECUTION.md`
 - `projects/pulla-reddy/MULTIVIEW_COORDINATOR_INSTRUCTION.md`
+- `projects/pulla-reddy/SHARED_PLANTER_SPEC.md`
 - `projects/pulla-reddy/control/schemas/jarvis-decision.schema.json`
 - all per-view state files under `projects/pulla-reddy/state/`
 - all current JARVIS decisions under `projects/pulla-reddy/control/decisions/`
 
-## Priority 1 | V01 repaired Layer 06 under-seater lighting
+## V01 | Repaired concept sketch
 
-The repaired V01 Layer 05 candidate:
-
-`f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca`
-
-is independently APPROVED under:
-
-`jarvis-v01-l05-f8335d6a-approve-002`
-
-JARVIS downloaded the exact GitHub Actions candidate artifact `9372085257`, independently verified the candidate SHA, separately retrieved the exact approved repaired Layer 04 parent from artifact `9369801718`, and directly compared the full-resolution pair. The new rear-seating contribution passes the design gate: two calm warm seating/table pools make hospitality comfortably readable while remaining clearly subordinate to the sweet counters, wall merchandise and central merchandise. The ceiling remains visually quiet, the effect reads as restrained 3000K comfort light rather than theatrical feature lighting, and no unrelated visual drift or exposure lift is apparent. Deterministic QA confirms `dx=0, dy=0`, zero protected-zone change and no changes outside the released rear hospitality zones.
-
-This repaired Layer 05 is now the immutable V01 pixel parent.
+Repaired Layer 06 candidate `318b1237c35905e21720e8fc38054b4e93fb93202cfca07cd8b2a8233cf14904` is independently APPROVED under `jarvis-v01-l06-318b1237-approve-002`.
 
 Execute:
 
-`projects/pulla-reddy/instructions/V01_LAYER06_UNDER_SEATER_REPAIR.md`
+`projects/pulla-reddy/instructions/V01_CONCEPT_SKETCH_REPAIRED.md`
 
-Build a NEW repaired Layer 06 from exact repaired Layer 05. Add only restrained concealed 3000K under-seater lighting to the meaningfully visible built-in rear banquette. The source must remain fully hidden; the effect must read as a soft, local reflected floor glow rather than a luminous ribbon or dramatic floating bench. Preserve approved Layers 01-05 exactly and maintain `dx=0, dy=0` registration on the repaired coordinate grid. Do not use any historical defective Layer 06 raster as a pixel parent.
+Create only the V01 Ashwamedha lighting concept sketch from the exact locked camera/architecture and approved lighting families. Publish through the GitHub Actions binary review-artifact path, verify provenance and remote retrievability, set V01 to `READY_FOR_JARVIS_REVIEW`, and stop. Do not begin repaired Final/composite work until the sketch receives exact candidate-bound approval.
 
-Publish through the GitHub Actions binary review-artifact path, verify provenance and remote retrievability, set V01 to `READY_FOR_JARVIS_REVIEW`, and stop.
+Historical defective Final/downstream imagery remains non-authoritative. Contact-sheet/review-board production remains locked until repaired Final and a fresh continuity audit pass.
 
-Do not begin repaired Final/composite work until the exact repaired Layer 06 candidate receives candidate-bound independent JARVIS approval and the next repaired-chain release is explicit.
+## V02 | Layer 01 wall-wash
 
-Historical Layer 06 and Final imagery remain immutable evidence but invalid as production parents until the repaired chain is rebuilt sequentially and re-approved. V01 contact-sheet/review-board production stays locked until repaired Final and a fresh continuity audit pass.
+Layer 00 candidate `c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540` is independently APPROVED under `jarvis-v02-l00-c0db62b7-approve-001`.
 
-## Priority 2 | V03 Layer 01 counter downlighting
+Execute:
 
-V03 Layer 00 night base candidate is independently approved.
+`projects/pulla-reddy/instructions/V02_LAYER01_WALL_WASH.md`
 
-Approved immutable parent:
+Add only restrained deep-recessed 3000K wall-wash serving visible wall-mounted shelf compositions. Keep the shared planter present and completely unlit. Publish, set `READY_FOR_JARVIS_REVIEW`, and stop. Do not begin integrated shelf lighting without exact approval.
 
-`a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a`
+## V03 | Layer 01 sweet-counter downlighting
 
-Decision:
-
-`jarvis-v03-l00-a6056c69-approve-001`
+Layer 00 candidate `a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a` remains the independently approved immutable parent under `jarvis-v03-l00-a6056c69-approve-001`.
 
 Execute:
 
 `projects/pulla-reddy/instructions/V03_LAYER01_COUNTER_DOWNLIGHTING.md`
 
-Create Layer 01 from the exact approved Layer 00 parent. Add only controlled deep-recessed 3000K downlighting over the visible sweet display counter(s). Make the sweets the first visual destination without globally lifting exposure, disturbing glass readability, brightening wall shelves, or changing circulation and seating.
+Add only controlled deep-recessed 3000K downlighting over visible sweet display counter(s). Preserve wall shelves, circulation and seating at Layer 00 except physically unavoidable spill. Publish, set `READY_FOR_JARVIS_REVIEW`, and stop.
 
-Publish through the GitHub Actions binary review-artifact path and stop V03 at `READY_FOR_JARVIS_REVIEW` after remote retrievability and provenance are verified.
+## V04 | Layer 00 initialization
 
-Do not begin the V03 wall-wash layer until Layer 01 receives exact candidate-bound independent JARVIS approval.
+V04 remains released for its valid Layer 00 initialization from the authoritative page-5 source. Create the full-night / all-electric-lighting-off base with camera, architecture, materials, products, glass and ceiling grid locked. Publish the exact candidate through the GitHub Actions binary review-artifact path and stop at `READY_FOR_JARVIS_REVIEW`.
 
-## Priority 3 | V02/V06 shared planter parent-chain repair
+Do not begin long-counter lighting without independent Layer 00 approval.
 
-The shared planter is mandatory and must exist physically from Layer 00 onward in both V02 and V06.
+## V05 | Layer 01 wall-wash
 
-If `projects/pulla-reddy/SHARED_PLANTER_SPEC.md` does not exist, create it first from the authoritative project rules and source geometry. Lock one shared design covering geometry, material language, planting height, density, rhythm, relationship to the curved built-in seater, cross-view consistency, and later concealed 3000K planter-lighting intent.
+Layer 00 candidate `76326a4e726229fc343ee401b49a696d4132968c9e776e0d05e07546c9e42be1` is independently APPROVED under `jarvis-v05-l00-76326a4e-approve-001`.
 
-Then build/rebuild V02 and V06 Layer 00 from their authoritative sources with the exact shared planter present and all electric lighting off. Publish each through the GitHub Actions binary review-artifact path and stop each lane at `READY_FOR_JARVIS_REVIEW`. Do not rebuild later layers until the exact Layer 00 candidate for that view is independently approved.
+Execute:
 
-The previously rejected V06 Layer 03 candidate remains invalid as a parent. Its restrained under-seat character may only be reused after the parent chain is repaired.
+`projects/pulla-reddy/instructions/V05_LAYER01_WALL_WASH.md`
 
-## Priority 4 | V04/V05
+Add only deep-recessed 3000K wall-wash to the window-shelving compositions. Do not add integrated shelf lighting yet. Publish, set `READY_FOR_JARVIS_REVIEW`, and stop.
 
-Continue each lane independently from its current valid Layer 00 initialization state. If a lane is `codex_action_required`, execute the current valid instruction rather than waiting for the user. Publish the resulting candidate through the GitHub Actions binary review-artifact path and stop at `READY_FOR_JARVIS_REVIEW`.
+## V06 | Repaired Layer 01 seating comfort
 
-Never self-approve. Deterministic QA is Gate 1, not design approval.
+Repaired Layer 00 candidate `a2c3f2bcb59ebf7e35b2c6e5842f1196227cc7ef6dad3bb6f6de469151ebcff3` is independently APPROVED under `jarvis-v06-l00-a2c3f2bc-approve-001`.
+
+The shared planter issue is resolved through `SHARED_PLANTER_SPEC.md` plus independently approved V02 and V06 Layer 00 parents.
+
+Execute:
+
+`projects/pulla-reddy/instructions/V06_LAYER01_SEATING_COMFORT.md`
+
+Add only restrained deep-recessed 3000K seating/table comfort lighting. Keep the planter and foliage electrically unlit. Publish, set `READY_FOR_JARVIS_REVIEW`, and stop. Do not begin under-seater lighting until exact Layer 01 approval.
+
+The historical rejected V06 Layer 03 remains invalid as a parent. Its calmer under-seater character may be used only as a non-authoritative visual target when the repaired chain reaches that layer.
 
 ## Global locks
 
@@ -83,20 +82,17 @@ Never self-approve. Deterministic QA is Gate 1, not design approval.
 - Recessed, concealed or integrated lighting only.
 - No visible pendants, tracks or surface fixtures.
 - No global exposure/gamma cheating.
-- No camera, crop, architecture, material or furniture drift.
+- No camera, crop, architecture, material, product or furniture drift.
 - One new intended circuit per cumulative layer.
 - Previous approved layers remain frozen.
 - Every review candidate must be remotely retrievable as a GitHub Actions artifact and bound to its exact SHA-256.
+- Deterministic QA is Gate 1 only, never design approval.
 - Presentation generation remains locked until every required view has a valid independent JARVIS approval chain.
 
 ## Parallel execution
 
-V01, V02, V03, V04, V05 and V06 are independent lanes. Use parallel workers where supported. A blocked or rejected lane must not prevent useful work in other lanes.
+Run all released lanes concurrently where safe. A blocked or rejected lane must not prevent unrelated views from progressing.
 
-## Coordinator output
-
-Update `projects/pulla-reddy/COORDINATOR_STATUS.md` after actions are released or performed. For each view record current layer, exact candidate SHA when applicable, artifact ID, workflow run ID, state, blocker and next machine action.
-
-The desired resting state is NOT `codex_action_required` when an objective machine action can be performed. Execute it. The desired resting state after publishing a candidate is `READY_FOR_JARVIS_REVIEW`.
+Update `projects/pulla-reddy/COORDINATOR_STATUS.md` after machine actions are released or performed. The desired resting state after candidate publication is `READY_FOR_JARVIS_REVIEW`.
 
 Do not assemble the presentation yet.
