@@ -1,10 +1,10 @@
-# Current Instruction | Recovery + Artifact Migration
+# Current Instruction | Parallel Production After V01 Layer 01 Approval
 
-This instruction supersedes the previous passive parallel-launch instruction where they conflict.
+This instruction supersedes the previous V01 artifact-migration hold.
 
 ## Immediate objective
 
-Unblock the JARVIS return loop. Do useful production work now. Do not wait for user intervention where the project rules already determine the answer.
+Keep all valid production lanes moving independently. Do not wait for user intervention where the project rules already determine the answer.
 
 Read and obey:
 
@@ -15,20 +15,25 @@ Read and obey:
 - all per-view state files under `projects/pulla-reddy/state/`
 - all current JARVIS decisions under `projects/pulla-reddy/control/decisions/`
 
-## Priority 1 | V01 artifact migration
+## Priority 1 | V01 Layer 02 wall-wash
 
-V01 Layer 01 v4 remains unapproved. Do not advance to Layer 02.
+V01 Layer 01 v4 is independently approved.
 
-Republish the exact existing V01 Layer 01 v4 candidate through the current GitHub Actions binary review-artifact path used by `jarvis-return-path-v1`.
+Approved immutable parent:
 
-Requirements:
+`bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217`
 
-1. Do not regenerate or visually modify V01 Layer 01 v4 merely to migrate it.
-2. Calculate and preserve its exact candidate SHA-256.
-3. Publish the exact candidate PNG plus required manifest/provenance as a GitHub Actions review artifact.
-4. Record the workflow run ID and artifact ID in the V01 review/control state.
-5. Set V01 to `READY_FOR_JARVIS_REVIEW` only when the artifact is remotely retrievable and provenance is valid.
-6. Stop V01 there for independent JARVIS review.
+Decision:
+
+`jarvis-v01-l01-bb0eda1c-approve-001`
+
+Execute:
+
+`projects/pulla-reddy/instructions/V01_LAYER02_WALL_WASH.md`
+
+Create Layer 02 from the exact approved Layer 01 parent, adding only deep-recessed 3000K wall-washer downlights serving the visible wall-mounted shelving compositions. Do not add integrated shelf lighting yet. Preserve the approved counter lighting exactly. Publish through the GitHub Actions binary review-artifact path and stop V01 at `READY_FOR_JARVIS_REVIEW` after remote retrievability and provenance are verified.
+
+Do not begin Layer 03 until Layer 02 receives exact candidate-bound independent JARVIS approval.
 
 ## Priority 2 | V02/V06 shared planter parent-chain repair
 
@@ -45,7 +50,7 @@ Then:
 5. Set each lane to `READY_FOR_JARVIS_REVIEW` and stop that lane for independent review.
 6. Do not rebuild later layers until the exact Layer 00 candidate for that view is independently approved.
 
-The previously rejected V06 Layer 03 candidate must NOT be treated as an approved parent. Its successful under-seat character may only be reused after the parent chain is repaired.
+The previously rejected V06 Layer 03 candidate must NOT be treated as an approved parent. Its successful restrained under-seat character may only be reused after the parent chain is repaired.
 
 ## Priority 3 | V03/V04/V05
 
