@@ -1,8 +1,9 @@
 {
+  "protocol_version": "jarvis-return-path-v1",
   "package_version": "V01-layer-01-rework-v4",
   "project": "G Pulla Reddy Sweets, HSR",
   "view": "V01_Main_Retail",
-  "status_after_publish": "waiting_for_chatgpt_review",
+  "status_after_publish": "READY_FOR_JARVIS_REVIEW",
   "source_filename": "source-view-01-original.jpg",
   "approved_parent_filename": "layer-00-base-dark.png",
   "candidate_filename": "layer-01-front-display-counter-downlights-v4.png",
@@ -19,6 +20,17 @@
   "added_cct_kelvin": 3000,
   "visible_fixture_bodies_introduced": false,
   "candidate_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "artifact_publication": {
+    "artifact_name": "jarvis-pulla-reddy-v01-l01-bb0eda1c017f",
+    "artifact_id": "9350820837",
+    "workflow_run_id": "32211254927",
+    "workflow_commit_sha": "0e27fdac19ed8b33fe3b5c306c577a4d0397581c",
+    "artifact_archive_digest": "sha256:e8ae725a9c344f7f365e571db65d71756588f05b0d9542d1cd83d8f2017e2aca",
+    "remote_download_verified": true,
+    "remote_candidate_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/01/publication.json",
+    "published_at": "2026-08-19T03:13:22.497Z"
+  },
   "local_paths": {
     "source": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/source-view-01-original.jpg",
     "approved_parent": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-00-base-dark.png",
@@ -61,7 +73,7 @@
     ]
   },
   "warnings": [
-    "Independent visual/design review remains mandatory; Codex self-QA is not approval.",
+    "Independent external JARVIS review remains mandatory; deterministic QA and artifact publication are not approval.",
     "Unpublished downstream local files created under a retracted earlier release are not current or approved."
   ]
 }
