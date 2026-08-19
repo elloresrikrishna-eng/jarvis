@@ -1,21 +1,23 @@
-# V01 Layer 06 | Design Intent Check
+# V01 Lighting Concept Sketch | Design Intent Check
+
+## Communication purpose
+
+The sketch explains the approved lighting strategy without becoming a new lighting layer, render revision or architectural redesign. Source detail remains readable enough to map directly to the render chain.
 
 ## Hierarchy
 
-The principal sweet counters remain the strongest destination, wall shelves remain second, central merchandise remains third, and the Layer 05 hospitality comfort pools remain fourth. The new under-seater glow is a fifth-tier orientation layer, deliberately quieter than all approved circuits.
+The right principal sweet display carries the strongest amber emphasis, the left display remains a secondary companion, wall shelf compositions form the second tier, central merchandise remains third, rear seating remains fourth, and the under-seater contribution is deliberately faintest.
 
-## Source and reflected-light realism
+## Six-family discipline
 
-The source is fully concealed below the built-in rear banquette. Only soft reflected floor glow is visible, split by the central merchandise occlusion and fading rapidly away from the bench. There is no raw line, luminous ribbon, diode pattern, broad rear-floor wash or floating-bench effect.
+Amber is calculated only from same-coordinate differences between successive approved render layers. The candidate contains zero amber pixels outside support from those six approved families.
 
-## Continuity
+## Architecture and camera
 
-Layer 06 v2 = approved Layer 05 + concealed under-seater circuit only.
+The graphite base is a deterministic same-coordinate conversion of the authoritative source. No crop, resample, warp, geometry change or generative reconstruction is present in final candidate pixels.
 
-All pixels outside the two permitted under-seater floor zones are exact approved Layer 05 pixels. The Layer 05 rear table and wall pools, counters, wall-wash, shelf-integrated lighting, central merchandise, central floor pool, ceiling and foreground remain frozen.
+## Fixture and source language
 
-## Exposure and colour
+No pendant, track, surface fitting, visible ceiling aperture, raw LED strip, diode dots or decorative seventh family is introduced. The ceiling remains visually quiet.
 
-The full-frame mean luminance shift is +0.060876 and is fully explained by the local reflected glow. There are no negative channel deltas, no global gamma change, no target clipping and no mixed-CCT contamination.
-
-The concept-sketch task remains locked pending exact candidate-bound JARVIS approval.
+The Final V01 Composite remains locked pending exact candidate-bound JARVIS approval.

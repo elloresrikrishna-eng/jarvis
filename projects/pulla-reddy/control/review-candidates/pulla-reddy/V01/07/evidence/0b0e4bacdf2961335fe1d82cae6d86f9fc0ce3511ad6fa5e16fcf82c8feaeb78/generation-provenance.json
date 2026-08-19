@@ -1,0 +1,37 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "07",
+  "task_kind": "concept-sketch",
+  "candidate_sha256": "0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78",
+  "authoritative_source_filename": "source-view-01-original.jpg",
+  "authoritative_source_sha256": "ccdd9b6de971cac904f236ec89c7ff55de9d6f46538fb2a53b55dd3be002a808",
+  "approved_layer_06_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+  "approved_layer_06_decision_id": "jarvis-v01-l06-a059b104-approve-001",
+  "generation_method": "Built-in image-generation style exploration followed by deterministic exact-coordinate reconstruction from the authoritative source and six approved cumulative-layer differences",
+  "final_candidate_base": "Authoritative V01 source image at the exact original pixel grid",
+  "geometric_transform": "None; no resampling, crop, warp, camera change or generative geometry used in the final candidate",
+  "approved_layer_chain": [
+    {"layer_id": "00", "filename": "layer-00-base-dark.png", "sha256": "17f3d0fdb900ef897762ab4df0f464ea04d6ae09808569073d0c7863cc5b3fd9"},
+    {"layer_id": "01", "filename": "layer-01-front-display-counter-downlights-v4.png", "sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217"},
+    {"layer_id": "02", "filename": "layer-02-wall-shelf-wall-wash-v3.png", "sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e"},
+    {"layer_id": "03", "filename": "layer-03-concealed-shelf-integrated-lighting-v3.png", "sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af"},
+    {"layer_id": "04", "filename": "layer-04-central-merchandise-circulation-v4.png", "sha256": "58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837"},
+    {"layer_id": "05", "filename": "layer-05-rear-seating-comfort-v3.png", "sha256": "eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065"},
+    {"layer_id": "06", "filename": "layer-06-concealed-under-seater-glow-v2.png", "sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30"}
+  ],
+  "imagegen_style_exploration": {
+    "draft_sha256": "23c38bae9d037cb93f57f401bf3416c8040d189429eab780c9ab8ef434ebfdb4",
+    "role": "Style exploration only; the draft was rejected as the final because generative geometry could not guarantee exact source alignment and its tonal/amber distribution was broader than required.",
+    "included_in_final_pixels": false
+  },
+  "correction_history": [
+    "The pre-existing concept sketch was rejected because it showed an unapproved long under-counter glow and could not prove exact source alignment.",
+    "The built-in image-generation draft established the desired charcoal/amber language but was not used as final pixels.",
+    "Deterministic v2 preserved exact source geometry but was rejected locally because the graphite base was too pale and the wall-wash amber too broad.",
+    "Final v3 deepens the graphite tone, reduces wall-wash and shelf amber, preserves counter hierarchy and strengthens only the deliberately subtle approved under-seater mapping."
+  ],
+  "published_local_filename": "concept-sketch-view-01-lighting-v3.png",
+  "created_at": "2026-08-19T09:28:57.768Z"
+}

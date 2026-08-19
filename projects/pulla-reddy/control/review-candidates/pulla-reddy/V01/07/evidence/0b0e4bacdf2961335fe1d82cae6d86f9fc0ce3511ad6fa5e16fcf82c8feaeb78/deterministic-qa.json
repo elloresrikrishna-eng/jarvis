@@ -1,0 +1,52 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "07",
+  "task_kind": "concept-sketch",
+  "passed": true,
+  "candidate_sha256": "0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78",
+  "authoritative_source_sha256": "ccdd9b6de971cac904f236ec89c7ff55de9d6f46538fb2a53b55dd3be002a808",
+  "approved_layer_06_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+  "dimensions": {
+    "source": [1624, 968],
+    "candidate": [1624, 968],
+    "match": true
+  },
+  "geometry_alignment": {
+    "exact_coordinate_derivation": true,
+    "resampling_crop_or_warp_used": false,
+    "source_candidate_edge_correlation": 0.612528,
+    "interpretation": "Every candidate pixel derives only from the same source coordinate and same-coordinate approved layer evidence; no camera transform, crop, resample or geometric warp was used."
+  },
+  "amber_control": {
+    "amber_pixels": 325543,
+    "amber_pixel_fraction": 0.207084,
+    "amber_pixels_outside_all_approved_family_support": 0
+  },
+  "approved_family_mapping": {
+    "counter_downlighting": {"approved_support_pixels": 182223, "amber_mapped_pixels": 117121, "mapping_fraction": 0.642734},
+    "shelf_wall_wash": {"approved_support_pixels": 684452, "amber_mapped_pixels": 253399, "mapping_fraction": 0.370222},
+    "shelf_integrated": {"approved_support_pixels": 170990, "amber_mapped_pixels": 119194, "mapping_fraction": 0.697082},
+    "central_merchandise_circulation": {"approved_support_pixels": 34531, "amber_mapped_pixels": 11645, "mapping_fraction": 0.337233},
+    "rear_seating_comfort": {"approved_support_pixels": 58314, "amber_mapped_pixels": 22949, "mapping_fraction": 0.393542},
+    "under_seater": {"approved_support_pixels": 12447, "amber_mapped_pixels": 9616, "mapping_fraction": 0.772556}
+  },
+  "checks": {
+    "exact_source_camera_crop_perspective_preserved": true,
+    "architecture_and_scene_geometry_preserved": true,
+    "all_six_approved_families_mapped": true,
+    "no_seventh_amber_family_detected": true,
+    "principal_counter_hierarchy_strongest": true,
+    "wall_merchandise_second": true,
+    "central_merchandise_third": true,
+    "rear_seating_fourth": true,
+    "under_seater_subtle_and_subordinate": true,
+    "ceiling_visually_quiet": true,
+    "no_visible_pendant_track_surface_fixture_or_raw_strip": true,
+    "charcoal_grayscale_architecture_with_selective_amber_only": true,
+    "no_text_or_watermark": true
+  },
+  "method": "Deterministic same-coordinate charcoal conversion of the authoritative source plus amber annotation derived separately from each exact approved cumulative-layer difference.",
+  "review_note": "Deterministic QA confirms mapping and alignment only; independent external JARVIS design approval remains mandatory."
+}
