@@ -1,0 +1,24 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "02",
+  "candidate_sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
+  "reviewed_artifact_id": "9352307296",
+  "reviewed_workflow_run_id": "32215867164",
+  "decision": "APPROVE",
+  "review_summary": "Independent external JARVIS review approves V01 Layer 02 wall-wash candidate fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e. The exact GitHub Actions artifact was retrieved and the candidate was visually compared against the approved Layer 01 parent. The new contribution is confined to the wall-mounted shelving compositions and reads as selective warm 3000K wall illumination rather than a blanket ambient lift. The right and left shelf zones gain useful vertical emphasis and merchandise legibility while the approved counter hierarchy remains dominant. Camera, crop, architecture, ceiling grid, counters, furniture and the approved Layer 01 counter-light character remain visually stable. No visible pendant, track, surface fitting, obvious glowing aperture, or scene-wide exposure shift is introduced. The layer is strong enough to become the immutable approved parent for V01 Layer 03.",
+  "required_changes": [],
+  "hard_locks": [
+    "Candidate fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e is the approved immutable V01 Layer 02 parent and must not be regenerated unless explicitly reopened by JARVIS.",
+    "Camera position, crop, focal character, perspective, architecture, ceiling grid, counters, shelves, furniture, products, materials and colours remain locked for all later V01 layers.",
+    "The approved Layer 01 counter-lighting and Layer 02 wall-wash effects are frozen in intensity, colour, beam character, reflections and shadow behaviour except for physically unavoidable interaction from a newly added circuit.",
+    "V01 Layer 03 must add only concealed integrated 3000K shelf lighting to the visible wall-mounted shelves; source must remain hidden with no raw strip lines or visible LED dots.",
+    "Layer 03 must supplement the approved wall-wash rather than replace, flatten or globally brighten it.",
+    "No global exposure or gamma change is permitted.",
+    "Presentation generation remains locked until every required view has valid independent JARVIS approvals through completion."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T04:38:00Z",
+  "decision_id": "jarvis-v01-l02-fc47cfc6-approve-001"
+}
