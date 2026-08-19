@@ -1,0 +1,54 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "06",
+  "candidate_sha256": "318b1237c35905e21720e8fc38054b4e93fb93202cfca07cd8b2a8233cf14904",
+  "approved_parent_sha256": "f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca",
+  "approved_parent_decision_id": "jarvis-v01-l05-f8335d6a-approve-002",
+  "generation_method": "OpenAI built-in image-edit lighting guide followed by deterministic analytical positive-only compositing onto the exact approved repaired Layer 05 parent",
+  "pixel_parent": {
+    "filename": "layer-05-rear-seating-comfort-v5.png",
+    "sha256": "f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca",
+    "role": "Only raster pixel parent"
+  },
+  "lighting_guide": {
+    "filename": "layer-06-repair-imagegen-lighting-guide-raw.png",
+    "sha256": "c4477c21903699353a821333e8a0a31285167af47b9060d324b7c3a007cb4600",
+    "role": "Lighting character and zoning reference only",
+    "pixels_reused": false,
+    "used_as_raster_parent": false
+  },
+  "historical_layer_06": {
+    "filename": "layer-06-concealed-under-seater-glow-v2.png",
+    "role": "Non-authoritative process and bounding-envelope reference only",
+    "pixels_reused": false,
+    "used_as_raster_parent": false
+  },
+  "new_circuit": "Restrained concealed 3000K under-seater lighting to the two visible rear built-in banquette bays only",
+  "excluded_changes": [
+    "rear wall, tables, chairs, or approved seating-comfort pools",
+    "counter, shelf, wall-wash, or central-merchandise lighting",
+    "broad floor wash or general ambient lighting",
+    "visible LED line, diode texture, fixture, or luminous ribbon",
+    "exposure, gamma, contrast, or colour rebalancing"
+  ],
+  "coordinate_guarantee": {
+    "dimensions": [
+      1624,
+      968
+    ],
+    "best_registration_dx": 0,
+    "best_registration_dy": 0,
+    "zero_shift_edge_correlation": 0.99960434
+  },
+  "continuity_guarantee": {
+    "negative_rgb_deltas": 0,
+    "changed_pixels_outside_allowed_under_seater_zones": 0,
+    "changed_pixel_fraction": 0.0072753,
+    "full_frame_mean_luminance_shift": 0.027577,
+    "protected_regions_exactly_frozen": true
+  },
+  "published_local_filename": "layer-06-concealed-under-seater-glow-v3.png",
+  "created_at": "2026-08-19T16:27:55.159282Z"
+}

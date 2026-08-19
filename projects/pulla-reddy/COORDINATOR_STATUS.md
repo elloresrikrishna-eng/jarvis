@@ -1,12 +1,12 @@
 # Pulla Reddy Multi-View Coordinator Status
 
-Updated: 2026-08-19T16:13:31Z
+Updated: 2026-08-19T16:34:48.509433Z
 
 Presentation generation remains `LOCKED` until every required view has a valid independent JARVIS approval chain.
 
 | View | Current layer/task | Candidate / approved reference | State | Blocker | Next machine action |
 |---|---|---|---|---|---|
-| V01 Main Retail | Repaired Layer 06 under-seater lighting | Approved repaired Layer 05 parent `f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca`; artifact `9372085257`; run `32270868999`; decision `jarvis-v01-l05-f8335d6a-approve-002` | `codex_action_required` | None | Execute `instructions/V01_LAYER06_UNDER_SEATER_REPAIR.md`, publish exact candidate artifact, stop at `READY_FOR_JARVIS_REVIEW`. |
+| V01 Main Retail | Repaired Layer 06 concealed under-seater lighting | Candidate `318b1237c35905e21720e8fc38054b4e93fb93202cfca07cd8b2a8233cf14904`; artifact pending; approved repaired Layer 05 parent `f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca` under `jarvis-v01-l05-f8335d6a-approve-002` | `READY_FOR_JARVIS_REVIEW` | Exact candidate-bound external JARVIS review | Review repaired Layer 06. Do not begin repaired Final without exact approval. |
 | V02 Curved Seating | Establish shared planter, then Layer 00 | None | `codex_action_required` | Shared V02/V06 planter specification does not yet exist | Create `SHARED_PLANTER_SPEC.md`, build Layer 00 with planter present and unlit, publish artifact. |
 | V03 Reverse Retail | Layer 01 counter downlighting | Approved parent `a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a` | `codex_action_required` | None | Execute `instructions/V03_LAYER01_COUNTER_DOWNLIGHTING.md`, publish Layer 01 artifact, stop at `READY_FOR_JARVIS_REVIEW`. |
 | V04 Product Elevation | Initialize and create Layer 00 | None | `codex_action_required` | No current candidate | Build Layer 00 with all electric lighting off and publish artifact. |
