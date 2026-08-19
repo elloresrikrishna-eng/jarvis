@@ -1,6 +1,6 @@
 # V01 Main Retail | Layer 05 Candidate
 
-Status: PUBLISHING_REVIEW_ARTIFACT
+Status: READY_FOR_JARVIS_REVIEW
 
 Candidate: layer-05-rear-seating-comfort-v3.png
 
@@ -27,6 +27,12 @@ Restrained deep-recessed 3000K comfort lighting for the visible rear hospitality
 
 ## GitHub Actions transport
 
-The exact content-addressed candidate and provenance are prepared for the JARVIS Visual Candidate workflow. Artifact identifiers and independent remote hash verification will be added after the workflow completes.
+- Artifact name: jarvis-pulla-reddy-v01-l05-eda764d05c88
+- Artifact ID: 9356509692
+- Workflow run ID: 32228898766
+- Publication commit: 47b35fb2e861ef6d4f8c9f02578769ab4a00a1e0
+- Artifact archive digest: sha256:fd959b66ca1c43363b1cf12d910c290f84f266417530cd0ae17ed47074c3f8f4
+- Downloaded candidate.png SHA-256: eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065
+- Candidate manifest and generated artifact provenance match the same hash, commit and run.
 
 Independent external JARVIS review remains mandatory. Do not begin Layer 06 without exact candidate-bound approval.

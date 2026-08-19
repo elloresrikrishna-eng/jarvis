@@ -3,7 +3,7 @@
   "package_version": "V01-layer-05-rear-seating-comfort-v3",
   "project": "G Pulla Reddy Sweets, HSR",
   "view": "V01_Main_Retail",
-  "status_after_publish": "PUBLISHING_REVIEW_ARTIFACT",
+  "status_after_publish": "READY_FOR_JARVIS_REVIEW",
   "source_filename": "source-view-01-original.jpg",
   "approved_parent_filename": "layer-04-central-merchandise-circulation-v4.png",
   "candidate_filename": "layer-05-rear-seating-comfort-v3.png",
@@ -24,14 +24,14 @@
   "approved_parent_decision_id": "jarvis-v01-l04-58553357-approve-001",
   "artifact_publication": {
     "artifact_name": "jarvis-pulla-reddy-v01-l05-eda764d05c88",
-    "artifact_id": null,
-    "workflow_run_id": null,
-    "workflow_commit_sha": null,
-    "artifact_archive_digest": null,
-    "remote_download_verified": false,
-    "remote_candidate_sha256": null,
+    "artifact_id": "9356509692",
+    "workflow_run_id": "32228898766",
+    "workflow_commit_sha": "47b35fb2e861ef6d4f8c9f02578769ab4a00a1e0",
+    "artifact_archive_digest": "sha256:fd959b66ca1c43363b1cf12d910c290f84f266417530cd0ae17ed47074c3f8f4",
+    "remote_download_verified": true,
+    "remote_candidate_sha256": "eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065",
     "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/05/publication.json",
-    "published_at": null
+    "published_at": "2026-08-19T07:43:09.917Z"
   },
   "local_paths": {
     "source": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/source-view-01-original.jpg",
