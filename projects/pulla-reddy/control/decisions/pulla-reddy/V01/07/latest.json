@@ -1,0 +1,23 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "07",
+  "candidate_sha256": "0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78",
+  "reviewed_artifact_id": "9359748337",
+  "reviewed_workflow_run_id": "32238231642",
+  "decision": "APPROVE",
+  "review_summary": "Independent external JARVIS review approves the exact V01 lighting concept-sketch candidate. The GitHub Actions artifact was downloaded and candidate.png independently hashed to 0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78, matching the published manifest, provenance and READY_FOR_JARVIS_REVIEW state. Direct full-resolution visual review against the independently approved Layer 06 render confirms that the sketch remains immediately traceable to the locked source view, preserves the same camera/crop/architecture, and uses a restrained graphite/charcoal treatment with selective warm amber rather than a whole-scene heatmap. The principal sweet-display counter is the strongest amber destination, the wall-shelf compositions read as the second tier, central merchandise remains third, rear seating comfort remains calmer and subordinate, and the under-seater response is the faintest layer. The ceiling stays grayscale and visually quiet. No pendant, track, surface fixture, raw LED strip, seventh lighting family, new geometry, text or watermark is visually introduced. The rear hospitality and wall-wash amber fields remain consistent with the approved render-chain effects rather than reading as invented lighting. Deterministic QA independently confirms exact coordinate derivation, matching 1624 x 968 geometry, all six approved families mapped, and zero amber pixels outside approved family support. The sketch is therefore strong enough for presentation use and the Final V01 Composite may be released, with the approved Layer 06 render remaining the immutable render source.",
+  "required_changes": [],
+  "hard_locks": [
+    "Candidate 0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78 is the immutable approved V01 concept sketch. Do not regenerate, recolour, restyle, crop or reinterpret it unless JARVIS explicitly reopens the task.",
+    "The sketch must continue to represent only the six independently approved V01 lighting families: counter downlighting, shelf wall-wash, concealed shelf-integrated lighting, central merchandise/circulation support, rear seating comfort and concealed under-seater support.",
+    "The approved V01 Layer 06 render a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30 remains the immutable cumulative render source. The concept sketch is a communication artifact and is not a pixel parent for final-render generation.",
+    "The Final V01 Composite must contain no new lighting family, exposure/gamma change, fixture effect, reflection change, geometry change, material change, camera/crop change or design reinterpretation. Prefer an exact file copy of the approved Layer 06 master so its SHA-256 remains unchanged.",
+    "Do not begin the V01 cross-layer continuity audit until the exact Final V01 Composite artifact receives candidate-bound JARVIS approval.",
+    "Presentation generation remains locked until every required view has a valid independent JARVIS approval chain through completion."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T10:10:09Z",
+  "decision_id": "jarvis-v01-l07-0b0e4bac-approve-001"
+}
