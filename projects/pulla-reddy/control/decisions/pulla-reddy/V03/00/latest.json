@@ -1,0 +1,24 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V03",
+  "layer_id": "00",
+  "candidate_sha256": "a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a",
+  "reviewed_artifact_id": "9353996410",
+  "reviewed_workflow_run_id": "32221280077",
+  "decision": "APPROVE",
+  "review_summary": "Independent JARVIS review approves V03 Layer 00 as the locked night base. The GitHub Actions artifact was downloaded and candidate.png independently hashed to a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a, exactly matching the artifact manifest and published state. Visually, the scene reads as a genuine lights-off base rather than a designed lighting layer: the sweet counters, wall shelves, ceiling grid, circulation, and seating do not show an active proposed electric-lighting family, while only restrained residual environmental illumination remains so the architecture is still readable. There are no visible pendants, tracks, surface fixtures, glowing ceiling apertures, shelf-strip graphics, or artificial hero lighting. The store remains sufficiently dark to give later counter, wall-wash, shelf, circulation, and seating layers meaningful contrast headroom. Source continuity is additionally corroborated by the immutable native source extraction record, exact matching dimensions, zero alignment offset, and high edge-correlation QA, but this approval is based on the independent visual inspection of the actual artifact rather than QA alone.",
+  "required_changes": [],
+  "hard_locks": [
+    "Candidate a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a is the immutable approved V03 Layer 00 parent and must not be regenerated or reinterpreted unless explicitly reopened by JARVIS.",
+    "Camera, crop, focal character, perspective, architecture, ceiling grid, counters, shelves, furniture, products, materials, and colours remain locked for all later V03 layers.",
+    "Layer 00 remains the all-proposed-electric-lighting-off baseline. No later worker may backfill lighting into this parent.",
+    "All added electric lighting from Layer 01 onward must read as 3000K and be recessed, concealed, or integrated only. No pendant, track, surface fixture, raw LED strip line, or LED-dot texture is permitted.",
+    "V03 Layer 01 must equal approved Layer 00 plus only the released recessed counter-downlighting family. The sweet counter must become the strongest retail destination without globally lifting exposure.",
+    "Residual environmental light visible in Layer 00 may remain only as source-consistent ambient context and must not be amplified to simulate a lighting circuit.",
+    "Presentation generation remains locked until every required view has valid independent JARVIS approvals through completion."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T05:56:48Z",
+  "decision_id": "jarvis-v03-l00-a6056c69-approve-001"
+}
