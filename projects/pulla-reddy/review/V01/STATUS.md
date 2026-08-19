@@ -1,8 +1,8 @@
 # V01 Main Retail | Layer 03 Concealed Shelf Lighting Review Status
 
-## Candidate state
+## Current control state
 
-Layer 03 concealed shelf-integrated lighting v3 is ready for independent external JARVIS review.
+Layer 03 concealed shelf-integrated lighting v3 is published and ready for independent external JARVIS review.
 
 Candidate SHA-256:
 
@@ -42,14 +42,22 @@ The candidate adds only restrained concealed 3000K integrated lighting to the vi
 - Combined target clipping at luminance 250 or above: **0.0**.
 - Global mean luminance shift: **+0.658515**, fully localized to the released shelf zones.
 
+## Artifact publication evidence
+
+- GitHub Actions workflow run ID: `32219997021`
+- GitHub Actions artifact ID: `9353602039`
+- Artifact name: `jarvis-pulla-reddy-v01-l03-9c855ce50bea`
+- Workflow commit: `35a099ec992d999bd0a3582413c9d3f63c878d0a`
+- Artifact archive digest: `sha256:744ea00bed8c71841f81b0ec870d4b5f23d1143339e843e3dd0f89ea41f2c362`
+- Remote candidate SHA: `9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af`
+- Remote retrieval: **PASS**
+- Manifest hash binding: **PASS**
+- Provenance hash, commit and run binding: **PASS**
+
 ## Local production asset
 
 `D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-03-concealed-shelf-integrated-lighting-v3.png`
 
-## Publication posture
-
-The exact content-addressed candidate, deterministic QA, generation provenance, preview and Layer 02 versus Layer 03 comparison are included in this package. GitHub Actions artifact verification is pending this publication commit.
-
 ## Stop condition
 
-Independent external JARVIS approval is mandatory. Do not begin Layer 04 without an exact candidate-bound approval.
+V01 is `READY_FOR_JARVIS_REVIEW`. Independent external JARVIS approval is mandatory. Do not begin Layer 04 without an exact candidate-bound approval.

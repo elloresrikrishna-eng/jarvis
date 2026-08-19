@@ -26,14 +26,14 @@
   "approved_parent_decision_id": "jarvis-v01-l02-fc47cfc6-approve-001",
   "artifact_publication": {
     "artifact_name": "jarvis-pulla-reddy-v01-l03-9c855ce50bea",
-    "artifact_id": null,
-    "workflow_run_id": null,
-    "workflow_commit_sha": null,
-    "artifact_archive_digest": null,
-    "remote_download_verified": false,
-    "remote_candidate_sha256": null,
+    "artifact_id": "9353602039",
+    "workflow_run_id": "32219997021",
+    "workflow_commit_sha": "35a099ec992d999bd0a3582413c9d3f63c878d0a",
+    "artifact_archive_digest": "sha256:744ea00bed8c71841f81b0ec870d4b5f23d1143339e843e3dd0f89ea41f2c362",
+    "remote_download_verified": true,
+    "remote_candidate_sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af",
     "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/03/publication.json",
-    "published_at": null
+    "published_at": "2026-08-19T05:41:02.500Z"
   },
   "local_paths": {
     "source": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/source-view-01-original.jpg",

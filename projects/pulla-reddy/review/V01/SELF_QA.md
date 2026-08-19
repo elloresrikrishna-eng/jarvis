@@ -26,6 +26,7 @@ Approved parent SHA-256: `fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f7
 | No target clipping | PASS | Combined shelf target clipping fraction at luminance 250 or above is 0.0. |
 | 3000K warm-white character | PASS | Merchandise glow is warm, restrained and not orange-contaminated. |
 | No visible pendant, track or surface fixture | PASS | No new fixture body is introduced. |
+| Remote artifact integrity | PASS | Downloaded candidate, manifest and provenance all bind to the exact candidate SHA, publication commit and workflow run. |
 
 ## Correction record
 
@@ -35,6 +36,13 @@ The second draft was rejected locally because it weakened the approved wall-wash
 
 The final candidate reasserts the exact approved Layer 02 parent outside three tight shelf zones and carries only a restrained positive integrated-light contribution inside those zones.
 
+## Artifact evidence
+
+- Workflow run: `32219997021`
+- Artifact ID: `9353602039`
+- Archive digest: `sha256:744ea00bed8c71841f81b0ec870d4b5f23d1143339e843e3dd0f89ea41f2c362`
+- Publication commit: `35a099ec992d999bd0a3582413c9d3f63c878d0a`
+
 ## Review posture
 
-Deterministic QA is Gate 1 only. Independent external JARVIS review is still required before Layer 04 can be released.
+Deterministic QA and artifact publication are Gate 1 only. Independent external JARVIS review is still required before Layer 04 can be released.
