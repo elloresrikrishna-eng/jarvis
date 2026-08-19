@@ -1,0 +1,19 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "01",
+  "candidate_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "artifact_name": "jarvis-pulla-reddy-v01-l01-bb0eda1c017f",
+  "artifact_id": "9350820837",
+  "workflow_run_id": "32211254927",
+  "workflow_commit_sha": "0e27fdac19ed8b33fe3b5c306c577a4d0397581c",
+  "artifact_archive_digest": "sha256:e8ae725a9c344f7f365e571db65d71756588f05b0d9542d1cd83d8f2017e2aca",
+  "remote_download_verified": true,
+  "remote_candidate_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "remote_manifest_candidate_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "remote_provenance_candidate_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "state": "READY_FOR_JARVIS_REVIEW",
+  "jarvis_approval": false,
+  "published_at": "2026-08-19T03:13:22.497Z"
+}
