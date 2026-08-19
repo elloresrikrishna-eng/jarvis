@@ -1,0 +1,14 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "decision_id": "jarvis-v01-l06-a059b104-approve-001",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "06",
+  "candidate_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+  "consumed_at": "2026-08-19T09:36:52.397Z",
+  "resulting_layer_id": "07",
+  "resulting_task_kind": "concept-sketch",
+  "resulting_candidate_sha256": "0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78",
+  "resulting_artifact_id": "9359748337",
+  "resulting_workflow_run_id": "32238231642"
+}

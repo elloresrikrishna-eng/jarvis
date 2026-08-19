@@ -1,6 +1,6 @@
 # V01 Main Retail | Lighting Concept Sketch Candidate
 
-Status: PUBLISHING_REVIEW_ARTIFACT
+Status: READY_FOR_JARVIS_REVIEW
 
 Task/layer ID: 07 (concept-sketch)
 
@@ -32,6 +32,12 @@ Restrained charcoal and grayscale architectural drawing with selective warm ambe
 
 ## GitHub Actions transport
 
-The exact content-addressed candidate, manifest, deterministic evidence and provenance are prepared for the JARVIS Visual Candidate workflow. Artifact identifiers and independent remote hash verification will be added after the workflow completes.
+- Artifact name: jarvis-pulla-reddy-v01-l07-0b0e4bacdf29
+- Artifact ID: 9359748337
+- Workflow run ID: 32238231642
+- Publication commit: a8a60adec5fbaac99a4ef64f550a67a6403133f4
+- Artifact archive digest: sha256:0c10aa104541d98f2a79d81d676546138123c8ea326ca23828d208f59c2727fe
+- Downloaded candidate.png SHA-256: 0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78
+- Candidate manifest and generated artifact provenance match the same hash, commit and run.
 
 Independent external JARVIS review remains mandatory. Do not begin the Final V01 Composite without exact candidate-bound sketch approval.

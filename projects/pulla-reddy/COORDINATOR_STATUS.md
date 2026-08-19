@@ -1,17 +1,25 @@
 # Pulla Reddy Multi-View Coordinator Status
 
-Updated: 2026-08-19T09:13:01Z
+Updated: 2026-08-19T09:36:52Z
 
 Presentation generation remains `LOCKED` until every required view has a valid independent JARVIS approval chain.
 
 | View | Current layer/task | Candidate SHA-256 | Artifact ID | Workflow run ID | State | Blocker | Next machine action |
 |---|---|---|---|---|---|---|---|
-| V01 Main Retail | Lighting concept sketch released from approved Layer 06 | Approved cumulative render `a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30` | Approved Layer 06 artifact `9357928764` | Approved Layer 06 run `32233034803` | `codex_action_required` | None | Execute `instructions/V01_LIGHTING_CONCEPT_SKETCH.md`, publish exact sketch artifact, stop at `READY_FOR_JARVIS_REVIEW`. |
+| V01 Main Retail | Lighting concept sketch task ID 07 | `0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78` | `9359748337` | `32238231642` | `READY_FOR_JARVIS_REVIEW` | Independent concept-sketch approval pending | Review the exact content-addressed concept-sketch artifact. Do not release the Final V01 Composite without exact candidate-bound approval. |
 | V02 Curved Seating | Establish shared planter, then Layer 00 | None | None | None | `codex_action_required` | Shared V02/V06 planter specification does not yet exist | Create `SHARED_PLANTER_SPEC.md`, build Layer 00 with planter present and unlit, publish artifact. |
 | V03 Reverse Retail | Layer 01 counter downlighting released from approved Layer 00 | Approved parent `a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a` | Parent artifact `9353996410` | Parent run `32221280077` | `codex_action_required` | None | Execute `instructions/V03_LAYER01_COUNTER_DOWNLIGHTING.md`, publish exact Layer 01 artifact, stop at `READY_FOR_JARVIS_REVIEW`. |
 | V04 Product Elevation | Initialize and create Layer 00 | None | None | None | `codex_action_required` | No current candidate | Build Layer 00 with all electric lighting off and publish artifact. |
 | V05 Window Shelving | Initialize and create Layer 00 | None | None | None | `codex_action_required` | No current candidate | Build Layer 00 with all electric lighting off and publish artifact. |
 | V06 Curved Seating Hero | Repair authoritative parent chain at Layer 00 | None for current Layer 00 | Rejected Layer 03 artifact `9345373457` only | Rejected Layer 03 run `32194514959` only | `codex_action_required` | Mandatory shared planter absent; prior Layer 03 is rejected and invalid as parent | Create shared planter spec, rebuild Layer 00 with planter present and unlit, publish artifact, stop for review. |
+
+## V01 concept-sketch publication awaiting independent review
+
+Candidate `0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78` is published as task/layer ID `07` with task kind `concept-sketch` through GitHub Actions artifact `9359748337`, run `32238231642`, from commit `a8a60adec5fbaac99a4ef64f550a67a6403133f4`.
+
+The downloaded artifact archive digest is `sha256:0c10aa104541d98f2a79d81d676546138123c8ea326ca23828d208f59c2727fe`. Its `candidate.png`, candidate manifest and generated provenance independently match the exact candidate SHA-256, publication commit and workflow run.
+
+The sketch preserves the 1624 x 968 source coordinate grid and maps selective warm amber only to the six independently approved lighting families. Deterministic QA records zero amber pixels outside all approved family support. The Final V01 Composite remains locked pending exact candidate-bound independent approval.
 
 ## V01 Layer 06 independent approval
 

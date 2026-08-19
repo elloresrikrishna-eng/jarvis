@@ -5,7 +5,7 @@
   "view": "V01_Main_Retail",
   "task_layer_id": "07",
   "task_kind": "concept-sketch",
-  "status_after_publish": "PUBLISHING_REVIEW_ARTIFACT",
+  "status_after_publish": "READY_FOR_JARVIS_REVIEW",
   "source_filename": "source-view-01-original.jpg",
   "source_sha256": "ccdd9b6de971cac904f236ec89c7ff55de9d6f46538fb2a53b55dd3be002a808",
   "approved_cumulative_render_filename": "layer-06-concealed-under-seater-glow-v2.png",
@@ -13,7 +13,10 @@
   "approved_cumulative_render_decision_id": "jarvis-v01-l06-a059b104-approve-001",
   "candidate_filename": "concept-sketch-view-01-lighting-v3.png",
   "candidate_sha256": "0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78",
-  "dimensions": {"width": 1624, "height": 968},
+  "dimensions": {
+    "width": 1624,
+    "height": 968
+  },
   "camera_or_crop_alignment_changed": false,
   "architecture_material_boundaries_products_changed": false,
   "resampling_crop_or_warp_used": false,
@@ -21,14 +24,14 @@
   "unapproved_lighting_families_introduced": 0,
   "artifact_publication": {
     "artifact_name": "jarvis-pulla-reddy-v01-l07-0b0e4bacdf29",
-    "artifact_id": null,
-    "workflow_run_id": null,
-    "workflow_commit_sha": null,
-    "artifact_archive_digest": null,
-    "remote_download_verified": false,
-    "remote_candidate_sha256": null,
+    "artifact_id": "9359748337",
+    "workflow_run_id": "32238231642",
+    "workflow_commit_sha": "a8a60adec5fbaac99a4ef64f550a67a6403133f4",
+    "artifact_archive_digest": "sha256:0c10aa104541d98f2a79d81d676546138123c8ea326ca23828d208f59c2727fe",
+    "remote_download_verified": true,
+    "remote_candidate_sha256": "0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78",
     "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/07/publication.json",
-    "published_at": null
+    "published_at": "2026-08-19T09:36:52.397Z"
   },
   "local_paths": {
     "source": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/source-view-01-original.jpg",
@@ -36,11 +39,31 @@
     "candidate": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/concept-sketch-view-01-lighting-v3.png"
   },
   "review_assets": [
-    {"filename": "concept-sketch-view-01-lighting-preview.jpg", "purpose": "Review-sized exact sketch preview", "status": "created"},
-    {"filename": "source-vs-concept-sketch-view-01.jpg", "purpose": "Authoritative source beside exact concept sketch", "status": "created"},
-    {"filename": "approved-layer-06-vs-concept-sketch-view-01.jpg", "purpose": "Approved cumulative render beside exact concept sketch", "status": "created"},
-    {"filename": "CONCEPT_SKETCH_FAMILY_MAP.md", "purpose": "Mapping from amber regions to the six approved lighting families", "status": "created"},
-    {"filename": "SELF_QA.md", "purpose": "Alignment, hierarchy and family-mapping self-check", "status": "updated"}
+    {
+      "filename": "concept-sketch-view-01-lighting-preview.jpg",
+      "purpose": "Review-sized exact sketch preview",
+      "status": "created"
+    },
+    {
+      "filename": "source-vs-concept-sketch-view-01.jpg",
+      "purpose": "Authoritative source beside exact concept sketch",
+      "status": "created"
+    },
+    {
+      "filename": "approved-layer-06-vs-concept-sketch-view-01.jpg",
+      "purpose": "Approved cumulative render beside exact concept sketch",
+      "status": "created"
+    },
+    {
+      "filename": "CONCEPT_SKETCH_FAMILY_MAP.md",
+      "purpose": "Mapping from amber regions to the six approved lighting families",
+      "status": "created"
+    },
+    {
+      "filename": "SELF_QA.md",
+      "purpose": "Alignment, hierarchy and family-mapping self-check",
+      "status": "updated"
+    }
   ],
   "qa_summary": {
     "dimension_match": true,
