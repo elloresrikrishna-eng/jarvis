@@ -1,0 +1,24 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "02",
+  "candidate_sha256": "c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27",
+  "reviewed_artifact_id": "9365354131",
+  "reviewed_workflow_run_id": "32253524484",
+  "decision": "APPROVE",
+  "review_summary": "Independent external JARVIS review approves the repaired V01 Layer 02 wall-wash candidate c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27. The exact GitHub Actions artifact was retrieved and visually compared against the exact approved Layer 01 parent bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217. The repair is materially successful in both control integrity and design quality: the one-pixel coordinate defect is gone, the wall-wash contribution stays confined to the visible shelf compositions, the left and right wall merchandise gain soft warm vertical modelling and readable product emphasis, and the effect remains clearly secondary to the sweet counters. The ceiling stays visually quiet with no luminous-dot or visible-fixture behaviour. The wash reads as restrained 3000K architectural illumination rather than a scene-wide exposure lift, and it does not disturb counter appetite appeal, glass readability, central merchandise, rear seating, camera/crop, or architecture. The layer is legible enough to justify its own presentation step without flattening the retail hierarchy. This candidate is approved as the immutable repaired Layer 02 parent for the sequential rebuild of V01 Layer 03.",
+  "required_changes": [],
+  "hard_locks": [
+    "Candidate c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27 is the approved immutable repaired V01 Layer 02 parent and must not be regenerated unless explicitly reopened by JARVIS.",
+    "The repaired 1624 x 968 coordinate grid is authoritative for every downstream V01 render layer; camera, crop, focal character, perspective, architecture, ceiling grid, counters, shelves, furniture, products, materials and colours remain locked.",
+    "Approved Layer 01 counter downlighting and repaired Layer 02 wall-wash are frozen in intensity, colour, beam character, reflections and shadow behaviour except for physically unavoidable interaction from the newly released circuit.",
+    "V01 Layer 03 must add only concealed integrated 3000K lighting to all visible wall-mounted shelves. The source must remain hidden with no raw LED strip line, visible LED dots, glowing shelf edge or decorative fixture appearance.",
+    "Layer 03 must supplement the repaired wall-wash and strengthen shelf/product readability without replacing the wall-wash, globally lifting exposure, or challenging the sweet counters as the primary visual destination.",
+    "Historical defective Layers 03-06 and Final remain immutable evidence but are invalid as raster parents. Rebuild sequentially from this repaired chain.",
+    "No global exposure or gamma change is permitted, and no downstream contact sheet, final completion gate or presentation generation may be unlocked until the repaired chain is independently re-approved through Final and a fresh continuity audit passes."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T13:11:39Z",
+  "decision_id": "jarvis-v01-l02-c6bb3f56-approve-002"
+}
