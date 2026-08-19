@@ -1,27 +1,28 @@
-# V01 Repaired Layer 03 | Self QA
+# V01 Repaired Layer 04 | Self QA
 
-Candidate SHA-256: 8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba
+Candidate SHA-256: a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e
 
-Approved repaired Layer 02 parent SHA-256: c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27
+Approved repaired Layer 03 parent SHA-256: 8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba
 
-Approved parent decision: jarvis-v01-l02-c6bb3f56-approve-002
+Approved parent decision: jarvis-v01-l03-8e2a2b19-approve-002
 
 ## PASS
 
 - Candidate is exactly 1624 x 968.
-- Exact approved repaired Layer 02 is the only raster pixel parent and remains unchanged.
+- Exact approved repaired Layer 03 is the only raster pixel parent and remains unchanged.
 - Best edge registration is dx=0, dy=0; zero shift is the unique optimum within the tested +/-3 px search.
-- Zero-shift edge correlation is 0.99729156.
-- Camera, crop, perspective, architecture, ceiling grid, counters, shelves, furniture, products, materials and colours retain the approved repaired Layer 02 coordinate grid.
-- Only the released concealed integrated shelf-light family was added to all three visible wall-mounted shelf compositions.
-- The added contribution follows warm R > G > B channel ordering in every target and reads as restrained 3000K illumination.
-- The source remains hidden with no raw LED strip, visible LED dots, glowing shelf edge or decorative luminaire.
-- Main sweet counters remain the first visual destination; wall merchandise is secondary; central merchandise and rear hospitality remain at the parent state.
+- Zero-shift edge correlation is 0.99850529.
+- Camera, crop, perspective, architecture, ceiling grid, counters, shelves, furniture, products, materials and colours retain the approved repaired Layer 03 coordinate grid.
+- Only the released central-merchandise/minimum-circulation 3000K family was added.
+- Sweet counters remain the strongest destination, wall merchandise remains second, central merchandise is a readable third tier, and the rear hospitality/ceiling remain subordinate.
+- No visible pendant, track, surface fixture, decorative luminaire, glowing ceiling dot, bright aperture, raw strip or LED-dot texture was introduced.
+- The new contribution is localized product modelling plus narrow soft-edged floor spill, with no broad ambient floor wash or global exposure/gamma lift.
 - Negative RGB deltas are zero and no pixel becomes darker by more than 3 luminance levels.
-- Changed pixels are 13.719759% and every changed pixel is inside one of the three explicit shelf-light target zones.
-- Full-frame mean luminance shift is +0.839245, with no uniform exposure or gamma-lift signature.
-- The central ceiling registration anchor is byte-for-byte frozen.
-- Central display, rear seating, both sweet counters and circulation floor are exactly frozen.
-- The historical defective Layer 03 remains immutable evidence; it was consulted visually only and no pixels were shifted, cropped or reused.
+- Changed pixels are 2.844471% and every changed pixel is inside the explicit central-merchandise/minimum-circulation target zones.
+- Full-frame mean luminance shift is +0.192502.
+- The central-merchandise target gains +6.588640 mean luminance; adjacent floor support remains restrained at +3.289053.
+- Mean added RGB follows warm R > G > B channel ordering in both target regions.
+- Ceiling, wall shelves, both sweet counters, rear seating and foreground floor are exactly frozen.
+- The historical defective Layer 04 remains immutable evidence. It was used only as a non-authoritative visual reference; no historical pixels were reused or used as a raster parent.
 
-Deterministic QA is Gate 1 only. Exact candidate-bound external JARVIS approval remains mandatory before repaired Layer 04 can begin.
+Deterministic QA is Gate 1 only. Exact candidate-bound independent JARVIS approval remains mandatory before repaired Layer 05 can begin.

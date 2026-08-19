@@ -1,57 +1,53 @@
-# V01 Main Retail | Repaired Layer 03 Shelf-Integrated Candidate
+# V01 Main Retail | Repaired Layer 04 Central Merchandise Candidate
 
-Status: READY_FOR_JARVIS_REVIEW
+Status: PUBLISHING_REMOTE_ARTIFACT
 
-Task/layer ID: 03 (sequential repaired-chain rebuild)
+Task/layer ID: 04 (sequential repaired-chain rebuild)
 
-Candidate: layer-03-concealed-shelf-integrated-lighting-v5.png
+Candidate: layer-04-central-merchandise-circulation-v5.png
 
-Candidate SHA-256: 8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba
+Candidate SHA-256: a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e
 
-Approved parent: layer-02-wall-shelf-wall-wash-v4.png
+Approved parent: layer-03-concealed-shelf-integrated-lighting-v5.png
 
-Approved parent SHA-256: c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27
+Approved parent SHA-256: 8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba
 
-Approved parent decision: jarvis-v01-l02-c6bb3f56-approve-002
+Approved parent decision: jarvis-v01-l03-8e2a2b19-approve-002
 
-## Change from approved repaired Layer 02
+## Change from approved repaired Layer 03
 
-Only concealed integrated 3000K shelf lighting was added to all three visible wall-mounted shelf compositions. The approved counter downlighting and repaired wall-wash are unchanged. Sweet counters remain the first visual tier; wall merchandise is second; central merchandise, rear seating and under-seater circuits remain at the parent state.
+Only selective deep-recessed 3000K lighting for the central freestanding merchandise display and minimum physically necessary adjacent circulation support was added. Approved counter downlighting, repaired wall-wash and repaired concealed shelf lighting are unchanged. Sweet counters remain first, wall merchandise second and the central display reads as the restrained third tier. Rear seating and under-seater circuits remain at the parent state.
 
 ## Deterministic continuity result
 
 - Dimensions: 1624 x 968.
-- Best edge registration against exact approved repaired Layer 02: dx=0, dy=0.
-- Zero-shift edge correlation: 0.99729156.
+- Best edge registration against the exact approved repaired Layer 03: dx=0, dy=0.
+- Zero-shift edge correlation: 0.99850529.
 - Negative RGB deltas: 0.
 - Pixels darker by more than 3 luminance levels: 0%.
-- Changed pixels: 13.719759%, confined exactly to the three allowed shelf zones.
-- Changed pixels outside allowed shelf zones: 0.
-- Full-frame mean luminance shift: +0.839245, attributable only to the released integrated shelf-light family.
-- Central ceiling registration anchor: exactly frozen.
-- Central display, rear seating, both counters and circulation floor: exactly frozen.
-- Mean added RGB follows warm order R > G > B in all target shelf zones.
-- Historical defective Layer 03 pixels reused: no.
+- Changed pixels: 2.844471%, confined exactly to the central-merchandise/minimum-circulation target zones.
+- Changed pixels outside allowed central zones: 0.
+- Full-frame mean luminance shift: +0.192502, attributable only to the released circuit.
+- Central-merchandise mean luminance shift: +6.588640.
+- Adjacent-floor mean luminance shift: +3.289053.
+- Ceiling, wall shelves, both sweet counters, rear seating and foreground floor: exactly frozen.
+- Mean added RGB follows warm order R > G > B in both target regions.
+- Historical defective Layer 04 pixels reused: no.
 
 ## Review evidence
 
-- layer-03-concealed-shelf-integrated-lighting-v5-preview.jpg
-- layer-02-vs-layer-03-shelf-integrated-repair-v5.jpg
-- layer-03-concealed-shelf-integrated-lighting-v5-difference.jpg
+- layer-04-central-merchandise-circulation-v5-preview.jpg
+- layer-03-vs-layer-04-central-merchandise-repair-v5.jpg
+- layer-04-central-merchandise-circulation-v5-difference.jpg
 - SELF_QA.md
 - manifest.json
 - content-addressed deterministic-qa.json and generation-provenance.json
 
 ## GitHub Actions transport
 
-- Artifact name: jarvis-pulla-reddy-v01-l03-8e2a2b196904
-- Artifact ID: 9367566108
-- Workflow run ID: 32259287910
-- Publication commit: 86ab69a3406c015cc945b55a5542e92031a850ea
-- Artifact archive digest: sha256:6d31fbf0d80336a90f6ded9775555396fc90f6f580f72d8bf8ca1b50e4b8b542
-- Downloaded candidate.png SHA-256: 8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba
-- Candidate manifest and generated artifact provenance match the same candidate hash, publication commit and workflow run.
-- Remote retrievability verified: true
+- Artifact name: jarvis-pulla-reddy-v01-l04-a3d00e752631
+- Artifact ID: pending
+- Workflow run ID: pending
+- Remote retrievability verified: false
 
-Independent candidate-bound JARVIS review is required. V01 remains locked at repaired Layer 03; repaired Layer 04 must not begin without exact approval.
-
+V01 remains locked at repaired Layer 04. Repaired Layer 05 must not begin without exact candidate-bound independent JARVIS approval.

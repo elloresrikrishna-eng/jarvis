@@ -1,0 +1,52 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "04",
+  "candidate_sha256": "a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e",
+  "approved_parent_sha256": "8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba",
+  "approved_parent_decision_id": "jarvis-v01-l03-8e2a2b19-approve-002",
+  "generation_method": "OpenAI built-in image-edit lighting guide followed by deterministic exact-parent additive warm compositing and exact protected-anchor restoration",
+  "pixel_parent": {
+    "filename": "layer-03-concealed-shelf-integrated-lighting-v5.png",
+    "sha256": "8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba",
+    "role": "Only raster pixel parent"
+  },
+  "lighting_guide": {
+    "filename": "layer-04-repair-imagegen-lighting-guide-raw.png",
+    "sha256": "8e22118a2391ae2f86ddd70cfeb8974162aadc57c187f75b2e64f6454a3da96f",
+    "role": "Lighting-distribution guide only, never a raster parent",
+    "processing": "Only a thresholded positive-luminance suggestion inside explicit central-merchandise and minimum-circulation masks was converted to warm additive RGB and applied to the exact approved parent."
+  },
+  "historical_layer_04": {
+    "filename": "layer-04-central-merchandise-circulation-v4.png",
+    "role": "Non-authoritative visual design reference only",
+    "pixels_reused": false,
+    "used_as_raster_parent": false
+  },
+  "new_circuit": "Selective deep-recessed 3000K central merchandise lighting plus minimum adjacent circulation support",
+  "excluded_circuits": [
+    "rear seating comfort lighting",
+    "under-seater lighting",
+    "broad ambient floor lighting"
+  ],
+  "coordinate_guarantee": {
+    "dimensions": [
+      1624,
+      968
+    ],
+    "best_registration_dx": 0,
+    "best_registration_dy": 0,
+    "zero_shift_edge_correlation": 0.99850529
+  },
+  "continuity_guarantee": {
+    "negative_rgb_deltas": 0,
+    "changed_pixels_outside_allowed_central_zones": 0,
+    "darker_pixel_fraction_gt_3": 0.0,
+    "changed_pixel_fraction": 0.02844471,
+    "full_frame_mean_luminance_shift": 0.192502,
+    "protected_regions_exactly_frozen": true
+  },
+  "published_local_filename": "layer-04-central-merchandise-circulation-v5.png",
+  "created_at": "2026-08-19T14:29:42.003505Z"
+}
