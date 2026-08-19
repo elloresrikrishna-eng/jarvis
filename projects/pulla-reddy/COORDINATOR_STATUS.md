@@ -1,53 +1,59 @@
 # Pulla Reddy Multi-View Coordinator Status
 
-Updated: 2026-08-19T16:39:10.384938Z
-
 Presentation generation remains `LOCKED` until every required view has a valid independent JARVIS approval chain.
 
-| View | Current layer/task | Candidate / approved reference | State | Blocker | Next machine action |
+| View | Current layer/task | Immutable approved reference | State | Blocker | Next machine action |
 |---|---|---|---|---|---|
-| V01 Main Retail | Repaired Layer 06 concealed under-seater lighting | Candidate `318b1237c35905e21720e8fc38054b4e93fb93202cfca07cd8b2a8233cf14904`; artifact `9374332164`; run `32276889137`; approved repaired Layer 05 parent `f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca` under `jarvis-v01-l05-f8335d6a-approve-002` | `READY_FOR_JARVIS_REVIEW` | Exact candidate-bound external JARVIS review | Review repaired Layer 06. Do not begin repaired Final without exact approval. |
-| V02 Curved Seating | Establish shared planter, then Layer 00 | None | `codex_action_required` | Shared V02/V06 planter specification does not yet exist | Create `SHARED_PLANTER_SPEC.md`, build Layer 00 with planter present and unlit, publish artifact. |
-| V03 Reverse Retail | Layer 01 counter downlighting | Approved parent `a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a` | `codex_action_required` | None | Execute `instructions/V03_LAYER01_COUNTER_DOWNLIGHTING.md`, publish Layer 01 artifact, stop at `READY_FOR_JARVIS_REVIEW`. |
-| V04 Product Elevation | Initialize and create Layer 00 | None | `codex_action_required` | No current candidate | Build Layer 00 with all electric lighting off and publish artifact. |
-| V05 Window Shelving | Initialize and create Layer 00 | None | `codex_action_required` | No current candidate | Build Layer 00 with all electric lighting off and publish artifact. |
-| V06 Curved Seating Hero | Repair authoritative parent chain at Layer 00 | Rejected Layer 03 `6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f` remains invalid as parent | `codex_action_required` | Mandatory shared planter absent | Create shared planter spec, rebuild V06 Layer 00 with planter present and unlit, publish artifact. |
+| V01 Main Retail | Repaired-chain lighting concept sketch | Repaired Layer 06 `318b1237c35905e21720e8fc38054b4e93fb93202cfca07cd8b2a8233cf14904`, approved under `jarvis-v01-l06-318b1237-approve-002` | `codex_action_required` | None for sketch production | Execute `instructions/V01_CONCEPT_SKETCH_REPAIRED.md`, publish sketch artifact, stop at `READY_FOR_JARVIS_REVIEW`. Do not begin Final/composite yet. |
+| V02 Curved Seating | Layer 01 recessed wall-wash | Layer 00 `c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540`, approved under `jarvis-v02-l00-c0db62b7-approve-001` | `codex_action_required` | None | Execute `instructions/V02_LAYER01_WALL_WASH.md`, keep shared planter unlit, publish and stop at review. |
+| V03 Reverse Retail | Layer 01 sweet-counter downlighting | Layer 00 `a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a`, approved under `jarvis-v03-l00-a6056c69-approve-001` | `codex_action_required` | None | Execute `instructions/V03_LAYER01_COUNTER_DOWNLIGHTING.md`, publish and stop at review. |
+| V04 Product Elevation | Layer 00 initialization | None yet | `codex_action_required` | No current candidate | Build authoritative lights-off Layer 00 from page 5, publish review artifact and stop at review. |
+| V05 Window Shelving | Layer 01 recessed wall-wash | Layer 00 `76326a4e726229fc343ee401b49a696d4132968c9e776e0d05e07546c9e42be1`, approved under `jarvis-v05-l00-76326a4e-approve-001` | `codex_action_required` | None | Execute `instructions/V05_LAYER01_WALL_WASH.md`, publish and stop at review. |
+| V06 Curved Seating Hero | Repaired Layer 01 seating/table comfort | Repaired Layer 00 `a2c3f2bcb59ebf7e35b2c6e5842f1196227cc7ef6dad3bb6f6de469151ebcff3`, approved under `jarvis-v06-l00-a2c3f2bc-approve-001` | `codex_action_required` | None for Layer 01 | Execute `instructions/V06_LAYER01_SEATING_COMFORT.md`, keep shared planter unlit, publish and stop at review. |
 
-## V01 repaired Layer 05 approval
+## Latest independent approvals consumed
 
-The exact repaired Layer 05 candidate `f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca` was independently reviewed against exact approved repaired Layer 04 parent `a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e`.
+- V01 repaired Layer 06: `jarvis-v01-l06-318b1237-approve-002`
+- V02 Layer 00 with shared planter: `jarvis-v02-l00-c0db62b7-approve-001`
+- V05 Layer 00: `jarvis-v05-l00-76326a4e-approve-001`
+- V06 repaired Layer 00 with shared planter: `jarvis-v06-l00-a2c3f2bc-approve-001`
 
-JARVIS downloaded artifact `9372085257` and independently SHA-256 verified the candidate, then separately downloaded and verified parent artifact `9369801718` before direct full-resolution comparison. The new contribution is confined to two calm rear seating/table comfort pools plus minimal nearby floor support. It materially improves hospitality readability while remaining clearly subordinate to the sweet counters, wall merchandise and central merchandise. The ceiling remains visually quiet, source visibility remains controlled, added light reads warm and believable, and no broad ambient or exposure lift is apparent.
+These candidate-bound approvals have now been consumed into the per-view states and exact next-task releases.
 
-Deterministic QA remains clean: `dx=0, dy=0`, zero negative RGB deltas, zero changed pixels outside the allowed rear zones, 2.855095% changed pixels and a +0.231303 full-frame mean luminance shift.
+## Shared planter status
 
-Decision: `jarvis-v01-l05-f8335d6a-approve-002`.
+`SHARED_PLANTER_SPEC.md` now exists and is authoritative. V02 and V06 each have an independently approved Layer 00 containing the shared planter physically present and electrically unlit. The earlier V06 parent-chain blocker is therefore resolved at Layer 00.
 
-This exact repaired Layer 05 candidate is now the immutable parent for repaired Layer 06.
+The historical rejected V06 Layer 03 remains invalid as a raster parent. Its restrained under-seater character may be consulted only as a non-authoritative visual target when the repaired chain reaches the appropriate layer.
 
-## V01 repaired Layer 06 publication
+## V01 repair status
 
-The repaired Layer 06 candidate `318b1237c35905e21720e8fc38054b4e93fb93202cfca07cd8b2a8233cf14904` was built from exact approved repaired Layer 05 parent `f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca` under `jarvis-v01-l05-f8335d6a-approve-002`.
+The repaired V01 cumulative render chain is independently approved through repaired Layer 06. The historical defective downstream Final remains invalid as a production parent. V01 must now complete the repaired-chain communication/final stages in order:
 
-Only two restrained concealed 3000K under-seater floor glows were added beneath the visible rear banquette bays. The source remains hidden, the effect is presentation-legible but subordinate to the approved rear-seating comfort pools and every retail tier, and no luminous ribbon or broad rear-floor wash is present.
+1. concept sketch review;
+2. repaired Final/composite release and review;
+3. fresh cross-layer continuity audit;
+4. contact sheet/review board;
+5. completion package.
 
-Deterministic QA passes: `dx=0, dy=0`, zero negative RGB deltas, zero changed pixels outside the released under-seater zones, 0.727530% changed pixels and a +0.027577 full-frame mean luminance shift. Artifact `9374332164` from run `32276889137` was independently downloaded. The archive digest is `sha256:8480b0a82dbb829f298b051bb7d4ca89158797d01d76783becc17bb33acfb957`, and candidate, manifest and workflow provenance all resolve to exact candidate SHA `318b1237c35905e21720e8fc38054b4e93fb93202cfca07cd8b2a8233cf14904` and publication commit `633f46af9f86c068bc6bba367dbd89c48ddacdd5`.
+Contact-sheet/review-board production remains locked until repaired Final and fresh continuity audit pass.
 
-V01 now rests at `READY_FOR_JARVIS_REVIEW`. Repaired Final remains locked until exact candidate-bound approval.
+## Global locks
 
-## Still-valid independent approvals
+- 3000K only for added electric lighting.
+- Recessed, concealed or integrated sources only.
+- No visible pendants, tracks or surface fixtures.
+- No camera, crop, architecture, material, product or furniture drift.
+- No global exposure/gamma cheating.
+- One new lighting family per cumulative layer.
+- Every approved immediate parent remains frozen.
+- Deterministic QA is evidence, not design approval.
+- Every candidate must be bound to its exact SHA-256 and remotely retrievable through the review-artifact path.
 
-- V01 Layer 01: `jarvis-v01-l01-bb0eda1c-approve-001`, exact repair root
-- V01 repaired Layer 02: `jarvis-v01-l02-c6bb3f56-approve-002`
-- V01 repaired Layer 03: `jarvis-v01-l03-8e2a2b19-approve-002`
-- V01 repaired Layer 04: `jarvis-v01-l04-a3d00e75-approve-002`
-- V01 repaired Layer 05: `jarvis-v01-l05-f8335d6a-approve-002`, exact current approved render parent
-- V01 Concept Sketch: `jarvis-v01-l07-0b0e4bac-approve-001`, communication-only and never a pixel parent
-- V03 Layer 00: `jarvis-v03-l00-a6056c69-approve-001`
+## Presentation gate
 
-Historical V01 approvals for the defective downstream chain remain part of immutable provenance, but the failed cross-layer audit supersedes their use as valid production ancestry. Repaired Layer 06 is awaiting review; repaired Final must still be independently approved sequentially.
+Presentation state: `WAITING_FOR_ALL_VIEWS`
 
-## Active quality holds
+Presentation generation: `LOCKED`
 
-1. V01 contact-sheet/review-board production remains locked until repaired Layer 06 and repaired Final are sequentially rebuilt and independently approved, followed by a fresh passing continuity audit.
-2. V06 cannot advance beyond Layer 00 until the mandatory shared V02/V06 planter specification is established and the planter-bearing Layer 00 through Layer 02 chain is independently rebuilt. The previously rejected Layer 03 remains invalid as a cumulative parent.
+No user decision is currently required.
