@@ -1,25 +1,60 @@
-{
-  "project": "pulla-reddy",
-  "view": "V02_Curved_Seating",
-  "layer_id": "00",
-  "source_filename": "source-page-03-3d-view-02-original.jpg",
-  "candidate_filename": "layer-00-base-dark-planter-candidate.png",
-  "dimensions": {
-    "width": 1628,
-    "height": 966
-  },
-  "task": "Night base with shared planter present and all electric lighting off",
-  "new_architectural_element": "Canonical continuous integrated curved-seater planter",
-  "new_lighting_circuit": "None",
-  "camera_crop_alignment_changed": false,
-  "unrelated_architecture_materials_products_changed": false,
-  "previous_lighting_changed_unexpectedly": false,
-  "all_electric_lighting_off": true,
-  "worker_authored_approval": false,
-  "later_layer_started": false,
-  "source_sha256": "2476dd39c0a0ffff664b5bdf1d2b0d1ea60a8d75af954175cb591d6e5a1d5cf1",
-  "candidate_sha256": "c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540",
-  "warnings": [
-    "Raster-edit workflow requires independent cross-view planter identity verification when V06 Layer 00 is available."
-  ]
+﻿{
+    "project_id":  "pulla-reddy",
+    "view_id":  "V02",
+    "layer_id":  "01",
+    "revision":  "QA-REMEDIATION-001-attempt-1",
+    "source_filename":  "layer-00-base-dark-planter-candidate.png",
+    "parent_path":  "D:\\Codex\\G Pulla Reddy Sweets\\01_Views\\V02_Seating_Lounge\\layer-00-base-dark-planter-candidate.png",
+    "parent_sha256":  "c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540",
+    "candidate_filename":  "layer-01-wall-wash-candidate-r1.png",
+    "candidate_sha256":  "af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619",
+    "dimensions":  [
+                       1628,
+                       966
+                   ],
+    "new_lighting_family":  "Restrained deep-recessed 3000K wall-wash serving only the two visible shelf-wall compositions",
+    "camera_crop_alignment_changed":  false,
+    "architecture_materials_products_changed":  false,
+    "previous_lighting_changed":  false,
+    "global_exposure_changed":  false,
+    "warnings":  [
+
+                 ],
+    "deterministic_qa":  {
+                             "profile":  "cumulative-lighting-layer-v1",
+                             "passed":  true,
+                             "dimensions":  [
+                                                1628,
+                                                966
+                                            ],
+                             "changed_pixel_percent":  6.195347,
+                             "darkened_pixel_percent":  0,
+                             "unrelated_activation_percent":  0,
+                             "strong_unrelated_activation_percent":  0,
+                             "mean_rgb_delta":  [
+                                                    0.28751,
+                                                    0.192444,
+                                                    0.090602
+                                                ],
+                             "zones":  {
+                                           "task_wall_shelf_wash_left":  [
+                                                                             0.245,
+                                                                             0.25,
+                                                                             0.12,
+                                                                             0.205
+                                                                         ],
+                                           "task_wall_shelf_wash_center":  [
+                                                                               0.39,
+                                                                               0.235,
+                                                                               0.145,
+                                                                               0.315
+                                                                           ],
+                                           "permitted_floor_bounce":  [
+                                                                          0.36,
+                                                                          0.551,
+                                                                          0.18,
+                                                                          0.169
+                                                                      ]
+                                       }
+                         }
 }
