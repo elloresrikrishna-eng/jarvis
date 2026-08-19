@@ -26,15 +26,21 @@ Create only the V01 Ashwamedha lighting concept sketch from the exact locked cam
 
 Historical defective Final/downstream imagery remains non-authoritative. Contact-sheet/review-board production remains locked until repaired Final and a fresh continuity audit pass.
 
-## V02 | Layer 01 wall-wash
+## V02 | Layer 01 wall-wash correction
 
-Layer 00 candidate `c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540` is independently APPROVED under `jarvis-v02-l00-c0db62b7-approve-001`.
+Approved immutable Layer 00 parent remains:
+
+`c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540`
+
+Layer 01 candidate `af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619` is independently REJECTED under `jarvis-v02-l01-af3045bc-reject-001`.
+
+The candidate preserved scene integrity and passed deterministic QA, but the visual wall-wash was too weak to read as a meaningful presentation layer and appeared as faint isolated glow patches rather than a believable vertically coherent recessed wall-washer distribution.
 
 Execute:
 
-`projects/pulla-reddy/instructions/V02_LAYER01_WALL_WASH.md`
+`projects/pulla-reddy/instructions/V02_LAYER01_WALL_WASH_CORRECTION_001.md`
 
-Add only restrained deep-recessed 3000K wall-wash serving visible wall-mounted shelf compositions. Keep the shared planter present and completely unlit. Publish, set `READY_FOR_JARVIS_REVIEW`, and stop. Do not begin integrated shelf lighting without exact approval.
+Rebuild the same Layer 01 task from the exact approved Layer 00 parent only. Make both shelf-wall compositions clearly but restrainedly legible at normal presentation scale, with soft vertical continuity from visually quiet deep-recessed sources. Keep the shared planter present and unlit, keep the hospitality zone darker, do not activate integrated shelf lighting or any other circuit, publish a fresh revisioned candidate through the GitHub Actions binary review-artifact path, set `READY_FOR_JARVIS_REVIEW`, and stop. Do not begin Layer 02 without exact candidate-bound approval.
 
 ## V03 | Layer 01 sweet-counter downlighting
 
