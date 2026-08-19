@@ -5,9 +5,9 @@
   "view": "V06_Curved_Seating_Hero",
   "view_id": "V06",
   "source_page": 7,
-  "status": "codex_action_required",
+  "status": "READY_FOR_JARVIS_REVIEW",
   "current_layer_id": "00",
-  "current_task": "Repair the V06 authoritative parent chain: establish the shared V02/V06 planter specification, then rebuild and publish V06 Layer 00 with the shared planter present and all electric lighting off.",
+  "current_task": "Stop for independent external JARVIS visual review of V06 Layer 00.",
   "approved_through_layer": -1,
   "rejected_candidate": {
     "sha256": "6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f",
@@ -20,8 +20,113 @@
   "preserve_for_future_layer_03": "The corrected under-seater character in candidate 6de8f029666f724431a22d80eec24a9f287123fb0aca9f9af751c5f0f3d7bd6f is the visual target after the parent chain is repaired: source concealed, no luminous ribbon, restrained floor pool, approximately 40% lower contribution than the original rejected Layer 03.",
   "review_path": "projects/pulla-reddy/review/V06/",
   "shared_dependency": "V02 and V06 require one authoritative shared planter specification before either curved-seating Layer 00 can be approved.",
-  "next_required_action": "Read projects/pulla-reddy/instructions/V06_PARENT_CHAIN_REPAIR.md. Create SHARED_PLANTER_SPEC.md, rebuild V06 Layer 00 with that planter present and unlit, publish the standard Layer 00 review package, set V06 to waiting_for_chatgpt_review, and stop.",
+  "next_required_action": "External JARVIS review. Do not modify this candidate and do not start another layer without an exact candidate-bound decision.",
   "jarvis_approval": false,
   "presentation_gate": "LOCKED",
-  "user_decision_required": false
+  "user_decision_required": false,
+  "current_layer": 0,
+  "candidate": "layer-00-base-dark-planter-repair.png",
+  "candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V06_Curved_Seating_Hero/layer-00-base-dark-planter-repair.png",
+  "candidate_sha256": "a2c3f2bcb59ebf7e35b2c6e5842f1196227cc7ef6dad3bb6f6de469151ebcff3",
+  "approved_parent": "source-page-07-3d-view-06-original.jpg",
+  "approved_parent_sha256": "29f2e244fd5486a411c758e511f3b899a662acc9945e4693fc702f519a7f3f1c",
+  "artifact_name": "jarvis-pulla-reddy-v06-l00-a2c3f2bcb59e",
+  "artifact_id": "9375264736",
+  "workflow_run_id": "32279524100",
+  "publication_commit_sha": "7ef6d7bec9d6eadc0a63e861b02e203d15f99b09",
+  "remote_retrievability_verified": true,
+  "remote_candidate_sha256": "a2c3f2bcb59ebf7e35b2c6e5842f1196227cc7ef6dad3bb6f6de469151ebcff3",
+  "provenance_valid": true,
+  "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V06/00/active.json",
+  "dispatcher_job_id": "jarvis-pulla-reddy-v06-9278f068ff11d7971c20381a",
+  "dispatcher_provenance": {
+    "protocol_version": "jarvis-dispatcher-v0.1",
+    "worker_prompt_contract_version": "jarvis-worker-prompt-contract-v0.2",
+    "job_id": "jarvis-pulla-reddy-v06-9278f068ff11d7971c20381a",
+    "kind": "LANE",
+    "triggering_state_path": "projects/pulla-reddy/state/V06.json",
+    "triggering_state_sha": "7d954d6cc44cab5a2eda2b7c9a4f8eecc7ca5061",
+    "triggering_state_hash": "a28689ea3c6f08115103ad2a0280035a4e8ea3a8f148699af5b44a587ef92304",
+    "triggering_decision_id": "jarvis-v06-l03-6de8f029-reject-002",
+    "source_documents": [
+      {
+        "path": "projects/pulla-reddy/AUTOMATION_PROTOCOL.md",
+        "blob_sha": "b8081e06144e5b9f0473b7d195b296a6c6fc326c",
+        "content_hash": "f294ae7ac024be508b16c983689702acdddbf0335e5f7b64685864917099020c"
+      },
+      {
+        "path": "projects/pulla-reddy/control/decisions/pulla-reddy/V06/03/latest.json",
+        "blob_sha": "7cd39f79a3200edb7fe0bd3c65fa98c6ef2952eb",
+        "content_hash": "173f0f6a8db3c15986ece357d7d243ace581248f7f145afde099c6965af9bae1"
+      },
+      {
+        "path": "projects/pulla-reddy/control/presentation-gate.json",
+        "blob_sha": "006fd6ffe7792533cbe6c91a94659e6d24c2e3f0",
+        "content_hash": "74423d30b9e380b2bda8f0e12daec9c9e92b91a3be52d8cf39ba439af18df1af"
+      },
+      {
+        "path": "projects/pulla-reddy/CURRENT_INSTRUCTION.md",
+        "blob_sha": "4ec1fe060098690debc0c1d0f4460f9f4762596b",
+        "content_hash": "4fae57666aaf5c6116600910463b8a2b24582cab9cd481991eb31257cfb3b08e"
+      },
+      {
+        "path": "projects/pulla-reddy/instructions/V06_PARENT_CHAIN_REPAIR.md",
+        "blob_sha": "54750778ff3bdba3afeb3236a8c12c9b39ee53ee",
+        "content_hash": "264aebb7cd820908004f85708d5ebab4b02176fe98c58d4f71da7fb9be602388"
+      },
+      {
+        "path": "projects/pulla-reddy/MULTIVIEW_COORDINATOR_INSTRUCTION.md",
+        "blob_sha": "1602e4b7867e2728c032432b0678137495e0b449",
+        "content_hash": "d7960d072cce54ae2ead00d4dfa77d016d25e7ac1d970851c2035666cc95f909"
+      },
+      {
+        "path": "projects/pulla-reddy/MULTIVIEW_EXECUTION.md",
+        "blob_sha": "22387dac18e061cc0cb7ea2e1916c217f9526f8e",
+        "content_hash": "a252493d16b6a227d3a330454d08008970b4c15fe307b277e4183c54fe2c7bbb"
+      },
+      {
+        "path": "projects/pulla-reddy/PROJECT_RULES.md",
+        "blob_sha": "23b4135fa97e75b87d0cde6270b7407b036453b6",
+        "content_hash": "f40c5e26185d5a7d521da81c8d723dcf1c1486dd61de9143b26f0e0cb2273e99"
+      },
+      {
+        "path": "projects/pulla-reddy/SHARED_PLANTER_SPEC.md",
+        "blob_sha": "da063e55f2372f1390cb31957dadd3fd629e7754",
+        "content_hash": "dd5dab4d3c309cf978ff312a5d4bac1b6f8e33e300bf1819df880607b19ab62d"
+      },
+      {
+        "path": "projects/pulla-reddy/state/V06.json",
+        "blob_sha": "7d954d6cc44cab5a2eda2b7c9a4f8eecc7ca5061",
+        "content_hash": "a28689ea3c6f08115103ad2a0280035a4e8ea3a8f148699af5b44a587ef92304"
+      }
+    ],
+    "worker_terminal_state": "WORK_PRODUCT_READY",
+    "worker_summary": "Rebuilt V06 Layer 00 from the authoritative page-7 source with the shared continuous planter present and unlit. All electric lighting is off. Prepared the standard review package and staged V06 in waiting_for_chatgpt_review. No later layer or approval was created.",
+    "worker_warnings": [
+      "Candidate is a controlled raster reconstruction. Independent review must verify fine-grained architectural continuity and shared-planter identity before approval."
+    ]
+  },
+  "review_files": [
+    {
+      "path": "projects/pulla-reddy/review/V06/STATUS.md",
+      "sha256": "a28789c31514bb1c34180415e01e29aac97cf9b30a18f8bba4abdf3f64549a27"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V06/manifest.json",
+      "sha256": "8b0c317e82d59b88a1a4179eae21be2419ddcc722937d9477f92c688dd01c7a1"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V06/SELF_QA.md",
+      "sha256": "77fa1ea445fca27e5ba927dd4310214afabbece9054d4ddb59f2fba11b0d2aab"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V06/review-v06-layer-00-preview.jpg",
+      "sha256": "ef17e5b122e19df6a8de7da5275f0a0ed87581b8dce6f204764dc2345a0c11c5"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V06/review-v06-source-vs-layer-00.jpg",
+      "sha256": "ca46ec35ad0a435a846456f1c1a8119e6e9fe0d3a1c37705438c63a2f328644b"
+    }
+  ],
+  "updated_at": "2026-08-19T17:04:48.396Z"
 }
