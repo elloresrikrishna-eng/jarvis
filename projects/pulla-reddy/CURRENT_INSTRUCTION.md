@@ -1,6 +1,4 @@
-# Current Instruction | Parallel Production After V01 Layer 01 Approval
-
-This instruction supersedes the previous V01 artifact-migration hold.
+# Current Instruction | Parallel Production After V01 Layer 02 Approval
 
 ## Immediate objective
 
@@ -15,25 +13,27 @@ Read and obey:
 - all per-view state files under `projects/pulla-reddy/state/`
 - all current JARVIS decisions under `projects/pulla-reddy/control/decisions/`
 
-## Priority 1 | V01 Layer 02 wall-wash
+## Priority 1 | V01 Layer 03 concealed shelf-integrated lighting
 
-V01 Layer 01 v4 is independently approved.
+V01 Layer 02 wall-wash candidate is independently approved.
 
 Approved immutable parent:
 
-`bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217`
+`fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e`
 
 Decision:
 
-`jarvis-v01-l01-bb0eda1c-approve-001`
+`jarvis-v01-l02-fc47cfc6-approve-001`
 
 Execute:
 
-`projects/pulla-reddy/instructions/V01_LAYER02_WALL_WASH.md`
+`projects/pulla-reddy/instructions/V01_LAYER03_SHELF_INTEGRATED.md`
 
-Create Layer 02 from the exact approved Layer 01 parent, adding only deep-recessed 3000K wall-washer downlights serving the visible wall-mounted shelving compositions. Do not add integrated shelf lighting yet. Preserve the approved counter lighting exactly. Publish through the GitHub Actions binary review-artifact path and stop V01 at `READY_FOR_JARVIS_REVIEW` after remote retrievability and provenance are verified.
+Create Layer 03 from the exact approved Layer 02 parent, adding only concealed integrated 3000K shelf lighting to all visible wall-mounted shelves. Source must remain hidden. No raw LED strip line, LED dots, bright shelf-edge ribbon or luminous brass-support effect. The integrated contribution must supplement, not replace or flatten, the approved recessed wall-wash. Preserve the approved counter lighting and Layer 02 wall-wash exactly apart from physically unavoidable local interaction.
 
-Do not begin Layer 03 until Layer 02 receives exact candidate-bound independent JARVIS approval.
+Publish through the GitHub Actions binary review-artifact path and stop V01 at `READY_FOR_JARVIS_REVIEW` after remote retrievability and provenance are verified.
+
+Do not begin Layer 04 until Layer 03 receives exact candidate-bound independent JARVIS approval.
 
 ## Priority 2 | V02/V06 shared planter parent-chain repair
 
