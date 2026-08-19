@@ -1,0 +1,25 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "02",
+  "candidate_sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
+  "approved_parent_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "approved_parent_decision_id": "jarvis-v01-l01-bb0eda1c-approve-001",
+  "generation_method": "OpenAI built-in image editing workflow",
+  "source_role": "Exact approved Layer 01 parent used as immutable edit base",
+  "new_circuit": "Deep-recessed 3000K wall-washer downlights serving visible wall-mounted shelf compositions only",
+  "excluded_circuits": [
+    "concealed shelf-integrated lighting",
+    "central display lighting",
+    "rear seating lighting",
+    "under-seater lighting"
+  ],
+  "correction_history": [
+    "Initial attempt rejected locally for global protected-region lift and 1624x969 output.",
+    "Corrected edit reasserted the approved parent and localized the wall-wash to the shelf-wall targets.",
+    "One unintended extra bottom row from the editor was removed losslessly to restore the locked 1624x968 canvas."
+  ],
+  "published_local_filename": "layer-02-wall-shelf-wall-wash-v3.png",
+  "created_at": "2026-08-19T04:15:00.000Z"
+}

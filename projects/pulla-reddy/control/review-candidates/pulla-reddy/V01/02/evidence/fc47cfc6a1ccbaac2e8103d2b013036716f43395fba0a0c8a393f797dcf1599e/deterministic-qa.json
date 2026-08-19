@@ -1,0 +1,58 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "02",
+  "passed": true,
+  "approved_parent_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "candidate_sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
+  "dimensions": {
+    "parent": [1624, 968],
+    "candidate": [1624, 968],
+    "match": true
+  },
+  "full_frame": {
+    "parent_mean_luminance": 28.2189,
+    "candidate_mean_luminance": 32.1913,
+    "mean_shift": 3.9724,
+    "candidate_clipped_fraction_ge_250": 0.00000509,
+    "interpretation": "Frame-level lift is attributable to the two released shelf-wall target zones; core protected regions remain stable."
+  },
+  "target_regions": {
+    "left_wall_shelves": {
+      "parent_mean_luminance": 23.9187,
+      "candidate_mean_luminance": 44.3096,
+      "mean_shift": 20.3909,
+      "candidate_clipped_fraction_ge_250": 0.0
+    },
+    "right_wall_shelves": {
+      "parent_mean_luminance": 20.2977,
+      "candidate_mean_luminance": 40.9746,
+      "mean_shift": 20.6769,
+      "candidate_clipped_fraction_ge_250": 0.0
+    }
+  },
+  "protected_core_mean_luminance_shifts": {
+    "central_ceiling": -0.1301,
+    "right_counter": 0.2008,
+    "left_counter": -0.1490,
+    "central_display": 1.2088,
+    "rear_seating": 0.9741
+  },
+  "checks": {
+    "exact_parent_hash_verified": true,
+    "exact_canvas_and_crop_dimensions": true,
+    "wall_wash_distinct_and_localized": true,
+    "counter_lighting_mean_luminance_preserved": true,
+    "central_ceiling_mean_luminance_preserved": true,
+    "central_display_and_rear_seating_within_secondary_bounce_tolerance": true,
+    "no_target_region_clipping": true,
+    "no_global_exposure_or_gamma_lift_detected": true,
+    "no_integrated_shelf_light_detected": true,
+    "no_visible_pendant_track_or_surface_fixture_detected": true,
+    "visual_camera_architecture_material_product_continuity": true,
+    "visual_3000k_warm_white_only": true
+  },
+  "method": "Read-only SHA-256, dimension, regional luminance, clipping and visual continuity inspection against the exact approved Layer 01 parent.",
+  "review_note": "Deterministic QA is Gate 1 only and is not independent JARVIS design approval."
+}
