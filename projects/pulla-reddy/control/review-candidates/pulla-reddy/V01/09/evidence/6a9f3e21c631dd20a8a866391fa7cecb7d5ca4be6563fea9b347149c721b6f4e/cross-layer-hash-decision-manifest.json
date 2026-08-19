@@ -1,0 +1,90 @@
+{
+  "schema_version": "v01-cross-layer-hash-decision-manifest-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "task_layer_id": "09",
+  "audit_result": "FAIL",
+  "earliest_affected_layer": "02",
+  "all_hashes_match_recorded_masters": true,
+  "all_dimensions_match": true,
+  "dimensions": [1624, 968],
+  "entries": [
+    {
+      "id": "SOURCE",
+      "filename": "source-view-01-original.jpg",
+      "sha256": "ccdd9b6de971cac904f236ec89c7ff55de9d6f46538fb2a53b55dd3be002a808",
+      "role": "authoritative PDF Page 2 source extraction",
+      "prior_jarvis_decision_id": null,
+      "approval_record": "User-authoritative Page 2 instruction and immutable source record",
+      "decision_gap_reason": "The authoritative source is not a lighting candidate and predates the JARVIS candidate-decision path."
+    },
+    {
+      "id": "00",
+      "filename": "layer-00-base-dark.png",
+      "sha256": "17f3d0fdb900ef897762ab4df0f464ea04d6ae09808569073d0c7863cc5b3fd9",
+      "role": "approved full-night parent",
+      "prior_jarvis_decision_id": null,
+      "approval_record": "projects/pulla-reddy/review/V01/CHATGPT_REVIEW_LAYER_00.md",
+      "downstream_jarvis_parent_binding_decision_id": "jarvis-v01-l01-bb0eda1c-approve-001",
+      "decision_gap_reason": "Layer 00 was approved before the content-addressed JARVIS decision path; the exact hash is bound as Layer 01's approved parent."
+    },
+    {
+      "id": "01",
+      "filename": "layer-01-front-display-counter-downlights-v4.png",
+      "sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+      "role": "approved Layer 01 master",
+      "prior_jarvis_decision_id": "jarvis-v01-l01-bb0eda1c-approve-001"
+    },
+    {
+      "id": "02",
+      "filename": "layer-02-wall-shelf-wall-wash-v3.png",
+      "sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
+      "role": "approved Layer 02 master; earliest audit failure",
+      "prior_jarvis_decision_id": "jarvis-v01-l02-fc47cfc6-approve-001"
+    },
+    {
+      "id": "03",
+      "filename": "layer-03-concealed-shelf-integrated-lighting-v3.png",
+      "sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af",
+      "role": "approved Layer 03 master; downstream of Layer 02 defect",
+      "prior_jarvis_decision_id": "jarvis-v01-l03-9c855ce5-approve-001"
+    },
+    {
+      "id": "04",
+      "filename": "layer-04-central-merchandise-circulation-v4.png",
+      "sha256": "58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837",
+      "role": "approved Layer 04 master; downstream of Layer 02 defect",
+      "prior_jarvis_decision_id": "jarvis-v01-l04-58553357-approve-001"
+    },
+    {
+      "id": "05",
+      "filename": "layer-05-rear-seating-comfort-v3.png",
+      "sha256": "eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065",
+      "role": "approved Layer 05 master; downstream of Layer 02 defect",
+      "prior_jarvis_decision_id": "jarvis-v01-l05-eda764d0-approve-001"
+    },
+    {
+      "id": "06",
+      "filename": "layer-06-concealed-under-seater-glow-v2.png",
+      "sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+      "role": "approved Layer 06 master; downstream of Layer 02 defect",
+      "prior_jarvis_decision_id": "jarvis-v01-l06-a059b104-approve-001"
+    },
+    {
+      "id": "CONCEPT",
+      "filename": "concept-sketch-view-01-lighting-v3.png",
+      "sha256": "0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78",
+      "role": "approved communication artifact only; never a pixel parent",
+      "prior_jarvis_decision_id": "jarvis-v01-l07-0b0e4bac-approve-001",
+      "pixel_parent": false
+    },
+    {
+      "id": "FINAL",
+      "filename": "final-v01-composite.png",
+      "sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+      "role": "approved exact Final V01 Composite; byte-identical to Layer 06",
+      "prior_jarvis_decision_id": "jarvis-v01-l08-a059b104-approve-001",
+      "byte_for_byte_identical_to_layer_06": true
+    }
+  ]
+}

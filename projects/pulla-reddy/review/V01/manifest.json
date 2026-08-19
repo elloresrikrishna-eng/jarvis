@@ -1,85 +1,43 @@
 {
-  "protocol_version": "jarvis-return-path-v1",
-  "package_version": "V01-final-composite-v1",
-  "project": "G Pulla Reddy Sweets, HSR",
-  "view": "V01_Main_Retail",
-  "task_layer_id": "08",
-  "task_kind": "final-composite",
-  "status_after_publish": "READY_FOR_JARVIS_REVIEW",
-  "approved_layer_06_filename": "layer-06-concealed-under-seater-glow-v2.png",
-  "approved_layer_06_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
-  "approved_layer_06_decision_id": "jarvis-v01-l06-a059b104-approve-001",
-  "approved_concept_sketch_filename": "concept-sketch-view-01-lighting-v3.png",
-  "approved_concept_sketch_sha256": "0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78",
-  "approved_concept_sketch_decision_id": "jarvis-v01-l07-0b0e4bac-approve-001",
-  "candidate_filename": "final-v01-composite.png",
-  "candidate_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
-  "dimensions": {
-    "width": 1624,
-    "height": 968
-  },
-  "byte_for_byte_identical_to_approved_layer_06": true,
-  "image_processing_performed": false,
-  "camera_or_crop_alignment_changed": false,
-  "architecture_materials_products_furniture_changed": false,
-  "previous_lighting_changed": false,
-  "global_exposure_gamma_or_colour_changed": false,
-  "new_lighting_families_introduced": 0,
-  "artifact_publication": {
-    "artifact_name": "jarvis-pulla-reddy-v01-l08-a059b10401f0",
-    "artifact_id": "9361335925",
-    "workflow_run_id": "32242528619",
-    "workflow_commit_sha": "ec2ebaf7448481c41f9253f011ec36d2ae7183c3",
-    "artifact_archive_digest": "sha256:9d3bfdc89d92b8a0d6e5952badbcd580a5d04721cc90d0e230ae12fda9108a69",
-    "remote_download_verified": true,
-    "remote_candidate_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
-    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/08/publication.json",
-    "published_at": "2026-08-19T10:26:46.674Z"
-  },
-  "local_paths": {
-    "approved_layer_06": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-06-concealed-under-seater-glow-v2.png",
-    "approved_concept_sketch": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/concept-sketch-view-01-lighting-v3.png",
-    "candidate": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/final-v01-composite.png"
-  },
-  "review_assets": [
-    {
-      "filename": "final-v01-composite-preview.jpg",
-      "purpose": "Review-sized Final V01 Composite preview",
-      "status": "created"
-    },
-    {
-      "filename": "approved-layer-06-vs-final-v01-composite.jpg",
-      "purpose": "Approved Layer 06 beside byte-identical final candidate",
-      "status": "created"
-    },
-    {
-      "filename": "FINAL_CONTINUITY_NOTE.md",
-      "purpose": "Explicit byte identity and no-change continuity statement",
-      "status": "created"
-    },
-    {
-      "filename": "SELF_QA.md",
-      "purpose": "Final composite technical self-check",
-      "status": "updated"
-    },
-    {
-      "filename": "DESIGN_INTENT_CHECK.md",
-      "purpose": "Final no-new-design-decision check",
-      "status": "updated"
-    }
-  ],
-  "qa_summary": {
-    "sha256_match": true,
-    "byte_length_match": true,
-    "byte_for_byte_identical": true,
-    "dimension_match": true,
-    "pixel_parent_is_approved_layer_06": true,
-    "concept_sketch_used_as_pixel_parent": false,
-    "new_lighting_families": 0,
-    "render_changes": 0
-  },
-  "warnings": [
-    "Independent external JARVIS review remains mandatory; exact byte identity and artifact publication are not approval.",
-    "The V01 cross-layer continuity audit remains locked."
-  ]
+    "protocol_version":  "jarvis-return-path-v1",
+    "package_version":  "V01-cross-layer-audit-v1",
+    "project":  "G Pulla Reddy Sweets, HSR",
+    "view":  "V01_Main_Retail",
+    "task_layer_id":  "09",
+    "task_kind":  "cross-layer-continuity-audit",
+    "status_after_publish":  "READY_FOR_JARVIS_REVIEW",
+    "audit_result":  "FAIL",
+    "earliest_affected_layer":  "02",
+    "candidate_filename":  "cross-layer-pair-audit-board.png",
+    "candidate_sha256":  "6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e",
+    "candidate_dimensions":  {
+                                 "height":  1892,
+                                 "width":  2538
+                             },
+    "approved_final_sha256":  "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+    "approved_final_decision_id":  "jarvis-v01-l08-a059b104-approve-001",
+    "approved_master_mutations":  0,
+    "repair_performed":  false,
+    "affected_downstream":  [
+                                "03",
+                                "04",
+                                "05",
+                                "06",
+                                "FINAL"
+                            ],
+    "artifact_publication":  {
+                                 "artifact_name":  "jarvis-pulla-reddy-v01-l09-6a9f3e21c631",
+                                 "state":  "PENDING_WORKFLOW",
+                                 "remote_download_verified":  false
+                             },
+    "review_assets":  [
+                          "CROSS_LAYER_QA.md",
+                          "cross-layer-metrics.json",
+                          "cross-layer-hash-decision-manifest.json",
+                          "cross-layer-provenance.json",
+                          "cross-layer-contact-sheet-review.jpg",
+                          "cross-layer-pair-audit-board-review.jpg"
+                      ],
+    "presentation_gate":  "LOCKED",
+    "contact_sheet_review_board_gate":  "LOCKED_PENDING_AUDIT_APPROVAL"
 }

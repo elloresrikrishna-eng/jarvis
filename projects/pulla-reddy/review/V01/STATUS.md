@@ -1,33 +1,42 @@
-# V01 Main Retail | Final Composite Approved, Continuity Audit Released
+# V01 Main Retail | Cross-Layer Continuity Audit Candidate
 
-Final Composite status: APPROVED
+Status: READY_FOR_JARVIS_REVIEW
 
-Decision ID: `jarvis-v01-l08-a059b104-approve-001`
+Task/layer ID: 09 (cross-layer-continuity-audit)
 
-Approved Final Composite: `final-v01-composite.png`
+Audit result: FAIL
 
-Approved SHA-256: `a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30`
+Candidate: cross-layer-pair-audit-board.png
 
-Artifact ID: `9361335925`
+Candidate SHA-256: 6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e
 
-Workflow run ID: `32242528619`
+## Blocking finding
 
-The Final Composite is byte-for-byte identical to the independently approved Layer 06 master and is now immutable. Independent artifact download, hashing, manifest/provenance checks and direct visual inspection all support approval.
+Layer 02 is registered 1 px lower than approved Layer 01. Layer 01 anchor comparisons confirm the same offset in Layers 02-06 and Final. Layer 02 is the earliest affected layer; Layers 03-06 and Final are downstream dependants.
 
-## Current V01 task
+No approved master was modified and no repair was attempted. The approved concept sketch remains communication-only and is not a pixel parent.
 
-Task/layer ID: `09`
+## Verified passes
 
-Task: Cross-Layer Continuity Audit
+- Every expected master hash is present.
+- Every audited image is 1624 x 968.
+- Layer 00 to Layer 01 and Layers 02 to 06 preserve zero immediate-parent shift.
+- No uniform whole-frame exposure-lift signature was detected.
+- Layer 06 and Final are byte-for-byte identical at SHA-256 a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30.
 
-Instruction:
+## Review evidence
 
-`projects/pulla-reddy/instructions/V01_CROSS_LAYER_CONTINUITY_AUDIT.md`
+- CROSS_LAYER_QA.md
+- cross-layer-metrics.json
+- cross-layer-hash-decision-manifest.json
+- cross-layer-provenance.json
+- cross-layer-contact-sheet-review.jpg
+- cross-layer-pair-audit-board-review.jpg
 
-Codex must audit the exact independently approved Source, Layer 00, Layers 01-06, approved concept sketch and Final Composite, publish the required audit evidence, set V01 to `READY_FOR_JARVIS_REVIEW`, and stop.
+## GitHub Actions transport
 
-No independently approved layer may be silently rewritten during the audit. If a defect is found, the audit must identify the earliest affected layer and downstream consequences for JARVIS control.
+Artifact name: jarvis-pulla-reddy-v01-l09-6a9f3e21c631
 
-The V01 contact-sheet/review-board task remains locked until the cross-layer audit receives candidate-bound independent approval.
+Publication verification: PENDING
 
-Presentation generation remains locked.
+Independent candidate-bound JARVIS review is required. Contact-sheet/review-board production and presentation generation remain locked.

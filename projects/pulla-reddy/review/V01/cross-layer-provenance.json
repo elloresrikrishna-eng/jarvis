@@ -1,0 +1,60 @@
+{
+  "schema_version": "v01-cross-layer-provenance-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "task_layer_id": "09",
+  "audit_result": "FAIL",
+  "audit_method": "Read-only SHA-256, byte length, image dimensions, 7x7 edge-registration search, full-frame and protected-region luminance deltas, channel-delta warmth, clipping checks, identical-scale labeled visual sheets, and independent-master decision binding.",
+  "authoritative_pdf": {
+    "filename": "26.08.12 -G Pulla Reddy-HSR-Sweets-3D View.pdf",
+    "sha256": "ddde788275354bd429465c06677c4b9c1870ea7d7f99efa22c755d6328a54351",
+    "page": 2,
+    "page_title": "3D VIEW 01"
+  },
+  "approved_master_selection": {
+    "source": "source-view-01-original.jpg",
+    "layer_00": "layer-00-base-dark.png",
+    "layer_01": "layer-01-front-display-counter-downlights-v4.png",
+    "layer_02": "layer-02-wall-shelf-wall-wash-v3.png",
+    "layer_03": "layer-03-concealed-shelf-integrated-lighting-v3.png",
+    "layer_04": "layer-04-central-merchandise-circulation-v4.png",
+    "layer_05": "layer-05-rear-seating-comfort-v3.png",
+    "layer_06": "layer-06-concealed-under-seater-glow-v2.png",
+    "concept_sketch": "concept-sketch-view-01-lighting-v3.png",
+    "final": "final-v01-composite.png"
+  },
+  "excluded_local_alternatives": [
+    "layer-01-front-display-counter-downlights.png",
+    "layer-01-front-display-counter-downlights-v2.png",
+    "layer-01-front-display-counter-downlights-v3.png",
+    "layer-02-wall-shelf-wall-wash.png",
+    "layer-02-wall-shelf-wall-wash-v2.png",
+    "layer-03-concealed-shelf-integrated-lighting.png",
+    "layer-03-concealed-shelf-integrated-lighting-v2.png",
+    "layer-04-central-merchandise-circulation.png",
+    "layer-04-central-merchandise-circulation-v2.png",
+    "layer-04-central-merchandise-circulation-v3.png",
+    "layer-05-rear-seating-comfort.png",
+    "layer-05-rear-seating-comfort-v2.png",
+    "layer-06-concealed-under-seater-glow.png",
+    "concept-sketch-view-01-lighting.png",
+    "concept-sketch-view-01-lighting-v2.png",
+    "final-render-view-01.png"
+  ],
+  "approved_master_mutations_performed": 0,
+  "repair_performed": false,
+  "earliest_affected_layer": "02",
+  "downstream_dependency_impact": ["03", "04", "05", "06", "FINAL"],
+  "deterministic_tooling": {
+    "Build-V01CrossLayerAudit.ps1_sha256": "48d9ebb9bf6a09141387b3edc16e184c521a8e179b0aed12681aafae52f03088",
+    "V01AuditMetrics.cs_sha256": "2ac0a0ad59151aca4f75ac58ab93cda54f0aec68cf0259b6a9a1ba88c1ed1e6f"
+  },
+  "evidence_hashes": {
+    "CROSS_LAYER_QA.md": "08d8118c21a4f0bad4c1fce021619ddb25a75182c35eef718838285e1ddbced9",
+    "cross-layer-metrics.json": "982ed15f16e19bf174ce5e5bb1de76d9198b2bec141b8011f65a90177336a5dc",
+    "cross-layer-contact-sheet.png": "21d69a0e8a616e1bf07edd49d878c81707b54043ee7b94ca50ecb9307cfc4704",
+    "cross-layer-pair-audit-board.png": "6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e"
+  },
+  "candidate_filename": "cross-layer-pair-audit-board.png",
+  "candidate_sha256": "6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e"
+}

@@ -1,0 +1,38 @@
+{
+    "protocol_version":  "jarvis-return-path-v1",
+    "project_id":  "pulla-reddy",
+    "view_id":  "V01",
+    "layer_id":  "09",
+    "task_kind":  "cross-layer-continuity-audit",
+    "package_valid":  true,
+    "audit_result":  "FAIL",
+    "candidate_sha256":  "6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e",
+    "candidate_dimensions":  [
+                                 2538,
+                                 1892
+                             ],
+    "hash_chain_verified":  true,
+    "all_input_dimensions_match":  true,
+    "final_layer06_byte_identity":  true,
+    "concept_sketch_pixel_parent":  false,
+    "uniform_global_lift_detected":  false,
+    "earliest_affected_layer":  "02",
+    "blocking_anomaly":  {
+                             "id":  "V01-L02-COORDINATE-DRIFT-001",
+                             "best_dx_px":  0,
+                             "best_dy_px":  1,
+                             "zero_shift_edge_correlation":  0.65041,
+                             "best_shift_edge_correlation":  0.766104,
+                             "downstream":  [
+                                                "03",
+                                                "04",
+                                                "05",
+                                                "06",
+                                                "FINAL"
+                                            ]
+                         },
+    "approved_master_mutations":  0,
+    "repair_performed":  false,
+    "metrics_path":  "projects/pulla-reddy/review/V01/cross-layer-metrics.json",
+    "qa_path":  "projects/pulla-reddy/review/V01/CROSS_LAYER_QA.md"
+}
