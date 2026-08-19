@@ -1,0 +1,22 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "08",
+  "candidate_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+  "reviewed_artifact_id": "9361335925",
+  "reviewed_workflow_run_id": "32242528619",
+  "decision": "APPROVE",
+  "review_summary": "Independent external JARVIS review approves the exact V01 Final Composite candidate. The GitHub Actions artifact was downloaded and candidate.png independently hashed to a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30, matching the published manifest, provenance and READY_FOR_JARVIS_REVIEW state. The candidate is byte-for-byte identical to the independently approved Layer 06 master, so no new lighting, camera, crop, architecture, material, product, furniture, glass/reflection, exposure, gamma, CCT or colour decision has been introduced. Direct visual inspection confirms the approved design hierarchy is preserved: the long sweet counter remains the dominant visual destination, wall merchandise is secondary, central merchandise remains restrained, rear hospitality stays softer and darker, and the ceiling remains visually quiet. Shelf lighting reads concealed rather than strip-like, the sweet counter remains warm and appetising without obvious glass bloom, and no visible pendant, track, surface fixture or new luminous ceiling-dot condition appears. Because the Final Composite is an exact copy of an already approved cumulative render and the transport/provenance chain independently verifies that identity, it is approved as the immutable V01 final render source. Release only the cross-layer continuity audit next.",
+  "required_changes": [],
+  "hard_locks": [
+    "Final V01 Composite a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30 is immutable and must not be regenerated, relit, re-exported, sharpened, denoised, recoloured, cropped, rescaled or otherwise altered.",
+    "The approved concept sketch 0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78 remains a communication artifact only and is not a pixel parent.",
+    "All previously approved V01 layer candidates and candidate-bound decisions remain authoritative for the continuity audit.",
+    "The cross-layer continuity audit must not silently rewrite any independently approved layer. If it finds a real defect, report the earliest affected layer and downstream consequences for JARVIS control before any approved parent is replaced.",
+    "Presentation generation remains locked until V01 completion and all other required view approval chains are complete."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T11:11:36Z",
+  "decision_id": "jarvis-v01-l08-a059b104-approve-001"
+}
