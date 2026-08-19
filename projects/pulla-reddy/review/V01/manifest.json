@@ -3,7 +3,7 @@
   "package_version": "V01-layer-06-concealed-under-seater-glow-v2",
   "project": "G Pulla Reddy Sweets, HSR",
   "view": "V01_Main_Retail",
-  "status_after_publish": "PUBLISHING_REVIEW_ARTIFACT",
+  "status_after_publish": "READY_FOR_JARVIS_REVIEW",
   "source_filename": "source-view-01-original.jpg",
   "approved_parent_filename": "layer-05-rear-seating-comfort-v3.png",
   "candidate_filename": "layer-06-concealed-under-seater-glow-v2.png",
@@ -21,14 +21,14 @@
   "approved_parent_decision_id": "jarvis-v01-l05-eda764d0-approve-001",
   "artifact_publication": {
     "artifact_name": "jarvis-pulla-reddy-v01-l06-a059b10401f0",
-    "artifact_id": null,
-    "workflow_run_id": null,
-    "workflow_commit_sha": null,
-    "artifact_archive_digest": null,
-    "remote_download_verified": false,
-    "remote_candidate_sha256": null,
+    "artifact_id": "9357928764",
+    "workflow_run_id": "32233034803",
+    "workflow_commit_sha": "7ab20329b2018ef3e635a5ff525b530d19c8d86d",
+    "artifact_archive_digest": "sha256:6d98138fbdb3de00269bf179984f3d0990ca1dca2e4a372fb3b530f79644cdbe",
+    "remote_download_verified": true,
+    "remote_candidate_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
     "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/06/publication.json",
-    "published_at": null
+    "published_at": "2026-08-19T08:34:53.528Z"
   },
   "local_paths": {
     "source": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/source-view-01-original.jpg",

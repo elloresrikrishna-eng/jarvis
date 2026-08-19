@@ -1,6 +1,6 @@
 # V01 Main Retail | Layer 06 Candidate
 
-Status: PUBLISHING_REVIEW_ARTIFACT
+Status: READY_FOR_JARVIS_REVIEW
 
 Candidate: layer-06-concealed-under-seater-glow-v2.png
 
@@ -27,6 +27,12 @@ Restrained fully concealed 3000K under-seater lighting beneath the visible built
 
 ## GitHub Actions transport
 
-The exact content-addressed candidate and provenance are prepared for the JARVIS Visual Candidate workflow. Artifact identifiers and independent remote hash verification will be added after the workflow completes.
+- Artifact name: jarvis-pulla-reddy-v01-l06-a059b10401f0
+- Artifact ID: 9357928764
+- Workflow run ID: 32233034803
+- Publication commit: 7ab20329b2018ef3e635a5ff525b530d19c8d86d
+- Artifact archive digest: sha256:6d98138fbdb3de00269bf179984f3d0990ca1dca2e4a372fb3b530f79644cdbe
+- Downloaded candidate.png SHA-256: a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30
+- Candidate manifest and generated artifact provenance match the same hash, commit and run.
 
 Independent external JARVIS review remains mandatory. Do not begin the concept-sketch task without exact candidate-bound approval.
