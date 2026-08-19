@@ -1,0 +1,26 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "03",
+  "candidate_sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af",
+  "approved_parent_sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
+  "approved_parent_decision_id": "jarvis-v01-l02-fc47cfc6-approve-001",
+  "generation_method": "OpenAI built-in image editing workflow with deterministic parent-preserving localized continuity correction",
+  "source_role": "Exact approved Layer 02 parent used as immutable edit base",
+  "new_circuit": "Concealed integrated 3000K shelf lighting serving all visible wall-mounted merchandise shelves only",
+  "excluded_circuits": [
+    "central display lighting",
+    "rear seating lighting",
+    "circulation lighting",
+    "under-seater lighting"
+  ],
+  "correction_history": [
+    "Initial Layer 03 draft was rejected locally because shelf-edge emission read as a visible luminous line.",
+    "Second edit was rejected locally because it weakened the approved wall-wash and darkened protected regions.",
+    "Final candidate reasserted the exact approved Layer 02 pixels outside three tight shelf zones and carried only a restrained positive integrated-light contribution inside those zones.",
+    "No candidate pixels changed outside the permitted shelf-local zones."
+  ],
+  "published_local_filename": "layer-03-concealed-shelf-integrated-lighting-v3.png",
+  "created_at": "2026-08-19T05:30:14.571Z"
+}

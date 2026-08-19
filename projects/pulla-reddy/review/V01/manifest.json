@@ -1,74 +1,78 @@
 {
   "protocol_version": "jarvis-return-path-v1",
-  "package_version": "V01-layer-02-wall-wash-v3",
+  "package_version": "V01-layer-03-concealed-shelf-integrated-v3",
   "project": "G Pulla Reddy Sweets, HSR",
   "view": "V01_Main_Retail",
   "status_after_publish": "READY_FOR_JARVIS_REVIEW",
   "source_filename": "source-view-01-original.jpg",
-  "approved_parent_filename": "layer-01-front-display-counter-downlights-v4.png",
-  "candidate_filename": "layer-02-wall-shelf-wall-wash-v3.png",
-  "candidate_layer_number": 2,
+  "approved_parent_filename": "layer-02-wall-shelf-wall-wash-v3.png",
+  "candidate_filename": "layer-03-concealed-shelf-integrated-lighting-v3.png",
+  "candidate_layer_number": 3,
   "dimensions": {
     "width": 1624,
     "height": 968
   },
-  "exact_new_lighting_circuit": "Deep-recessed 3000K ceiling wall-washer downlights serving the visible left and right wall-mounted shelving compositions only",
+  "exact_new_lighting_circuit": "Concealed integrated 3000K lighting serving all visible wall-mounted merchandise shelves only",
   "camera_or_crop_alignment_changed": false,
   "architecture_materials_products_changed": false,
   "previous_lighting_changed_unexpectedly": false,
   "global_exposure_changed": false,
   "added_cct_kelvin": 3000,
   "visible_fixture_bodies_introduced": false,
-  "concealed_shelf_integrated_lighting_added": false,
-  "candidate_sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
-  "approved_parent_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
-  "approved_parent_decision_id": "jarvis-v01-l01-bb0eda1c-approve-001",
+  "raw_led_line_or_dots_visible": false,
+  "luminous_brass_support_effect": false,
+  "candidate_sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af",
+  "approved_parent_sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
+  "approved_parent_decision_id": "jarvis-v01-l02-fc47cfc6-approve-001",
   "artifact_publication": {
-    "artifact_name": "jarvis-pulla-reddy-v01-l02-fc47cfc6a1cc",
-    "artifact_id": "9352307296",
-    "workflow_run_id": "32215867164",
-    "workflow_commit_sha": "5e4032640c5a69e14a63275f311ba2da63f5c95f",
-    "artifact_archive_digest": "sha256:b168ee33858e8cbebe653a58a579d4ac95a5eaa827b713c83eb916808f73fd77",
-    "remote_download_verified": true,
-    "remote_candidate_sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
-    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/02/publication.json",
-    "published_at": "2026-08-19T04:31:00.000Z"
+    "artifact_name": "jarvis-pulla-reddy-v01-l03-9c855ce50bea",
+    "artifact_id": null,
+    "workflow_run_id": null,
+    "workflow_commit_sha": null,
+    "artifact_archive_digest": null,
+    "remote_download_verified": false,
+    "remote_candidate_sha256": null,
+    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/03/publication.json",
+    "published_at": null
   },
   "local_paths": {
     "source": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/source-view-01-original.jpg",
-    "approved_parent": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-01-front-display-counter-downlights-v4.png",
-    "candidate": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-02-wall-shelf-wall-wash-v3.png"
+    "approved_parent": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-02-wall-shelf-wall-wash-v3.png",
+    "candidate": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-03-concealed-shelf-integrated-lighting-v3.png"
   },
   "review_assets": [
     {
-      "filename": "layer-02-wall-shelf-wall-wash-preview.jpg",
-      "purpose": "Review-sized Layer 02 candidate preview",
+      "filename": "layer-03-concealed-shelf-integrated-preview.jpg",
+      "purpose": "Review-sized Layer 03 candidate preview",
       "status": "created"
     },
     {
-      "filename": "layer-01-vs-layer-02.jpg",
-      "purpose": "Approved Layer 01 parent beside Layer 02 wall-wash candidate",
+      "filename": "layer-02-vs-layer-03.jpg",
+      "purpose": "Approved Layer 02 parent beside Layer 03 candidate",
       "status": "created"
     },
     {
       "filename": "SELF_QA.md",
-      "purpose": "Layer 02 technical and visual self-check evidence",
+      "purpose": "Layer 03 technical and visual self-check evidence",
       "status": "updated"
     }
   ],
   "qa_summary": {
     "dimension_match": true,
-    "left_shelf_wall_mean_luminance_shift": 20.3909,
-    "right_shelf_wall_mean_luminance_shift": 20.6769,
-    "central_ceiling_core_mean_luminance_shift": -0.1301,
-    "right_counter_core_mean_luminance_shift": 0.2008,
-    "left_counter_core_mean_luminance_shift": -0.149,
-    "central_display_core_mean_luminance_shift": 1.2088,
-    "rear_seating_core_mean_luminance_shift": 0.9741,
+    "left_foreground_shelves_mean_luminance_shift": 4.7396,
+    "left_mid_shelves_mean_luminance_shift": 3.5630,
+    "right_shelves_mean_luminance_shift": 4.0924,
+    "central_ceiling_core_mean_luminance_shift": 0.0004,
+    "right_counter_core_mean_luminance_shift": 0.0,
+    "left_counter_core_mean_luminance_shift": 0.0,
+    "central_display_core_mean_luminance_shift": 0.0,
+    "rear_seating_core_mean_luminance_shift": 0.0,
+    "circulation_floor_mean_luminance_shift": 0.0,
+    "changed_pixels_outside_allowed_shelf_zones": 0,
     "target_region_clipped_fraction": 0.0
   },
   "warnings": [
     "Independent external JARVIS review remains mandatory; deterministic QA and artifact publication are not approval.",
-    "Layer 03 concealed shelf-integrated lighting remains locked."
+    "Layer 04 remains locked."
   ]
 }

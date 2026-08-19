@@ -1,51 +1,55 @@
-# V01 Main Retail | Layer 02 Wall-Wash Review Status
+# V01 Main Retail | Layer 03 Concealed Shelf Lighting Review Status
 
-## Current control state
+## Candidate state
 
-Layer 02 wall-wash v3 is independently approved and is now the immutable cumulative parent for V01 Layer 03.
+Layer 03 concealed shelf-integrated lighting v3 is ready for independent external JARVIS review.
 
-Approved candidate SHA-256:
+Candidate SHA-256:
+
+`9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af`
+
+Exact approved Layer 02 parent SHA-256:
 
 `fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e`
 
-Approval decision:
+Parent approval decision:
 
 `jarvis-v01-l02-fc47cfc6-approve-001`
 
-Layer 03 concealed shelf-integrated lighting is released through:
+## Layer contribution
 
-`projects/pulla-reddy/instructions/V01_LAYER03_SHELF_INTEGRATED.md`
+The candidate adds only restrained concealed 3000K integrated lighting to the visible wall-mounted merchandise shelves.
 
-Layer 04 remains locked.
+- the source remains hidden;
+- no raw LED line, LED dots or glowing shelf-edge ribbon is visible;
+- brass supports remain material elements rather than luminous sources;
+- approved Layer 01 counter lighting and Layer 02 wall-wash remain frozen;
+- sweet counters remain the primary visual destination;
+- no hospitality, central-display, circulation or under-seater circuit is introduced.
 
-## Independent review result
+## Deterministic continuity evidence
 
-The exact GitHub Actions artifact was retrieved and visually compared against the approved Layer 01 parent. The Layer 02 contribution is accepted because:
+- Canvas: **PASS**, exact 1624 x 968.
+- Parent SHA binding: **PASS**.
+- Changed pixels outside the three permitted shelf zones: **0**.
+- Protected right counter mean shift: **0.0000**.
+- Protected left counter mean shift: **0.0000**.
+- Protected central display mean shift: **0.0000**.
+- Protected rear seating mean shift: **0.0000**.
+- Protected circulation floor mean shift: **0.0000**.
+- Central ceiling mean shift: **+0.0004**, a negligible feather-edge interaction.
+- Target shelf mean shifts: **+4.7396**, **+3.5630**, and **+4.0924**.
+- Combined target clipping at luminance 250 or above: **0.0**.
+- Global mean luminance shift: **+0.658515**, fully localized to the released shelf zones.
 
-- the new warm wall-wash is confined to the visible wall-mounted shelf compositions;
-- the shelves gain a clear second-tier presence without displacing the sweet counters as the primary visual destination;
-- the approved Layer 01 counter-light intensity and glass character remain visually stable;
-- the ceiling remains visually quiet, with no pendant, track, surface fitting or obvious glowing aperture introduced;
-- no scene-wide exposure or gamma lift is evident;
-- camera, crop, architecture, ceiling grid, counters, furniture and product placement remain stable;
-- the wall-wash reads as a separate architectural layer that can now be supplemented by concealed shelf-integrated light.
+## Local production asset
 
-## Locked parent and publication evidence
+`D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-03-concealed-shelf-integrated-lighting-v3.png`
 
-- Candidate SHA-256: `fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e`
-- Approved parent SHA-256: `bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217`
-- GitHub Actions workflow run ID: `32215867164`
-- GitHub Actions artifact ID: `9352307296`
-- Artifact name: `jarvis-pulla-reddy-v01-l02-fc47cfc6a1cc`
-- Workflow commit: `5e4032640c5a69e14a63275f311ba2da63f5c95f`
-- Artifact archive digest: `sha256:b168ee33858e8cbebe653a58a579d4ac95a5eaa827b713c83eb916808f73fd77`
-- Remote retrieval: **PASS**
-- Provenance binding: **PASS**
+## Publication posture
 
-## Layer 03 quality warning
-
-The next layer must not turn the shelf assembly into visible strip lighting. The integrated contribution must remain hidden, soft and product-led, and the brass uprights must not become luminous source objects. The approved Layer 02 wall gradients remain frozen apart from physically unavoidable local interaction.
+The exact content-addressed candidate, deterministic QA, generation provenance, preview and Layer 02 versus Layer 03 comparison are included in this package. GitHub Actions artifact verification is pending this publication commit.
 
 ## Stop condition
 
-V01 should next execute Layer 03, publish the exact candidate through the binary review path, set itself to `READY_FOR_JARVIS_REVIEW`, and stop. Do not start Layer 04 without exact candidate-bound independent approval.
+Independent external JARVIS approval is mandatory. Do not begin Layer 04 without an exact candidate-bound approval.

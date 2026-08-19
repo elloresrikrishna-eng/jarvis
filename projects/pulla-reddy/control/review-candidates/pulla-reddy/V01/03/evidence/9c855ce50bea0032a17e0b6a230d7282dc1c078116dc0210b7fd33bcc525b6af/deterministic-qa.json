@@ -1,0 +1,78 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "03",
+  "passed": true,
+  "approved_parent_sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
+  "candidate_sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af",
+  "dimensions": {
+    "parent": [1624, 968],
+    "candidate": [1624, 968],
+    "match": true
+  },
+  "full_frame": {
+    "parent_mean_luminance": 32.1913,
+    "candidate_mean_luminance": 32.8498,
+    "mean_shift": 0.658515,
+    "candidate_clipped_fraction_ge_250": 0.000005725,
+    "interpretation": "The restrained frame-level lift is entirely attributable to the three permitted shelf-local lighting zones."
+  },
+  "target_regions": {
+    "left_foreground_wall_shelves": {
+      "parent_mean_luminance": 57.3174,
+      "candidate_mean_luminance": 62.0570,
+      "mean_shift": 4.7396,
+      "max_positive_channel_delta": 22
+    },
+    "left_mid_wall_shelves": {
+      "parent_mean_luminance": 31.8157,
+      "candidate_mean_luminance": 35.3787,
+      "mean_shift": 3.5630,
+      "max_positive_channel_delta": 20
+    },
+    "right_wall_shelves": {
+      "parent_mean_luminance": 41.2278,
+      "candidate_mean_luminance": 45.3202,
+      "mean_shift": 4.0924,
+      "max_positive_channel_delta": 22
+    },
+    "combined_clipped_fraction_ge_250": 0.0,
+    "combined_max_luminance": 241.2488
+  },
+  "protected_core_mean_luminance_shifts": {
+    "central_ceiling": 0.0004,
+    "right_counter": 0.0,
+    "left_counter": 0.0,
+    "central_display": 0.0,
+    "rear_seating": 0.0,
+    "circulation_floor": 0.0
+  },
+  "continuity": {
+    "changed_pixels": 189706,
+    "changed_pixels_outside_allowed_shelf_zones": 0,
+    "difference_bounds": {
+      "min_x": 0,
+      "min_y": 88,
+      "max_x": 1623,
+      "max_y": 532
+    }
+  },
+  "checks": {
+    "exact_parent_hash_verified": true,
+    "exact_canvas_and_crop_dimensions": true,
+    "shelf_integrated_light_distinct_and_localized": true,
+    "approved_wall_wash_preserved": true,
+    "counter_lighting_preserved": true,
+    "central_display_rear_seating_and_circulation_preserved": true,
+    "no_target_region_clipping": true,
+    "no_global_exposure_or_gamma_lift_detected": true,
+    "no_raw_led_line_dots_or_glowing_shelf_edge_detected": true,
+    "no_luminous_brass_support_effect_detected": true,
+    "no_visible_pendant_track_or_surface_fixture_detected": true,
+    "visual_camera_architecture_material_product_continuity": true,
+    "visual_3000k_warm_white_only": true
+  },
+  "method": "Read-only SHA-256, dimension, pixel-difference envelope, regional luminance, clipping and visual continuity inspection against the exact approved Layer 02 parent.",
+  "review_note": "Deterministic QA is Gate 1 only and is not independent JARVIS design approval."
+}

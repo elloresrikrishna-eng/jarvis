@@ -1,36 +1,40 @@
-# V01 Layer 02 | Self QA
+# V01 Layer 03 | Self QA
 
-Candidate: `layer-02-wall-shelf-wall-wash-v3.png`
+Candidate: `layer-03-concealed-shelf-integrated-lighting-v3.png`
 
-Candidate SHA-256: `fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e`
+Candidate SHA-256: `9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af`
 
-Approved parent SHA-256: `bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217`
+Approved parent SHA-256: `fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e`
 
 ## Quality gates
 
 | Gate | Result | Evidence |
 |---|---|---|
-| Exact approved parent used | PASS | Parent SHA matches the Layer 01 approval decision. |
-| Camera, crop and canvas continuity | PASS | Both parent and candidate are 1624 x 968 with matching composition. |
-| Architecture and material continuity | PASS | Visual inspection confirms no scene redesign or product movement. |
-| Exactly one new lighting family | PASS | Only the wall-shelf wall-wash circuit is added. |
-| 3000K warm-white lighting | PASS | Wall-wash is warm, neutral and not orange-contaminated. |
-| Recessed or concealed source only | PASS | No visible fixture bodies, tracks, pendants or surface lights. |
-| No shelf-integrated light | PASS | No shelf-edge glow, raw strip or shelf-underside source. |
-| Approved counter lighting preserved | PASS | Right counter mean shift +0.2008; left counter mean shift -0.1490. |
-| Central ceiling protected | PASS | Central ceiling mean shift -0.1301 with no visible ceiling dots. |
-| Central display protected | PASS | Mean shift +1.2088, within restrained secondary-bounce tolerance. |
-| Rear seating protected | PASS | Mean shift +0.9741, within restrained secondary-bounce tolerance. |
-| No global exposure cheat | PASS | Protected cores remain stable while shelf target regions gain about 20.4 to 20.7 luminance levels. |
-| No target clipping | PASS | Both wall-wash target regions have zero pixels at luminance 250 or above. |
-| Remote artifact integrity | PASS | Downloaded candidate, manifest and provenance all match the exact candidate SHA. |
+| Exact approved parent used | PASS | Parent SHA matches `jarvis-v01-l02-fc47cfc6-approve-001`. |
+| Camera, crop and canvas continuity | PASS | Parent and candidate are 1624 x 968 with matching composition. |
+| Architecture, material and product continuity | PASS | The approved parent is preserved pixel-for-pixel outside the permitted shelf zones. |
+| Exactly one new lighting family | PASS | Only concealed shelf-integrated 3000K lighting is added. |
+| Hidden source | PASS | No raw strip line, LED dots or bright shelf-edge ribbon remains. |
+| Brass supports remain non-luminous | PASS | Brass receives restrained material highlights only. |
+| Approved Layer 01 counter lighting preserved | PASS | Both protected counter cores have 0.0000 mean luminance shift. |
+| Approved Layer 02 wall-wash preserved | PASS | Existing wall gradients remain, with only local shelf interaction. |
+| Central ceiling protected | PASS | Mean shift +0.0004, with no visible new aperture or source. |
+| Central display protected | PASS | Mean shift 0.0000. |
+| Rear seating protected | PASS | Mean shift 0.0000. |
+| Circulation floor protected | PASS | Mean shift 0.0000. |
+| No global exposure cheat | PASS | Global shift is only +0.658515 and no pixels change outside the shelf-local masks. |
+| No target clipping | PASS | Combined shelf target clipping fraction at luminance 250 or above is 0.0. |
+| 3000K warm-white character | PASS | Merchandise glow is warm, restrained and not orange-contaminated. |
+| No visible pendant, track or surface fixture | PASS | No new fixture body is introduced. |
 
 ## Correction record
 
-The first attempt was rejected locally because it lifted protected regions and produced a 1624 x 969 canvas. It was not published.
+The first Layer 03 draft was rejected locally because the shelf-edge emission read as a visible luminous line.
 
-The final candidate reasserts Layer 01 as the immutable base, localizes the wall-wash to shelf zones, and restores the locked 1624 x 968 canvas.
+The second draft was rejected locally because it weakened the approved wall-wash and darkened protected regions.
+
+The final candidate reasserts the exact approved Layer 02 parent outside three tight shelf zones and carries only a restrained positive integrated-light contribution inside those zones.
 
 ## Review posture
 
-Deterministic QA is Gate 1 only. Independent external JARVIS review is still required before Layer 03 can be released.
+Deterministic QA is Gate 1 only. Independent external JARVIS review is still required before Layer 04 can be released.
