@@ -1,4 +1,4 @@
-# Current Instruction | Parallel Production After V01 Repaired Layer 03 Approval
+# Current Instruction | Parallel Production After V01 Repaired Layer 04 Approval
 
 ## Immediate objective
 
@@ -13,31 +13,31 @@ Read and obey:
 - all per-view state files under `projects/pulla-reddy/state/`
 - all current JARVIS decisions under `projects/pulla-reddy/control/decisions/`
 
-## Priority 1 | V01 repaired Layer 04 central merchandise / circulation
+## Priority 1 | V01 repaired Layer 05 rear seating comfort
 
-The repaired V01 Layer 03 candidate:
+The repaired V01 Layer 04 candidate:
 
-`8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba`
+`a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e`
 
 is independently APPROVED under:
 
-`jarvis-v01-l03-8e2a2b19-approve-002`
+`jarvis-v01-l04-a3d00e75-approve-002`
 
-JARVIS downloaded the exact GitHub Actions candidate artifact `9367566108`, independently verified the candidate SHA, separately retrieved the exact repaired Layer 02 parent from artifact `9365354131`, and visually compared the pair. The concealed shelf-integrated contribution passes the design gate: source hidden, no raw strip/dots/glowing edge, wall-wash preserved, sweet counters still dominant, product colour believable, ceiling quiet, and no unrelated visual drift. Deterministic QA confirms `dx=0, dy=0` and zero protected-zone change.
+JARVIS downloaded the exact GitHub Actions candidate artifact `9369801718`, independently verified the candidate SHA, separately retrieved the exact approved repaired Layer 03 parent from artifact `9367566108`, and visually compared the full-resolution pair. The released central-merchandise contribution passes the design gate: the central rack becomes a restrained third-tier destination, the immediate floor pool stays local and soft, sweet counters remain first, wall merchandise remains second, hospitality remains subdued, ceiling stays quiet, product colour remains believable, and no unrelated visual drift or exposure lift is apparent. Deterministic QA confirms `dx=0, dy=0`, zero protected-zone change and no changes outside the released central-merchandise/minimum-circulation region.
 
-This repaired Layer 03 is now the immutable V01 pixel parent.
+This repaired Layer 04 is now the immutable V01 pixel parent.
 
 Execute:
 
-`projects/pulla-reddy/instructions/V01_LAYER04_CENTRAL_MERCHANDISE_REPAIR.md`
+`projects/pulla-reddy/instructions/V01_LAYER05_REAR_SEATING_REPAIR.md`
 
-Build a NEW repaired Layer 04 from exact repaired Layer 03. Add only selective deep-recessed 3000K lighting for the central freestanding merchandise display and the minimum physically necessary adjacent circulation support. Keep the cumulative hierarchy: sweet counters first, wall merchandise second, central merchandise third, hospitality/background subordinate, ceiling quiet. Preserve approved Layers 01-03 exactly and maintain `dx=0, dy=0` registration on the repaired coordinate grid. Do not use any historical defective Layer 04 raster as a pixel parent.
+Build a NEW repaired Layer 05 from exact repaired Layer 04. Add only restrained deep-recessed 3000K rear-seating comfort lighting. Keep the hospitality zone softer and calmer than the sweet counters, wall merchandise and central merchandise. Preserve approved Layers 01-04 exactly and maintain `dx=0, dy=0` registration on the repaired coordinate grid. Do not use any historical defective Layer 05 raster as a pixel parent.
 
 Publish through the GitHub Actions binary review-artifact path, verify provenance and remote retrievability, set V01 to `READY_FOR_JARVIS_REVIEW`, and stop.
 
-Do not begin repaired Layer 05 until the exact repaired Layer 04 candidate receives candidate-bound independent JARVIS approval.
+Do not begin repaired Layer 06 until the exact repaired Layer 05 candidate receives candidate-bound independent JARVIS approval.
 
-Historical Layers 04-06 and Final remain immutable evidence but invalid as production parents until the chain is rebuilt sequentially and re-approved. V01 contact-sheet/review-board production stays locked until repaired Final and a fresh continuity audit pass.
+Historical Layer 05, Layer 06 and Final imagery remain immutable evidence but invalid as production parents until the repaired chain is rebuilt sequentially and re-approved. V01 contact-sheet/review-board production stays locked until repaired Final and a fresh continuity audit pass.
 
 ## Priority 2 | V03 Layer 01 counter downlighting
 
