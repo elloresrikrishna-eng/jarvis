@@ -1,0 +1,24 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "01",
+  "candidate_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "reviewed_artifact_id": "9350820837",
+  "reviewed_workflow_run_id": "32211254927",
+  "decision": "APPROVE",
+  "review_summary": "Independent external JARVIS review approves V01 Layer 01 v4. The exact artifact candidate SHA-256 was independently verified against the candidate manifest. Visually, the principal right-hand sweet display is the clear first destination and the smaller left-front display reads as a quieter companion, which establishes the required retail-first hierarchy without turning the ceiling into a visual object. The added contribution is warm, localized and directionally believable, with restrained spill and soft falloff rather than a scene-wide exposure lift. Sweet colours remain differentiated and appetising, the glass remains readable without obvious bloom or clipped white blobs, and no visible pendant, track, surface fitting or glowing ceiling aperture is introduced. The protected ceiling, wall-shelf, central-display and rear-seating regions are also reported by deterministic QA as unchanged from the approved Layer 00 parent. The result is strong enough to become the immutable approved parent for the next V01 lighting layer.",
+  "required_changes": [],
+  "hard_locks": [
+    "Candidate bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217 is the approved immutable V01 Layer 01 parent and must not be reinterpreted or regenerated unless explicitly reopened by JARVIS.",
+    "Camera position, crop, focal character, perspective, architecture, ceiling grid, counters, shelves, furniture, products, materials and colours remain locked for all later V01 layers.",
+    "The approved Layer 01 counter-downlight effect is frozen in intensity, colour, beam character, reflections and shadow behaviour except for physically unavoidable interaction from a newly added circuit.",
+    "All later added electric lighting remains 3000K and recessed, concealed or integrated only; no visible pendant, track or surface fixture is permitted.",
+    "Layer 02 must equal approved Layer 01 plus exactly one newly released lighting circuit/effect; unrelated zones may not brighten, darken or shift colour without physical cause.",
+    "Do not use global exposure or gamma changes to simulate added light.",
+    "Presentation generation remains locked until every required view has valid independent JARVIS approvals through completion."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T04:01:34Z",
+  "decision_id": "jarvis-v01-l01-bb0eda1c-approve-001"
+}
