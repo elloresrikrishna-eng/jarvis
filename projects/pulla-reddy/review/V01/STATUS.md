@@ -47,9 +47,12 @@ Only restrained deep-recessed 3000K comfort lighting for the visible rear hospit
 ## GitHub Actions transport
 
 - Artifact name: jarvis-pulla-reddy-v01-l05-f8335d6a5081
-- Artifact ID: pending workflow publication
-- Workflow run ID: pending workflow publication
-- Publication commit: pending workflow publication
-- Remote retrievability verified: pending workflow publication
+- Artifact ID: 9372085257
+- Workflow run ID: 32270868999
+- Publication commit: 7b63b7abb7d1b557341a64951603f5bdad617542
+- Artifact archive digest: sha256:395b33d0f4ce09dbe3724cccb05a722f46bba32d94a46a9ffb9f8a03c74c3474
+- Downloaded candidate.png SHA-256: f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca
+- Candidate manifest and generated artifact provenance match the same candidate hash, publication commit, and workflow run.
+- Remote retrievability verified: true
 
 Independent candidate-bound JARVIS review is required. V01 is locked at repaired Layer 05 and repaired Layer 06 must not begin without exact approval.

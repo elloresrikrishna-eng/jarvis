@@ -35,9 +35,15 @@
   },
   "artifact_publication": {
     "artifact_name": "jarvis-pulla-reddy-v01-l05-f8335d6a5081",
-    "state": "PENDING_WORKFLOW",
-    "remote_download_verified": false,
-    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/05/publication.json"
+    "state": "VERIFIED",
+    "remote_download_verified": true,
+    "artifact_id": "9372085257",
+    "workflow_run_id": "32270868999",
+    "workflow_commit_sha": "7b63b7abb7d1b557341a64951603f5bdad617542",
+    "artifact_archive_digest": "sha256:395b33d0f4ce09dbe3724cccb05a722f46bba32d94a46a9ffb9f8a03c74c3474",
+    "remote_candidate_sha256": "f8335d6a5081b096e396a62af688dca39dca95d6a007b08cad4467046b6095ca",
+    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/05/publication.json",
+    "published_at": "2026-08-19T15:38:00.3143095Z"
   },
   "review_assets": [
     "layer-05-rear-seating-comfort-preview.jpg",
