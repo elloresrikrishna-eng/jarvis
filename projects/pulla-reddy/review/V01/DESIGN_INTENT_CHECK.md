@@ -1,23 +1,19 @@
-# V01 Lighting Concept Sketch | Design Intent Check
+# V01 Final Composite | Design Intent Check
 
-## Communication purpose
+## No new design decision
 
-The sketch explains the approved lighting strategy without becoming a new lighting layer, render revision or architectural redesign. Source detail remains readable enough to map directly to the render chain.
+The Final V01 Composite introduces no new design decision. It is an exact copy of the approved Layer 06 cumulative render.
 
-## Hierarchy
+## Approved hierarchy retained
 
-The right principal sweet display carries the strongest amber emphasis, the left display remains a secondary companion, wall shelf compositions form the second tier, central merchandise remains third, rear seating remains fourth, and the under-seater contribution is deliberately faintest.
+All six approved lighting families and their hierarchy remain exactly as reviewed: sweet-counter downlighting, shelf wall-wash, concealed shelf-integrated lighting, central merchandise/circulation support, rear seating comfort and concealed under-seater support.
 
-## Six-family discipline
+## Locked scene retained
 
-Amber is calculated only from same-coordinate differences between successive approved render layers. The candidate contains zero amber pixels outside support from those six approved families.
+Camera, crop, perspective, architecture, ceiling grid, counters, shelves, products, furniture, materials, colours, glass/reflection character, 3000K apparent light character, exposure and gamma are unchanged.
 
-## Architecture and camera
+## Concept-sketch boundary
 
-The graphite base is a deterministic same-coordinate conversion of the authoritative source. No crop, resample, warp, geometry change or generative reconstruction is present in final candidate pixels.
+The approved concept sketch is preserved as a communication artifact only. It is not the final-render pixel parent.
 
-## Fixture and source language
-
-No pendant, track, surface fitting, visible ceiling aperture, raw LED strip, diode dots or decorative seventh family is introduced. The ceiling remains visually quiet.
-
-The Final V01 Composite remains locked pending exact candidate-bound JARVIS approval.
+The cross-layer continuity audit remains locked pending exact candidate-bound Final Composite approval.

@@ -1,0 +1,24 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "08",
+  "task_kind": "final-composite",
+  "state": "READY_FOR_JARVIS_REVIEW",
+  "candidate_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+  "candidate_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/08/candidates/a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30.png",
+  "local_candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/final-v01-composite.png",
+  "artifact_name": "jarvis-pulla-reddy-v01-l08-a059b10401f0",
+  "approved_parent_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+  "approved_parent_decision_id": "jarvis-v01-l06-a059b104-approve-001",
+  "approved_concept_sketch_sha256": "0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78",
+  "approved_concept_sketch_decision_id": "jarvis-v01-l07-0b0e4bac-approve-001",
+  "deterministic_qa": {
+    "passed": true,
+    "path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/08/evidence/a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30/deterministic-qa.json"
+  },
+  "provenance_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/08/evidence/a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30/generation-provenance.json",
+  "jarvis_approval": false,
+  "publication_attempt": 1,
+  "created_at": "2026-08-19T10:20:07.597Z"
+}

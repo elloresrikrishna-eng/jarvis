@@ -1,0 +1,21 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "08",
+  "task_kind": "final-composite",
+  "candidate_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+  "source_filename": "layer-06-concealed-under-seater-glow-v2.png",
+  "source_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+  "source_decision_id": "jarvis-v01-l06-a059b104-approve-001",
+  "approved_concept_sketch_filename": "concept-sketch-view-01-lighting-v3.png",
+  "approved_concept_sketch_sha256": "0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78",
+  "approved_concept_sketch_decision_id": "jarvis-v01-l07-0b0e4bac-approve-001",
+  "generation_method": "Byte-for-byte filesystem copy of the independently approved Layer 06 master",
+  "pixel_parent": "layer-06-concealed-under-seater-glow-v2.png",
+  "concept_sketch_used_as_pixel_parent": false,
+  "image_processing_performed": false,
+  "published_local_filename": "final-v01-composite.png",
+  "byte_for_byte_identical_to_approved_layer_06": true,
+  "created_at": "2026-08-19T10:20:07.597Z"
+}

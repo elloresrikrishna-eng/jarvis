@@ -1,0 +1,44 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "08",
+  "task_kind": "final-composite",
+  "passed": true,
+  "candidate_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+  "approved_layer_06_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+  "approved_layer_06_decision_id": "jarvis-v01-l06-a059b104-approve-001",
+  "approved_concept_sketch_sha256": "0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78",
+  "approved_concept_sketch_decision_id": "jarvis-v01-l07-0b0e4bac-approve-001",
+  "dimensions": {
+    "approved_layer_06": [
+      1624,
+      968
+    ],
+    "candidate": [
+      1624,
+      968
+    ],
+    "match": true
+  },
+  "byte_comparison": {
+    "approved_layer_06_bytes": 2824770,
+    "candidate_bytes": 2824770,
+    "length_match": true,
+    "sha256_match": true,
+    "byte_for_byte_identical": true
+  },
+  "checks": {
+    "camera_crop_perspective_exact": true,
+    "architecture_ceiling_grid_exact": true,
+    "materials_colours_products_furniture_exact": true,
+    "all_six_approved_lighting_families_exact": true,
+    "no_seventh_lighting_family": true,
+    "no_exposure_gamma_colour_or_reflection_change": true,
+    "no_regeneration_relighting_rebalance_denoise_sharpen_crop_or_rescale": true,
+    "approved_concept_sketch_not_used_as_pixel_parent": true,
+    "presentation_treatment_baked_into_render": false
+  },
+  "method": "Direct filesystem copy of the exact independently approved Layer 06 PNG followed by SHA-256 and byte-length verification.",
+  "review_note": "Deterministic identity is proven; independent external JARVIS candidate-bound approval remains mandatory before cross-layer continuity audit."
+}
