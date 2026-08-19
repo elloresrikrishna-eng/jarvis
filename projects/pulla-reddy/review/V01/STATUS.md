@@ -1,47 +1,42 @@
-# V01 Main Retail | Cross-Layer Continuity Audit Candidate
+# V01 Main Retail | Repaired Layer 02 Wall-Wash Candidate
 
-Status: READY_FOR_JARVIS_REVIEW
+Status: PUBLICATION_PENDING
 
-Task/layer ID: 09 (cross-layer-continuity-audit)
+Task/layer ID: 02 (coordinate-continuity repair)
 
-Audit result: FAIL
+Candidate: layer-02-wall-shelf-wall-wash-v4.png
 
-Candidate: cross-layer-pair-audit-board.png
+Candidate SHA-256: c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27
 
-Candidate SHA-256: 6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e
+Approved parent: layer-01-front-display-counter-downlights-v4.png
 
-## Blocking finding
+Approved parent SHA-256: bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217
 
-Layer 02 is registered 1 px lower than approved Layer 01. Layer 01 anchor comparisons confirm the same offset in Layers 02-06 and Final. Layer 02 is the earliest affected layer; Layers 03-06 and Final are downstream dependants.
+Repair source decision: jarvis-v01-l09-6a9f3e21-reject-001
 
-No approved master was modified and no repair was attempted. The approved concept sketch remains communication-only and is not a pixel parent.
+## Change from approved Layer 01
 
-## Verified passes
+Only controlled deep-recessed 3000K wall-washer illumination was added to the visible left and right wall-mounted shelf compositions. Counter downlighting remains the first visual tier; the wall merchandise is secondary; central merchandise, rear seating and under-seater circuits remain off.
 
-- Every expected master hash is present.
-- Every audited image is 1624 x 968.
-- Layer 00 to Layer 01 and Layers 02 to 06 preserve zero immediate-parent shift.
-- No uniform whole-frame exposure-lift signature was detected.
-- Layer 06 and Final are byte-for-byte identical at SHA-256 a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30.
+## Deterministic continuity result
+
+- Dimensions: 1624 x 968.
+- Best edge registration against exact approved Layer 01: dx=0, dy=0.
+- Zero-shift edge correlation: 0.99988043.
+- Negative RGB deltas: 0.
+- Pixels darker by more than 3 luminance levels: 0%.
+- Changed pixels: 18.815075%, confined to intended shelf-wall masks and feathered local spill.
+- Full-frame mean luminance shift: +2.695243, attributable only to the released wall-wash family.
+- Central ceiling registration anchor: exactly frozen.
+- Historical defective Layer 02 pixels reused: no.
 
 ## Review evidence
 
-- CROSS_LAYER_QA.md
-- cross-layer-metrics.json
-- cross-layer-hash-decision-manifest.json
-- cross-layer-provenance.json
-- cross-layer-contact-sheet-review.jpg
-- cross-layer-pair-audit-board-review.jpg
+- layer-02-wall-shelf-wall-wash-v4-preview.jpg
+- layer-01-vs-layer-02-wall-wash-repair-v4.jpg
+- layer-02-wall-shelf-wall-wash-v4-difference.jpg
+- SELF_QA.md
+- manifest.json
+- content-addressed deterministic-qa.json and generation-provenance.json
 
-## GitHub Actions transport
-
-- Artifact name: jarvis-pulla-reddy-v01-l09-6a9f3e21c631
-- Artifact ID: 9363512906
-- Workflow run ID: 32248553564
-- Publication commit: e378cee399e1eeb4c99193f0114b79bdcd8f99a5
-- Artifact archive digest: sha256:9f069c1f3df48d19a776a55af956079381f79b4148398df0232efd5c1ac73cb7
-- Downloaded candidate.png SHA-256: 6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e
-- Candidate manifest and generated artifact provenance match the same candidate hash, publication commit and workflow run.
-- Remote retrievability verified: true
-
-Independent candidate-bound JARVIS review is required. Contact-sheet/review-board production and presentation generation remain locked.
+GitHub Actions artifact identifiers will be recorded after remote publication and retrieval verification. V01 remains locked at repaired Layer 02; Layer 03 must not begin without exact candidate-bound JARVIS approval.

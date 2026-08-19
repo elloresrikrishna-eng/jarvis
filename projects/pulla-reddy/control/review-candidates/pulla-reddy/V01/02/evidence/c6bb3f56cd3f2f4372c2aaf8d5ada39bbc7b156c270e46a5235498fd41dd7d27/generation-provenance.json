@@ -1,0 +1,51 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "02",
+  "candidate_sha256": "c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27",
+  "approved_parent_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "approved_parent_decision_id": "jarvis-v01-l01-bb0eda1c-approve-001",
+  "repair_source_decision_id": "jarvis-v01-l09-6a9f3e21-reject-001",
+  "repair_claim_path": "projects/pulla-reddy/control/decisions/pulla-reddy/V01/09/claims/jarvis-v01-l09-6a9f3e21-reject-001.json",
+  "generation_method": "OpenAI built-in image-edit lighting draft followed by deterministic exact-parent additive compositing",
+  "pixel_parent": {
+    "filename": "layer-01-front-display-counter-downlights-v4.png",
+    "sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+    "role": "Only raster pixel parent"
+  },
+  "lighting_draft": {
+    "filename": "layer-02-coordinate-repair-imagegen-draft.png",
+    "role": "Lighting-distribution guide only, never a raster parent",
+    "processing": "Converted to positive luminance, strongly Gaussian blurred to remove high-frequency appearance changes, constrained to the left and right shelf-wall masks, scaled to restrained 3000K intensity, then added to the exact parent."
+  },
+  "historical_layer_02": {
+    "filename": "layer-02-wall-shelf-wall-wash-v3.png",
+    "sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
+    "role": "Visual design reference only",
+    "pixels_reused": false,
+    "shift_or_crop_used_as_repair": false
+  },
+  "new_circuit": "Controlled deep-recessed 3000K wall-washer downlighting serving visible wall-mounted shelf compositions only",
+  "excluded_circuits": [
+    "concealed shelf-integrated lighting",
+    "central merchandise or circulation lighting",
+    "rear seating comfort lighting",
+    "under-seater lighting"
+  ],
+  "coordinate_guarantee": {
+    "dimensions": [1624, 968],
+    "best_registration_dx": 0,
+    "best_registration_dy": 0,
+    "zero_shift_edge_correlation": 0.99988043
+  },
+  "continuity_guarantee": {
+    "negative_rgb_deltas": 0,
+    "darker_pixel_fraction_gt_3": 0.0,
+    "changed_pixel_fraction": 0.18815075,
+    "full_frame_mean_luminance_shift": 2.695243,
+    "central_ceiling_exactly_frozen": true
+  },
+  "published_local_filename": "layer-02-wall-shelf-wall-wash-v4.png",
+  "created_at": "2026-08-19T12:31:00.000Z"
+}
