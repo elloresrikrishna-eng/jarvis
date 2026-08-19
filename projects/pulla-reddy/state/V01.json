@@ -37,8 +37,8 @@
   "current_candidate": "layer-06-concealed-under-seater-glow-v3.png",
   "current_candidate_sha256": "318b1237c35905e21720e8fc38054b4e93fb93202cfca07cd8b2a8233cf14904",
   "current_artifact_name": "jarvis-pulla-reddy-v01-l06-318b1237c359",
-  "current_artifact_id": null,
-  "current_workflow_run_id": null,
-  "current_publication_commit_sha": null,
-  "remote_download_verified": false
+  "current_artifact_id": "9374332164",
+  "current_workflow_run_id": "32276889137",
+  "current_publication_commit_sha": "633f46af9f86c068bc6bba367dbd89c48ddacdd5",
+  "remote_download_verified": true
 }

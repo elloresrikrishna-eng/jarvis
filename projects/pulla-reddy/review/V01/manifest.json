@@ -37,9 +37,15 @@
   },
   "artifact_publication": {
     "artifact_name": "jarvis-pulla-reddy-v01-l06-318b1237c359",
-    "state": "PENDING_WORKFLOW",
-    "remote_download_verified": false,
-    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/06/publication.json"
+    "state": "VERIFIED",
+    "remote_download_verified": true,
+    "artifact_id": "9374332164",
+    "workflow_run_id": "32276889137",
+    "workflow_commit_sha": "633f46af9f86c068bc6bba367dbd89c48ddacdd5",
+    "artifact_archive_digest": "sha256:8480b0a82dbb829f298b051bb7d4ca89158797d01d76783becc17bb33acfb957",
+    "remote_candidate_sha256": "318b1237c35905e21720e8fc38054b4e93fb93202cfca07cd8b2a8233cf14904",
+    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/06/publication.json",
+    "published_at": "2026-08-19T16:39:10.384938Z"
   },
   "review_assets": [
     "layer-06-concealed-under-seater-glow-preview.jpg",

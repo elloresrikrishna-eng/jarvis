@@ -46,9 +46,12 @@ Only restrained concealed 3000K under-seater lighting was added to the two meani
 ## GitHub Actions transport
 
 - Artifact name: jarvis-pulla-reddy-v01-l06-318b1237c359
-- Artifact ID: pending workflow publication
-- Workflow run ID: pending workflow publication
-- Publication commit: pending workflow publication
-- Remote retrievability verified: pending workflow publication
+- Artifact ID: 9374332164
+- Workflow run ID: 32276889137
+- Publication commit: 633f46af9f86c068bc6bba367dbd89c48ddacdd5
+- Artifact archive digest: sha256:8480b0a82dbb829f298b051bb7d4ca89158797d01d76783becc17bb33acfb957
+- Downloaded candidate.png SHA-256: 318b1237c35905e21720e8fc38054b4e93fb93202cfca07cd8b2a8233cf14904
+- Candidate manifest and workflow provenance match the same candidate hash, approved parent, parent decision, publication commit and workflow run.
+- Remote retrievability verified: true
 
 Independent candidate-bound JARVIS review is required. V01 is locked at repaired Layer 06. Do not begin the repaired Final or fresh continuity audit without exact approval.
