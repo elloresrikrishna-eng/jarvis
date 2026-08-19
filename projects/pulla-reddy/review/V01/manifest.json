@@ -35,9 +35,15 @@
   },
   "artifact_publication": {
     "artifact_name": "jarvis-pulla-reddy-v01-l03-8e2a2b196904",
-    "state": "PENDING_WORKFLOW_VERIFICATION",
-    "remote_download_verified": false,
-    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/03/publication.json"
+    "state": "VERIFIED",
+    "remote_download_verified": true,
+    "artifact_id": "9367566108",
+    "workflow_run_id": "32259287910",
+    "workflow_commit_sha": "86ab69a3406c015cc945b55a5542e92031a850ea",
+    "artifact_archive_digest": "sha256:6d31fbf0d80336a90f6ded9775555396fc90f6f580f72d8bf8ca1b50e4b8b542",
+    "remote_candidate_sha256": "8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba",
+    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/03/publication.json",
+    "published_at": "2026-08-19T13:42:34.2333339Z"
   },
   "review_assets": [
     "layer-03-concealed-shelf-integrated-lighting-v5-preview.jpg",

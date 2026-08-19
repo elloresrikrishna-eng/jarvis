@@ -6,7 +6,7 @@ Presentation generation remains `LOCKED` until every required view has a valid i
 
 | View | Current layer/task | Candidate / approved reference | State | Blocker | Next machine action |
 |---|---|---|---|---|---|
-| V01 Main Retail | Repaired Layer 03 shelf-integrated lighting | Approved repaired Layer 02 `c6bb3f56cd3f2f4372c2aaf8d5ada39bbc7b156c270e46a5235498fd41dd7d27`; decision `jarvis-v01-l02-c6bb3f56-approve-002` | `codex_action_required` | None for Layer 03 | Execute `instructions/V01_LAYER03_SHELF_INTEGRATED_REPAIR.md`, publish candidate artifact, stop at `READY_FOR_JARVIS_REVIEW`. |
+| V01 Main Retail | Repaired Layer 03 shelf-integrated lighting | Candidate `8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba`; artifact `9367566108`; run `32259287910` | `READY_FOR_JARVIS_REVIEW` | Candidate-bound independent review pending | Do not begin repaired Layer 04 until exact APPROVE is recorded and consumed. |
 | V02 Curved Seating | Establish shared planter, then Layer 00 | None | `codex_action_required` | Shared V02/V06 planter specification does not yet exist | Create `SHARED_PLANTER_SPEC.md`, build Layer 00 with planter present and unlit, publish artifact. |
 | V03 Reverse Retail | Layer 01 counter downlighting | Approved parent `a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a` | `codex_action_required` | None | Execute `instructions/V03_LAYER01_COUNTER_DOWNLIGHTING.md`, publish Layer 01 artifact, stop at `READY_FOR_JARVIS_REVIEW`. |
 | V04 Product Elevation | Initialize and create Layer 00 | None | `codex_action_required` | No current candidate | Build Layer 00 with all electric lighting off and publish artifact. |
@@ -36,3 +36,4 @@ Historical V01 approvals for Layers 02-06 and Final remain part of immutable pro
 
 1. V01 contact-sheet/review-board production remains locked until repaired Layers 03-06 and Final are sequentially rebuilt and independently approved, followed by a fresh passing continuity audit.
 2. V06 cannot advance beyond Layer 00 until the mandatory shared V02/V06 planter specification is established and the planter-bearing Layer 00 through Layer 02 chain is independently rebuilt. The previously rejected Layer 03 remains invalid as a cumulative parent.
+

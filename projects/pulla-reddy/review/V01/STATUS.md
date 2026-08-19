@@ -45,6 +45,13 @@ Only concealed integrated 3000K shelf lighting was added to all three visible wa
 ## GitHub Actions transport
 
 - Artifact name: jarvis-pulla-reddy-v01-l03-8e2a2b196904
-- Publication state: PENDING WORKFLOW VERIFICATION
+- Artifact ID: 9367566108
+- Workflow run ID: 32259287910
+- Publication commit: 86ab69a3406c015cc945b55a5542e92031a850ea
+- Artifact archive digest: sha256:6d31fbf0d80336a90f6ded9775555396fc90f6f580f72d8bf8ca1b50e4b8b542
+- Downloaded candidate.png SHA-256: 8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba
+- Candidate manifest and generated artifact provenance match the same candidate hash, publication commit and workflow run.
+- Remote retrievability verified: true
 
 Independent candidate-bound JARVIS review is required. V01 remains locked at repaired Layer 03; repaired Layer 04 must not begin without exact approval.
+

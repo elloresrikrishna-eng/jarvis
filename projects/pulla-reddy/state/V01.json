@@ -35,5 +35,7 @@
   "user_decision_required": false,
   "review_path": "projects/pulla-reddy/review/V01/",
   "current_candidate": "layer-03-concealed-shelf-integrated-lighting-v5.png",
-  "current_candidate_sha256": "8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba"
+  "current_candidate_sha256": "8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba",
+  "current_artifact_id": "9367566108",
+  "current_workflow_run_id": "32259287910"
 }
