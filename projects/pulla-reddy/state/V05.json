@@ -2,9 +2,96 @@
   "project": "G Pulla Reddy Sweets, HSR",
   "view": "V05_Window_Shelving",
   "source_page": 6,
-  "status": "codex_action_required",
-  "current_task": "Initialize lane, extract source, and create Layer 00 night base with all electric lighting off.",
+  "status": "READY_FOR_JARVIS_REVIEW",
+  "current_task": "Stop for independent external JARVIS visual review of V05 Layer 00.",
   "approved_through_layer": -1,
   "review_path": "projects/pulla-reddy/review/V05/",
-  "user_decision_required": false
+  "user_decision_required": false,
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V05",
+  "current_layer": 0,
+  "current_layer_id": "00",
+  "candidate": "layer-00-base-dark.png",
+  "candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V05_Window_Shelf_Display/layer-00-base-dark.png",
+  "candidate_sha256": "76326a4e726229fc343ee401b49a696d4132968c9e776e0d05e07546c9e42be1",
+  "approved_parent": "source-page-06-3d-view-05-original.jpg",
+  "approved_parent_sha256": "183c88fef4f50dc0f2efc10797deda7091093af2279725abc4a5915a3c4fe84e",
+  "artifact_name": "jarvis-pulla-reddy-v05-l00-76326a4e7262",
+  "artifact_id": "9375215478",
+  "workflow_run_id": "32279380250",
+  "publication_commit_sha": "f39b0446bea48a2fcaea073e4dbdbcc0e334ebd4",
+  "remote_retrievability_verified": true,
+  "remote_candidate_sha256": "76326a4e726229fc343ee401b49a696d4132968c9e776e0d05e07546c9e42be1",
+  "provenance_valid": true,
+  "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V05/00/active.json",
+  "dispatcher_job_id": "jarvis-pulla-reddy-v05-3365fb4266155d364db88937",
+  "dispatcher_provenance": {
+    "protocol_version": "jarvis-dispatcher-v0.1",
+    "worker_prompt_contract_version": "jarvis-worker-prompt-contract-v0.2",
+    "job_id": "jarvis-pulla-reddy-v05-3365fb4266155d364db88937",
+    "kind": "LANE",
+    "triggering_state_path": "projects/pulla-reddy/state/V05.json",
+    "triggering_state_sha": "04597c3cdb53b24b5a2a316f7f078cf945718a8a",
+    "triggering_state_hash": "f104c7c24ad3c0f52f250046c940e0d04a28f4a46631c9006f2b467f4e1f7cbe",
+    "source_documents": [
+      {
+        "path": "projects/pulla-reddy/AUTOMATION_PROTOCOL.md",
+        "blob_sha": "b8081e06144e5b9f0473b7d195b296a6c6fc326c",
+        "content_hash": "f294ae7ac024be508b16c983689702acdddbf0335e5f7b64685864917099020c"
+      },
+      {
+        "path": "projects/pulla-reddy/control/presentation-gate.json",
+        "blob_sha": "006fd6ffe7792533cbe6c91a94659e6d24c2e3f0",
+        "content_hash": "74423d30b9e380b2bda8f0e12daec9c9e92b91a3be52d8cf39ba439af18df1af"
+      },
+      {
+        "path": "projects/pulla-reddy/CURRENT_INSTRUCTION.md",
+        "blob_sha": "4ec1fe060098690debc0c1d0f4460f9f4762596b",
+        "content_hash": "4fae57666aaf5c6116600910463b8a2b24582cab9cd481991eb31257cfb3b08e"
+      },
+      {
+        "path": "projects/pulla-reddy/MULTIVIEW_COORDINATOR_INSTRUCTION.md",
+        "blob_sha": "1602e4b7867e2728c032432b0678137495e0b449",
+        "content_hash": "d7960d072cce54ae2ead00d4dfa77d016d25e7ac1d970851c2035666cc95f909"
+      },
+      {
+        "path": "projects/pulla-reddy/MULTIVIEW_EXECUTION.md",
+        "blob_sha": "22387dac18e061cc0cb7ea2e1916c217f9526f8e",
+        "content_hash": "a252493d16b6a227d3a330454d08008970b4c15fe307b277e4183c54fe2c7bbb"
+      },
+      {
+        "path": "projects/pulla-reddy/PROJECT_RULES.md",
+        "blob_sha": "23b4135fa97e75b87d0cde6270b7407b036453b6",
+        "content_hash": "f40c5e26185d5a7d521da81c8d723dcf1c1486dd61de9143b26f0e0cb2273e99"
+      },
+      {
+        "path": "projects/pulla-reddy/state/V05.json",
+        "blob_sha": "04597c3cdb53b24b5a2a316f7f078cf945718a8a",
+        "content_hash": "f104c7c24ad3c0f52f250046c940e0d04a28f4a46631c9006f2b467f4e1f7cbe"
+      }
+    ],
+    "worker_terminal_state": "WORK_PRODUCT_READY",
+    "worker_summary": "V05 Layer 00 night base is ready. The authoritative page-6 source and candidate were independently hashed, dimensions match at 1625 × 968, all electric lighting is off, and camera, crop, architecture, materials, products, and geometry remain locked. No approval was authored and no later layer was started by this worker.",
+    "worker_warnings": [
+      "Later-layer legacy files already existed in the assigned workspace before this execution. They were not modified, used as candidate parents, or included as Layer 00 review evidence."
+    ]
+  },
+  "review_files": [
+    {
+      "path": "projects/pulla-reddy/review/V05/layer-00-base-dark.png",
+      "sha256": "76326a4e726229fc343ee401b49a696d4132968c9e776e0d05e07546c9e42be1"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V05/manifest.json",
+      "sha256": "ae14a35f215dfafc36aecee39d41cad6dc6eb78855e43e8a538b23e50676b151"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V05/STATUS.md",
+      "sha256": "ccecb1130454800d339f694f41e845061eab8198f33bdd7b81efbb536b49517a"
+    }
+  ],
+  "next_required_action": "External JARVIS review. Do not modify this candidate and do not start another layer without an exact candidate-bound decision.",
+  "jarvis_approval": false,
+  "updated_at": "2026-08-19T17:03:17.044Z"
 }
