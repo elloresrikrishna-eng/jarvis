@@ -1,0 +1,37 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "06",
+  "candidate_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+  "approved_parent_sha256": "eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065",
+  "approved_parent_decision_id": "jarvis-v01-l05-eda764d0-approve-001",
+  "generation_method": "OpenAI built-in image editing workflow followed by deterministic exact-parent localized continuity correction",
+  "source_role": "Exact approved Layer 05 parent used as the immutable pixel base for the final candidate",
+  "new_circuit": "Restrained fully concealed 3000K under-seater lighting beneath the visible built-in rear banquette only",
+  "excluded_circuits": [
+    "new rear seating-comfort downlighting",
+    "planter lighting",
+    "new counter lighting",
+    "new wall-wash or shelf-integrated lighting",
+    "new central-merchandise or circulation lighting",
+    "general ambient or ceiling lighting"
+  ],
+  "imagegen_transport": {
+    "reason": "Windows ACL helper prevented direct local PNG ingestion by the built-in editor",
+    "transport_role": "High-quality temporary JPEG supplied only to establish concealed under-banquette reflected-light character",
+    "draft_sha256": "63a06b6dd33ca25c0d8743cf5339e8fde8fe11ab81daee5d63b046634b17e8b1",
+    "draft_dimensions": [1625, 968],
+    "draft_extra_column_handling": "The generated draft had one unused far-right column; deterministic compositing sampled only the first 1624 columns and retained the approved 1624 x 968 parent canvas.",
+    "final_candidate_base": "Exact approved Layer 05 PNG, not the transport image"
+  },
+  "correction_history": [
+    "The built-in edit established a concealed warm reflected glow beneath the visible rear banquette.",
+    "The generative draft was not accepted directly because it changed global image content and made the rear contribution too broad.",
+    "Only positive light contribution was transferred to the exact approved parent inside two tight floor ellipses separated by the central merchandise occlusion.",
+    "The bench-contact edge was faded to keep the source fully concealed and avoid a visible strip or luminous ribbon.",
+    "All pixels outside the two permitted under-seater zones remain exact approved Layer 05 pixels."
+  ],
+  "published_local_filename": "layer-06-concealed-under-seater-glow-v2.png",
+  "created_at": "2026-08-19T08:24:40.900Z"
+}

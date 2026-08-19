@@ -1,38 +1,32 @@
-# V01 Main Retail | Layer 05 Candidate
+# V01 Main Retail | Layer 06 Candidate
 
-Status: READY_FOR_JARVIS_REVIEW
+Status: PUBLISHING_REVIEW_ARTIFACT
 
-Candidate: layer-05-rear-seating-comfort-v3.png
+Candidate: layer-06-concealed-under-seater-glow-v2.png
 
-Candidate SHA-256: eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065
+Candidate SHA-256: a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30
 
-Approved immutable parent: layer-04-central-merchandise-circulation-v4.png
+Approved immutable parent: layer-05-rear-seating-comfort-v3.png
 
-Parent SHA-256: 58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837
+Parent SHA-256: eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065
 
-Parent decision: jarvis-v01-l04-58553357-approve-001
+Parent decision: jarvis-v01-l05-eda764d0-approve-001
 
 ## New circuit
 
-Restrained deep-recessed 3000K comfort lighting for the visible rear hospitality tables and seating, with only minimum physically necessary local floor spill.
+Restrained fully concealed 3000K under-seater lighting beneath the visible built-in rear banquette, expressed only as tight reflected floor glow.
 
 ## Continuity result
 
 - Camera, crop, architecture, ceiling grid, counters, shelves, products, materials and exposure remain locked.
-- Approved Layer 01 counter lighting, Layer 02 wall-wash, Layer 03 shelf-integrated lighting and Layer 04 central-merchandise/circulation lighting remain exact parent pixels in every protected region.
-- Changed pixels outside permitted rear hospitality zones: 0.
-- Protected counter, shelf, ceiling, central-merchandise, central-floor-pool and foreground-floor shifts: 0.0.
-- Global mean luminance shift: +0.253448, entirely localized.
-- No visible luminaire body, glowing aperture, broad rear wash, mixed CCT or negative exposure adjustment.
+- Approved Layers 01 through 05, including the Layer 05 rear table and wall comfort pools, remain exact parent pixels in every protected region.
+- Changed pixels outside the two permitted under-seater floor zones: 0.
+- Protected retail, ceiling, rear wall/table, central-merchandise, central-floor and foreground shifts: 0.0.
+- Global mean luminance shift: +0.060876, entirely localized.
+- No visible strip, luminous ribbon, diode dots, broad floor wash, mixed CCT or negative exposure adjustment.
 
 ## GitHub Actions transport
 
-- Artifact name: jarvis-pulla-reddy-v01-l05-eda764d05c88
-- Artifact ID: 9356509692
-- Workflow run ID: 32228898766
-- Publication commit: 47b35fb2e861ef6d4f8c9f02578769ab4a00a1e0
-- Artifact archive digest: sha256:fd959b66ca1c43363b1cf12d910c290f84f266417530cd0ae17ed47074c3f8f4
-- Downloaded candidate.png SHA-256: eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065
-- Candidate manifest and generated artifact provenance match the same hash, commit and run.
+The exact content-addressed candidate and provenance are prepared for the JARVIS Visual Candidate workflow. Artifact identifiers and independent remote hash verification will be added after the workflow completes.
 
-Independent external JARVIS review remains mandatory. Do not begin Layer 06 without exact candidate-bound approval.
+Independent external JARVIS review remains mandatory. Do not begin the concept-sketch task without exact candidate-bound approval.

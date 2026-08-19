@@ -1,0 +1,51 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "06",
+  "passed": true,
+  "approved_parent_sha256": "eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065",
+  "candidate_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+  "dimensions": {"parent": [1624, 968], "candidate": [1624, 968], "match": true},
+  "full_frame": {
+    "mean_luminance_shift": 0.060876,
+    "interpretation": "The frame-level lift is entirely attributable to the two localized reflected-floor contributions beneath the visible rear banquette."
+  },
+  "target_regions": {
+    "left_under_seater": {"mean_luminance_shift": 4.4077, "max_positive_channel_delta": 22, "clipped_pixels": 0},
+    "right_under_seater": {"mean_luminance_shift": 4.8924, "max_positive_channel_delta": 22, "clipped_pixels": 0}
+  },
+  "protected_core_mean_luminance_shifts": {
+    "rear_wall_and_layer_05_table_pools": 0.0,
+    "ceiling": 0.0,
+    "left_retail": 0.0,
+    "right_retail": 0.0,
+    "central_merchandise": 0.0,
+    "central_floor": 0.0,
+    "foreground": 0.0
+  },
+  "continuity": {
+    "changed_pixels": 12572,
+    "changed_pixels_outside_allowed_under_seater_zones": 0,
+    "negative_channel_deltas": 0,
+    "difference_bounds": {"min_x": 455, "min_y": 473, "max_x": 920, "max_y": 526}
+  },
+  "checks": {
+    "exact_parent_hash_verified": true,
+    "exact_canvas_and_crop_dimensions": true,
+    "under_seater_glow_distinct_and_localized": true,
+    "source_fully_concealed_without_luminous_ribbon": true,
+    "layer_05_rear_seating_comfort_preserved": true,
+    "approved_retail_layers_preserved": true,
+    "central_merchandise_and_floor_pool_preserved": true,
+    "ceiling_preserved_without_visible_aperture": true,
+    "no_target_region_clipping": true,
+    "no_global_exposure_or_gamma_lift_detected": true,
+    "no_negative_or_darkening_adjustment": true,
+    "no_broad_floor_wash_detected": true,
+    "visual_camera_architecture_material_product_continuity": true,
+    "visual_3000k_warm_white_only": true
+  },
+  "method": "Read-only SHA-256, dimension, exact pixel-difference envelope, regional luminance, clipping and visual continuity inspection against the exact approved Layer 05 parent.",
+  "review_note": "Deterministic QA is Gate 1 only and is not independent JARVIS design approval."
+}
