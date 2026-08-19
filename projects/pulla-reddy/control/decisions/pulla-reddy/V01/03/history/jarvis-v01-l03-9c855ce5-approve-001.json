@@ -1,0 +1,24 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "03",
+  "candidate_sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af",
+  "reviewed_artifact_id": "9353602039",
+  "reviewed_workflow_run_id": "32219997021",
+  "decision": "APPROVE",
+  "review_summary": "Independent JARVIS visual review approves V01 Layer 03. The GitHub Actions artifact was downloaded and candidate.png independently hashed to 9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af, exactly matching the candidate manifest and published state. Against the approved Layer 02 parent, the new contribution remains confined to the three wall-shelf compositions. The shelf merchandise gains a gentle integrated warm glow and slightly stronger local material response without creating raw strip lines, LED-dot texture, visible surface fixtures, or a bright shelf-edge graphic. The previously approved wall-wash and counter hierarchy remain visually intact, the sweet counter is still the strongest retail destination, the ceiling stays quiet, and unrelated circulation, seating, central-display, and counter zones do not visibly shift. The difference is restrained but legible enough to communicate the intended second shelf-lighting family in a layered presentation while keeping the office-display-shelf character rather than generic cabinet strip lighting.",
+  "required_changes": [],
+  "hard_locks": [
+    "Candidate 9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af is the immutable approved V01 Layer 03 parent and must not be regenerated or reinterpreted unless explicitly reopened by JARVIS.",
+    "Camera, crop, focal character, perspective, architecture, ceiling grid, counters, shelves, furniture, products, materials, and colours remain locked for all later V01 layers.",
+    "Approved Layer 01 counter lighting, Layer 02 wall-wash, and Layer 03 concealed shelf-integrated lighting are frozen in intensity, colour, source concealment, beam character, reflections, and shadow behaviour except for physically unavoidable interaction from a newly added circuit.",
+    "All later electric lighting remains 3000K and recessed, concealed, or integrated only. No pendant, track, surface fixture, raw LED strip line, or LED-dot texture is permitted.",
+    "Layer 04 must equal approved Layer 03 plus exactly one newly released central-merchandise or circulation lighting family. Unrelated zones may not brighten, darken, or shift colour without physical cause.",
+    "Do not use global exposure or gamma changes to simulate added light.",
+    "Presentation generation remains locked until every required view has valid independent JARVIS approvals through completion."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T05:56:48Z",
+  "decision_id": "jarvis-v01-l03-9c855ce5-approve-001"
+}
