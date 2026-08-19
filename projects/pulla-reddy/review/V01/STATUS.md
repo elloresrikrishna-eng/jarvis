@@ -1,40 +1,33 @@
-# V01 Main Retail | Final Composite Candidate
+# V01 Main Retail | Final Composite Approved, Continuity Audit Released
 
-Status: READY_FOR_JARVIS_REVIEW
+Final Composite status: APPROVED
 
-Task/layer ID: 08 (final-composite)
+Decision ID: `jarvis-v01-l08-a059b104-approve-001`
 
-Candidate: final-v01-composite.png
+Approved Final Composite: `final-v01-composite.png`
 
-Candidate SHA-256: a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30
+Approved SHA-256: `a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30`
 
-Approved immutable render source: layer-06-concealed-under-seater-glow-v2.png
+Artifact ID: `9361335925`
 
-Approved Layer 06 SHA-256: a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30
+Workflow run ID: `32242528619`
 
-Approved Layer 06 decision: jarvis-v01-l06-a059b104-approve-001
+The Final Composite is byte-for-byte identical to the independently approved Layer 06 master and is now immutable. Independent artifact download, hashing, manifest/provenance checks and direct visual inspection all support approval.
 
-Approved concept-sketch decision: jarvis-v01-l07-0b0e4bac-approve-001
+## Current V01 task
 
-## Continuity result
+Task/layer ID: `09`
 
-- Candidate and approved Layer 06 have the same 2,824,770-byte length.
-- Candidate and approved Layer 06 have the same SHA-256.
-- Byte-for-byte identical: true.
-- No rendering, image generation, re-export or image processing was performed.
-- No camera, crop, architecture, ceiling-grid, material, product, furniture, lighting, reflection, CCT, exposure, gamma or colour change exists.
-- No seventh lighting family or new fixture effect exists.
-- The approved concept sketch was not used as a pixel parent.
+Task: Cross-Layer Continuity Audit
 
-## GitHub Actions transport
+Instruction:
 
-- Artifact name: jarvis-pulla-reddy-v01-l08-a059b10401f0
-- Artifact ID: 9361335925
-- Workflow run ID: 32242528619
-- Publication commit: ec2ebaf7448481c41f9253f011ec36d2ae7183c3
-- Artifact archive digest: sha256:9d3bfdc89d92b8a0d6e5952badbcd580a5d04721cc90d0e230ae12fda9108a69
-- Downloaded candidate.png SHA-256: a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30
-- Candidate manifest and generated artifact provenance match the same candidate hash, publication commit and workflow run.
-- Remote candidate remains byte-for-byte identical to the approved Layer 06 master.
+`projects/pulla-reddy/instructions/V01_CROSS_LAYER_CONTINUITY_AUDIT.md`
 
-Independent external JARVIS review remains mandatory. Do not begin the cross-layer continuity audit without exact candidate-bound Final Composite approval.
+Codex must audit the exact independently approved Source, Layer 00, Layers 01-06, approved concept sketch and Final Composite, publish the required audit evidence, set V01 to `READY_FOR_JARVIS_REVIEW`, and stop.
+
+No independently approved layer may be silently rewritten during the audit. If a defect is found, the audit must identify the earliest affected layer and downstream consequences for JARVIS control.
+
+The V01 contact-sheet/review-board task remains locked until the cross-layer audit receives candidate-bound independent approval.
+
+Presentation generation remains locked.
