@@ -1,78 +1,77 @@
 {
   "protocol_version": "jarvis-return-path-v1",
-  "package_version": "V01-layer-03-concealed-shelf-integrated-v3",
+  "package_version": "V01-layer-04-central-merchandise-circulation-v4",
   "project": "G Pulla Reddy Sweets, HSR",
   "view": "V01_Main_Retail",
   "status_after_publish": "READY_FOR_JARVIS_REVIEW",
   "source_filename": "source-view-01-original.jpg",
-  "approved_parent_filename": "layer-02-wall-shelf-wall-wash-v3.png",
-  "candidate_filename": "layer-03-concealed-shelf-integrated-lighting-v3.png",
-  "candidate_layer_number": 3,
+  "approved_parent_filename": "layer-03-concealed-shelf-integrated-lighting-v3.png",
+  "candidate_filename": "layer-04-central-merchandise-circulation-v4.png",
+  "candidate_layer_number": 4,
   "dimensions": {
     "width": 1624,
     "height": 968
   },
-  "exact_new_lighting_circuit": "Concealed integrated 3000K lighting serving all visible wall-mounted merchandise shelves only",
+  "exact_new_lighting_circuit": "Selective deep-recessed 3000K lighting for the central freestanding merchandise display with minimum immediately adjacent circulation support only",
   "camera_or_crop_alignment_changed": false,
   "architecture_materials_products_changed": false,
   "previous_lighting_changed_unexpectedly": false,
   "global_exposure_changed": false,
   "added_cct_kelvin": 3000,
   "visible_fixture_bodies_introduced": false,
-  "raw_led_line_or_dots_visible": false,
-  "luminous_brass_support_effect": false,
-  "candidate_sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af",
-  "approved_parent_sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
-  "approved_parent_decision_id": "jarvis-v01-l02-fc47cfc6-approve-001",
+  "candidate_sha256": "58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837",
+  "approved_parent_sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af",
+  "approved_parent_decision_id": "jarvis-v01-l03-9c855ce5-approve-001",
   "artifact_publication": {
-    "artifact_name": "jarvis-pulla-reddy-v01-l03-9c855ce50bea",
-    "artifact_id": "9353602039",
-    "workflow_run_id": "32219997021",
-    "workflow_commit_sha": "35a099ec992d999bd0a3582413c9d3f63c878d0a",
-    "artifact_archive_digest": "sha256:744ea00bed8c71841f81b0ec870d4b5f23d1143339e843e3dd0f89ea41f2c362",
-    "remote_download_verified": true,
-    "remote_candidate_sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af",
-    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/03/publication.json",
-    "published_at": "2026-08-19T05:41:02.500Z"
+    "artifact_name": "jarvis-pulla-reddy-v01-l04-58553357484f",
+    "artifact_id": null,
+    "workflow_run_id": null,
+    "workflow_commit_sha": null,
+    "artifact_archive_digest": null,
+    "remote_download_verified": false,
+    "remote_candidate_sha256": null,
+    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/04/publication.json",
+    "published_at": null
   },
   "local_paths": {
     "source": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/source-view-01-original.jpg",
-    "approved_parent": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-02-wall-shelf-wall-wash-v3.png",
-    "candidate": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-03-concealed-shelf-integrated-lighting-v3.png"
+    "approved_parent": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-03-concealed-shelf-integrated-lighting-v3.png",
+    "candidate": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-04-central-merchandise-circulation-v4.png"
   },
   "review_assets": [
     {
-      "filename": "layer-03-concealed-shelf-integrated-preview.jpg",
-      "purpose": "Review-sized Layer 03 candidate preview",
+      "filename": "layer-04-central-merchandise-circulation-preview.jpg",
+      "purpose": "Review-sized Layer 04 candidate preview",
       "status": "created"
     },
     {
-      "filename": "layer-02-vs-layer-03.jpg",
-      "purpose": "Approved Layer 02 parent beside Layer 03 candidate",
+      "filename": "layer-03-vs-layer-04.jpg",
+      "purpose": "Approved Layer 03 parent beside Layer 04 candidate",
       "status": "created"
     },
     {
       "filename": "SELF_QA.md",
-      "purpose": "Layer 03 technical and visual self-check evidence",
+      "purpose": "Layer 04 technical and visual self-check evidence",
       "status": "updated"
     }
   ],
   "qa_summary": {
     "dimension_match": true,
-    "left_foreground_shelves_mean_luminance_shift": 4.7396,
-    "left_mid_shelves_mean_luminance_shift": 3.5630,
-    "right_shelves_mean_luminance_shift": 4.0924,
-    "central_ceiling_core_mean_luminance_shift": 0.0004,
-    "right_counter_core_mean_luminance_shift": 0.0,
-    "left_counter_core_mean_luminance_shift": 0.0,
-    "central_display_core_mean_luminance_shift": 0.0,
-    "rear_seating_core_mean_luminance_shift": 0.0,
-    "circulation_floor_mean_luminance_shift": 0.0,
-    "changed_pixels_outside_allowed_shelf_zones": 0,
-    "target_region_clipped_fraction": 0.0
+    "central_merchandise_mean_luminance_shift": 4.7258,
+    "adjacent_floor_mean_luminance_shift": 2.4627,
+    "ceiling_mean_luminance_shift": 0.0,
+    "left_shelves_mean_luminance_shift": 0.0,
+    "right_shelves_mean_luminance_shift": 0.0,
+    "right_counter_mean_luminance_shift": 0.0,
+    "left_counter_mean_luminance_shift": 0.0,
+    "rear_seating_mean_luminance_shift": 0.0,
+    "foreground_floor_mean_luminance_shift": 0.0,
+    "global_mean_luminance_shift": 0.141173,
+    "changed_pixels_outside_allowed_central_zones": 0,
+    "target_region_clipped_pixels": 0
   },
   "warnings": [
     "Independent external JARVIS review remains mandatory; deterministic QA and artifact publication are not approval.",
-    "Layer 04 remains locked."
+    "Layer 05 remains locked."
   ]
 }

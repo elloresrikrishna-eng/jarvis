@@ -1,0 +1,21 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "04",
+  "state": "READY_FOR_JARVIS_REVIEW",
+  "candidate_sha256": "58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837",
+  "candidate_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/04/candidates/58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837.png",
+  "local_candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-04-central-merchandise-circulation-v4.png",
+  "artifact_name": "jarvis-pulla-reddy-v01-l04-58553357484f",
+  "approved_parent_sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af",
+  "approved_parent_decision_id": "jarvis-v01-l03-9c855ce5-approve-001",
+  "deterministic_qa": {
+    "passed": true,
+    "path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/04/evidence/58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837/deterministic-qa.json"
+  },
+  "provenance_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/04/evidence/58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837/generation-provenance.json",
+  "jarvis_approval": false,
+  "publication_attempt": 1,
+  "created_at": "2026-08-19T06:38:20.685Z"
+}

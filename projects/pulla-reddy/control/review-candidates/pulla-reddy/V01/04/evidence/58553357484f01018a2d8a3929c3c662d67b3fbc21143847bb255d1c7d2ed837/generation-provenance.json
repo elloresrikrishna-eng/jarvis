@@ -1,0 +1,35 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "04",
+  "candidate_sha256": "58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837",
+  "approved_parent_sha256": "9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af",
+  "approved_parent_decision_id": "jarvis-v01-l03-9c855ce5-approve-001",
+  "generation_method": "OpenAI built-in image editing workflow followed by deterministic exact-parent localized continuity correction",
+  "source_role": "Exact approved Layer 03 parent used as the immutable pixel base for the final candidate",
+  "new_circuit": "Selective deep-recessed 3000K lighting for the central freestanding merchandise display with minimum adjacent circulation support only",
+  "excluded_circuits": [
+    "rear seating comfort lighting",
+    "under-seater lighting",
+    "new counter lighting",
+    "new wall-wash or shelf-integrated lighting",
+    "general ambient or ceiling lighting"
+  ],
+  "imagegen_transport": {
+    "reason": "Windows ACL helper prevented direct local PNG ingestion by the built-in editor",
+    "transport_role": "High-quality temporary JPEG supplied only to generate lighting character",
+    "draft_sha256": "cc4d6e32468f2ae58d9d6779b31ba30fb4a13f272a19cae32db77b1188e251f4",
+    "final_candidate_base": "Exact approved Layer 03 PNG, not the transport image"
+  },
+  "correction_history": [
+    "The built-in draft established the intended narrow 3000K central-merchandise pool while keeping the central rack subordinate to the counters.",
+    "The draft was not accepted directly because generative re-rendering could not guarantee pixel-level continuity.",
+    "A deterministic positive-only contribution was localized onto the exact approved parent inside one central-display ellipse and one tighter adjacent-floor ellipse.",
+    "Layer 04 v2 was rejected locally because its floor feather touched the approved left-counter zone.",
+    "Layer 04 v3 was rejected locally because a negligible upper feather touched the protected rear-seating zone.",
+    "Final v4 clamps the contribution below y=410 and tightens the floor ellipse; zero pixels change outside the permitted central zones and every protected region measures zero shift."
+  ],
+  "published_local_filename": "layer-04-central-merchandise-circulation-v4.png",
+  "created_at": "2026-08-19T06:38:20.685Z"
+}
