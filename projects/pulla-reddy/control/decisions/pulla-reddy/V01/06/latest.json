@@ -1,0 +1,24 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "06",
+  "candidate_sha256": "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+  "reviewed_artifact_id": "9357928764",
+  "reviewed_workflow_run_id": "32233034803",
+  "decision": "APPROVE",
+  "review_summary": "Independent external JARVIS review approves V01 Layer 06. The exact GitHub Actions artifact was downloaded and candidate.png independently hashed to a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30, exactly matching the published manifest, provenance and READY_FOR_JARVIS_REVIEW state. The approved Layer 05 parent artifact was also retrieved and independently verified at SHA-256 eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065. Direct parent-versus-candidate visual inspection confirms that the only new visible contribution is the pair of restrained warm reflected-floor glows immediately beneath the rear built-in banquette. The source remains fully concealed, no raw strip, luminous ribbon, glowing aperture or nightclub-like floating-bench effect appears, and the spill fades quickly enough to remain subordinate to the existing rear seating comfort layer. The effect is deliberately subtle but still legible in direct comparison, which is appropriate for this layer. Principal sweet counters remain the strongest visual destination, wall shelves remain second, central merchandise remains third, and the hospitality zone remains calmer than retail. Camera, crop, architecture, ceiling grid, counters, shelves, central display, products, furniture, glass/reflection character, all previously approved lighting families, overall exposure and gamma remain visually frozen outside physically plausible local interaction. Added light reads consistently warm at 3000K and the deterministic evidence confirms zero changed pixels outside the allowed under-seater zones, zero protected-zone drift and no negative or global exposure adjustment.",
+  "required_changes": [],
+  "hard_locks": [
+    "Candidate a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30 is the immutable approved V01 Layer 06 cumulative render and must not be regenerated, rebalanced or reinterpreted unless explicitly reopened by JARVIS.",
+    "Camera, crop, focal character, perspective, architecture, ceiling grid, counters, shelves, central merchandise, rear seating furniture, products, materials and colours remain locked for all later V01 work.",
+    "Approved Layer 01 counter lighting, Layer 02 wall-wash, Layer 03 concealed shelf-integrated lighting, Layer 04 central-merchandise/circulation lighting, Layer 05 rear-seating comfort lighting and Layer 06 concealed under-seater lighting are frozen in intensity, colour, beam character, source concealment, reflections and shadow behaviour.",
+    "The approved under-seater effect must remain fully concealed, restrained and subordinate. No later task may turn it into a visible strip, luminous ribbon, broad floor wash or dramatic floating-bench effect.",
+    "All electric lighting represented in the V01 concept sketch must map exactly to the approved 3000K lighting families. The sketch must not invent fixtures, circuits, architecture or effects that do not exist in the approved render chain.",
+    "The V01 concept sketch must preserve the exact source camera, crop, perspective and architecture. It may convert architecture to restrained charcoal/grayscale and indicate approved lighting families selectively in warm amber/orange only.",
+    "Do not use global exposure or gamma changes in any final-composite or downstream render work. Presentation generation remains locked until every required view has valid independent JARVIS approvals through completion."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T09:13:01Z",
+  "decision_id": "jarvis-v01-l06-a059b104-approve-001"
+}
