@@ -1,0 +1,49 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "qa_version": "pulla-reddy-v01-layer01-artifact-migration-v1",
+  "completed_at": "2026-08-19T03:09:45.544Z",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "01",
+  "approved_parent_sha256": "17f3d0fdb900ef897762ab4df0f464ea04d6ae09808569073d0c7863cc5b3fd9",
+  "candidate_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "candidate_dimensions": {
+    "width": 1624,
+    "height": 968
+  },
+  "candidate_byte_length": 1606623,
+  "source_review_package": {
+    "manifest_path": "projects/pulla-reddy/review/V01/manifest.json",
+    "manifest_blob_sha": "c0595d43497028d317be26bc6aeaae7391a4c96e",
+    "self_qa_path": "projects/pulla-reddy/review/V01/SELF_QA.md",
+    "design_intent_path": "projects/pulla-reddy/review/V01/DESIGN_INTENT_CHECK.md"
+  },
+  "checks": {
+    "existing_candidate_reused_without_regeneration": true,
+    "exact_local_candidate_sha256_verified": true,
+    "content_addressed_repository_copy_sha256_verified": true,
+    "local_and_repository_copy_hashes_match": true,
+    "dimensions_match_existing_review_manifest": true,
+    "approved_parent_sha256_verified": true,
+    "existing_hard_lock_qa_preserved": true,
+    "layer_02_not_advanced": true
+  },
+  "existing_layer_01_qa_summary": {
+    "negative_channel_deltas": 0,
+    "ceiling_max_pixel_delta": 0,
+    "central_display_max_pixel_delta": 0,
+    "rear_seating_max_pixel_delta": 0,
+    "right_counter_mean_luminance_delta": 15.156,
+    "left_counter_mean_luminance_delta": 9.077,
+    "clipped_output_channels": 0,
+    "camera_or_crop_alignment_changed": false,
+    "architecture_materials_products_changed": false,
+    "previous_lighting_changed_unexpectedly": false,
+    "global_exposure_changed": false,
+    "visible_fixture_bodies_introduced": false,
+    "added_cct_kelvin": 3000
+  },
+  "passed": true,
+  "jarvis_approval": false,
+  "next_state": "READY_FOR_JARVIS_REVIEW"
+}

@@ -1,0 +1,21 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "01",
+  "state": "READY_FOR_JARVIS_REVIEW",
+  "candidate_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "candidate_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/01/candidates/bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217.png",
+  "local_candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-01-front-display-counter-downlights-v4.png",
+  "artifact_name": "jarvis-pulla-reddy-v01-l01-bb0eda1c017f",
+  "approved_parent_sha256": "17f3d0fdb900ef897762ab4df0f464ea04d6ae09808569073d0c7863cc5b3fd9",
+  "migration_source_package": "projects/pulla-reddy/review/V01/manifest.json",
+  "deterministic_qa": {
+    "passed": true,
+    "path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/01/evidence/bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217/deterministic-qa.json"
+  },
+  "provenance_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/01/evidence/bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217/artifact-migration-provenance.json",
+  "jarvis_approval": false,
+  "publication_attempt": 1,
+  "created_at": "2026-08-19T03:09:45.544Z"
+}

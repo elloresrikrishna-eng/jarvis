@@ -1,0 +1,33 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "operation": "v01-layer-01-v4-exact-artifact-migration",
+  "created_at": "2026-08-19T03:09:45.544Z",
+  "reason": "Republish the existing unmodified V01 Layer 01 v4 candidate through the active GitHub Actions binary review-artifact path.",
+  "input": {
+    "local_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-01-front-display-counter-downlights-v4.png",
+    "filename": "layer-01-front-display-counter-downlights-v4.png",
+    "sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+    "byte_length": 1606623,
+    "dimensions": {
+      "width": 1624,
+      "height": 968
+    },
+    "last_write_time_utc": "2026-08-18T20:21:06.8899778Z"
+  },
+  "approved_parent": {
+    "local_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/layer-00-base-dark.png",
+    "sha256": "17f3d0fdb900ef897762ab4df0f464ea04d6ae09808569073d0c7863cc5b3fd9"
+  },
+  "output": {
+    "repository_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/01/candidates/bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217.png",
+    "sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217"
+  },
+  "invariants": {
+    "candidate_regenerated": false,
+    "candidate_visually_modified": false,
+    "candidate_reencoded": false,
+    "candidate_bytes_changed": false,
+    "layer_02_started": false,
+    "independent_jarvis_approval_required": true
+  }
+}
