@@ -34,14 +34,15 @@
   },
   "artifact_publication": {
     "artifact_name": "jarvis-pulla-reddy-v01-l04-a3d00e752631",
-    "state": "PENDING_REMOTE_VERIFICATION",
-    "remote_download_verified": false,
-    "artifact_id": null,
-    "workflow_run_id": null,
-    "workflow_commit_sha": null,
-    "artifact_archive_digest": null,
-    "remote_candidate_sha256": null,
-    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/04/publication.json"
+    "state": "VERIFIED",
+    "remote_download_verified": true,
+    "artifact_id": "9369801718",
+    "workflow_run_id": "32265010608",
+    "workflow_commit_sha": "3fc2a5719572009538103abc605e14bda14652e8",
+    "artifact_archive_digest": "sha256:9b84bdc4be98486e7a586b81f599fdd650f73a674557912846c958106737f944",
+    "remote_candidate_sha256": "a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e",
+    "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/04/publication.json",
+    "published_at": "2026-08-19T14:39:28.4609845Z"
   },
   "review_assets": [
     "layer-04-central-merchandise-circulation-v5-preview.jpg",

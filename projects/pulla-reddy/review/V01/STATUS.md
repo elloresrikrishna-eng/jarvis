@@ -1,6 +1,6 @@
 # V01 Main Retail | Repaired Layer 04 Central Merchandise Candidate
 
-Status: PUBLISHING_REMOTE_ARTIFACT
+Status: READY_FOR_JARVIS_REVIEW
 
 Task/layer ID: 04 (sequential repaired-chain rebuild)
 
@@ -46,8 +46,12 @@ Only selective deep-recessed 3000K lighting for the central freestanding merchan
 ## GitHub Actions transport
 
 - Artifact name: jarvis-pulla-reddy-v01-l04-a3d00e752631
-- Artifact ID: pending
-- Workflow run ID: pending
-- Remote retrievability verified: false
+- Artifact ID: 9369801718
+- Workflow run ID: 32265010608
+- Publication commit: 3fc2a5719572009538103abc605e14bda14652e8
+- Artifact archive digest: sha256:9b84bdc4be98486e7a586b81f599fdd650f73a674557912846c958106737f944
+- Downloaded candidate.png SHA-256: a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e
+- Candidate manifest and generated artifact provenance match the same candidate hash, publication commit and workflow run.
+- Remote retrievability verified: true
 
-V01 remains locked at repaired Layer 04. Repaired Layer 05 must not begin without exact candidate-bound independent JARVIS approval.
+Independent candidate-bound JARVIS review is required. V01 remains locked at repaired Layer 04; repaired Layer 05 must not begin without exact approval.
