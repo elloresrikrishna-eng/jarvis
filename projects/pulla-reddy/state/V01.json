@@ -1,11 +1,19 @@
 {
+  "protocol_version": "jarvis-return-path-v1",
   "project": "G Pulla Reddy Sweets, HSR",
+  "project_id": "pulla-reddy",
   "view": "V01_Main_Retail",
-  "status": "waiting_for_chatgpt_review",
+  "view_id": "V01",
+  "status": "codex_action_required",
   "current_layer": 1,
   "approved_through_layer": 0,
   "candidate": "layer-01-front-display-counter-downlights-v4.png",
-  "next_required_action": "Independent visual review using connector evidence pack",
+  "candidate_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "approved_parent_sha256": "17f3d0fdb900ef897762ab4df0f464ea04d6ae09808569073d0c7863cc5b3fd9",
+  "current_task": "Verify remote GitHub Actions artifact publication for the exact V01 Layer 01 v4 candidate. Do not modify the candidate and do not start Layer 02.",
+  "instruction": "projects/pulla-reddy/instructions/V01_ARTIFACT_PUBLICATION_VERIFY.md",
+  "next_required_action": "Resolve and record the workflow run ID and artifact ID, verify remote retrievability and exact candidate hash, then set V01 to READY_FOR_JARVIS_REVIEW and stop.",
+  "jarvis_approval": false,
   "user_feedback": "The user did not like the earlier V01 layers. Treat this lane as calibration and apply a higher design bar.",
   "user_decision_required": false
 }
