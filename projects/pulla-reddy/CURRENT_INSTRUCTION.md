@@ -1,8 +1,8 @@
-# Current Instruction | Parallel Production After V01 Layer 02 Approval
+# Current Instruction | Parallel Production After V01 Layer 03 and V03 Layer 00 Approval
 
 ## Immediate objective
 
-Keep all valid production lanes moving independently. Do not wait for user intervention where the project rules already determine the answer.
+Keep every valid production lane moving independently. Do not wait for user intervention where the locked project rules already determine the answer.
 
 Read and obey:
 
@@ -13,29 +13,51 @@ Read and obey:
 - all per-view state files under `projects/pulla-reddy/state/`
 - all current JARVIS decisions under `projects/pulla-reddy/control/decisions/`
 
-## Priority 1 | V01 Layer 03 concealed shelf-integrated lighting
+## Priority 1 | V01 Layer 04 central merchandise / circulation
 
-V01 Layer 02 wall-wash candidate is independently approved.
+V01 Layer 03 concealed shelf-integrated lighting candidate is independently approved.
 
 Approved immutable parent:
 
-`fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e`
+`9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af`
 
 Decision:
 
-`jarvis-v01-l02-fc47cfc6-approve-001`
+`jarvis-v01-l03-9c855ce5-approve-001`
 
 Execute:
 
-`projects/pulla-reddy/instructions/V01_LAYER03_SHELF_INTEGRATED.md`
+`projects/pulla-reddy/instructions/V01_LAYER04_CENTRAL_MERCHANDISE.md`
 
-Create Layer 03 from the exact approved Layer 02 parent, adding only concealed integrated 3000K shelf lighting to all visible wall-mounted shelves. Source must remain hidden. No raw LED strip line, LED dots, bright shelf-edge ribbon or luminous brass-support effect. The integrated contribution must supplement, not replace or flatten, the approved recessed wall-wash. Preserve the approved counter lighting and Layer 02 wall-wash exactly apart from physically unavoidable local interaction.
+Create Layer 04 from the exact approved Layer 03 parent. Add only selective recessed 3000K lighting for the central freestanding merchandise display and the minimum physically necessary adjacent circulation support. The principal sweet counters must remain the strongest visual destination, wall shelves remain the second tier, and the new central merchandise contribution must remain a controlled third tier. Preserve all approved counter, wall-wash and shelf-integrated lighting exactly apart from unavoidable local interaction.
 
 Publish through the GitHub Actions binary review-artifact path and stop V01 at `READY_FOR_JARVIS_REVIEW` after remote retrievability and provenance are verified.
 
-Do not begin Layer 04 until Layer 03 receives exact candidate-bound independent JARVIS approval.
+Do not begin Layer 05 until Layer 04 receives exact candidate-bound independent JARVIS approval.
 
-## Priority 2 | V02/V06 shared planter parent-chain repair
+## Priority 2 | V03 Layer 01 counter downlighting
+
+V03 Layer 00 night base candidate is independently approved.
+
+Approved immutable parent:
+
+`a6056c69baaab4912169e78e0d7883fa666bc215e3cf3144c3df03efccb80a1a`
+
+Decision:
+
+`jarvis-v03-l00-a6056c69-approve-001`
+
+Execute:
+
+`projects/pulla-reddy/instructions/V03_LAYER01_COUNTER_DOWNLIGHTING.md`
+
+Create Layer 01 from the exact approved Layer 00 parent. Add only controlled deep-recessed 3000K downlighting over the visible sweet display counter(s). Make the sweets the first visual destination without globally lifting exposure, disturbing glass readability, brightening wall shelves, or changing circulation and seating.
+
+Publish through the GitHub Actions binary review-artifact path and stop V03 at `READY_FOR_JARVIS_REVIEW` after remote retrievability and provenance are verified.
+
+Do not begin the V03 wall-wash layer until Layer 01 receives exact candidate-bound independent JARVIS approval.
+
+## Priority 3 | V02/V06 shared planter parent-chain repair
 
 The shared planter is mandatory and must exist physically from Layer 00 onward in both V02 and V06.
 
@@ -50,11 +72,11 @@ Then:
 5. Set each lane to `READY_FOR_JARVIS_REVIEW` and stop that lane for independent review.
 6. Do not rebuild later layers until the exact Layer 00 candidate for that view is independently approved.
 
-The previously rejected V06 Layer 03 candidate must NOT be treated as an approved parent. Its successful restrained under-seat character may only be reused after the parent chain is repaired.
+The previously rejected V06 Layer 03 candidate remains invalid as a parent. Its restrained under-seat character may only be reused after the parent chain is repaired.
 
-## Priority 3 | V03/V04/V05
+## Priority 4 | V04/V05
 
-Continue each lane independently from its current valid state. If a lane is `codex_action_required`, execute the current valid instruction rather than waiting for the user. Publish the resulting candidate through the same GitHub Actions binary review-artifact path and stop at `READY_FOR_JARVIS_REVIEW`.
+Continue each lane independently from its current valid Layer 00 initialization state. If a lane is `codex_action_required`, execute the current valid instruction rather than waiting for the user. Publish the resulting candidate through the same GitHub Actions binary review-artifact path and stop at `READY_FOR_JARVIS_REVIEW`.
 
 Never self-approve. Deterministic QA is Gate 1, not design approval.
 
@@ -72,11 +94,11 @@ Never self-approve. Deterministic QA is Gate 1, not design approval.
 
 ## Parallel execution
 
-V01, V02, V03, V04, V05 and V06 are independent lanes. Use parallel workers where supported. A blocked/rejected lane must not prevent useful work in other lanes.
+V01, V02, V03, V04, V05 and V06 are independent lanes. Use parallel workers where supported. A blocked or rejected lane must not prevent useful work in other lanes.
 
 ## Coordinator output
 
-Update `projects/pulla-reddy/COORDINATOR_STATUS.md` after actions are released/performed. For each view record current layer, exact candidate SHA when applicable, artifact ID, workflow run ID, state, blocker and next machine action.
+Update `projects/pulla-reddy/COORDINATOR_STATUS.md` after actions are released or performed. For each view record current layer, exact candidate SHA when applicable, artifact ID, workflow run ID, state, blocker and next machine action.
 
 The desired resting state is NOT `codex_action_required` when an objective machine action can be performed. Execute it. The desired resting state after publishing a candidate is `READY_FOR_JARVIS_REVIEW`.
 
