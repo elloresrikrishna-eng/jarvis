@@ -1,0 +1,37 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "09",
+  "candidate_sha256": "6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e",
+  "reviewed_artifact_id": "9363512906",
+  "reviewed_workflow_run_id": "32248553564",
+  "decision": "REJECT",
+  "review_summary": "Independent external JARVIS control review rejects the exact V01 Cross-Layer Continuity Audit candidate 6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e as a completion gate because it proves that the currently approved V01 render ancestry violates an absolute scene-continuity lock beginning at Layer 02. The GitHub Actions publication job checked the content-addressed candidate with sha256sum before copying that exact file into artifact 9363512906, and the published candidate, manifest and provenance all bind the same SHA-256. The audit records a best alignment of 0 px horizontal and +1 px vertical for Layer 02 against the exact approved Layer 01 parent, while zero shift is required. At zero shift, edge correlation is 0.650410; applying the +1 px vertical registration raises it to 0.766104. The Layer 01 to Layer 02 difference spans the full 1624 x 968 frame, 41.341207% of pixels change by more than 3 luminance levels, and 16.470466% become darker by more than 3 levels. Those broad negative and full-frame changes cannot be explained by adding the released wall-wash circuit. The same inherited 0,+1 coordinate drift is present when Layers 03, 04, 05, 06 and Final are anchored back to approved Layer 01. This violates the locked camera, crop, perspective, exact parent-coordinate continuity and previous-layer-freeze rules, which are independently disqualifying under the reviewer rubric. Immediate downstream parent-child additions remain internally consistent and the Final is byte-identical to Layer 06, but those facts do not cure the upstream Layer 02 ancestry defect. No approved master may be silently rewritten. Repair must start from the exact approved Layer 01 parent and every downstream cumulative layer must be independently re-approved before V01 can progress. Presentation generation remains locked.",
+  "required_changes": [
+    "Reopen V01 at Layer 02 only. Preserve all existing approval records and rejected/approved history as immutable provenance; do not delete or overwrite the previously approved Layer 02 through Final files or decisions.",
+    "Regenerate a new Layer 02 candidate from the exact approved Layer 01 parent bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217. Add only the released recessed 3000K wall-wash circuit for the wall-mounted shelf compositions.",
+    "For the corrected Layer 02, camera, crop, focal character, perspective and image coordinate frame must match Layer 01 exactly. The registration optimum must be 0,0, dimensions must remain 1624 x 968, and protected regions must not show broad negative or full-frame deltas unrelated to physical wall-wash spill or bounce.",
+    "Preserve the already accepted lighting intent while repairing coordinates: front sweet-counter lighting remains dominant, wall merchandise becomes secondary, the ceiling remains subordinate, all new electric light reads 3000K, fixtures remain deep recessed/concealed, and there is no global exposure or gamma lift.",
+    "After a corrected Layer 02 receives an exact candidate-bound JARVIS APPROVE decision, regenerate Layer 03 from that new approved Layer 02 parent, then Layer 04 from the new approved Layer 03, Layer 05 from the new approved Layer 04, and Layer 06 from the new approved Layer 05. Stop for independent review at every layer. Do not transplant later pixels onto an unapproved parent.",
+    "When rebuilding Layers 03 through 06, preserve each previously accepted circuit character and hierarchy while enforcing previous-layer freeze: Layer 03 concealed shelf-integrated light, Layer 04 restrained central merchandise/circulation contribution, Layer 05 softer rear-hospitality comfort lighting, and Layer 06 restrained concealed under-seater glow only where the built-in seater is genuinely visible.",
+    "Create the corrected Final V01 Composite only after corrected Layer 06 is independently approved, and make Final byte-for-byte identical to that approved Layer 06 master. The approved concept sketch remains communication-only and must never become a pixel parent.",
+    "Publish parent-versus-candidate evidence and content-addressed GitHub Actions artifacts for every regenerated layer so exact SHA-256, zero coordinate drift, previous-layer freeze and absence of global exposure cheating can be independently checked before progression.",
+    "Do not begin the V01 contact-sheet/review-board presentation task and do not unlock presentation generation until the repaired V01 chain is complete and every other required view has its own independently approved completion chain."
+  ],
+  "hard_locks": [
+    "The exact approved Layer 01 parent bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217 is the repair root and must remain unchanged.",
+    "Camera position, focal length, perspective, crop, composition and image coordinate frame are locked. No 1 px or other registration shift is acceptable in the rebuilt cumulative chain.",
+    "Architecture, ceiling grid, walls, counters, shelves, joinery, furniture, products, materials and colours remain locked.",
+    "Layer N must equal its newly approved Layer N-1 parent plus exactly one released lighting circuit/effect. Earlier lighting families remain frozen except for physically unavoidable interaction from the new circuit.",
+    "All added electric lighting remains 3000K warm white and recessed, concealed or integrated only. No pendant, track, surface fixture, raw LED strip or luminous ceiling-dot condition may be introduced.",
+    "No global exposure, gamma, contrast or colour lift may be used to simulate added illumination.",
+    "The sweet/front product display remains first in hierarchy, wall merchandise second, central merchandise third where visible, hospitality softer, and the ceiling subordinate.",
+    "Display-counter glass, reflections, shadows, beam character and material response from prior approved layers must remain materially stable unless the newly introduced circuit has a physically credible interaction.",
+    "The concept sketch 0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78 remains a communication artifact only and is never a pixel parent.",
+    "Presentation generation remains locked until every required view has a valid independently approved completion package."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T12:14:00Z",
+  "decision_id": "jarvis-v01-l09-6a9f3e21-reject-001"
+}
