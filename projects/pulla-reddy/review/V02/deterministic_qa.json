@@ -1,0 +1,37 @@
+﻿{
+    "profile":  "cumulative-lighting-layer-v1",
+    "passed":  true,
+    "dimensions":  [
+                       1628,
+                       966
+                   ],
+    "changed_pixel_percent":  6.195347,
+    "darkened_pixel_percent":  0,
+    "unrelated_activation_percent":  0,
+    "strong_unrelated_activation_percent":  0,
+    "mean_rgb_delta":  [
+                           0.28751,
+                           0.192444,
+                           0.090602
+                       ],
+    "zones":  {
+                  "task_wall_shelf_wash_left":  [
+                                                    0.245,
+                                                    0.25,
+                                                    0.12,
+                                                    0.205
+                                                ],
+                  "task_wall_shelf_wash_center":  [
+                                                      0.39,
+                                                      0.235,
+                                                      0.145,
+                                                      0.315
+                                                  ],
+                  "permitted_floor_bounce":  [
+                                                 0.36,
+                                                 0.551,
+                                                 0.18,
+                                                 0.169
+                                             ]
+              }
+}
