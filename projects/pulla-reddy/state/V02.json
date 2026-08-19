@@ -2,10 +2,115 @@
   "project": "G Pulla Reddy Sweets, HSR",
   "view": "V02_Curved_Seating",
   "source_page": 3,
-  "status": "codex_action_required",
-  "current_task": "Initialize lane, extract source, establish shared planter design, and create Layer 00 night base with planter present and all lights off.",
+  "status": "READY_FOR_JARVIS_REVIEW",
+  "current_task": "Stop for independent external JARVIS visual review of V02 Layer 00.",
   "approved_through_layer": -1,
   "review_path": "projects/pulla-reddy/review/V02/",
   "shared_dependency": "V02 and V06 planter geometry lock",
-  "user_decision_required": false
+  "user_decision_required": false,
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V02",
+  "current_layer": 0,
+  "current_layer_id": "00",
+  "candidate": "layer-00-base-dark-planter-candidate.png",
+  "candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V02_Seating_Lounge/layer-00-base-dark-planter-candidate.png",
+  "candidate_sha256": "c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540",
+  "approved_parent": "source-page-03-3d-view-02-original.jpg",
+  "approved_parent_sha256": "2476dd39c0a0ffff664b5bdf1d2b0d1ea60a8d75af954175cb591d6e5a1d5cf1",
+  "artifact_name": "jarvis-pulla-reddy-v02-l00-c0db62b78967",
+  "artifact_id": "9375332898",
+  "workflow_run_id": "32279722544",
+  "publication_commit_sha": "2e9a34d20c80919d9056a5c002bf7b4041ef3ce9",
+  "remote_retrievability_verified": true,
+  "remote_candidate_sha256": "c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540",
+  "provenance_valid": true,
+  "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V02/00/active.json",
+  "dispatcher_job_id": "jarvis-pulla-reddy-v02-e3df09ae71e84991eeae5562",
+  "dispatcher_provenance": {
+    "protocol_version": "jarvis-dispatcher-v0.1",
+    "worker_prompt_contract_version": "jarvis-worker-prompt-contract-v0.2",
+    "job_id": "jarvis-pulla-reddy-v02-e3df09ae71e84991eeae5562",
+    "kind": "LANE",
+    "triggering_state_path": "projects/pulla-reddy/state/V02.json",
+    "triggering_state_sha": "53dcdbacac2ecf8e2e6379104f2af79cd61115b1",
+    "triggering_state_hash": "b733bc304812f3f958149ead3c9702dcb81e04dce1aae9944113e6fd2f390819",
+    "source_documents": [
+      {
+        "path": "projects/pulla-reddy/AUTOMATION_PROTOCOL.md",
+        "blob_sha": "b8081e06144e5b9f0473b7d195b296a6c6fc326c",
+        "content_hash": "f294ae7ac024be508b16c983689702acdddbf0335e5f7b64685864917099020c"
+      },
+      {
+        "path": "projects/pulla-reddy/control/presentation-gate.json",
+        "blob_sha": "006fd6ffe7792533cbe6c91a94659e6d24c2e3f0",
+        "content_hash": "74423d30b9e380b2bda8f0e12daec9c9e92b91a3be52d8cf39ba439af18df1af"
+      },
+      {
+        "path": "projects/pulla-reddy/CURRENT_INSTRUCTION.md",
+        "blob_sha": "4ec1fe060098690debc0c1d0f4460f9f4762596b",
+        "content_hash": "4fae57666aaf5c6116600910463b8a2b24582cab9cd481991eb31257cfb3b08e"
+      },
+      {
+        "path": "projects/pulla-reddy/instructions/V06_PARENT_CHAIN_REPAIR.md",
+        "blob_sha": "54750778ff3bdba3afeb3236a8c12c9b39ee53ee",
+        "content_hash": "264aebb7cd820908004f85708d5ebab4b02176fe98c58d4f71da7fb9be602388"
+      },
+      {
+        "path": "projects/pulla-reddy/MULTIVIEW_COORDINATOR_INSTRUCTION.md",
+        "blob_sha": "1602e4b7867e2728c032432b0678137495e0b449",
+        "content_hash": "d7960d072cce54ae2ead00d4dfa77d016d25e7ac1d970851c2035666cc95f909"
+      },
+      {
+        "path": "projects/pulla-reddy/MULTIVIEW_EXECUTION.md",
+        "blob_sha": "22387dac18e061cc0cb7ea2e1916c217f9526f8e",
+        "content_hash": "a252493d16b6a227d3a330454d08008970b4c15fe307b277e4183c54fe2c7bbb"
+      },
+      {
+        "path": "projects/pulla-reddy/PROJECT_RULES.md",
+        "blob_sha": "23b4135fa97e75b87d0cde6270b7407b036453b6",
+        "content_hash": "f40c5e26185d5a7d521da81c8d723dcf1c1486dd61de9143b26f0e0cb2273e99"
+      },
+      {
+        "path": "projects/pulla-reddy/SHARED_PLANTER_SPEC.md",
+        "blob_sha": "da063e55f2372f1390cb31957dadd3fd629e7754",
+        "content_hash": "dd5dab4d3c309cf978ff312a5d4bac1b6f8e33e300bf1819df880607b19ab62d"
+      },
+      {
+        "path": "projects/pulla-reddy/state/V02.json",
+        "blob_sha": "53dcdbacac2ecf8e2e6379104f2af79cd61115b1",
+        "content_hash": "b733bc304812f3f958149ead3c9702dcb81e04dce1aae9944113e6fd2f390819"
+      }
+    ],
+    "worker_terminal_state": "WORK_PRODUCT_READY",
+    "worker_summary": "V02 Layer 00 night-base candidate is ready with the shared curved-seater planter present and all electric lighting off. Source and candidate byte hashes were independently recomputed. No approval was authored and no later layer was started.",
+    "worker_warnings": [
+      "Raster workflow requires independent cross-view planter identity verification against V06 Layer 00 when available."
+    ]
+  },
+  "review_files": [
+    {
+      "path": "projects/pulla-reddy/review/V02/STATUS.md",
+      "sha256": "739e45ab0e6b2c95760a988bdcf6bda97a25d611b7e350df8928540842bfc502"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/manifest.json",
+      "sha256": "db16b7fe1f9edd72ab3f3773f113255908ed699a81e47495daa3cba2c5201fd4"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/SELF_QA.md",
+      "sha256": "f6f528b5f5b44ce4ba8e0684965b599d7cdf92a01000cb0fa5041d542df2feea"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/REVIEW_V02_LAYER00_preview.jpg",
+      "sha256": "04c9350f06c3b0752ecf7b1b3bd6c977b4810d9d1248f178ccd5f20de4cb681b"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/REVIEW_V02_LAYER00_comparison.jpg",
+      "sha256": "3439b5d14dc866fd45ff7b43387f3a177b7d5a9c5a8f055326722149bc33a16b"
+    }
+  ],
+  "next_required_action": "External JARVIS review. Do not modify this candidate and do not start another layer without an exact candidate-bound decision.",
+  "jarvis_approval": false,
+  "updated_at": "2026-08-19T17:06:50.138Z"
 }
