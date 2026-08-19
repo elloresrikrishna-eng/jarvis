@@ -1,4 +1,4 @@
-# Current Instruction | Parallel Production After V01 Layer 03 and V03 Layer 00 Approval
+# Current Instruction | Parallel Production After V01 Layer 04 Approval
 
 ## Immediate objective
 
@@ -13,27 +13,27 @@ Read and obey:
 - all per-view state files under `projects/pulla-reddy/state/`
 - all current JARVIS decisions under `projects/pulla-reddy/control/decisions/`
 
-## Priority 1 | V01 Layer 04 central merchandise / circulation
+## Priority 1 | V01 Layer 05 rear seating comfort
 
-V01 Layer 03 concealed shelf-integrated lighting candidate is independently approved.
+V01 Layer 04 central-merchandise / circulation candidate is independently approved.
 
 Approved immutable parent:
 
-`9c855ce50bea0032a17e0b6a230d7282dc1c078116dc0210b7fd33bcc525b6af`
+`58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837`
 
 Decision:
 
-`jarvis-v01-l03-9c855ce5-approve-001`
+`jarvis-v01-l04-58553357-approve-001`
 
 Execute:
 
-`projects/pulla-reddy/instructions/V01_LAYER04_CENTRAL_MERCHANDISE.md`
+`projects/pulla-reddy/instructions/V01_LAYER05_REAR_SEATING_COMFORT.md`
 
-Create Layer 04 from the exact approved Layer 03 parent. Add only selective recessed 3000K lighting for the central freestanding merchandise display and the minimum physically necessary adjacent circulation support. The principal sweet counters must remain the strongest visual destination, wall shelves remain the second tier, and the new central merchandise contribution must remain a controlled third tier. Preserve all approved counter, wall-wash and shelf-integrated lighting exactly apart from unavoidable local interaction.
+Create Layer 05 from the exact approved Layer 04 parent. Add only restrained recessed 3000K comfort lighting for the visible rear seating / hospitality zone. Keep the rear area clearly softer and calmer than the sweet counters, wall shelves and central merchandise. Preserve all approved counter, wall-wash, shelf-integrated and central-merchandise lighting exactly apart from unavoidable local interaction.
 
 Publish through the GitHub Actions binary review-artifact path and stop V01 at `READY_FOR_JARVIS_REVIEW` after remote retrievability and provenance are verified.
 
-Do not begin Layer 05 until Layer 04 receives exact candidate-bound independent JARVIS approval.
+Do not begin Layer 06 until Layer 05 receives exact candidate-bound independent JARVIS approval.
 
 ## Priority 2 | V03 Layer 01 counter downlighting
 
