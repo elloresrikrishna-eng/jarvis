@@ -1,0 +1,32 @@
+{
+  "protocol_version": "jarvis-worker-prompt-contract-v0.2",
+  "job_id": "jarvis-pulla-reddy-v05-3365fb4266155d364db88937",
+  "project": "pulla-reddy",
+  "view": "V05_Window_Shelving",
+  "source_pdf": "26.08.12 -G Pulla Reddy-HSR-Sweets-3D View.pdf",
+  "source_page": 6,
+  "source_image": "source-page-06-3d-view-05-original.jpg",
+  "source_sha256": "183c88fef4f50dc0f2efc10797deda7091093af2279725abc4a5915a3c4fe84e",
+  "candidate_layer": "00",
+  "candidate_image": "layer-00-base-dark.png",
+  "candidate_sha256": "76326a4e726229fc343ee401b49a696d4132968c9e776e0d05e07546c9e42be1",
+  "dimensions": [1625, 968],
+  "exact_task": "Initialize lane, extract source, and create Layer 00 night base with all electric lighting off.",
+  "lighting_state": "All electric lighting off; minimal residual ambient only.",
+  "camera_crop_alignment_changed": false,
+  "architecture_materials_products_changed": false,
+  "previous_lighting_layer_changed": false,
+  "self_checks": {
+    "authoritative_source_present_and_hashed": true,
+    "source_bytes_preserved": true,
+    "candidate_present_and_hashed": true,
+    "dimensions_match_source": true,
+    "camera_crop_perspective_preserved": true,
+    "architecture_ceiling_shelving_counters_products_preserved": true,
+    "exterior_daylight_removed": true,
+    "electric_lighting_off": true,
+    "later_layer_started_by_this_worker": false,
+    "approval_authored_by_this_worker": false
+  },
+  "warnings": []
+}
