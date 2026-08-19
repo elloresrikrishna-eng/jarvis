@@ -1,0 +1,37 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "decision": {
+    "protocol_version": "jarvis-return-path-v1",
+    "project_id": "pulla-reddy",
+    "view_id": "V01",
+    "layer_id": "09",
+    "candidate_sha256": "6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e",
+    "reviewed_artifact_id": "9363512906",
+    "reviewed_workflow_run_id": "32248553564",
+    "decision": "REJECT",
+    "review_summary": "The exact V01 audit candidate proves a 0,+1 coordinate drift beginning at Layer 02. Repair must restart from exact approved Layer 01 and every rebuilt downstream layer must receive independent approval.",
+    "required_changes": [
+      "Reopen V01 at Layer 02 only and preserve all prior files and decisions as immutable provenance.",
+      "Regenerate Layer 02 from exact approved Layer 01 bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217 with only recessed 3000K shelf-wall wall-wash.",
+      "Require exact 1624 x 968 coordinates, registration optimum 0,0, no broad negative or full-frame deltas, and no global exposure or gamma lift.",
+      "After independent approval, rebuild Layers 03 through 06 sequentially from each newly approved parent, then rebuild Final byte-identical to approved Layer 06."
+    ],
+    "hard_locks": [
+      "Exact Layer 01 parent bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217 remains unchanged.",
+      "Camera, crop, perspective, coordinate frame, architecture, ceiling grid, counters, shelves, furniture, products, materials and colours remain locked.",
+      "Layer N equals newly approved Layer N-1 plus exactly one released circuit.",
+      "All added electric light remains 3000K and recessed, concealed or integrated only.",
+      "No global exposure, gamma, contrast or colour lift is permitted.",
+      "Do not begin contact-sheet or presentation production."
+    ],
+    "reviewer": "JARVIS_CHATGPT",
+    "reviewed_at": "2026-08-19T12:14:00Z",
+    "decision_id": "jarvis-v01-l09-6a9f3e21-reject-001"
+  },
+  "candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V01_Main_Retail/cross-layer-pair-audit-board.png",
+  "candidate_sha256": "6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e",
+  "claimed_at": "2026-08-19T12:20:48.2378412Z",
+  "action": "REOPEN_LAYER_02_CHAIN_REPAIR",
+  "resulting_layer_id": "02",
+  "revision_instruction": "Rebuild V01 Layer 02 only from exact approved Layer 01 bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217. Add only localized deep-recessed 3000K wall-wash to visible wall-mounted shelf compositions. Preserve the exact 1624 x 968 coordinate frame with registration optimum 0,0, preserve all parent pixels outside physically plausible wall-wash contribution, publish deterministic parent-versus-candidate evidence, and stop for independent review."
+}
