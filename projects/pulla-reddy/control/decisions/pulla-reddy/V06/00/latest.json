@@ -1,0 +1,26 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V06",
+  "layer_id": "00",
+  "candidate_sha256": "a2c3f2bcb59ebf7e35b2c6e5842f1196227cc7ef6dad3bb6f6de469151ebcff3",
+  "reviewed_artifact_id": "9375264736",
+  "reviewed_workflow_run_id": "32279524100",
+  "decision": "APPROVE",
+  "review_summary": "Independent external JARVIS review approves the repaired V06 Layer 00 parent. The exact GitHub Actions artifact candidate was downloaded and independently hashed to a2c3f2bcb59ebf7e35b2c6e5842f1196227cc7ef6dad3bb6f6de469151ebcff3, matching the published candidate manifest and state. Visually, the rebuilt curved-seating view contains the required continuous planter behind the built-in seater, with consistent integrated geometry and dense planting rhythm, while the planter itself remains unlit. No proposed electric-lighting circuit is active in the room, so the image functions as the correct lights-off baseline for the repaired chain. Camera, crop, ceiling grid, seating geometry, tables, chairs and material language remain visually coherent, and there is no obvious exposure cheat or visible fixture pollution. Deterministic QA independently reports exact 0,0 registration, matched dimensions and no integrity warnings; that evidence supports but does not replace the visual approval.",
+  "required_changes": [],
+  "hard_locks": [
+    "Candidate a2c3f2bcb59ebf7e35b2c6e5842f1196227cc7ef6dad3bb6f6de469151ebcff3 is the immutable approved V06 Layer 00 parent for the repaired chain.",
+    "The shared V02/V06 planter geometry, material language, planting height, density and rhythm recorded in SHARED_PLANTER_SPEC.md must persist unchanged from Layer 00 onward unless explicitly reopened by JARVIS.",
+    "The planter remains physically present but unlit in Layer 00.",
+    "Camera, crop, focal character, perspective, architecture, ceiling grid, built-in seating, tables, chairs, materials and colours remain locked for all later V06 layers.",
+    "All later added electric lighting remains 3000K and recessed, concealed or integrated only.",
+    "Each later V06 layer must equal the exact approved immediate parent plus one released lighting family only.",
+    "Do not use global exposure or gamma changes to simulate added light.",
+    "The future repaired Layer 03 under-seater effect must retain the previously accepted character target: concealed source, no luminous ribbon, restrained warm floor pool and substantially lower contribution than the original rejected Layer 03.",
+    "Presentation generation remains locked until every required view has valid independent JARVIS approvals through completion."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T17:07:49Z",
+  "decision_id": "jarvis-v06-l00-a2c3f2bc-approve-001"
+}
