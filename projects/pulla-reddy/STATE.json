@@ -11,7 +11,7 @@
     "V05_Window_Shelving",
     "V06_Curved_Seating_Hero"
   ],
-  "current_action": "Continue all valid lanes independently. V01 Layer 01 v4 is independently approved and V01 Layer 02 wall-wash is released from exact parent bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217. For the curved-seating shared dependency, establish SHARED_PLANTER_SPEC.md through V02/V06 and rebuild V02/V06 Layer 00 with the shared planter present and unlit before later layers. V03/V04/V05 should execute their current valid Layer 00 initialization instructions and publish review artifacts.",
+  "current_action": "Continue all valid lanes independently. V01 Layer 02 wall-wash candidate fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e has exact candidate-bound independent approval and is now the immutable parent for V01 Layer 03 concealed shelf-integrated lighting. Execute projects/pulla-reddy/instructions/V01_LAYER03_SHELF_INTEGRATED.md and stop V01 at READY_FOR_JARVIS_REVIEW after publication. For V02/V06, establish SHARED_PLANTER_SPEC.md and rebuild Layer 00 with the shared planter present and unlit before later layers. V03/V04/V05 should execute their current valid Layer 00 initialization instructions and publish review artifacts.",
   "per_view_state_path": "projects/pulla-reddy/state/",
   "coordinator_instruction": "projects/pulla-reddy/CURRENT_INSTRUCTION.md",
   "quality_holds": [
