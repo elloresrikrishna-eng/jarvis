@@ -1,0 +1,21 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "02",
+  "candidate_sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
+  "approved_parent_sha256": "bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217",
+  "approved_parent_decision_id": "jarvis-v01-l01-bb0eda1c-approve-001",
+  "artifact_name": "jarvis-pulla-reddy-v01-l02-fc47cfc6a1cc",
+  "artifact_id": "9352307296",
+  "workflow_run_id": "32215867164",
+  "workflow_commit_sha": "5e4032640c5a69e14a63275f311ba2da63f5c95f",
+  "artifact_archive_digest": "sha256:b168ee33858e8cbebe653a58a579d4ac95a5eaa827b713c83eb916808f73fd77",
+  "remote_download_verified": true,
+  "remote_candidate_sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
+  "remote_manifest_candidate_sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
+  "remote_provenance_candidate_sha256": "fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e",
+  "state": "READY_FOR_JARVIS_REVIEW",
+  "jarvis_approval": false,
+  "published_at": "2026-08-19T04:31:00.000Z"
+}

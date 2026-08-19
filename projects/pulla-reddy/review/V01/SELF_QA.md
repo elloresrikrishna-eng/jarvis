@@ -1,45 +1,36 @@
-# V01 Layer 01 Rework | Self-QA
+# V01 Layer 02 | Self QA
 
-This document records production QA only. It does not substitute for the independent reviewer decision required by `REVIEWER_RUBRIC.md`.
+Candidate: `layer-02-wall-shelf-wall-wash-v3.png`
 
-## Hard-lock checks
+Candidate SHA-256: `fc47cfc6a1ccbaac2e8103d2b013036716f43395fba0a0c8a393f797dcf1599e`
 
-| Check | Result | Evidence |
+Approved parent SHA-256: `bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217`
+
+## Quality gates
+
+| Gate | Result | Evidence |
 |---|---|---|
-| Dimensions | PASS | Layer 00 and candidate are both 1624 x 968 |
-| Camera, perspective and crop | PASS | Candidate is composited directly on the approved Layer 00 pixel grid |
-| Architecture and ceiling grid | PASS | Ceiling is exact Layer 00, maximum pixel delta 0 |
-| Shelves and unrelated walls | PASS | Protected shelf regions restored to exact Layer 00 pixels |
-| Central merchandise display | PASS | Protected region maximum pixel delta 0 |
-| Rear seating | PASS | Protected region maximum pixel delta 0 |
-| Previous-layer purity | PASS | Layer 00 is the sole parent; no other circuit is present |
-| Negative pixel deltas | PASS | 0 negative RGB channel deltas |
-| Global exposure cheat | PASS | Illumination is limited to counter-localized masks and restrained adjacent spill |
-| Added CCT | PASS | Positive contribution follows a consistent warm 3000K channel balance |
-| Visible fixture bodies | PASS | No ceiling apertures or fixture faces are introduced |
-| Output clipping | PASS | 0 output channels at clipping threshold in the final candidate |
-| Glass readability | PASS | Display glass remains transparent with no white blobs, bloom, or duplicated reflections |
+| Exact approved parent used | PASS | Parent SHA matches the Layer 01 approval decision. |
+| Camera, crop and canvas continuity | PASS | Both parent and candidate are 1624 x 968 with matching composition. |
+| Architecture and material continuity | PASS | Visual inspection confirms no scene redesign or product movement. |
+| Exactly one new lighting family | PASS | Only the wall-shelf wall-wash circuit is added. |
+| 3000K warm-white lighting | PASS | Wall-wash is warm, neutral and not orange-contaminated. |
+| Recessed or concealed source only | PASS | No visible fixture bodies, tracks, pendants or surface lights. |
+| No shelf-integrated light | PASS | No shelf-edge glow, raw strip or shelf-underside source. |
+| Approved counter lighting preserved | PASS | Right counter mean shift +0.2008; left counter mean shift -0.1490. |
+| Central ceiling protected | PASS | Central ceiling mean shift -0.1301 with no visible ceiling dots. |
+| Central display protected | PASS | Mean shift +1.2088, within restrained secondary-bounce tolerance. |
+| Rear seating protected | PASS | Mean shift +0.9741, within restrained secondary-bounce tolerance. |
+| No global exposure cheat | PASS | Protected cores remain stable while shelf target regions gain about 20.4 to 20.7 luminance levels. |
+| No target clipping | PASS | Both wall-wash target regions have zero pixels at luminance 250 or above. |
+| Remote artifact integrity | PASS | Downloaded candidate, manifest and provenance all match the exact candidate SHA. |
 
-## Hierarchy checks
+## Correction record
 
-- Right sweet counter mean luminance increase: **+15.156**.
-- Left-front counter mean luminance increase: **+9.077**.
-- Ceiling, central display, and rear seating protected regions: **exactly unchanged**.
-- The right counter is intentionally the dominant hero; the left display is a secondary member of the same circuit.
+The first attempt was rejected locally because it lifted protected regions and produced a 1624 x 969 canvas. It was not published.
 
-## Rework corrections
+The final candidate reasserts Layer 01 as the immutable base, localizes the wall-wash to shelf zones, and restores the locked 1624 x 968 canvas.
 
-The first rework attempt was rejected internally before publication because floor spill was too broad and the light was too orange.
+## Review posture
 
-The submitted v4 candidate:
-
-1. narrows the contribution to overlapping counter-localized beam footprints;
-2. lowers secondary floor spill;
-3. reduces red dominance while preserving a warm 3000K appearance;
-4. suppresses all luminous ceiling-dot behavior;
-5. restores protected non-counter zones to exact Layer 00 pixels;
-6. preserves glass transparency and avoids clipped product highlights.
-
-## Known limitation
-
-Pixel statistics prove continuity and layer purity, not presentation quality. Independent ChatGPT visual/design review is still required before Layer 01 can become an approved parent.
+Deterministic QA is Gate 1 only. Independent external JARVIS review is still required before Layer 03 can be released.
