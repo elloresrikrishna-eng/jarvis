@@ -1,0 +1,16 @@
+{
+    "protocol_version":  "jarvis-return-path-v1",
+    "decision_id":  "jarvis-v01-l08-a059b104-approve-001",
+    "project_id":  "pulla-reddy",
+    "view_id":  "V01",
+    "layer_id":  "08",
+    "candidate_sha256":  "a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30",
+    "consumed_at":  "2026-08-19T11:40:55.1480676Z",
+    "resulting_layer_id":  "09",
+    "resulting_task_kind":  "cross-layer-continuity-audit",
+    "resulting_candidate_sha256":  "6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e",
+    "resulting_artifact_id":  "9363512906",
+    "resulting_workflow_run_id":  "32248553564",
+    "audit_result":  "FAIL",
+    "earliest_affected_layer":  "02"
+}

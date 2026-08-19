@@ -31,9 +31,17 @@
     "candidate":  "cross-layer-pair-audit-board.png",
     "candidate_sha256":  "6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e",
     "artifact_name":  "jarvis-pulla-reddy-v01-l09-6a9f3e21c631",
-    "publication_verification":  "PENDING",
+    "publication_verification":  "VERIFIED",
     "presentation_gate":  "LOCKED",
     "contact_sheet_review_board_gate":  "LOCKED_PENDING_AUDIT_APPROVAL",
     "user_decision_required":  false,
-    "review_path":  "projects/pulla-reddy/review/V01/"
+    "review_path":  "projects/pulla-reddy/review/V01/",
+    "artifact_id":  "9363512906",
+    "workflow_run_id":  "32248553564",
+    "publication_commit_sha":  "e378cee399e1eeb4c99193f0114b79bdcd8f99a5",
+    "artifact_archive_digest":  "sha256:9f069c1f3df48d19a776a55af956079381f79b4148398df0232efd5c1ac73cb7",
+    "remote_retrievability_verified":  true,
+    "remote_candidate_sha256":  "6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e",
+    "provenance_valid":  true,
+    "publication_path":  "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/09/publication.json"
 }

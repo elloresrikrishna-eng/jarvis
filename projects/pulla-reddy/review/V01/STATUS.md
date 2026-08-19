@@ -35,8 +35,13 @@ No approved master was modified and no repair was attempted. The approved concep
 
 ## GitHub Actions transport
 
-Artifact name: jarvis-pulla-reddy-v01-l09-6a9f3e21c631
-
-Publication verification: PENDING
+- Artifact name: jarvis-pulla-reddy-v01-l09-6a9f3e21c631
+- Artifact ID: 9363512906
+- Workflow run ID: 32248553564
+- Publication commit: e378cee399e1eeb4c99193f0114b79bdcd8f99a5
+- Artifact archive digest: sha256:9f069c1f3df48d19a776a55af956079381f79b4148398df0232efd5c1ac73cb7
+- Downloaded candidate.png SHA-256: 6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e
+- Candidate manifest and generated artifact provenance match the same candidate hash, publication commit and workflow run.
+- Remote retrievability verified: true
 
 Independent candidate-bound JARVIS review is required. Contact-sheet/review-board production and presentation generation remain locked.

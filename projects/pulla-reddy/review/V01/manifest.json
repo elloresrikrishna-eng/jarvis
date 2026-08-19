@@ -27,8 +27,15 @@
                             ],
     "artifact_publication":  {
                                  "artifact_name":  "jarvis-pulla-reddy-v01-l09-6a9f3e21c631",
-                                 "state":  "PENDING_WORKFLOW",
-                                 "remote_download_verified":  false
+                                 "state":  "VERIFIED",
+                                 "remote_download_verified":  true,
+                                 "artifact_id":  "9363512906",
+                                 "workflow_run_id":  "32248553564",
+                                 "workflow_commit_sha":  "e378cee399e1eeb4c99193f0114b79bdcd8f99a5",
+                                 "artifact_archive_digest":  "sha256:9f069c1f3df48d19a776a55af956079381f79b4148398df0232efd5c1ac73cb7",
+                                 "remote_candidate_sha256":  "6a9f3e21c631dd20a8a866391fa7cecb7d5ca4be6563fea9b347149c721b6f4e",
+                                 "publication_path":  "projects/pulla-reddy/control/review-candidates/pulla-reddy/V01/09/publication.json",
+                                 "published_at":  "2026-08-19T11:40:55.1480676Z"
                              },
     "review_assets":  [
                           "CROSS_LAYER_QA.md",
