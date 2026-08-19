@@ -1,0 +1,486 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "state": "READY_FOR_JARVIS_REVIEW",
+  "dispatcher_job_id": "jarvis-pulla-reddy-v02-c385b2ccd7cd328579d90baa",
+  "project_id": "pulla-reddy",
+  "view_id": "V02",
+  "layer_id": "01",
+  "candidate_sha256": "af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619",
+  "candidate_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V02/01/candidates/af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619.png",
+  "candidate_repo_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V02/01/candidates/af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619.png",
+  "local_candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V02_Seating_Lounge/layer-01-wall-wash-candidate-r1.png",
+  "approved_parent_sha256": "c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540",
+  "local_approved_parent_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V02_Seating_Lounge/layer-00-base-dark-planter-candidate.png",
+  "source_decision_id": "jarvis-v02-l00-c0db62b7-approve-001",
+  "artifact_name": "jarvis-pulla-reddy-v02-l01-af3045bc9902",
+  "deterministic_qa": {
+    "version": "deterministic-qa-v1",
+    "artifactType": "CUMULATIVE_LIGHTING_LAYER",
+    "profileId": "cumulative-lighting-layer-v1",
+    "profileVersion": "1",
+    "rulesEvaluated": [
+      "dimensions_locked",
+      "aspect_ratio_locked",
+      "camera_crop_locked",
+      "image_not_blank",
+      "highlight_clipping",
+      "unexpected_border",
+      "no_global_exposure_shift",
+      "protected_region_frozen",
+      "one_lighting_family_only",
+      "approved_parent_must_not_darken"
+    ],
+    "passed": true,
+    "hardFailure": false,
+    "dimensionsMatch": true,
+    "aspectRatioMatch": true,
+    "sourceDimensions": {
+      "width": 1628,
+      "height": 966
+    },
+    "parentDimensions": {
+      "width": 1628,
+      "height": 966
+    },
+    "candidateDimensions": {
+      "width": 1628,
+      "height": 966
+    },
+    "alignment": {
+      "offsetX": 0,
+      "offsetY": 0,
+      "confidence": 0.8997205995519812,
+      "correlation": 0.9996895550577569,
+      "aligned": true,
+      "method": "exif-oriented-common-grid-gradient-correlation",
+      "parentWidth": 1628,
+      "parentHeight": 966,
+      "candidateWidth": 1628,
+      "candidateHeight": 966,
+      "commonGridWidth": 192,
+      "commonGridHeight": 114,
+      "zeroOffsetCorrelation": 0.9996895550577569,
+      "correlationImprovement": 0
+    },
+    "sourceParentAlignment": {
+      "offsetX": 0,
+      "offsetY": 0,
+      "confidence": 0.7144237198005376,
+      "correlation": 0.6826930220005973,
+      "aligned": true,
+      "method": "exif-oriented-common-grid-gradient-correlation",
+      "parentWidth": 1628,
+      "parentHeight": 966,
+      "candidateWidth": 1628,
+      "candidateHeight": 966,
+      "commonGridWidth": 192,
+      "commonGridHeight": 114,
+      "zeroOffsetCorrelation": 0.6826930220005973,
+      "correlationImprovement": 0.023360590005523152
+    },
+    "difference": {
+      "changedPixelRatio": 0.02119164619164619,
+      "meanLuminanceDelta": 0.2053021810011827,
+      "meanAbsoluteLuminanceDelta": 0.2053021810011827,
+      "positiveLuminanceRatio": 0.02119164619164619,
+      "negativeLuminanceRatio": 0,
+      "changeBoundingBox": {
+        "left": 440,
+        "top": 262,
+        "width": 386,
+        "height": 187
+      },
+      "globalExposureShift": false,
+      "globalExposureEvidence": "Changed 2.12%; mean luminance delta 0.21; mean absolute delta 0.21",
+      "protectedRegionViolation": false,
+      "outsideAllowedChangedRatio": 0,
+      "unrelatedActivationRatio": 0,
+      "strongUnrelatedActivationRatio": 0,
+      "permittedSecondaryContributionRatio": 0,
+      "semanticRegionRolesApplied": true,
+      "regions": [
+        {
+          "region": "principal_sweet_counter",
+          "roles": [
+            "key"
+          ],
+          "changedPixelRatio": 0.013182627621685794,
+          "meanLuminanceDelta": 0.14338828012609628,
+          "positiveLuminanceRatio": 0.013182627621685794,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0.013182627621685794,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 14,
+          "violation": false
+        },
+        {
+          "region": "secondary_counter",
+          "roles": [
+            "detail"
+          ],
+          "changedPixelRatio": 0,
+          "meanLuminanceDelta": 0,
+          "positiveLuminanceRatio": 0,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 0,
+          "violation": false
+        },
+        {
+          "region": "wall_mounted_shelves",
+          "roles": [
+            "detail"
+          ],
+          "changedPixelRatio": 0.0975949145482315,
+          "meanLuminanceDelta": 0.8789952313814932,
+          "positiveLuminanceRatio": 0.0975949145482315,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0.0975949145482315,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 16,
+          "violation": false
+        },
+        {
+          "region": "ceiling_and_recessed_fixture_zone",
+          "roles": [
+            "ceiling"
+          ],
+          "changedPixelRatio": 0.04073768728941143,
+          "meanLuminanceDelta": 0.36235278914279995,
+          "positiveLuminanceRatio": 0.04073768728941143,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0.04073768728941143,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 16,
+          "violation": false
+        },
+        {
+          "region": "central_merchandise",
+          "roles": [
+            "detail"
+          ],
+          "changedPixelRatio": 0.03527118518965853,
+          "meanLuminanceDelta": 0.39944508500962783,
+          "positiveLuminanceRatio": 0.03527118518965853,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0.03527118518965853,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 16,
+          "violation": false
+        },
+        {
+          "region": "seating_zone",
+          "roles": [
+            "detail"
+          ],
+          "changedPixelRatio": 0.17985158410690325,
+          "meanLuminanceDelta": 1.5866960859301318,
+          "positiveLuminanceRatio": 0.17985158410690325,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0.17985158410690325,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 16,
+          "violation": false
+        },
+        {
+          "region": "planter_and_foliage_shadow_wall",
+          "roles": [
+            "key"
+          ],
+          "changedPixelRatio": 0.004199834372728963,
+          "meanLuminanceDelta": 0.07387774732004734,
+          "positiveLuminanceRatio": 0.004199834372728963,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0.004199834372728963,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 8,
+          "violation": false
+        },
+        {
+          "region": "glass_reflection_zone",
+          "roles": [
+            "detail"
+          ],
+          "changedPixelRatio": 0,
+          "meanLuminanceDelta": 0.07801842748573558,
+          "positiveLuminanceRatio": 0,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 4,
+          "violation": false
+        },
+        {
+          "region": "background_rear_zone",
+          "roles": [
+            "detail"
+          ],
+          "changedPixelRatio": 0.09458439287984742,
+          "meanLuminanceDelta": 0.8623293277939227,
+          "positiveLuminanceRatio": 0.09458439287984742,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0.09458439287984742,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 16,
+          "violation": false
+        },
+        {
+          "region": "control_region",
+          "roles": [
+            "control",
+            "protected"
+          ],
+          "changedPixelRatio": 0,
+          "meanLuminanceDelta": 0,
+          "positiveLuminanceRatio": 0,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 0,
+          "violation": false
+        },
+        {
+          "region": "task_wall_shelf_wash_left",
+          "roles": [
+            "detail",
+            "allowed",
+            "direct_contribution"
+          ],
+          "changedPixelRatio": 0.2789072264877688,
+          "meanLuminanceDelta": 2.496187791664272,
+          "positiveLuminanceRatio": 0.2789072264877688,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0.2789072264877688,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 14,
+          "violation": false
+        },
+        {
+          "region": "task_wall_shelf_wash_center",
+          "roles": [
+            "detail",
+            "allowed",
+            "direct_contribution"
+          ],
+          "changedPixelRatio": 0.3097876461229854,
+          "meanLuminanceDelta": 2.8436504879094775,
+          "positiveLuminanceRatio": 0.3097876461229854,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0.3097876461229854,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 16,
+          "violation": false
+        },
+        {
+          "region": "task_shelf_floor_bounce",
+          "roles": [
+            "detail",
+            "permitted_bounce"
+          ],
+          "changedPixelRatio": 0,
+          "meanLuminanceDelta": 0.3982289330528529,
+          "positiveLuminanceRatio": 0,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 3,
+          "violation": false
+        },
+        {
+          "region": "task_protected_ceiling",
+          "roles": [
+            "ceiling",
+            "protected"
+          ],
+          "changedPixelRatio": 0,
+          "meanLuminanceDelta": 0.0005965022814504926,
+          "positiveLuminanceRatio": 0,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 1,
+          "violation": false
+        },
+        {
+          "region": "task_protected_left_display",
+          "roles": [
+            "detail",
+            "protected"
+          ],
+          "changedPixelRatio": 0,
+          "meanLuminanceDelta": 0,
+          "positiveLuminanceRatio": 0,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 0,
+          "violation": false
+        },
+        {
+          "region": "task_unrelated_window_background",
+          "roles": [
+            "detail",
+            "unrelated_lighting"
+          ],
+          "changedPixelRatio": 0,
+          "meanLuminanceDelta": 0,
+          "positiveLuminanceRatio": 0,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 0,
+          "violation": false
+        },
+        {
+          "region": "task_unrelated_planter_seating",
+          "roles": [
+            "detail",
+            "unrelated_lighting"
+          ],
+          "changedPixelRatio": 0,
+          "meanLuminanceDelta": 0,
+          "positiveLuminanceRatio": 0,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 0,
+          "violation": false
+        },
+        {
+          "region": "task_unrelated_floor_circulation",
+          "roles": [
+            "detail",
+            "unrelated_lighting"
+          ],
+          "changedPixelRatio": 0,
+          "meanLuminanceDelta": 0,
+          "positiveLuminanceRatio": 0,
+          "negativeLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0,
+          "strongPositiveLuminanceRatio": 0,
+          "maxAbsoluteDelta": 0,
+          "violation": false
+        }
+      ]
+    },
+    "integrity": {
+      "valid": true,
+      "nearlyBlank": false,
+      "clippedHighlightRatio": 0,
+      "clippedShadowRatio": 0.007081050559311429,
+      "unexpectedBorder": false,
+      "warnings": []
+    },
+    "failures": [],
+    "warnings": [],
+    "completedAt": "2026-08-19T20:47:38.196Z"
+  },
+  "review_files": [
+    {
+      "path": "projects/pulla-reddy/review/V02/STATUS.md",
+      "sha256": "990e4e411273a5ba2957a8f0ddfd7127e5e19e0e6d3f5a588c030972052557f1"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/manifest.json",
+      "sha256": "69a58ae8363d122bb149319458b0af83d592289bf894358d4bf75abc1239dee9"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/SELF_QA.md",
+      "sha256": "d9793cee07a5bf5558b9b7005a4ec7ed498a712d94a79d25f615b1f0768fae70"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/deterministic_qa.json",
+      "sha256": "1eceb2fb259cc6836cd9cce82798e125323695b3fda8952d1707d5ae58b0f3ad"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/layer-01-preview.jpg",
+      "sha256": "fe8f2513d8cf22d3276aa26a356dcdf1079692e324f159ffabda0f647121b32b"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/layer-00-vs-layer-01-comparison.jpg",
+      "sha256": "7061a1e14adf573e21c1bcfa0b538c2a7520d7a22c2b533947f34e6eeee9b860"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/layer-01-shelf-crop.png",
+      "sha256": "52a6f14599d9175e3479dc528dfdfda6874bfc17392a4f9d07086153e0d2db0a"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/layer-01-difference.png",
+      "sha256": "7ff276cfc8c3ff458a59babf52e9dae906ebe6285c2bedd6262b96c9aa92b803"
+    }
+  ],
+  "dispatcher_provenance": {
+    "protocol_version": "jarvis-dispatcher-v0.1",
+    "worker_prompt_contract_version": "jarvis-worker-prompt-contract-v0.2",
+    "job_id": "jarvis-pulla-reddy-v02-c385b2ccd7cd328579d90baa",
+    "kind": "LANE",
+    "triggering_state_path": "projects/pulla-reddy/state/V02.json",
+    "triggering_state_sha": "f7774855565e9a0f88ca9fb870fc2d5d764477c8",
+    "triggering_state_hash": "f3b908e4adad39268e3f0f9e1dba1a8170e194d937eebbd7abe3c12db3f558e1",
+    "triggering_decision_id": "jarvis-v02-l00-c0db62b7-approve-001",
+    "source_documents": [
+      {
+        "path": "projects/pulla-reddy/AUTOMATION_PROTOCOL.md",
+        "blob_sha": "b8081e06144e5b9f0473b7d195b296a6c6fc326c",
+        "content_hash": "f294ae7ac024be508b16c983689702acdddbf0335e5f7b64685864917099020c"
+      },
+      {
+        "path": "projects/pulla-reddy/control/decisions/pulla-reddy/V02/00/latest.json",
+        "blob_sha": "f4187a54dd884ef9370dd162635b844c5b1fc5bb",
+        "content_hash": "0a93cc13788c55e1cae070531acbe857d6fe062f15aeacd13d081a3a148ec467"
+      },
+      {
+        "path": "projects/pulla-reddy/control/presentation-gate.json",
+        "blob_sha": "006fd6ffe7792533cbe6c91a94659e6d24c2e3f0",
+        "content_hash": "74423d30b9e380b2bda8f0e12daec9c9e92b91a3be52d8cf39ba439af18df1af"
+      },
+      {
+        "path": "projects/pulla-reddy/CURRENT_INSTRUCTION.md",
+        "blob_sha": "a507be351532e26a04da3b4b1dce259be6366955",
+        "content_hash": "6f5481336e20ce97cfb507556ca9a00e7b0f38104be5504aa5afd42f40af16cd"
+      },
+      {
+        "path": "projects/pulla-reddy/instructions/V02_LAYER01_WALL_WASH.md",
+        "blob_sha": "d7b75d63483b3b03f8364d58b848e1edbbd02888",
+        "content_hash": "8e0c4ae8c9730dc1775fea3ef29d2da4d870cc20d34f02bc8c6ff31098b94979"
+      },
+      {
+        "path": "projects/pulla-reddy/instructions/V06_PARENT_CHAIN_REPAIR.md",
+        "blob_sha": "54750778ff3bdba3afeb3236a8c12c9b39ee53ee",
+        "content_hash": "264aebb7cd820908004f85708d5ebab4b02176fe98c58d4f71da7fb9be602388"
+      },
+      {
+        "path": "projects/pulla-reddy/MULTIVIEW_COORDINATOR_INSTRUCTION.md",
+        "blob_sha": "1602e4b7867e2728c032432b0678137495e0b449",
+        "content_hash": "d7960d072cce54ae2ead00d4dfa77d016d25e7ac1d970851c2035666cc95f909"
+      },
+      {
+        "path": "projects/pulla-reddy/MULTIVIEW_EXECUTION.md",
+        "blob_sha": "22387dac18e061cc0cb7ea2e1916c217f9526f8e",
+        "content_hash": "a252493d16b6a227d3a330454d08008970b4c15fe307b277e4183c54fe2c7bbb"
+      },
+      {
+        "path": "projects/pulla-reddy/PROJECT_RULES.md",
+        "blob_sha": "23b4135fa97e75b87d0cde6270b7407b036453b6",
+        "content_hash": "f40c5e26185d5a7d521da81c8d723dcf1c1486dd61de9143b26f0e0cb2273e99"
+      },
+      {
+        "path": "projects/pulla-reddy/SHARED_PLANTER_SPEC.md",
+        "blob_sha": "da063e55f2372f1390cb31957dadd3fd629e7754",
+        "content_hash": "dd5dab4d3c309cf978ff312a5d4bac1b6f8e33e300bf1819df880607b19ab62d"
+      },
+      {
+        "path": "projects/pulla-reddy/state/V02.json",
+        "blob_sha": "f7774855565e9a0f88ca9fb870fc2d5d764477c8",
+        "content_hash": "f3b908e4adad39268e3f0f9e1dba1a8170e194d937eebbd7abe3c12db3f558e1"
+      }
+    ],
+    "worker_terminal_state": "WORK_PRODUCT_READY",
+    "worker_summary": "Created one revisioned V02 Layer 01 candidate from the byte-verified approved Layer 00 parent. The contribution is strictly additive and confined to the two released shelf-wall zones plus permitted low-energy floor bounce. Local QA reports 0% darkening, 0% unrelated activation, and 0% strong unrelated activation. No approval or later layer was authored.",
+    "worker_warnings": [
+      "Remote publication and retrievability remain dispatcher-owned and were not performed by this worker."
+    ]
+  },
+  "ready_at": "2026-08-19T20:48:10.088Z"
+}
