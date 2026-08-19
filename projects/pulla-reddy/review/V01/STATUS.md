@@ -4,7 +4,21 @@
 
 Layer 00 remains the only approved cumulative parent.
 
-A fresh Layer 01 candidate has been rebuilt from Layer 00 only and is submitted for independent ChatGPT visual/design review. No Layer 02 work is released by this package.
+The existing Layer 01 v4 candidate has been migrated unchanged into the active `jarvis-return-path-v1` GitHub Actions binary review-artifact path. It is now `READY_FOR_JARVIS_REVIEW`. No Layer 02 work is released by this package.
+
+## Verified artifact publication
+
+- Candidate SHA-256: `bb0eda1c017f3be550e9c8a613ed4e1fa5ccc0e8f849c0786fdfd96e841f3217`
+- GitHub Actions workflow run ID: `32211254927`
+- GitHub Actions artifact ID: `9350820837`
+- Artifact name: `jarvis-pulla-reddy-v01-l01-bb0eda1c017f`
+- Workflow commit: `0e27fdac19ed8b33fe3b5c306c577a4d0397581c`
+- Artifact archive digest: `sha256:e8ae725a9c344f7f365e571db65d71756588f05b0d9542d1cd83d8f2017e2aca`
+- Remote retrieval: **PASS**
+- Downloaded artifact candidate hash: **exact match**
+- Downloaded manifest/provenance hash binding: **exact match**
+
+The PNG was not regenerated, re-encoded, or visually modified during migration.
 
 ## Authoritative local files
 
@@ -33,7 +47,7 @@ The rework tightens the counter-localized beam footprints, reduces floor spill, 
 
 ## Important review posture
 
-The technical QA evidence confirms continuity but is not design approval. The candidate is intentionally waiting for independent visual/design review under `REVIEWER_RUBRIC.md`.
+The technical QA and remote artifact verification confirm continuity and provenance but are not design approval. The candidate is intentionally waiting for external JARVIS review of artifact `9350820837`.
 
 ## Local downstream note
 
@@ -41,4 +55,4 @@ Some downstream files were generated locally under an earlier full-sequence rele
 
 ## Stop condition
 
-Production stops at reworked Layer 01. Layer 02 must not advance until Jarvis explicitly approves and releases it.
+Production stops at reworked Layer 01. Layer 02 must not advance until an exact external JARVIS approval is bound to the candidate SHA-256.
