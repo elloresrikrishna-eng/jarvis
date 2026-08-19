@@ -1,4 +1,4 @@
-# Current Instruction | Parallel Production After V01 Layer 06 Approval
+# Current Instruction | Parallel Production After V01 Concept-Sketch Approval
 
 ## Immediate objective
 
@@ -13,27 +13,31 @@ Read and obey:
 - all per-view state files under `projects/pulla-reddy/state/`
 - all current JARVIS decisions under `projects/pulla-reddy/control/decisions/`
 
-## Priority 1 | V01 lighting concept sketch
+## Priority 1 | V01 Final Composite
 
-V01 Layer 06 concealed under-seater candidate is independently approved.
+The exact V01 lighting concept sketch is independently approved.
 
-Approved immutable cumulative render:
+Approved concept sketch:
 
-`a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30`
+`0b0e4bacdf2961335fe1d82cae6d86f9fc0ce3511ad6fa5e16fcf82c8feaeb78`
 
 Decision:
 
-`jarvis-v01-l06-a059b104-approve-001`
+`jarvis-v01-l07-0b0e4bac-approve-001`
+
+The approved cumulative render remains:
+
+`a059b10401f0e9b8c3d235630a3e2c43e5e70a3925022a05f65d71744d06bc30`
 
 Execute:
 
-`projects/pulla-reddy/instructions/V01_LIGHTING_CONCEPT_SKETCH.md`
+`projects/pulla-reddy/instructions/V01_FINAL_COMPOSITE.md`
 
-Create the Ashwamedha lighting concept sketch using the exact locked source camera, crop, perspective and architecture. Convert architecture to restrained charcoal/grayscale and indicate only the six approved lighting families selectively in warm amber/orange. The sketch is a communication artifact, not a new lighting layer and not a redesign. It must map cleanly to the approved render chain and must not invent fixtures, effects, geometry or a seventh lighting family.
+Create task/layer ID `08` as the Final V01 Composite. The final render must be exactly the last approved cumulative Layer 06 render. Do not regenerate, relight, rebalance, denoise, sharpen, recolour, crop, rescale or reinterpret it. Prefer a byte-for-byte copy of the approved Layer 06 PNG so the SHA-256 remains unchanged.
 
-Publish through the GitHub Actions binary review-artifact path with source-versus-sketch evidence and a mapping of each amber annotation/effect to the approved lighting families. Stop V01 at `READY_FOR_JARVIS_REVIEW` after remote retrievability and provenance are verified.
+Publish through the GitHub Actions binary review-artifact path, verify remote retrievability and provenance, then stop V01 at `READY_FOR_JARVIS_REVIEW`.
 
-Do not begin the Final V01 Composite until the exact concept-sketch candidate receives candidate-bound independent JARVIS approval.
+Do not begin the V01 cross-layer continuity audit until the exact Final V01 Composite receives candidate-bound independent JARVIS approval.
 
 ## Priority 2 | V03 Layer 01 counter downlighting
 
