@@ -1,0 +1,25 @@
+{
+  "project": "pulla-reddy",
+  "view": "V02_Curved_Seating",
+  "layer_id": "00",
+  "source_filename": "source-page-03-3d-view-02-original.jpg",
+  "candidate_filename": "layer-00-base-dark-planter-candidate.png",
+  "dimensions": {
+    "width": 1628,
+    "height": 966
+  },
+  "task": "Night base with shared planter present and all electric lighting off",
+  "new_architectural_element": "Canonical continuous integrated curved-seater planter",
+  "new_lighting_circuit": "None",
+  "camera_crop_alignment_changed": false,
+  "unrelated_architecture_materials_products_changed": false,
+  "previous_lighting_changed_unexpectedly": false,
+  "all_electric_lighting_off": true,
+  "worker_authored_approval": false,
+  "later_layer_started": false,
+  "source_sha256": "2476dd39c0a0ffff664b5bdf1d2b0d1ea60a8d75af954175cb591d6e5a1d5cf1",
+  "candidate_sha256": "c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540",
+  "warnings": [
+    "Raster-edit workflow requires independent cross-view planter identity verification when V06 Layer 00 is available."
+  ]
+}
