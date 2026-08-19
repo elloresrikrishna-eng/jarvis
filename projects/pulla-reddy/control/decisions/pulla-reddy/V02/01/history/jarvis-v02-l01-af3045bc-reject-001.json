@@ -1,0 +1,33 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V02",
+  "layer_id": "01",
+  "candidate_sha256": "af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619",
+  "reviewed_artifact_id": "9382819486",
+  "reviewed_workflow_run_id": "32300516233",
+  "decision": "REJECT",
+  "review_summary": "Independent external JARVIS review rejects V02 Layer 01. The exact GitHub Actions artifact was downloaded and independently SHA-256 hashed to af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619, matching both the candidate manifest and published state. Camera, crop, architecture, planter, furniture and overall exposure are preserved, and deterministic QA passes. However, visual review against the approved Layer 00 parent shows that the released recessed wall-wash is too weak to read as a meaningful presentation layer. At normal presentation scale the parent and candidate are nearly indistinguishable, while the added contribution reads as two faint localized patches rather than a clear, soft vertical wash that models both wall-mounted shelf compositions. This fails the project instruction requiring a clear but restrained vertical-lighting layer and the reviewer rubric requirement that a layer be visually legible enough to deserve its own presentation step. Deterministic QA supports scene integrity but does not override this design-quality failure.",
+  "required_changes": [
+    "Rebuild Layer 01 from the exact approved Layer 00 parent c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540 only.",
+    "Increase the recessed 3000K wall-wash contribution on both visible wall-mounted shelf compositions until the vertical-lighting effect is clearly legible at normal presentation scale, while remaining restrained and secondary to future hospitality lighting.",
+    "Replace the current faint spot-like patches with a broader, believable wall-washer distribution that softly models the shelf walls and shelf contents with vertical continuity rather than isolated circular or oval glow islands.",
+    "Keep the ceiling sources visually quiet with no glowing apertures or visible fixture faces.",
+    "Do not activate integrated shelf lighting, planter lighting, under-seater lighting, seating/table comfort lighting or circulation lighting in this layer.",
+    "Keep the shared planter physically present and electrically unlit, and keep the seating/hospitality zone darker than the shelf compositions.",
+    "Do not change camera, crop, geometry, materials, furniture, colours, exposure or gamma. Any brightness increase must come only from the released wall-wash family and physically plausible local spill.",
+    "Next candidate should be visibly distinguishable from Layer 00 without becoming retail-bright or flattening the room hierarchy."
+  ],
+  "hard_locks": [
+    "Approved V02 Layer 00 parent c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540 remains immutable.",
+    "Shared V02/V06 planter geometry, material language, planting height, density and rhythm remain locked and unlit in Layer 01.",
+    "Camera, crop, focal character, perspective, ceiling grid, walls, door, glazing, counters, shelving, tables, chairs, joinery, materials and colours remain frozen.",
+    "Layer 01 may add exactly one lighting family only: controlled deep-recessed 3000K wall-washer downlighting serving the visible wall-mounted shelf compositions.",
+    "Integrated shelf lighting and all other lighting families remain off until separately released.",
+    "No global exposure or gamma changes are permitted.",
+    "Presentation generation remains locked until every required view and layer has valid independent JARVIS approval."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-19T20:55:00Z",
+  "decision_id": "jarvis-v02-l01-af3045bc-reject-001"
+}
