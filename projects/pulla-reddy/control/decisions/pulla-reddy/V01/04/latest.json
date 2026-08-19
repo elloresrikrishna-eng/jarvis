@@ -3,22 +3,23 @@
   "project_id": "pulla-reddy",
   "view_id": "V01",
   "layer_id": "04",
-  "candidate_sha256": "58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837",
-  "reviewed_artifact_id": "9355045008",
-  "reviewed_workflow_run_id": "32224475803",
+  "candidate_sha256": "a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e",
+  "reviewed_artifact_id": "9369801718",
+  "reviewed_workflow_run_id": "32265010608",
   "decision": "APPROVE",
-  "review_summary": "Independent external JARVIS review approves V01 Layer 04. The exact GitHub Actions artifact was downloaded and candidate.png independently hashed to 58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837, exactly matching the candidate manifest and published state. Visual comparison against the approved Layer 03 parent shows the new contribution confined to the central freestanding merchandise display and its immediate floor pool, with no visible scene-wide exposure lift or unrelated-zone change. The central merchandise gains enough warm 3000K legibility to read as a deliberate third-tier retail layer, while the front sweet counters remain clearly strongest and the wall shelf compositions remain second. The added light is restrained, source-invisible, and materially believable on the product packs, brass frame and terracotta floor. Camera, crop, architecture, ceiling grid, counters, wall shelves, furniture and the previously approved counter, wall-wash and shelf-integrated lighting remain visually unchanged. The difference is subtle but presentation-legible and supports circulation without flattening the hierarchy or making the ceiling a visual object.",
+  "review_summary": "Independent external JARVIS review approves the repaired V01 Layer 04 central-merchandise and circulation candidate a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e. The exact GitHub Actions artifact 9369801718 was downloaded and candidate.png independently hashed to a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e, matching the artifact manifest, published state and provenance. The exact approved repaired Layer 03 parent 8e2a2b196904a132c2c18ffd20f7035cf1689656ccea1c3cc871aa714ccc2bba was also retrieved from its approved artifact and independently hash-verified before visual comparison. Direct full-resolution parent-versus-candidate inspection shows that the new visible contribution is confined to the central freestanding merchandise rack and its immediate floor pool. The rack gains a restrained warm 3000K lift that improves package readability and gives the centre of the circulation path a deliberate third-tier visual role without challenging the sweet counters or wall merchandise. The front sweet counters remain the strongest destination, the wall shelf compositions remain second, central merchandise remains third, rear hospitality stays subdued, and the ceiling remains visually quiet. The added light reads as concealed or deep-recessed support rather than a visible fixture, raw strip, glowing ceiling aperture or broad ambient wash. Camera, crop, perspective, architecture, ceiling grid, counters, shelves, products, furniture, materials and previously approved Layer 01 through Layer 03 lighting remain visually frozen. No global exposure or gamma lift is apparent. The effect is subtle but clearly legible in direct comparison and strong enough to justify its own presentation layer while preserving the repaired zero-drift chain.",
   "required_changes": [],
   "hard_locks": [
-    "Candidate 58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837 is the immutable approved V01 Layer 04 parent and must not be regenerated or reinterpreted unless explicitly reopened by JARVIS.",
-    "Camera, crop, focal character, perspective, architecture, ceiling grid, counters, wall shelves, central merchandise geometry, furniture, products, materials and colours remain locked for all later V01 layers.",
-    "Approved Layer 01 counter lighting, Layer 02 wall-wash, Layer 03 concealed shelf-integrated lighting and Layer 04 central-merchandise/circulation lighting are frozen in intensity, colour, source concealment, beam character, reflections and shadow behaviour except for physically unavoidable interaction from a newly added circuit.",
-    "All later electric lighting remains 3000K and recessed, concealed or integrated only. No pendant, track, surface fixture, raw LED strip line or LED-dot texture is permitted.",
-    "Layer 05 must equal approved Layer 04 plus exactly one newly released rear-seating comfort lighting family. The seating/hospitality contribution must remain softer than the retail counter and shelf zones.",
-    "Do not use global exposure or gamma changes to simulate added light. Unrelated zones may not brighten, darken or shift colour without physical cause.",
-    "Presentation generation remains locked until every required view has valid independent JARVIS approvals through completion."
+    "Candidate a3d00e7526313425428e1375d0765ad652a12d9ee43883815a83abacc193ba8e is the immutable approved repaired V01 Layer 04 parent and must not be regenerated, rebalanced or reinterpreted unless explicitly reopened by JARVIS.",
+    "The repaired 1624 x 968 coordinate grid remains authoritative. Camera, crop, focal character, perspective, architecture, ceiling grid, counters, shelves, central merchandise geometry, furniture, products, materials and colours remain locked for all later V01 layers.",
+    "Approved Layer 01 counter downlighting, repaired Layer 02 wall-wash, repaired Layer 03 concealed shelf-integrated lighting and repaired Layer 04 central-merchandise and circulation lighting are frozen in intensity, colour, source concealment, beam character, reflections and shadow behaviour except for physically unavoidable interaction from a newly released circuit.",
+    "V01 Layer 05 must equal this exact approved Layer 04 parent plus only restrained 3000K rear-seating comfort lighting. The hospitality zone must remain softer than the retail counter and wall-merchandise zones.",
+    "All later added electric lighting remains 3000K and recessed, concealed or integrated only. No pendant, track, surface fixture, raw LED strip line, LED-dot texture, glowing ceiling aperture or broad ambient floor wash is permitted.",
+    "Do not use global exposure, gamma, contrast or colour shifts to simulate added illumination. Unrelated zones may not brighten, darken or change colour without physical cause.",
+    "Historical defective Layer 04 through Final files remain immutable evidence but are invalid as raster parents for the repaired chain.",
+    "Presentation generation remains locked until repaired Layers 05 and 06, the corrected Final, and a fresh cross-layer continuity audit are independently approved, and every other required view has its own valid independent completion chain."
   ],
   "reviewer": "JARVIS_CHATGPT",
-  "reviewed_at": "2026-08-19T07:04:57Z",
-  "decision_id": "jarvis-v01-l04-58553357-approve-001"
+  "reviewed_at": "2026-08-19T15:10:07Z",
+  "decision_id": "jarvis-v01-l04-a3d00e75-approve-002"
 }
