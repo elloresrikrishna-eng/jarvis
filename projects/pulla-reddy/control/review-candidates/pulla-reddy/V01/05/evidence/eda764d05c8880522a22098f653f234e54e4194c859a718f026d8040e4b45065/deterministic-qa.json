@@ -1,0 +1,75 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V01",
+  "layer_id": "05",
+  "passed": true,
+  "approved_parent_sha256": "58553357484f01018a2d8a3929c3c662d67b3fbc21143847bb255d1c7d2ed837",
+  "candidate_sha256": "eda764d05c8880522a22098f653f234e54e4194c859a718f026d8040e4b45065",
+  "dimensions": {
+    "parent": [1624, 968],
+    "candidate": [1624, 968],
+    "match": true
+  },
+  "full_frame": {
+    "mean_luminance_shift": 0.253448,
+    "interpretation": "The small frame-level lift is fully attributable to the localized rear table, chair and minimum adjacent-floor contribution."
+  },
+  "target_regions": {
+    "rear_left_table_seating": {
+      "mean_luminance_shift": 5.0039,
+      "max_positive_channel_delta": 35,
+      "clipped_pixels": 0
+    },
+    "rear_right_table_seating": {
+      "mean_luminance_shift": 6.1532,
+      "max_positive_channel_delta": 36,
+      "clipped_pixels": 0
+    },
+    "rear_local_floor": {
+      "mean_luminance_shift": 1.6851,
+      "max_positive_channel_delta": 29,
+      "clipped_pixels": 0
+    }
+  },
+  "protected_core_mean_luminance_shifts": {
+    "ceiling": 0.0,
+    "left_wall_shelves": 0.0,
+    "right_wall_shelves": 0.0,
+    "right_counter": 0.0,
+    "left_counter": 0.0,
+    "central_merchandise": 0.0,
+    "central_floor_pool": 0.0,
+    "foreground_floor": 0.0
+  },
+  "continuity": {
+    "changed_pixels": 60341,
+    "changed_pixels_outside_allowed_rear_zones": 0,
+    "negative_channel_deltas": 0,
+    "difference_bounds": {
+      "min_x": 455,
+      "min_y": 322,
+      "max_x": 919,
+      "max_y": 534
+    }
+  },
+  "checks": {
+    "exact_parent_hash_verified": true,
+    "exact_canvas_and_crop_dimensions": true,
+    "rear_seating_lighting_distinct_and_localized": true,
+    "rear_seating_remains_subordinate_to_retail_hierarchy": true,
+    "approved_counter_lighting_preserved": true,
+    "approved_wall_wash_preserved": true,
+    "approved_shelf_integrated_light_preserved": true,
+    "approved_central_merchandise_and_floor_pool_preserved": true,
+    "ceiling_preserved_without_visible_aperture": true,
+    "no_target_region_clipping": true,
+    "no_global_exposure_or_gamma_lift_detected": true,
+    "no_negative_or_darkening_adjustment": true,
+    "no_visible_pendant_track_or_surface_fixture_detected": true,
+    "visual_camera_architecture_material_product_continuity": true,
+    "visual_3000k_warm_white_only": true
+  },
+  "method": "Read-only SHA-256, dimension, exact pixel-difference envelope, regional luminance, clipping and visual continuity inspection against the exact approved Layer 04 parent.",
+  "review_note": "Deterministic QA is Gate 1 only and is not independent JARVIS design approval."
+}
