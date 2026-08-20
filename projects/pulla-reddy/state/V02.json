@@ -5,7 +5,7 @@
   "view": "V02_Curved_Seating",
   "view_id": "V02",
   "source_page": 3,
-  "status": "codex_action_required",
+  "status": "READY_FOR_JARVIS_REVIEW",
   "current_layer": 1,
   "current_layer_id": "01",
   "approved_through_layer": 0,
@@ -14,9 +14,9 @@
   "approved_parent_decision_id": "jarvis-v02-l00-c0db62b7-approve-001",
   "approved_parent_artifact_id": "9375332898",
   "approved_parent_workflow_run_id": "32279722544",
-  "current_task": "Correct V02 Layer 01 recessed 3000K wall-wash from the exact approved Layer 00 parent. Increase presentation legibility and replace faint isolated glow patches with a believable vertically coherent wall-washer distribution while preserving all hard locks.",
+  "current_task": "Stop for independent external JARVIS visual review of V02 Layer 01.",
   "current_instruction": "projects/pulla-reddy/instructions/V02_LAYER01_WALL_WASH_CORRECTION_001.md",
-  "next_required_action": "Execute the released correction instruction, publish a fresh revisioned Layer 01 candidate through the GitHub Actions binary review-artifact path, verify provenance and remote retrievability, set V02 to READY_FOR_JARVIS_REVIEW, and stop. Do not begin integrated shelf lighting without exact candidate-bound approval.",
+  "next_required_action": "External JARVIS review. Do not modify this candidate and do not start another layer without an exact candidate-bound decision.",
   "last_approved_candidate_sha256": "c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540",
   "last_approved_decision_id": "jarvis-v02-l00-c0db62b7-approve-001",
   "jarvis_approval": false,
@@ -33,5 +33,127 @@
   "shared_dependency": "Shared V02/V06 planter is locked by SHARED_PLANTER_SPEC.md and approved Layer 00 candidates in both views; planter remains physically present and unlit in V02 Layer 01.",
   "presentation_gate": "LOCKED",
   "user_decision_required": false,
-  "updated_at": "2026-08-19T21:09:48Z"
+  "updated_at": "2026-08-20T05:34:03.543Z",
+  "candidate": "layer-01-wall-wash-candidate-r3.png",
+  "candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V02_Seating_Lounge/layer-01-wall-wash-candidate-r3.png",
+  "candidate_sha256": "5f64a4bbbf7b7aae77aa4c48c50a7d0d92ffb0efcbb26581c631f145b487f2ed",
+  "artifact_name": "jarvis-pulla-reddy-v02-l01-5f64a4bbbf7b",
+  "artifact_id": "9394676732",
+  "workflow_run_id": "32336069149",
+  "publication_commit_sha": "c596c7aeb7014cf5b44dca58c00f46664e27f70a",
+  "remote_retrievability_verified": true,
+  "remote_candidate_sha256": "5f64a4bbbf7b7aae77aa4c48c50a7d0d92ffb0efcbb26581c631f145b487f2ed",
+  "provenance_valid": true,
+  "publication_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V02/01/active.json",
+  "dispatcher_job_id": "jarvis-pulla-reddy-v02-b6f30652476c5e19c9aa5918",
+  "dispatcher_provenance": {
+    "protocol_version": "jarvis-dispatcher-v0.1",
+    "worker_prompt_contract_version": "jarvis-worker-prompt-contract-v0.2",
+    "job_id": "jarvis-pulla-reddy-v02-b6f30652476c5e19c9aa5918",
+    "kind": "LANE",
+    "triggering_state_path": "projects/pulla-reddy/state/V02.json",
+    "triggering_state_sha": "5cb3d55dba172f73dd28624109fc1144589e2151",
+    "triggering_state_hash": "5dacab8ff06acf76173d5a380d4044f0f607d98e590cb1de9f1dbb1b0d007c82",
+    "triggering_decision_id": "jarvis-v02-l01-af3045bc-reject-001",
+    "source_documents": [
+      {
+        "path": "projects/pulla-reddy/AUTOMATION_PROTOCOL.md",
+        "blob_sha": "b8081e06144e5b9f0473b7d195b296a6c6fc326c",
+        "content_hash": "f294ae7ac024be508b16c983689702acdddbf0335e5f7b64685864917099020c"
+      },
+      {
+        "path": "projects/pulla-reddy/control/decisions/pulla-reddy/V02/01/latest.json",
+        "blob_sha": "0bd3270154069b555c749b3a4c474cafa2c51ad9",
+        "content_hash": "d20d069caf2a0df464ac3162b90345046f561919ff3da0add9990318d6f700cc"
+      },
+      {
+        "path": "projects/pulla-reddy/control/presentation-gate.json",
+        "blob_sha": "006fd6ffe7792533cbe6c91a94659e6d24c2e3f0",
+        "content_hash": "74423d30b9e380b2bda8f0e12daec9c9e92b91a3be52d8cf39ba439af18df1af"
+      },
+      {
+        "path": "projects/pulla-reddy/CURRENT_INSTRUCTION.md",
+        "blob_sha": "16a5d890a3fcd25a1f46351b3095944d635fbb60",
+        "content_hash": "0bf61cff4f49cdeb34670246aacbc514b508cfda781ceaf45bba751f55771013"
+      },
+      {
+        "path": "projects/pulla-reddy/instructions/V02_LAYER01_WALL_WASH_CORRECTION_001.md",
+        "blob_sha": "87dce76150b5cb9d7f8fbb5e441868dc79925c02",
+        "content_hash": "584f577e7fdf49a75786358ce25638ca1b2aa40583f3c0615fbdd822288c492b"
+      },
+      {
+        "path": "projects/pulla-reddy/instructions/V06_PARENT_CHAIN_REPAIR.md",
+        "blob_sha": "54750778ff3bdba3afeb3236a8c12c9b39ee53ee",
+        "content_hash": "264aebb7cd820908004f85708d5ebab4b02176fe98c58d4f71da7fb9be602388"
+      },
+      {
+        "path": "projects/pulla-reddy/MULTIVIEW_COORDINATOR_INSTRUCTION.md",
+        "blob_sha": "1602e4b7867e2728c032432b0678137495e0b449",
+        "content_hash": "d7960d072cce54ae2ead00d4dfa77d016d25e7ac1d970851c2035666cc95f909"
+      },
+      {
+        "path": "projects/pulla-reddy/MULTIVIEW_EXECUTION.md",
+        "blob_sha": "22387dac18e061cc0cb7ea2e1916c217f9526f8e",
+        "content_hash": "a252493d16b6a227d3a330454d08008970b4c15fe307b277e4183c54fe2c7bbb"
+      },
+      {
+        "path": "projects/pulla-reddy/PROJECT_RULES.md",
+        "blob_sha": "23b4135fa97e75b87d0cde6270b7407b036453b6",
+        "content_hash": "f40c5e26185d5a7d521da81c8d723dcf1c1486dd61de9143b26f0e0cb2273e99"
+      },
+      {
+        "path": "projects/pulla-reddy/SHARED_PLANTER_SPEC.md",
+        "blob_sha": "da063e55f2372f1390cb31957dadd3fd629e7754",
+        "content_hash": "dd5dab4d3c309cf978ff312a5d4bac1b6f8e33e300bf1819df880607b19ab62d"
+      },
+      {
+        "path": "projects/pulla-reddy/state/V02.json",
+        "blob_sha": "5cb3d55dba172f73dd28624109fc1144589e2151",
+        "content_hash": "5dacab8ff06acf76173d5a380d4044f0f607d98e590cb1de9f1dbb1b0d007c82"
+      }
+    ],
+    "worker_terminal_state": "WORK_PRODUCT_READY",
+    "worker_summary": "Created the single authorized V02 Layer 01 R3 candidate from the byte-verified approved Layer 00 parent. Additive-only 3000K wall-wash character is preserved while the mapped lower-left spill is smoothly attenuated. Local exact-predicate QA passes with zero darkening and 0.00424% strong outside-region activation. No approval was authored and Layer 02 was not started.",
+    "worker_warnings": [
+      "Official dispatcher QA, publication, GitHub Actions artifact retrieval, and READY_FOR_JARVIS_REVIEW transition remain dispatcher-owned."
+    ]
+  },
+  "review_files": [
+    {
+      "path": "projects/pulla-reddy/review/V02/STATUS.md",
+      "sha256": "fb205e8f3e38df81be80295d7ccbe6b429c9a0bc396d6284b8752ed349a8c33d"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/manifest.json",
+      "sha256": "064a90c5853f23ad3fa10746d4a11f04e27918e543beead6ebaf993d0b67b18e"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/SELF_QA.md",
+      "sha256": "b397edcee31a50ef0acc1a0c181235a9208b20bc18110d58692c4d20e245f524"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/layer-01-wall-wash-r3-preview.jpg",
+      "sha256": "05d3626d193eac144c4d135f7d632e0a201073086e0d708c73b9a97058ebde73"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/layer-00-vs-layer-01-r3-comparison.jpg",
+      "sha256": "0749e2d3d2d34900af1ebba87c22610977405ebaaa7f9d12d8923765ab7cf8de"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/layer-01-wall-wash-r3-shelf-crop.png",
+      "sha256": "cccfd5767f2c07eae604996f75162eb3faf60ea2cc1adbae7a76b5b7525f6ec9"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/layer-01-wall-wash-r3-difference.png",
+      "sha256": "155bdb8e0f13c5669137962f477143df941a81fbfb1a64a42ac2dd871fd4f3db"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/deterministic-qa.json",
+      "sha256": "cd8e7fe99f34eff8bbde2d0ab1df9a0f6dad3de761ca128f983b782d0b6a1d97"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/deterministic_qa.json",
+      "sha256": "76269c399e3b8172d12645302abd478adcd0adc058b43b71b6f344d461f34ee2"
+    }
+  ]
 }
