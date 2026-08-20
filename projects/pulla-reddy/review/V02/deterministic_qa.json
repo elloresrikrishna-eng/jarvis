@@ -1,37 +1,363 @@
-﻿{
-    "profile":  "cumulative-lighting-layer-v1",
-    "passed":  true,
-    "dimensions":  [
-                       1628,
-                       966
-                   ],
-    "changed_pixel_percent":  6.195347,
-    "darkened_pixel_percent":  0,
-    "unrelated_activation_percent":  0,
-    "strong_unrelated_activation_percent":  0,
-    "mean_rgb_delta":  [
-                           0.28751,
-                           0.192444,
-                           0.090602
-                       ],
-    "zones":  {
-                  "task_wall_shelf_wash_left":  [
-                                                    0.245,
-                                                    0.25,
-                                                    0.12,
-                                                    0.205
-                                                ],
-                  "task_wall_shelf_wash_center":  [
-                                                      0.39,
-                                                      0.235,
-                                                      0.145,
-                                                      0.315
-                                                  ],
-                  "permitted_floor_bounce":  [
-                                                 0.36,
-                                                 0.551,
-                                                 0.18,
-                                                 0.169
-                                             ]
-              }
+{
+  "version": "deterministic-qa-v1",
+  "artifactType": "CUMULATIVE_LIGHTING_LAYER",
+  "profileId": "cumulative-lighting-layer-v1",
+  "profileVersion": "1",
+  "rulesEvaluated": [
+    "dimensions_locked",
+    "aspect_ratio_locked",
+    "camera_crop_locked",
+    "image_not_blank",
+    "highlight_clipping",
+    "unexpected_border",
+    "no_global_exposure_shift",
+    "protected_region_frozen",
+    "one_lighting_family_only",
+    "approved_parent_must_not_darken"
+  ],
+  "passed": true,
+  "hardFailure": false,
+  "dimensionsMatch": true,
+  "aspectRatioMatch": true,
+  "sourceDimensions": {
+    "width": 1628,
+    "height": 966
+  },
+  "parentDimensions": {
+    "width": 1628,
+    "height": 966
+  },
+  "candidateDimensions": {
+    "width": 1628,
+    "height": 966
+  },
+  "alignment": {
+    "offsetX": 0,
+    "offsetY": 0,
+    "confidence": 0.897473934432073,
+    "correlation": 0.9971932604800811,
+    "aligned": true,
+    "method": "exif-oriented-common-grid-gradient-correlation",
+    "parentWidth": 1628,
+    "parentHeight": 966,
+    "candidateWidth": 1628,
+    "candidateHeight": 966,
+    "commonGridWidth": 192,
+    "commonGridHeight": 114,
+    "zeroOffsetCorrelation": 0.9971932604800811,
+    "correlationImprovement": 0
+  },
+  "sourceParentAlignment": {
+    "offsetX": 0,
+    "offsetY": 0,
+    "confidence": 0.7144237198005376,
+    "correlation": 0.6826930220005973,
+    "aligned": true,
+    "method": "exif-oriented-common-grid-gradient-correlation",
+    "parentWidth": 1628,
+    "parentHeight": 966,
+    "candidateWidth": 1628,
+    "candidateHeight": 966,
+    "commonGridWidth": 192,
+    "commonGridHeight": 114,
+    "zeroOffsetCorrelation": 0.6826930220005973,
+    "correlationImprovement": 0.023360590005523152
+  },
+  "difference": {
+    "changedPixelRatio": 0.07046077698251611,
+    "meanLuminanceDelta": 1.3921975255981711,
+    "meanAbsoluteLuminanceDelta": 1.3921975255981711,
+    "positiveLuminanceRatio": 0.07046077698251611,
+    "negativeLuminanceRatio": 0,
+    "changeBoundingBox": {
+      "left": 391,
+      "top": 247,
+      "width": 477,
+      "height": 277
+    },
+    "globalExposureShift": false,
+    "globalExposureEvidence": "Changed 7.05%; mean luminance delta 1.39; mean absolute delta 1.39",
+    "protectedRegionViolation": false,
+    "outsideAllowedChangedRatio": 0.006212871964740343,
+    "unrelatedActivationRatio": 0.006212871964740343,
+    "strongUnrelatedActivationRatio": 0.000042432040296750525,
+    "permittedSecondaryContributionRatio": 0,
+    "semanticRegionRolesApplied": true,
+    "regions": [
+      {
+        "region": "principal_sweet_counter",
+        "roles": [
+          "key"
+        ],
+        "changedPixelRatio": 0.04736347447566284,
+        "meanLuminanceDelta": 0.984486897879824,
+        "positiveLuminanceRatio": 0.04736347447566284,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0.00865650969529086,
+        "strongPositiveLuminanceRatio": 0.038706964780371986,
+        "maxAbsoluteDelta": 40,
+        "violation": false
+      },
+      {
+        "region": "secondary_counter",
+        "roles": [
+          "detail"
+        ],
+        "changedPixelRatio": 0.007514136494149451,
+        "meanLuminanceDelta": 0.0494206295374037,
+        "positiveLuminanceRatio": 0.007514136494149451,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0.007514136494149451,
+        "strongPositiveLuminanceRatio": 0,
+        "maxAbsoluteDelta": 11,
+        "violation": false
+      },
+      {
+        "region": "wall_mounted_shelves",
+        "roles": [
+          "detail"
+        ],
+        "changedPixelRatio": 0.2900862667447434,
+        "meanLuminanceDelta": 5.981209634721651,
+        "positiveLuminanceRatio": 0.2900862667447434,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0.0691492251688812,
+        "strongPositiveLuminanceRatio": 0.22093704157586222,
+        "maxAbsoluteDelta": 48,
+        "violation": false
+      },
+      {
+        "region": "ceiling_and_recessed_fixture_zone",
+        "roles": [
+          "ceiling"
+        ],
+        "changedPixelRatio": 0.09337749854991234,
+        "meanLuminanceDelta": 2.030470056592828,
+        "positiveLuminanceRatio": 0.09337749854991234,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0.01927150203012272,
+        "strongPositiveLuminanceRatio": 0.07410599651978962,
+        "maxAbsoluteDelta": 48,
+        "violation": false
+      },
+      {
+        "region": "central_merchandise",
+        "roles": [
+          "detail"
+        ],
+        "changedPixelRatio": 0.19421127148043024,
+        "meanLuminanceDelta": 3.4605994426196105,
+        "positiveLuminanceRatio": 0.19421127148043024,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0.06552999040468091,
+        "strongPositiveLuminanceRatio": 0.12868128107574933,
+        "maxAbsoluteDelta": 41,
+        "violation": false
+      },
+      {
+        "region": "seating_zone",
+        "roles": [
+          "detail"
+        ],
+        "changedPixelRatio": 0.5016457186669953,
+        "meanLuminanceDelta": 10.061819762234855,
+        "positiveLuminanceRatio": 0.5016457186669953,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0.12633971357375612,
+        "strongPositiveLuminanceRatio": 0.37530600509323914,
+        "maxAbsoluteDelta": 46,
+        "violation": false
+      },
+      {
+        "region": "planter_and_foliage_shadow_wall",
+        "roles": [
+          "key"
+        ],
+        "changedPixelRatio": 0.06213135256637766,
+        "meanLuminanceDelta": 0.8783056358604135,
+        "positiveLuminanceRatio": 0.06213135256637766,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0.03140157852929744,
+        "strongPositiveLuminanceRatio": 0.03072977403708023,
+        "maxAbsoluteDelta": 35,
+        "violation": false
+      },
+      {
+        "region": "glass_reflection_zone",
+        "roles": [
+          "detail"
+        ],
+        "changedPixelRatio": 0.05096335404865351,
+        "meanLuminanceDelta": 0.93240217401153,
+        "positiveLuminanceRatio": 0.05096335404865351,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0.013941593796403234,
+        "strongPositiveLuminanceRatio": 0.03702176025225027,
+        "maxAbsoluteDelta": 37,
+        "violation": false
+      },
+      {
+        "region": "background_rear_zone",
+        "roles": [
+          "detail"
+        ],
+        "changedPixelRatio": 0.31448664971392243,
+        "meanLuminanceDelta": 6.213776718272956,
+        "positiveLuminanceRatio": 0.31448664971392243,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0.08610991281445828,
+        "strongPositiveLuminanceRatio": 0.22837673689946417,
+        "maxAbsoluteDelta": 48,
+        "violation": false
+      },
+      {
+        "region": "control_region",
+        "roles": [
+          "control",
+          "protected"
+        ],
+        "changedPixelRatio": 0,
+        "meanLuminanceDelta": 0,
+        "positiveLuminanceRatio": 0,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0,
+        "strongPositiveLuminanceRatio": 0,
+        "maxAbsoluteDelta": 0,
+        "violation": false
+      },
+      {
+        "region": "task_wall_shelf_wash_left",
+        "roles": [
+          "detail",
+          "allowed",
+          "direct_contribution"
+        ],
+        "changedPixelRatio": 0.9480651990919062,
+        "meanLuminanceDelta": 18.924020661275808,
+        "positiveLuminanceRatio": 0.9480651990919062,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0.2157743029870163,
+        "strongPositiveLuminanceRatio": 0.73229089610489,
+        "maxAbsoluteDelta": 43,
+        "violation": false
+      },
+      {
+        "region": "task_wall_shelf_wash_center",
+        "roles": [
+          "detail",
+          "allowed",
+          "direct_contribution"
+        ],
+        "changedPixelRatio": 0.8932005256968942,
+        "meanLuminanceDelta": 19.036753206387623,
+        "positiveLuminanceRatio": 0.8932005256968942,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0.17798990108597912,
+        "strongPositiveLuminanceRatio": 0.7152106246109151,
+        "maxAbsoluteDelta": 48,
+        "violation": false
+      },
+      {
+        "region": "task_shelf_floor_bounce",
+        "roles": [
+          "detail",
+          "permitted_bounce"
+        ],
+        "changedPixelRatio": 0,
+        "meanLuminanceDelta": 0,
+        "positiveLuminanceRatio": 0,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0,
+        "strongPositiveLuminanceRatio": 0,
+        "maxAbsoluteDelta": 0,
+        "violation": false
+      },
+      {
+        "region": "task_protected_ceiling",
+        "roles": [
+          "ceiling",
+          "protected"
+        ],
+        "changedPixelRatio": 0,
+        "meanLuminanceDelta": 0,
+        "positiveLuminanceRatio": 0,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0,
+        "strongPositiveLuminanceRatio": 0,
+        "maxAbsoluteDelta": 0,
+        "violation": false
+      },
+      {
+        "region": "task_protected_left_display",
+        "roles": [
+          "detail",
+          "protected"
+        ],
+        "changedPixelRatio": 0,
+        "meanLuminanceDelta": 0.0024863845092836377,
+        "positiveLuminanceRatio": 0,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0,
+        "strongPositiveLuminanceRatio": 0,
+        "maxAbsoluteDelta": 2,
+        "violation": false
+      },
+      {
+        "region": "task_unrelated_window_background",
+        "roles": [
+          "detail",
+          "unrelated_lighting"
+        ],
+        "changedPixelRatio": 0,
+        "meanLuminanceDelta": 0.013004842899202526,
+        "positiveLuminanceRatio": 0,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0,
+        "strongPositiveLuminanceRatio": 0,
+        "maxAbsoluteDelta": 4,
+        "violation": false
+      },
+      {
+        "region": "task_unrelated_planter_seating",
+        "roles": [
+          "detail",
+          "unrelated_lighting"
+        ],
+        "changedPixelRatio": 0,
+        "meanLuminanceDelta": 0,
+        "positiveLuminanceRatio": 0,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0,
+        "strongPositiveLuminanceRatio": 0,
+        "maxAbsoluteDelta": 0,
+        "violation": false
+      },
+      {
+        "region": "task_unrelated_floor_circulation",
+        "roles": [
+          "detail",
+          "unrelated_lighting"
+        ],
+        "changedPixelRatio": 0,
+        "meanLuminanceDelta": 0,
+        "positiveLuminanceRatio": 0,
+        "negativeLuminanceRatio": 0,
+        "lowEnergyPositiveLuminanceRatio": 0,
+        "strongPositiveLuminanceRatio": 0,
+        "maxAbsoluteDelta": 0,
+        "violation": false
+      }
+    ]
+  },
+  "integrity": {
+    "valid": true,
+    "nearlyBlank": false,
+    "clippedHighlightRatio": 0,
+    "clippedShadowRatio": 0.006967865663517837,
+    "unexpectedBorder": false,
+    "warnings": []
+  },
+  "failures": [],
+  "warnings": [],
+  "completedAt": "2026-08-20T05:33:18.954Z"
 }
