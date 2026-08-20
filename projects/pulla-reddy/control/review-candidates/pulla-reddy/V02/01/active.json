@@ -1,18 +1,18 @@
 {
   "protocol_version": "jarvis-return-path-v1",
   "state": "READY_FOR_JARVIS_REVIEW",
-  "dispatcher_job_id": "jarvis-pulla-reddy-v02-c385b2ccd7cd328579d90baa",
+  "dispatcher_job_id": "jarvis-pulla-reddy-v02-b6f30652476c5e19c9aa5918",
   "project_id": "pulla-reddy",
   "view_id": "V02",
   "layer_id": "01",
-  "candidate_sha256": "af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619",
-  "candidate_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V02/01/candidates/af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619.png",
-  "candidate_repo_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V02/01/candidates/af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619.png",
-  "local_candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V02_Seating_Lounge/layer-01-wall-wash-candidate-r1.png",
+  "candidate_sha256": "5f64a4bbbf7b7aae77aa4c48c50a7d0d92ffb0efcbb26581c631f145b487f2ed",
+  "candidate_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V02/01/candidates/5f64a4bbbf7b7aae77aa4c48c50a7d0d92ffb0efcbb26581c631f145b487f2ed.png",
+  "candidate_repo_path": "projects/pulla-reddy/control/review-candidates/pulla-reddy/V02/01/candidates/5f64a4bbbf7b7aae77aa4c48c50a7d0d92ffb0efcbb26581c631f145b487f2ed.png",
+  "local_candidate_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V02_Seating_Lounge/layer-01-wall-wash-candidate-r3.png",
   "approved_parent_sha256": "c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540",
   "local_approved_parent_path": "D:/Codex/G Pulla Reddy Sweets/01_Views/V02_Seating_Lounge/layer-00-base-dark-planter-candidate.png",
-  "source_decision_id": "jarvis-v02-l00-c0db62b7-approve-001",
-  "artifact_name": "jarvis-pulla-reddy-v02-l01-af3045bc9902",
+  "source_decision_id": "jarvis-v02-l01-af3045bc-reject-001",
+  "artifact_name": "jarvis-pulla-reddy-v02-l01-5f64a4bbbf7b",
   "deterministic_qa": {
     "version": "deterministic-qa-v1",
     "artifactType": "CUMULATIVE_LIGHTING_LAYER",
@@ -49,8 +49,8 @@
     "alignment": {
       "offsetX": 0,
       "offsetY": 0,
-      "confidence": 0.8997205995519812,
-      "correlation": 0.9996895550577569,
+      "confidence": 0.897473934432073,
+      "correlation": 0.9971932604800811,
       "aligned": true,
       "method": "exif-oriented-common-grid-gradient-correlation",
       "parentWidth": 1628,
@@ -59,7 +59,7 @@
       "candidateHeight": 966,
       "commonGridWidth": 192,
       "commonGridHeight": 114,
-      "zeroOffsetCorrelation": 0.9996895550577569,
+      "zeroOffsetCorrelation": 0.9971932604800811,
       "correlationImprovement": 0
     },
     "sourceParentAlignment": {
@@ -79,23 +79,23 @@
       "correlationImprovement": 0.023360590005523152
     },
     "difference": {
-      "changedPixelRatio": 0.02119164619164619,
-      "meanLuminanceDelta": 0.2053021810011827,
-      "meanAbsoluteLuminanceDelta": 0.2053021810011827,
-      "positiveLuminanceRatio": 0.02119164619164619,
+      "changedPixelRatio": 0.07046077698251611,
+      "meanLuminanceDelta": 1.3921975255981711,
+      "meanAbsoluteLuminanceDelta": 1.3921975255981711,
+      "positiveLuminanceRatio": 0.07046077698251611,
       "negativeLuminanceRatio": 0,
       "changeBoundingBox": {
-        "left": 440,
-        "top": 262,
-        "width": 386,
-        "height": 187
+        "left": 391,
+        "top": 247,
+        "width": 477,
+        "height": 277
       },
       "globalExposureShift": false,
-      "globalExposureEvidence": "Changed 2.12%; mean luminance delta 0.21; mean absolute delta 0.21",
+      "globalExposureEvidence": "Changed 7.05%; mean luminance delta 1.39; mean absolute delta 1.39",
       "protectedRegionViolation": false,
-      "outsideAllowedChangedRatio": 0,
-      "unrelatedActivationRatio": 0,
-      "strongUnrelatedActivationRatio": 0,
+      "outsideAllowedChangedRatio": 0.006212871964740343,
+      "unrelatedActivationRatio": 0.006212871964740343,
+      "strongUnrelatedActivationRatio": 0.000042432040296750525,
       "permittedSecondaryContributionRatio": 0,
       "semanticRegionRolesApplied": true,
       "regions": [
@@ -104,13 +104,13 @@
           "roles": [
             "key"
           ],
-          "changedPixelRatio": 0.013182627621685794,
-          "meanLuminanceDelta": 0.14338828012609628,
-          "positiveLuminanceRatio": 0.013182627621685794,
+          "changedPixelRatio": 0.04736347447566284,
+          "meanLuminanceDelta": 0.984486897879824,
+          "positiveLuminanceRatio": 0.04736347447566284,
           "negativeLuminanceRatio": 0,
-          "lowEnergyPositiveLuminanceRatio": 0.013182627621685794,
-          "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 14,
+          "lowEnergyPositiveLuminanceRatio": 0.00865650969529086,
+          "strongPositiveLuminanceRatio": 0.038706964780371986,
+          "maxAbsoluteDelta": 40,
           "violation": false
         },
         {
@@ -118,13 +118,13 @@
           "roles": [
             "detail"
           ],
-          "changedPixelRatio": 0,
-          "meanLuminanceDelta": 0,
-          "positiveLuminanceRatio": 0,
+          "changedPixelRatio": 0.007514136494149451,
+          "meanLuminanceDelta": 0.0494206295374037,
+          "positiveLuminanceRatio": 0.007514136494149451,
           "negativeLuminanceRatio": 0,
-          "lowEnergyPositiveLuminanceRatio": 0,
+          "lowEnergyPositiveLuminanceRatio": 0.007514136494149451,
           "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 0,
+          "maxAbsoluteDelta": 11,
           "violation": false
         },
         {
@@ -132,13 +132,13 @@
           "roles": [
             "detail"
           ],
-          "changedPixelRatio": 0.0975949145482315,
-          "meanLuminanceDelta": 0.8789952313814932,
-          "positiveLuminanceRatio": 0.0975949145482315,
+          "changedPixelRatio": 0.2900862667447434,
+          "meanLuminanceDelta": 5.981209634721651,
+          "positiveLuminanceRatio": 0.2900862667447434,
           "negativeLuminanceRatio": 0,
-          "lowEnergyPositiveLuminanceRatio": 0.0975949145482315,
-          "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 16,
+          "lowEnergyPositiveLuminanceRatio": 0.0691492251688812,
+          "strongPositiveLuminanceRatio": 0.22093704157586222,
+          "maxAbsoluteDelta": 48,
           "violation": false
         },
         {
@@ -146,13 +146,13 @@
           "roles": [
             "ceiling"
           ],
-          "changedPixelRatio": 0.04073768728941143,
-          "meanLuminanceDelta": 0.36235278914279995,
-          "positiveLuminanceRatio": 0.04073768728941143,
+          "changedPixelRatio": 0.09337749854991234,
+          "meanLuminanceDelta": 2.030470056592828,
+          "positiveLuminanceRatio": 0.09337749854991234,
           "negativeLuminanceRatio": 0,
-          "lowEnergyPositiveLuminanceRatio": 0.04073768728941143,
-          "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 16,
+          "lowEnergyPositiveLuminanceRatio": 0.01927150203012272,
+          "strongPositiveLuminanceRatio": 0.07410599651978962,
+          "maxAbsoluteDelta": 48,
           "violation": false
         },
         {
@@ -160,13 +160,13 @@
           "roles": [
             "detail"
           ],
-          "changedPixelRatio": 0.03527118518965853,
-          "meanLuminanceDelta": 0.39944508500962783,
-          "positiveLuminanceRatio": 0.03527118518965853,
+          "changedPixelRatio": 0.19421127148043024,
+          "meanLuminanceDelta": 3.4605994426196105,
+          "positiveLuminanceRatio": 0.19421127148043024,
           "negativeLuminanceRatio": 0,
-          "lowEnergyPositiveLuminanceRatio": 0.03527118518965853,
-          "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 16,
+          "lowEnergyPositiveLuminanceRatio": 0.06552999040468091,
+          "strongPositiveLuminanceRatio": 0.12868128107574933,
+          "maxAbsoluteDelta": 41,
           "violation": false
         },
         {
@@ -174,13 +174,13 @@
           "roles": [
             "detail"
           ],
-          "changedPixelRatio": 0.17985158410690325,
-          "meanLuminanceDelta": 1.5866960859301318,
-          "positiveLuminanceRatio": 0.17985158410690325,
+          "changedPixelRatio": 0.5016457186669953,
+          "meanLuminanceDelta": 10.061819762234855,
+          "positiveLuminanceRatio": 0.5016457186669953,
           "negativeLuminanceRatio": 0,
-          "lowEnergyPositiveLuminanceRatio": 0.17985158410690325,
-          "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 16,
+          "lowEnergyPositiveLuminanceRatio": 0.12633971357375612,
+          "strongPositiveLuminanceRatio": 0.37530600509323914,
+          "maxAbsoluteDelta": 46,
           "violation": false
         },
         {
@@ -188,13 +188,13 @@
           "roles": [
             "key"
           ],
-          "changedPixelRatio": 0.004199834372728963,
-          "meanLuminanceDelta": 0.07387774732004734,
-          "positiveLuminanceRatio": 0.004199834372728963,
+          "changedPixelRatio": 0.06213135256637766,
+          "meanLuminanceDelta": 0.8783056358604135,
+          "positiveLuminanceRatio": 0.06213135256637766,
           "negativeLuminanceRatio": 0,
-          "lowEnergyPositiveLuminanceRatio": 0.004199834372728963,
-          "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 8,
+          "lowEnergyPositiveLuminanceRatio": 0.03140157852929744,
+          "strongPositiveLuminanceRatio": 0.03072977403708023,
+          "maxAbsoluteDelta": 35,
           "violation": false
         },
         {
@@ -202,13 +202,13 @@
           "roles": [
             "detail"
           ],
-          "changedPixelRatio": 0,
-          "meanLuminanceDelta": 0.07801842748573558,
-          "positiveLuminanceRatio": 0,
+          "changedPixelRatio": 0.05096335404865351,
+          "meanLuminanceDelta": 0.93240217401153,
+          "positiveLuminanceRatio": 0.05096335404865351,
           "negativeLuminanceRatio": 0,
-          "lowEnergyPositiveLuminanceRatio": 0,
-          "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 4,
+          "lowEnergyPositiveLuminanceRatio": 0.013941593796403234,
+          "strongPositiveLuminanceRatio": 0.03702176025225027,
+          "maxAbsoluteDelta": 37,
           "violation": false
         },
         {
@@ -216,13 +216,13 @@
           "roles": [
             "detail"
           ],
-          "changedPixelRatio": 0.09458439287984742,
-          "meanLuminanceDelta": 0.8623293277939227,
-          "positiveLuminanceRatio": 0.09458439287984742,
+          "changedPixelRatio": 0.31448664971392243,
+          "meanLuminanceDelta": 6.213776718272956,
+          "positiveLuminanceRatio": 0.31448664971392243,
           "negativeLuminanceRatio": 0,
-          "lowEnergyPositiveLuminanceRatio": 0.09458439287984742,
-          "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 16,
+          "lowEnergyPositiveLuminanceRatio": 0.08610991281445828,
+          "strongPositiveLuminanceRatio": 0.22837673689946417,
+          "maxAbsoluteDelta": 48,
           "violation": false
         },
         {
@@ -247,13 +247,13 @@
             "allowed",
             "direct_contribution"
           ],
-          "changedPixelRatio": 0.2789072264877688,
-          "meanLuminanceDelta": 2.496187791664272,
-          "positiveLuminanceRatio": 0.2789072264877688,
+          "changedPixelRatio": 0.9480651990919062,
+          "meanLuminanceDelta": 18.924020661275808,
+          "positiveLuminanceRatio": 0.9480651990919062,
           "negativeLuminanceRatio": 0,
-          "lowEnergyPositiveLuminanceRatio": 0.2789072264877688,
-          "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 14,
+          "lowEnergyPositiveLuminanceRatio": 0.2157743029870163,
+          "strongPositiveLuminanceRatio": 0.73229089610489,
+          "maxAbsoluteDelta": 43,
           "violation": false
         },
         {
@@ -263,13 +263,13 @@
             "allowed",
             "direct_contribution"
           ],
-          "changedPixelRatio": 0.3097876461229854,
-          "meanLuminanceDelta": 2.8436504879094775,
-          "positiveLuminanceRatio": 0.3097876461229854,
+          "changedPixelRatio": 0.8932005256968942,
+          "meanLuminanceDelta": 19.036753206387623,
+          "positiveLuminanceRatio": 0.8932005256968942,
           "negativeLuminanceRatio": 0,
-          "lowEnergyPositiveLuminanceRatio": 0.3097876461229854,
-          "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 16,
+          "lowEnergyPositiveLuminanceRatio": 0.17798990108597912,
+          "strongPositiveLuminanceRatio": 0.7152106246109151,
+          "maxAbsoluteDelta": 48,
           "violation": false
         },
         {
@@ -279,12 +279,12 @@
             "permitted_bounce"
           ],
           "changedPixelRatio": 0,
-          "meanLuminanceDelta": 0.3982289330528529,
+          "meanLuminanceDelta": 0,
           "positiveLuminanceRatio": 0,
           "negativeLuminanceRatio": 0,
           "lowEnergyPositiveLuminanceRatio": 0,
           "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 3,
+          "maxAbsoluteDelta": 0,
           "violation": false
         },
         {
@@ -294,12 +294,12 @@
             "protected"
           ],
           "changedPixelRatio": 0,
-          "meanLuminanceDelta": 0.0005965022814504926,
+          "meanLuminanceDelta": 0,
           "positiveLuminanceRatio": 0,
           "negativeLuminanceRatio": 0,
           "lowEnergyPositiveLuminanceRatio": 0,
           "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 1,
+          "maxAbsoluteDelta": 0,
           "violation": false
         },
         {
@@ -309,12 +309,12 @@
             "protected"
           ],
           "changedPixelRatio": 0,
-          "meanLuminanceDelta": 0,
+          "meanLuminanceDelta": 0.0024863845092836377,
           "positiveLuminanceRatio": 0,
           "negativeLuminanceRatio": 0,
           "lowEnergyPositiveLuminanceRatio": 0,
           "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 0,
+          "maxAbsoluteDelta": 2,
           "violation": false
         },
         {
@@ -324,12 +324,12 @@
             "unrelated_lighting"
           ],
           "changedPixelRatio": 0,
-          "meanLuminanceDelta": 0,
+          "meanLuminanceDelta": 0.013004842899202526,
           "positiveLuminanceRatio": 0,
           "negativeLuminanceRatio": 0,
           "lowEnergyPositiveLuminanceRatio": 0,
           "strongPositiveLuminanceRatio": 0,
-          "maxAbsoluteDelta": 0,
+          "maxAbsoluteDelta": 4,
           "violation": false
         },
         {
@@ -368,57 +368,61 @@
       "valid": true,
       "nearlyBlank": false,
       "clippedHighlightRatio": 0,
-      "clippedShadowRatio": 0.007081050559311429,
+      "clippedShadowRatio": 0.006967865663517837,
       "unexpectedBorder": false,
       "warnings": []
     },
     "failures": [],
     "warnings": [],
-    "completedAt": "2026-08-19T20:47:38.196Z"
+    "completedAt": "2026-08-20T05:33:18.954Z"
   },
   "review_files": [
     {
       "path": "projects/pulla-reddy/review/V02/STATUS.md",
-      "sha256": "990e4e411273a5ba2957a8f0ddfd7127e5e19e0e6d3f5a588c030972052557f1"
+      "sha256": "fb205e8f3e38df81be80295d7ccbe6b429c9a0bc396d6284b8752ed349a8c33d"
     },
     {
       "path": "projects/pulla-reddy/review/V02/manifest.json",
-      "sha256": "69a58ae8363d122bb149319458b0af83d592289bf894358d4bf75abc1239dee9"
+      "sha256": "064a90c5853f23ad3fa10746d4a11f04e27918e543beead6ebaf993d0b67b18e"
     },
     {
       "path": "projects/pulla-reddy/review/V02/SELF_QA.md",
-      "sha256": "d9793cee07a5bf5558b9b7005a4ec7ed498a712d94a79d25f615b1f0768fae70"
+      "sha256": "b397edcee31a50ef0acc1a0c181235a9208b20bc18110d58692c4d20e245f524"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/layer-01-wall-wash-r3-preview.jpg",
+      "sha256": "05d3626d193eac144c4d135f7d632e0a201073086e0d708c73b9a97058ebde73"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/layer-00-vs-layer-01-r3-comparison.jpg",
+      "sha256": "0749e2d3d2d34900af1ebba87c22610977405ebaaa7f9d12d8923765ab7cf8de"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/layer-01-wall-wash-r3-shelf-crop.png",
+      "sha256": "cccfd5767f2c07eae604996f75162eb3faf60ea2cc1adbae7a76b5b7525f6ec9"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/layer-01-wall-wash-r3-difference.png",
+      "sha256": "155bdb8e0f13c5669137962f477143df941a81fbfb1a64a42ac2dd871fd4f3db"
+    },
+    {
+      "path": "projects/pulla-reddy/review/V02/deterministic-qa.json",
+      "sha256": "cd8e7fe99f34eff8bbde2d0ab1df9a0f6dad3de761ca128f983b782d0b6a1d97"
     },
     {
       "path": "projects/pulla-reddy/review/V02/deterministic_qa.json",
-      "sha256": "1eceb2fb259cc6836cd9cce82798e125323695b3fda8952d1707d5ae58b0f3ad"
-    },
-    {
-      "path": "projects/pulla-reddy/review/V02/layer-01-preview.jpg",
-      "sha256": "fe8f2513d8cf22d3276aa26a356dcdf1079692e324f159ffabda0f647121b32b"
-    },
-    {
-      "path": "projects/pulla-reddy/review/V02/layer-00-vs-layer-01-comparison.jpg",
-      "sha256": "7061a1e14adf573e21c1bcfa0b538c2a7520d7a22c2b533947f34e6eeee9b860"
-    },
-    {
-      "path": "projects/pulla-reddy/review/V02/layer-01-shelf-crop.png",
-      "sha256": "52a6f14599d9175e3479dc528dfdfda6874bfc17392a4f9d07086153e0d2db0a"
-    },
-    {
-      "path": "projects/pulla-reddy/review/V02/layer-01-difference.png",
-      "sha256": "7ff276cfc8c3ff458a59babf52e9dae906ebe6285c2bedd6262b96c9aa92b803"
+      "sha256": "76269c399e3b8172d12645302abd478adcd0adc058b43b71b6f344d461f34ee2"
     }
   ],
   "dispatcher_provenance": {
     "protocol_version": "jarvis-dispatcher-v0.1",
     "worker_prompt_contract_version": "jarvis-worker-prompt-contract-v0.2",
-    "job_id": "jarvis-pulla-reddy-v02-c385b2ccd7cd328579d90baa",
+    "job_id": "jarvis-pulla-reddy-v02-b6f30652476c5e19c9aa5918",
     "kind": "LANE",
     "triggering_state_path": "projects/pulla-reddy/state/V02.json",
-    "triggering_state_sha": "f7774855565e9a0f88ca9fb870fc2d5d764477c8",
-    "triggering_state_hash": "f3b908e4adad39268e3f0f9e1dba1a8170e194d937eebbd7abe3c12db3f558e1",
-    "triggering_decision_id": "jarvis-v02-l00-c0db62b7-approve-001",
+    "triggering_state_sha": "5cb3d55dba172f73dd28624109fc1144589e2151",
+    "triggering_state_hash": "5dacab8ff06acf76173d5a380d4044f0f607d98e590cb1de9f1dbb1b0d007c82",
+    "triggering_decision_id": "jarvis-v02-l01-af3045bc-reject-001",
     "source_documents": [
       {
         "path": "projects/pulla-reddy/AUTOMATION_PROTOCOL.md",
@@ -426,9 +430,9 @@
         "content_hash": "f294ae7ac024be508b16c983689702acdddbf0335e5f7b64685864917099020c"
       },
       {
-        "path": "projects/pulla-reddy/control/decisions/pulla-reddy/V02/00/latest.json",
-        "blob_sha": "f4187a54dd884ef9370dd162635b844c5b1fc5bb",
-        "content_hash": "0a93cc13788c55e1cae070531acbe857d6fe062f15aeacd13d081a3a148ec467"
+        "path": "projects/pulla-reddy/control/decisions/pulla-reddy/V02/01/latest.json",
+        "blob_sha": "0bd3270154069b555c749b3a4c474cafa2c51ad9",
+        "content_hash": "d20d069caf2a0df464ac3162b90345046f561919ff3da0add9990318d6f700cc"
       },
       {
         "path": "projects/pulla-reddy/control/presentation-gate.json",
@@ -437,13 +441,13 @@
       },
       {
         "path": "projects/pulla-reddy/CURRENT_INSTRUCTION.md",
-        "blob_sha": "a507be351532e26a04da3b4b1dce259be6366955",
-        "content_hash": "6f5481336e20ce97cfb507556ca9a00e7b0f38104be5504aa5afd42f40af16cd"
+        "blob_sha": "16a5d890a3fcd25a1f46351b3095944d635fbb60",
+        "content_hash": "0bf61cff4f49cdeb34670246aacbc514b508cfda781ceaf45bba751f55771013"
       },
       {
-        "path": "projects/pulla-reddy/instructions/V02_LAYER01_WALL_WASH.md",
-        "blob_sha": "d7b75d63483b3b03f8364d58b848e1edbbd02888",
-        "content_hash": "8e0c4ae8c9730dc1775fea3ef29d2da4d870cc20d34f02bc8c6ff31098b94979"
+        "path": "projects/pulla-reddy/instructions/V02_LAYER01_WALL_WASH_CORRECTION_001.md",
+        "blob_sha": "87dce76150b5cb9d7f8fbb5e441868dc79925c02",
+        "content_hash": "584f577e7fdf49a75786358ce25638ca1b2aa40583f3c0615fbdd822288c492b"
       },
       {
         "path": "projects/pulla-reddy/instructions/V06_PARENT_CHAIN_REPAIR.md",
@@ -472,15 +476,15 @@
       },
       {
         "path": "projects/pulla-reddy/state/V02.json",
-        "blob_sha": "f7774855565e9a0f88ca9fb870fc2d5d764477c8",
-        "content_hash": "f3b908e4adad39268e3f0f9e1dba1a8170e194d937eebbd7abe3c12db3f558e1"
+        "blob_sha": "5cb3d55dba172f73dd28624109fc1144589e2151",
+        "content_hash": "5dacab8ff06acf76173d5a380d4044f0f607d98e590cb1de9f1dbb1b0d007c82"
       }
     ],
     "worker_terminal_state": "WORK_PRODUCT_READY",
-    "worker_summary": "Created one revisioned V02 Layer 01 candidate from the byte-verified approved Layer 00 parent. The contribution is strictly additive and confined to the two released shelf-wall zones plus permitted low-energy floor bounce. Local QA reports 0% darkening, 0% unrelated activation, and 0% strong unrelated activation. No approval or later layer was authored.",
+    "worker_summary": "Created the single authorized V02 Layer 01 R3 candidate from the byte-verified approved Layer 00 parent. Additive-only 3000K wall-wash character is preserved while the mapped lower-left spill is smoothly attenuated. Local exact-predicate QA passes with zero darkening and 0.00424% strong outside-region activation. No approval was authored and Layer 02 was not started.",
     "worker_warnings": [
-      "Remote publication and retrievability remain dispatcher-owned and were not performed by this worker."
+      "Official dispatcher QA, publication, GitHub Actions artifact retrieval, and READY_FOR_JARVIS_REVIEW transition remain dispatcher-owned."
     ]
   },
-  "ready_at": "2026-08-19T20:48:10.088Z"
+  "ready_at": "2026-08-20T05:33:44.424Z"
 }
