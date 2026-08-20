@@ -1,0 +1,26 @@
+{
+  "protocol_version": "jarvis-return-path-v1",
+  "project_id": "pulla-reddy",
+  "view_id": "V02",
+  "layer_id": "01",
+  "candidate_sha256": "5f64a4bbbf7b7aae77aa4c48c50a7d0d92ffb0efcbb26581c631f145b487f2ed",
+  "reviewed_artifact_id": "9394676732",
+  "reviewed_workflow_run_id": "32336069149",
+  "decision": "APPROVE",
+  "review_summary": "Independent external JARVIS review approves V02 Layer 01 R3. The exact GitHub Actions artifact was downloaded and candidate.png was independently SHA-256 hashed to 5f64a4bbbf7b7aae77aa4c48c50a7d0d92ffb0efcbb26581c631f145b487f2ed, matching the published candidate state and provenance. The exact approved Layer 00 parent was also retrieved and verified before visual comparison. At normal presentation scale, the added 3000K recessed wall-wash is now clearly legible across both visible wall-mounted shelf compositions, with broader and smoother vertical modelling than the previously rejected faint patch-like candidate. The left and centre shelf walls receive restrained warm emphasis without flattening the room, activating integrated shelf lighting, or overpowering the future seating/hospitality hierarchy. Source faces remain concealed, the shared planter remains physically present and unlit, the seating zone stays comparatively subdued, and there is no visible global exposure lift, camera drift or unrelated circuit activation. Deterministic QA independently confirms exact 0,0 registration, zero darkening, zero protected-region violations and only 0.0042432% strong outside-region activation; that evidence supports but does not replace the visual approval.",
+  "required_changes": [],
+  "hard_locks": [
+    "Candidate 5f64a4bbbf7b7aae77aa4c48c50a7d0d92ffb0efcbb26581c631f145b487f2ed is the immutable approved V02 Layer 01 parent.",
+    "The exact approved V02 Layer 00 parent c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540 remains immutable and may not be regenerated or reinterpreted.",
+    "The approved Layer 01 wall-wash character is frozen in intensity, 3000K colour, vertical distribution, source concealment, reflections and shadow behaviour except for physically unavoidable interaction from a later separately released circuit.",
+    "Camera, crop, focal character, perspective, architecture, ceiling grid, door, glazing, counters, wall-mounted shelves, tables, chairs, built-in seating, shared planter, products, materials and colours remain locked for all later V02 layers.",
+    "The shared V02/V06 planter geometry, material language, planting height, density and rhythm remain unchanged; the planter remains electrically unlit until a dedicated planter-lighting layer is separately released.",
+    "The next V02 cumulative layer may add only the single lighting family explicitly released by the canonical queue, using this exact approved Layer 01 candidate as its parent.",
+    "Integrated shelf lighting, seating comfort lighting, planter lighting, under-seater lighting, counter lighting and circulation lighting remain off unless separately released in sequence.",
+    "No global exposure, gamma, white-balance or scene-wide colour change is permitted.",
+    "Presentation generation remains locked until every required view and layer has valid independent JARVIS approval through completion."
+  ],
+  "reviewer": "JARVIS_CHATGPT",
+  "reviewed_at": "2026-08-20T06:02:00Z",
+  "decision_id": "jarvis-v02-l01-5f64a4bb-approve-001"
+}
