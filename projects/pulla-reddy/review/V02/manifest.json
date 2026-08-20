@@ -2,17 +2,17 @@
     "project_id":  "pulla-reddy",
     "view_id":  "V02",
     "layer_id":  "01",
-    "revision":  "QA-REMEDIATION-001-attempt-1",
+    "revision":  "QA-REMEDIATION-001-attempt-3",
     "source_filename":  "layer-00-base-dark-planter-candidate.png",
     "parent_path":  "D:\\Codex\\G Pulla Reddy Sweets\\01_Views\\V02_Seating_Lounge\\layer-00-base-dark-planter-candidate.png",
     "parent_sha256":  "c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540",
-    "candidate_filename":  "layer-01-wall-wash-candidate-r1.png",
-    "candidate_sha256":  "af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619",
+    "candidate_filename":  "layer-01-wall-wash-candidate-r3.png",
+    "candidate_sha256":  "5f64a4bbbf7b7aae77aa4c48c50a7d0d92ffb0efcbb26581c631f145b487f2ed",
     "dimensions":  [
                        1628,
                        966
                    ],
-    "new_lighting_family":  "Restrained deep-recessed 3000K wall-wash serving only the two visible shelf-wall compositions",
+    "new_lighting_family":  "Controlled deep-recessed 3000K wall-wash serving only both visible shelf-wall compositions",
     "camera_crop_alignment_changed":  false,
     "architecture_materials_products_changed":  false,
     "previous_lighting_changed":  false,
@@ -21,40 +21,18 @@
 
                  ],
     "deterministic_qa":  {
-                             "profile":  "cumulative-lighting-layer-v1",
+                             "version":  "deterministic-qa-v1-local-exact-predicate",
+                             "profileId":  "cumulative-lighting-layer-v1",
                              "passed":  true,
                              "dimensions":  [
                                                 1628,
                                                 966
                                             ],
-                             "changed_pixel_percent":  6.195347,
-                             "darkened_pixel_percent":  0,
-                             "unrelated_activation_percent":  0,
-                             "strong_unrelated_activation_percent":  0,
-                             "mean_rgb_delta":  [
-                                                    0.28751,
-                                                    0.192444,
-                                                    0.090602
-                                                ],
-                             "zones":  {
-                                           "task_wall_shelf_wash_left":  [
-                                                                             0.245,
-                                                                             0.25,
-                                                                             0.12,
-                                                                             0.205
-                                                                         ],
-                                           "task_wall_shelf_wash_center":  [
-                                                                               0.39,
-                                                                               0.235,
-                                                                               0.145,
-                                                                               0.315
-                                                                           ],
-                                           "permitted_floor_bounce":  [
-                                                                          0.36,
-                                                                          0.551,
-                                                                          0.18,
-                                                                          0.169
-                                                                      ]
-                                       }
+                             "changedPixelRatio":  0.070460776982516113,
+                             "darkenedPixelRatio":  0,
+                             "unrelatedActivationRatio":  0.0062128719647403432,
+                             "strongUnrelatedActivationRatio":  4.2432040296750525E-05,
+                             "strongOutsidePixels":  62,
+                             "preferredSafetyTarget":  0.0015
                          }
 }
