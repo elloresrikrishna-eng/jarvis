@@ -26,21 +26,17 @@ Create only the V01 Ashwamedha lighting concept sketch from the exact locked cam
 
 Historical defective Final/downstream imagery remains non-authoritative. Contact-sheet/review-board production remains locked until repaired Final and a fresh continuity audit pass.
 
-## V02 | Layer 01 wall-wash correction
+## V02 | Layer 02 concealed shelf-integrated lighting
 
-Approved immutable Layer 00 parent remains:
+Layer 01 wall-wash candidate `5f64a4bbbf7b7aae77aa4c48c50a7d0d92ffb0efcbb26581c631f145b487f2ed` is independently APPROVED under `jarvis-v02-l01-5f64a4bb-approve-001`.
 
-`c0db62b789677bef3390003a97230c6a442018005d1f6c9b73f1bebd20851540`
-
-Layer 01 candidate `af3045bc9902183b15c7dd43878f87c5586b51cf2fc743317753b8d0564da619` is independently REJECTED under `jarvis-v02-l01-af3045bc-reject-001`.
-
-The candidate preserved scene integrity and passed deterministic QA, but the visual wall-wash was too weak to read as a meaningful presentation layer and appeared as faint isolated glow patches rather than a believable vertically coherent recessed wall-washer distribution.
+The exact approved Layer 01 candidate is now the immutable cumulative parent.
 
 Execute:
 
-`projects/pulla-reddy/instructions/V02_LAYER01_WALL_WASH_CORRECTION_001.md`
+`projects/pulla-reddy/instructions/V02_LAYER02_SHELF_INTEGRATED_LIGHTING.md`
 
-Rebuild the same Layer 01 task from the exact approved Layer 00 parent only. Make both shelf-wall compositions clearly but restrainedly legible at normal presentation scale, with soft vertical continuity from visually quiet deep-recessed sources. Keep the shared planter present and unlit, keep the hospitality zone darker, do not activate integrated shelf lighting or any other circuit, publish a fresh revisioned candidate through the GitHub Actions binary review-artifact path, set `READY_FOR_JARVIS_REVIEW`, and stop. Do not begin Layer 02 without exact candidate-bound approval.
+Add only concealed integrated 3000K shelf lighting to the visible wall-mounted shelf compositions. Preserve the approved wall-wash exactly. The integrated source must remain invisible, with no raw LED strip line, no LED dots and no neon-like shelf edge. Shelf/product surfaces should gain soft warm definition while the seating and shared planter remain deliberately calmer. The planter remains physically present and electrically unlit. Publish a fresh exact candidate through the GitHub Actions binary review-artifact path, verify provenance and remote retrievability, set V02 to `READY_FOR_JARVIS_REVIEW`, and stop. Do not begin seating/table comfort lighting without exact candidate-bound Layer 02 approval.
 
 ## V03 | Layer 01 sweet-counter downlighting
 
