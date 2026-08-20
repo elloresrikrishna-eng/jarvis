@@ -1,10 +1,8 @@
-﻿# V02 Layer 01 remediation SELF QA
+﻿# V02 Layer 01 R3 SELF QA
 
-- PASS: Built directly from byte-verified approved Layer 00 parent.
-- PASS: Only additive 3000K energy in the two released shelf-wall zones and permitted low-energy center floor bounce.
-- PASS: Darkened pixels: 0.0% (limit 2.50%).
-- PASS: Unrelated activation: 0.0% (limit 2.00%).
-- PASS: Strong unrelated activation: 0.0% (limit 0.20%).
-- PASS: Camera, crop, dimensions, architecture, furniture, planter, materials, colours, ceiling and exposure remain frozen.
-- PASS: No planter, seating, counter, ceiling or integrated shelf-lighting family activated.
-- STOP: No later layer started and no approval authored.
+- PASS: Rebuilt from byte-verified Layer 00 parent.
+- PASS: Additive-only 3000K wall-wash family.
+- PASS: Strong outside activation 0.004243%, threshold 0.20%, preferred 0.15%.
+- PASS: No darkening, camera, architecture, planter, exposure, gamma, or other circuit changes.
+- STOP: No approval authored and no later layer started.
+
