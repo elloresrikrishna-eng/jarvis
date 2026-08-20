@@ -1,0 +1,15 @@
+﻿{
+    "version":  "deterministic-qa-v1-local-exact-predicate",
+    "profileId":  "cumulative-lighting-layer-v1",
+    "passed":  true,
+    "dimensions":  [
+                       1628,
+                       966
+                   ],
+    "changedPixelRatio":  0.070460776982516113,
+    "darkenedPixelRatio":  0,
+    "unrelatedActivationRatio":  0.0062128719647403432,
+    "strongUnrelatedActivationRatio":  4.2432040296750525E-05,
+    "strongOutsidePixels":  62,
+    "preferredSafetyTarget":  0.0015
+}
