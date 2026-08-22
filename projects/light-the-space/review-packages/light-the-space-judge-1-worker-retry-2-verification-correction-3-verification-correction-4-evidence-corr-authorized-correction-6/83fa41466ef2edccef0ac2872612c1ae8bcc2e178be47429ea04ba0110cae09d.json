@@ -1,0 +1,244 @@
+{
+  "protocol_version": "jarvis-review-package-v1",
+  "review_package_revision": "83fa41466ef2edccef0ac2872612c1ae8bcc2e178be47429ea04ba0110cae09d",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence-corr-authorized-correction-6",
+  "project_state_revision": 41,
+  "base_sha": "52c962d621fd98c1fbd77e0a26dc3f654419b2d7",
+  "head_sha": "30cb150e9e36292325f4069f317571a356db1037",
+  "branch": "lts-v2/judge-1-codex",
+  "github_comparison": "https://github.com/elloresrikrishna-eng/Light-the-Space/compare/52c962d621fd98c1fbd77e0a26dc3f654419b2d7...30cb150e9e36292325f4069f317571a356db1037",
+  "commit_list": [
+    "30cb150e9e36292325f4069f317571a356db1037"
+  ],
+  "changed_files": [
+    "artifacts/judge-1/architecture-invariants.json",
+    "artifacts/judge-1/browser-acceptance.json",
+    "docs/LTS_V2_JUDGE_1.md",
+    "src/judge-1/evaluate.ts",
+    "src/judge-1/profile.ts",
+    "src/judge-1/schema.ts",
+    "tests/judge-1.test.ts"
+  ],
+  "verification": {
+    "protocol_version": "jarvis-verification-v1",
+    "project_id": "light-the-space",
+    "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence-corr-authorized-correction-6",
+    "base_sha": "52c962d621fd98c1fbd77e0a26dc3f654419b2d7",
+    "head_sha": "30cb150e9e36292325f4069f317571a356db1037",
+    "branch": "lts-v2/judge-1-codex",
+    "verified_at": "2026-08-22T17:17:11.947Z",
+    "profile": "ENGINEERING_WITH_BROWSER_EVIDENCE",
+    "passed": true,
+    "changed_files": [
+      "artifacts/judge-1/architecture-invariants.json",
+      "artifacts/judge-1/browser-acceptance.json",
+      "docs/LTS_V2_JUDGE_1.md",
+      "src/judge-1/evaluate.ts",
+      "src/judge-1/profile.ts",
+      "src/judge-1/schema.ts",
+      "tests/judge-1.test.ts"
+    ],
+    "commits": [
+      "30cb150e9e36292325f4069f317571a356db1037"
+    ],
+    "checks": [
+      {
+        "id": "tests",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "test"
+        ],
+        "exit_code": 0,
+        "duration_ms": 2138,
+        "stdout_sha256": "5cb75355e3d4c2275e103dad756f6a08f80a7c3d773f7b0cef5d8c497d64b67c",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "typecheck",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "typecheck"
+        ],
+        "exit_code": 0,
+        "duration_ms": 2496,
+        "stdout_sha256": "780ba77ce80fd28cf1c4371f48dc108cd21b8593ba75bd036b26ade4239431b8",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "lint",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "lint"
+        ],
+        "exit_code": 0,
+        "duration_ms": 1558,
+        "stdout_sha256": "97b17b3534ab83399d73b954c7deea525049255ecc6eae1c728bfe49fe0c671c",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "build",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "exit_code": 0,
+        "duration_ms": 3273,
+        "stdout_sha256": "ab63f3e39ab5609f29fa75344b12a65e4b72713fa71f4e498672789c13f37fd1",
+        "stderr_sha256": "0d58b2b6768def1c29901addd0aeae3f8d90bdb739c8b3e83b5b34bb7da6983a"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "artifacts/judge-1/browser-acceptance.json",
+        "sha256": "c61b8dac810038c82e3592b6815568b00fc421e5c16e65abf7f83c057793625f",
+        "bytes": 1251
+      },
+      {
+        "path": "artifacts/judge-1/judge-1.png",
+        "sha256": "4cc2c0a5457b16f99690e6f437049027248737ad573f86e6dd8571c3d718c23e",
+        "bytes": 337413
+      },
+      {
+        "path": "artifacts/judge-1/architecture-invariants.json",
+        "sha256": "467f4b8fc182eefe5f786db41553e30b70c46999c1eb1b5b59e5f9e4b3e38d4c",
+        "bytes": 1578
+      }
+    ],
+    "failures": [],
+    "remote_head": "30cb150e9e36292325f4069f317571a356db1037"
+  },
+  "worker_report": {
+    "protocol_version": "jarvis-worker-result-v1",
+    "job_id": "8663ac8c92359b5b20cd5c777a816880207b3649bc85f9a2bf3cd96eda7c3756",
+    "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence-corr-authorized-correction-6",
+    "project_id": "light-the-space",
+    "branch": "lts-v2/judge-1-codex",
+    "base_sha": "52c962d621fd98c1fbd77e0a26dc3f654419b2d7",
+    "head_sha": "30cb150e9e36292325f4069f317571a356db1037",
+    "changed_files": [
+      "artifacts/judge-1/architecture-invariants.json",
+      "artifacts/judge-1/browser-acceptance.json",
+      "docs/LTS_V2_JUDGE_1.md",
+      "src/judge-1/evaluate.ts",
+      "src/judge-1/profile.ts",
+      "src/judge-1/schema.ts",
+      "tests/judge-1.test.ts"
+    ],
+    "commits": [
+      "30cb150e9e36292325f4069f317571a356db1037"
+    ],
+    "tests": {
+      "id": "npm-run-test",
+      "status": "FAIL",
+      "command": [
+        "npm",
+        "run",
+        "test"
+      ],
+      "exit_code": 1,
+      "duration_ms": 1000,
+      "stdout_sha256": "0e5751c026e543b2e8ab2eb06099daa1d1b5d1bd4d11f7ed30d54cf1b14d5b08",
+      "stderr_sha256": "0e5751c026e543b2e8ab2eb06099daa1d1b5d1bd4d11f7ed30d54cf1b14d5b08"
+    },
+    "typecheck": {
+      "id": "npm-run-typecheck",
+      "status": "PASS",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exit_code": 0,
+      "duration_ms": 3200,
+      "stdout_sha256": "0e5751c026e543b2e8ab2eb06099daa1d1b5d1bd4d11f7ed30d54cf1b14d5b08",
+      "stderr_sha256": "0e5751c026e543b2e8ab2eb06099daa1d1b5d1bd4d11f7ed30d54cf1b14d5b08"
+    },
+    "lint": {
+      "id": "npm-run-lint",
+      "status": "PASS",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exit_code": 0,
+      "duration_ms": 2100,
+      "stdout_sha256": "0e5751c026e543b2e8ab2eb06099daa1d1b5d1bd4d11f7ed30d54cf1b14d5b08",
+      "stderr_sha256": "0e5751c026e543b2e8ab2eb06099daa1d1b5d1bd4d11f7ed30d54cf1b14d5b08"
+    },
+    "build": {
+      "id": "npm-run-build",
+      "status": "FAIL",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 1,
+      "duration_ms": 3500,
+      "stdout_sha256": "0e5751c026e543b2e8ab2eb06099daa1d1b5d1bd4d11f7ed30d54cf1b14d5b08",
+      "stderr_sha256": "0e5751c026e543b2e8ab2eb06099daa1d1b5d1bd4d11f7ed30d54cf1b14d5b08"
+    },
+    "artifacts": [
+      {
+        "path": "artifacts/judge-1/browser-acceptance.json",
+        "sha256": "c61b8dac810038c82e3592b6815568b00fc421e5c16e65abf7f83c057793625f",
+        "bytes": 1251
+      },
+      {
+        "path": "artifacts/judge-1/judge-1.png",
+        "sha256": "4cc2c0a5457b16f99690e6f437049027248737ad573f86e6dd8571c3d718c23e",
+        "bytes": 337413
+      },
+      {
+        "path": "artifacts/judge-1/architecture-invariants.json",
+        "sha256": "467f4b8fc182eefe5f786db41553e30b70c46999c1eb1b5b59e5f9e4b3e38d4c",
+        "bytes": 1578
+      }
+    ],
+    "warnings": [
+      "Workspace writes succeeded, but committing is blocked: Git cannot create D:/Codex/Light the Space/.git/index.lock (Permission denied). No candidate commit or push was possible.",
+      "Tests could not start because Vite/Vitest could not spawn esbuild (EPERM), before executing any test assertions.",
+      "Build completed TypeScript checking then failed while Vite attempted to spawn a dependency-resolution child process (EPERM).",
+      "The working tree contains the listed uncommitted implementation changes.",
+      "JARVIS checkpointed and published the worker bytes because the managed worker sandbox protects Git metadata; independent verification remains authoritative."
+    ],
+    "worker_terminal_state": "WORK_PRODUCT_READY",
+    "summary": "Implemented a versioned Judge 1 minimum-contribution rule using SimulationSnapshot evidence in deterministic preference order: indicative analytical centre illuminance, provisional effective candela, provisional effective lumens, then output percent. It preserves per-beam output-independent spill, the one-live-fixture policy, and rated connected-load semantics; adds zero-output, negligible-output, and dimming-invariance adversarial coverage; and updates Judge 1 evidence artifacts and documentation. Typecheck and lint pass. The environment prevents Git index writes, so the required commit, normal push, remote-head verification, and WORK_PRODUCT_READY handoff could not be completed."
+  },
+  "evidence": {
+    "screenshots": [
+      {
+        "path": "artifacts/judge-1/judge-1.png",
+        "sha256": "4cc2c0a5457b16f99690e6f437049027248737ad573f86e6dd8571c3d718c23e",
+        "bytes": 337413
+      }
+    ],
+    "browser_acceptance": [
+      {
+        "path": "artifacts/judge-1/browser-acceptance.json",
+        "sha256": "c61b8dac810038c82e3592b6815568b00fc421e5c16e65abf7f83c057793625f",
+        "bytes": 1251
+      }
+    ],
+    "performance": [],
+    "architecture": [
+      {
+        "path": "artifacts/judge-1/architecture-invariants.json",
+        "sha256": "467f4b8fc182eefe5f786db41553e30b70c46999c1eb1b5b59e5f9e4b3e38d4c",
+        "bytes": 1578
+      }
+    ]
+  },
+  "created_at": "2026-08-22T17:17:12.045Z",
+  "status": "READY_FOR_JARVIS_REVIEW"
+}
