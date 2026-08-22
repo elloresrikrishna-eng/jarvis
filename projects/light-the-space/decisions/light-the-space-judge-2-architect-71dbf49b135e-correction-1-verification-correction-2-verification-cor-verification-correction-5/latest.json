@@ -1,0 +1,23 @@
+{
+  "protocol_version": "jarvis-engineering-decision-v1",
+  "decision_id": "jarvis-lts-j2-9a420c84-approve-001",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-2-architect-71dbf49b135e-correction-1-verification-correction-2-verification-cor-verification-correction-5",
+  "base_sha": "0f2164a7895b3f38e4cef1bba6d049ca021cbc06",
+  "candidate_head_sha": "781dceb4001076a2aa0340174ebf9d03b7d86946",
+  "review_package_revision": "9a420c84b2fca3781894b4b8bbd11215e51080257e118cc6313fec6e530bb7d1",
+  "reviewer": "JARVIS_CHATGPT",
+  "timestamp": "2026-08-22T19:22:00Z",
+  "decision": "APPROVE",
+  "reason": "Judge 2 now provides real browser-rendered evidence under the frozen 960x540, DPR 1, ACES exposure 0.72 profile; exact same-state captures are deterministic; semantic artwork projection is present; strong and materially different passing solutions separate clearly from flat weak-hierarchy, clipped/overbright, and too-dark cases; browser acceptance verifies capture non-mutation and threshold behavior; actual PNGs, golden-case results, evidence JSON, performance evidence, artifact hashes, tests, typecheck, lint, build, clean worktree, and exact remote-head binding all pass independent verification. The evaluator remains explicitly a display-referred learning proxy rather than photometry or universal aesthetic judgement, and its known V1 limitations around off-target bright share, entropy, and centroid are documented rather than overstated.",
+  "required_changes": [],
+  "protected_aspects": [
+    "Preserve the frozen Judge 2 capture contract at 960x540, DPR 1, and ACES exposure 0.72 unless a future versioned profile deliberately changes it.",
+    "Preserve Judge 1 as the deterministic admissibility gate before Judge 2.",
+    "Preserve semantic target projection, exact state provenance, deterministic browser evidence, and non-mutation of player state, camera, and exposure during evaluation.",
+    "Preserve Judge 2 as a deterministic image-space learning proxy with explicit limitations; do not represent its metrics as measured photometry, UGR, or universal aesthetic truth.",
+    "Preserve the versioned profile and golden-case calibration discipline; future threshold changes require rendered evidence and a profile version change.",
+    "Do not merge branches or start Alya Mentor except through the normal JARVIS orchestration transition after this exact decision is consumed."
+  ],
+  "human_decision_required": false
+}
