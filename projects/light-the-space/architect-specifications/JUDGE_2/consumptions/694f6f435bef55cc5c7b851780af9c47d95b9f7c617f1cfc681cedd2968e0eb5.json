@@ -1,0 +1,17 @@
+{
+  "protocol_version": "jarvis-architect-spec-consumption-v1",
+  "consumption_id": "694f6f435bef55cc5c7b851780af9c47d95b9f7c617f1cfc681cedd2968e0eb5",
+  "project_id": "light-the-space",
+  "phase_id": "JUDGE_2",
+  "specification_path": "projects/light-the-space/JUDGE_2_ARCHITECT_SPEC_V1.md",
+  "specification_blob_sha": "b053b41f1f8f0b3af9f63bb6b92205c46baf64a9",
+  "specification_sha256": "71dbf49b135e2b1d83b9ee9e78baa7b7b78e9e35195dd1cffecb69a9da6cdcfb",
+  "architect": "JARVIS_CHATGPT",
+  "foundation_head": "30cb150e9e36292325f4069f317571a356db1037",
+  "state_revision_from": 44,
+  "state_revision_to": 45,
+  "task_id": "light-the-space-judge-2-architect-71dbf49b135e",
+  "task_definition_sha256": "0c87bf4660c53b961edabe7515c47fe737145e28af919ad5722faa8021b00c1d",
+  "consumed_at": "2026-08-22T18:02:11.420Z",
+  "disposition": "CONSUMED_NOT_RELEASED"
+}
