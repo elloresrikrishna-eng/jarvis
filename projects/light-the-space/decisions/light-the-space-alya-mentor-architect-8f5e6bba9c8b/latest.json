@@ -1,0 +1,31 @@
+{
+  "protocol_version": "jarvis-engineering-decision-v1",
+  "decision_id": "jarvis-lts-alya-0621bdca-reject-001",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b",
+  "base_sha": "781dceb4001076a2aa0340174ebf9d03b7d86946",
+  "candidate_head_sha": "a19cb8de8222d1867ea03646177601bcf16b240a",
+  "review_package_revision": "0621bdcad64e4e11e36674abdc4feeb41ad08d5d6d345546bfb558ec89cc1f97",
+  "reviewer": "JARVIS_CHATGPT",
+  "timestamp": "2026-08-22T20:00:00Z",
+  "decision": "REJECT",
+  "reason": "The deterministic mentor planner and claim-safety architecture are promising and independently verified, but the product acceptance gate is incomplete: the player-facing Critique flow deliberately refuses to use Judge 2 when Judge 1 passes because no frozen same-state Judge 2 evidence is integrated, and the review package contains browser acceptance but no screenshot evidence for the Alya Mentor UI. Alya Mentor cannot be approved while its central visual-critique pathway is intentionally unavailable in the actual interaction flow.",
+  "required_changes": [
+    "Integrate the existing frozen same-state Judge 2 evidence path into Alya Mentor so a Judge 1 PASS submission can receive evidence-backed perceptual critique without fabricating or stale-matching Judge 2 results.",
+    "Bind MentorEvidenceBundle to exact state provenance and exact Judge 2 capture provenance; fail closed on mismatch.",
+    "Preserve the current rule that Alya never guesses visual consequence when matching Judge 2 evidence is unavailable.",
+    "Add browser acceptance for the actual player-facing flow: hint progression, Judge 1 technical critique, Judge 2 perceptual critique after a matching capture, Why expansion, and no state mutation from mentor actions.",
+    "Publish clean screenshots of the Alya Mentor panel in at least: observe/default, hint, technical critique, perceptual critique, and Why-expanded states. Keep screenshots separate from measured Judge 2 capture pixels.",
+    "Add adversarial tests for stale Judge 2 evidence, wrong state provenance, wrong viewpoint/profile provenance, and low-confidence wording so unsupported visual claims cannot leak into feedback.",
+    "Keep the deterministic planner as authority. Do not add an LLM/cloud dependency in this correction.",
+    "Keep Judge 1, Judge 2, fixed exposure, simulation state, and renderer behavior unchanged unless a minimal adapter is strictly required for provenance-safe handoff."
+  ],
+  "protected_aspects": [
+    "Preserve deterministic evidence-bound mentor planning.",
+    "Preserve Teach, Hint, Critique, and Challenge role architecture and progressive hint depth.",
+    "Preserve confidence-aware language and explicit limitations.",
+    "Preserve the prohibition on invented lux, UGR, standards claims, hidden metrics, and automatic design mutation.",
+    "Do not start the next product phase, merge branches, self-approve, or touch Pulla Reddy."
+  ],
+  "human_decision_required": false
+}
