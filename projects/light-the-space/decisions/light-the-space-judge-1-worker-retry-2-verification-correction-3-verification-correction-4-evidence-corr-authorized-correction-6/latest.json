@@ -1,0 +1,24 @@
+{
+  "protocol_version": "jarvis-engineering-decision-v1",
+  "decision_id": "jarvis-lts-j1-83fa4146-approve-001",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence-corr-authorized-correction-6",
+  "base_sha": "52c962d621fd98c1fbd77e0a26dc3f654419b2d7",
+  "candidate_head_sha": "30cb150e9e36292325f4069f317571a356db1037",
+  "review_package_revision": "83fa41466ef2edccef0ac2872612c1ae8bcc2e178be47429ea04ba0110cae09d",
+  "reviewer": "JARVIS_CHATGPT",
+  "timestamp": "2026-08-22T17:22:00Z",
+  "decision": "APPROVE",
+  "reason": "Judge 1 now closes the remaining near-zero-output loophole with a versioned, profile-driven minimum-contribution rule that consumes existing SimulationSnapshot evidence only. Zero and negligible output are blocked even when geometry is valid, geometric spill remains output-independent, the single-live-fixture policy remains explicit until combined-coverage evidence exists, rated connected load remains separated from output-dependent demand, and the existing valid 24, 34, and 36 degree solutions remain accepted. Independent verification passed tests, typecheck, lint, build, artifacts, and exact remote-head binding.",
+  "required_changes": [],
+  "protected_aspects": [
+    "Preserve the pure, deterministic Judge 1 architecture and renderer independence.",
+    "Preserve the versioned single-live-fixture policy until combined target-coverage evidence exists.",
+    "Preserve output-independent per-beam geometric spill semantics.",
+    "Preserve rated connected load as distinct from output-dependent demand.",
+    "Preserve the minimum-contribution rule as profile-driven and explicitly provisional, without representing analytical values as measured or certified photometry.",
+    "Preserve Phase 2 canonical state, semantic geometry, SimulationSnapshot evidence ownership, fixed exposure, UI behavior, and existing verification behavior.",
+    "Do not merge branches or start Judge 2 except through the normal JARVIS orchestration transition after this exact decision is consumed."
+  ],
+  "human_decision_required": false
+}
