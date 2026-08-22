@@ -1,0 +1,18 @@
+{
+  "protocol_version": "jarvis-authorized-retry-grant-v1",
+  "grant_id": "79b245779750759101648fe47ee6ccc026496882cad804cc11c81822e57cde08",
+  "project_id": "light-the-space",
+  "decision_id": "jarvis-lts-j1-b6171877-reject-001",
+  "prior_task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence-correction-5-infra-4ba8ea7e",
+  "correction_task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence-corr-authorized-correction-6",
+  "review_package_revision": "b617187748eb51337564333b291b98572ffabc2901b43d5e0cbba9b59f9e89ce",
+  "base_sha": "52c962d621fd98c1fbd77e0a26dc3f654419b2d7",
+  "prior_attempt": 5,
+  "granted_attempt": 6,
+  "prior_retry_budget": 5,
+  "granted_retry_budget": 6,
+  "task_definition_sha256": "aeb66394e0df32e9ea8b7b16fe934b07f0478f2765288b66ccbe838b960257bf",
+  "authorized_by": "USER",
+  "authorized_at": "2026-08-22T17:09:13.350Z",
+  "scope": "One additional bounded Judge 1 correction attempt for jarvis-lts-j1-b6171877-reject-001; no Judge 2."
+}
