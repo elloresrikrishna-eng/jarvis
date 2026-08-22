@@ -1,0 +1,242 @@
+{
+  "protocol_version": "jarvis-review-package-v1",
+  "review_package_revision": "7e7983a05039ca165768fd89d1f6f3db64bdbff173d4ceb7814f760ab3109706",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence",
+  "project_state_revision": 25,
+  "base_sha": "66806edab7f77c65a380833a8b7e3124fb9df5af",
+  "head_sha": "14d22bedf0cb833991abf479c2a334799a01a36e",
+  "branch": "lts-v2/judge-1-codex",
+  "github_comparison": "https://github.com/elloresrikrishna-eng/Light-the-Space/compare/66806edab7f77c65a380833a8b7e3124fb9df5af...14d22bedf0cb833991abf479c2a334799a01a36e",
+  "commit_list": [
+    "14d22bedf0cb833991abf479c2a334799a01a36e"
+  ],
+  "changed_files": [
+    "artifacts/judge-1/architecture-invariants.json",
+    "artifacts/judge-1/browser-acceptance.json",
+    "src/judge-1/evaluate.ts",
+    "src/judge-1/profile.ts",
+    "src/judge-1/schema.ts",
+    "tests/judge-1.test.ts"
+  ],
+  "verification": {
+    "protocol_version": "jarvis-verification-v1",
+    "project_id": "light-the-space",
+    "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence",
+    "base_sha": "66806edab7f77c65a380833a8b7e3124fb9df5af",
+    "head_sha": "14d22bedf0cb833991abf479c2a334799a01a36e",
+    "branch": "lts-v2/judge-1-codex",
+    "verified_at": "2026-08-22T16:09:29.481Z",
+    "profile": "ENGINEERING_WITH_BROWSER_EVIDENCE",
+    "passed": true,
+    "changed_files": [
+      "artifacts/judge-1/architecture-invariants.json",
+      "artifacts/judge-1/browser-acceptance.json",
+      "src/judge-1/evaluate.ts",
+      "src/judge-1/profile.ts",
+      "src/judge-1/schema.ts",
+      "tests/judge-1.test.ts"
+    ],
+    "commits": [
+      "14d22bedf0cb833991abf479c2a334799a01a36e"
+    ],
+    "checks": [
+      {
+        "id": "tests",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "test"
+        ],
+        "exit_code": 0,
+        "duration_ms": 2334,
+        "stdout_sha256": "d700e005cee9880e88e72ea586f6cfe85757c41a81b04296328c130954730c5f",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "typecheck",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "typecheck"
+        ],
+        "exit_code": 0,
+        "duration_ms": 2513,
+        "stdout_sha256": "780ba77ce80fd28cf1c4371f48dc108cd21b8593ba75bd036b26ade4239431b8",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "lint",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "lint"
+        ],
+        "exit_code": 0,
+        "duration_ms": 1591,
+        "stdout_sha256": "97b17b3534ab83399d73b954c7deea525049255ecc6eae1c728bfe49fe0c671c",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "build",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "exit_code": 0,
+        "duration_ms": 3144,
+        "stdout_sha256": "1272d837e20b928d5b08e09e56c07af0684606133bfca2a97e6cf7e4e0d2b8f3",
+        "stderr_sha256": "0d58b2b6768def1c29901addd0aeae3f8d90bdb739c8b3e83b5b34bb7da6983a"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "artifacts/judge-1/browser-acceptance.json",
+        "sha256": "e895a8ada94a962ab8e7c91d4a7b90523d83e4a7765dc1bd5d38163afafb8929",
+        "bytes": 1060
+      },
+      {
+        "path": "artifacts/judge-1/judge-1.png",
+        "sha256": "4cc2c0a5457b16f99690e6f437049027248737ad573f86e6dd8571c3d718c23e",
+        "bytes": 337413
+      },
+      {
+        "path": "artifacts/judge-1/architecture-invariants.json",
+        "sha256": "2f9890c531f0a4b8824e0ede799e81832616c575246bd16dd3c8b9ae68184e5d",
+        "bytes": 1052
+      }
+    ],
+    "failures": [],
+    "remote_head": "14d22bedf0cb833991abf479c2a334799a01a36e"
+  },
+  "worker_report": {
+    "protocol_version": "jarvis-worker-result-v1",
+    "job_id": "ef6bc96cfdc689b5385e66b314ebe473c083d59630996ac7643a4899260e6eb6",
+    "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence",
+    "project_id": "light-the-space",
+    "branch": "lts-v2/judge-1-codex",
+    "base_sha": "66806edab7f77c65a380833a8b7e3124fb9df5af",
+    "head_sha": "14d22bedf0cb833991abf479c2a334799a01a36e",
+    "changed_files": [
+      "artifacts/judge-1/architecture-invariants.json",
+      "artifacts/judge-1/browser-acceptance.json",
+      "src/judge-1/evaluate.ts",
+      "src/judge-1/profile.ts",
+      "src/judge-1/schema.ts",
+      "tests/judge-1.test.ts"
+    ],
+    "commits": [
+      "14d22bedf0cb833991abf479c2a334799a01a36e"
+    ],
+    "tests": {
+      "id": "tests",
+      "status": "FAIL",
+      "command": [
+        "npm",
+        "run",
+        "test"
+      ],
+      "exit_code": 1,
+      "duration_ms": 1000,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "typecheck": {
+      "id": "typecheck",
+      "status": "PASS",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exit_code": 0,
+      "duration_ms": 2900,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lint": {
+      "id": "lint",
+      "status": "PASS",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exit_code": 0,
+      "duration_ms": 2000,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build": {
+      "id": "build",
+      "status": "FAIL",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 1,
+      "duration_ms": 3700,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "artifacts": [
+      {
+        "path": "artifacts/judge-1/browser-acceptance.json",
+        "sha256": "e895a8ada94a962ab8e7c91d4a7b90523d83e4a7765dc1bd5d38163afafb8929",
+        "bytes": 1060
+      },
+      {
+        "path": "artifacts/judge-1/judge-1.png",
+        "sha256": "4cc2c0a5457b16f99690e6f437049027248737ad573f86e6dd8571c3d718c23e",
+        "bytes": 337413
+      },
+      {
+        "path": "artifacts/judge-1/architecture-invariants.json",
+        "sha256": "2f9890c531f0a4b8824e0ede799e81832616c575246bd16dd3c8b9ae68184e5d",
+        "bytes": 1052
+      }
+    ],
+    "warnings": [
+      "Implemented a materially different correction using output-weighted analytical spill evidence while retaining the authored 0.55 blocking threshold. The deliberate 0.8 spill case at 70 percent output remains blocking, while the three materially different valid solutions satisfy the rule.",
+      "Evaluator and profile versions were advanced to 1.0.1, and evidence artifacts were updated for base 66806edab7f77c65a380833a8b7e3124fb9df5af and canonical revision 22.",
+      "The managed Windows sandbox prevented Vitest and Vite from starting because child-process spawning failed with EPERM. This was an infrastructure startup failure, not a reproduced assertion, type, or lint failure.",
+      "The sandbox also denied creation of .git/index.lock. Therefore the allowed-path changes could not be committed or pushed, and remote HEAD could not be advanced or verified.",
+      "Command streams were not retained separately by the execution interface; empty-stream SHA-256 values are used as unavailable-output sentinels.",
+      "JARVIS checkpointed and published the worker bytes because the managed worker sandbox protects Git metadata; independent verification remains authoritative."
+    ],
+    "worker_terminal_state": "WORK_PRODUCT_READY",
+    "summary": "Judge 1 spill semantics were corrected in the working tree, with typecheck and lint passing. Completion is blocked by execution infrastructure: tests and build cannot start because Vite/esbuild child-process spawning is denied, and Git cannot write its index, so no commit or push was possible."
+  },
+  "evidence": {
+    "screenshots": [
+      {
+        "path": "artifacts/judge-1/judge-1.png",
+        "sha256": "4cc2c0a5457b16f99690e6f437049027248737ad573f86e6dd8571c3d718c23e",
+        "bytes": 337413
+      }
+    ],
+    "browser_acceptance": [
+      {
+        "path": "artifacts/judge-1/browser-acceptance.json",
+        "sha256": "e895a8ada94a962ab8e7c91d4a7b90523d83e4a7765dc1bd5d38163afafb8929",
+        "bytes": 1060
+      }
+    ],
+    "performance": [],
+    "architecture": [
+      {
+        "path": "artifacts/judge-1/architecture-invariants.json",
+        "sha256": "2f9890c531f0a4b8824e0ede799e81832616c575246bd16dd3c8b9ae68184e5d",
+        "bytes": 1052
+      }
+    ]
+  },
+  "created_at": "2026-08-22T16:09:29.615Z",
+  "status": "READY_FOR_JARVIS_REVIEW"
+}
