@@ -1,0 +1,17 @@
+{
+  "protocol_version": "jarvis-architect-spec-consumption-v1",
+  "consumption_id": "2f1c68e052a949ac4906298636b25cd18db720f4e390270d47224da48deca210",
+  "project_id": "light-the-space",
+  "phase_id": "ALYA_MENTOR",
+  "specification_path": "projects/light-the-space/ALYA_MENTOR_ARCHITECT_SPEC_V1.md",
+  "specification_blob_sha": "e800a7130ab43bfe8d7d734cd2128814c5a4ae20",
+  "specification_sha256": "8f5e6bba9c8bcd75fcaeb8f92a13bafe71a114f740fe3b2e85350c084b6d08cc",
+  "architect": "JARVIS_CHATGPT",
+  "foundation_head": "781dceb4001076a2aa0340174ebf9d03b7d86946",
+  "state_revision_from": 81,
+  "state_revision_to": 82,
+  "task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b",
+  "task_definition_sha256": "c64a114fb51c6bf88f2d1f3d7dc88edcfefaa7d6181b203abf13d14993182958",
+  "consumed_at": "2026-08-22T19:46:14.131Z",
+  "disposition": "CONSUMED_NOT_RELEASED"
+}
