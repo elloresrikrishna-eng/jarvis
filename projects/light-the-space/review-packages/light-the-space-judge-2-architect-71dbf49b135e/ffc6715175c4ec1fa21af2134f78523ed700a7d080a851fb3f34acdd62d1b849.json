@@ -1,0 +1,269 @@
+{
+  "protocol_version": "jarvis-review-package-v1",
+  "review_package_revision": "ffc6715175c4ec1fa21af2134f78523ed700a7d080a851fb3f34acdd62d1b849",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-2-architect-71dbf49b135e",
+  "project_state_revision": 50,
+  "base_sha": "30cb150e9e36292325f4069f317571a356db1037",
+  "head_sha": "853ff16ebc7d7b4ede1d3eabb17701c35b853ead",
+  "branch": "lts-v2/judge-2-codex",
+  "github_comparison": "https://github.com/elloresrikrishna-eng/Light-the-Space/compare/30cb150e9e36292325f4069f317571a356db1037...853ff16ebc7d7b4ede1d3eabb17701c35b853ead",
+  "commit_list": [
+    "853ff16ebc7d7b4ede1d3eabb17701c35b853ead"
+  ],
+  "changed_files": [
+    "artifacts/judge-2/architecture-invariants.json",
+    "artifacts/judge-2/golden-cases.json",
+    "artifacts/judge-2/judge-2-evidence.json",
+    "artifacts/judge-2/performance.json",
+    "docs/LTS_V2_JUDGE_2.md",
+    "src/judge-2/evaluate.ts",
+    "src/judge-2/imageMetrics.ts",
+    "src/judge-2/index.ts",
+    "src/judge-2/profile.ts",
+    "src/judge-2/projection.ts",
+    "src/judge-2/schema.ts",
+    "src/render/judge2Capture.ts",
+    "src/ui/InteractionDevPanel.tsx",
+    "tests/judge-2.test.ts"
+  ],
+  "verification": {
+    "protocol_version": "jarvis-verification-v1",
+    "project_id": "light-the-space",
+    "task_id": "light-the-space-judge-2-architect-71dbf49b135e",
+    "base_sha": "30cb150e9e36292325f4069f317571a356db1037",
+    "head_sha": "853ff16ebc7d7b4ede1d3eabb17701c35b853ead",
+    "branch": "lts-v2/judge-2-codex",
+    "verified_at": "2026-08-22T18:09:32.640Z",
+    "profile": "ENGINEERING_WITH_BROWSER_EVIDENCE",
+    "passed": true,
+    "changed_files": [
+      "artifacts/judge-2/architecture-invariants.json",
+      "artifacts/judge-2/golden-cases.json",
+      "artifacts/judge-2/judge-2-evidence.json",
+      "artifacts/judge-2/performance.json",
+      "docs/LTS_V2_JUDGE_2.md",
+      "src/judge-2/evaluate.ts",
+      "src/judge-2/imageMetrics.ts",
+      "src/judge-2/index.ts",
+      "src/judge-2/profile.ts",
+      "src/judge-2/projection.ts",
+      "src/judge-2/schema.ts",
+      "src/render/judge2Capture.ts",
+      "src/ui/InteractionDevPanel.tsx",
+      "tests/judge-2.test.ts"
+    ],
+    "commits": [
+      "853ff16ebc7d7b4ede1d3eabb17701c35b853ead"
+    ],
+    "checks": [
+      {
+        "id": "tests",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "test"
+        ],
+        "exit_code": 0,
+        "duration_ms": 2165,
+        "stdout_sha256": "fb1c065e120b340365c3ce8759fad7b8e3597080f38fd6526e897317732364c2",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "typecheck",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "typecheck"
+        ],
+        "exit_code": 0,
+        "duration_ms": 2516,
+        "stdout_sha256": "780ba77ce80fd28cf1c4371f48dc108cd21b8593ba75bd036b26ade4239431b8",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "lint",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "lint"
+        ],
+        "exit_code": 0,
+        "duration_ms": 1587,
+        "stdout_sha256": "97b17b3534ab83399d73b954c7deea525049255ecc6eae1c728bfe49fe0c671c",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "build",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "exit_code": 0,
+        "duration_ms": 3345,
+        "stdout_sha256": "fea81b5c672fe3d8842b82cdd1c9bce4774813b4b90e9bf416efbaef89a95664",
+        "stderr_sha256": "0d58b2b6768def1c29901addd0aeae3f8d90bdb739c8b3e83b5b34bb7da6983a"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "artifacts/judge-2/judge-2-evidence.json",
+        "sha256": "32df4c54fc0e7e0ad953be6123f402da33c1d73350447b0cf1369717c4e87286",
+        "bytes": 231
+      },
+      {
+        "path": "artifacts/judge-2/architecture-invariants.json",
+        "sha256": "f09f5cdadccb63fd95c34d6017556f8d48161e0c98afbe700af78d433c54a9fc",
+        "bytes": 222
+      },
+      {
+        "path": "artifacts/judge-2/golden-cases.json",
+        "sha256": "9ae21818bd3002d5f4e8f3849c484c5400268a37dc00fa0eacd38940e1d81875",
+        "bytes": 362
+      },
+      {
+        "path": "artifacts/judge-2/performance.json",
+        "sha256": "823d9ef7d905dce5a2d076f2aec01f3e6959f6b903631c70ca9ce1b66cd9c2d9",
+        "bytes": 204
+      }
+    ],
+    "failures": [],
+    "remote_head": "853ff16ebc7d7b4ede1d3eabb17701c35b853ead"
+  },
+  "worker_report": {
+    "protocol_version": "jarvis-worker-result-v1",
+    "job_id": "eacb44725dac6505aa27655e6625a705df37c5778d14c46191749358e17c6bc6",
+    "task_id": "light-the-space-judge-2-architect-71dbf49b135e",
+    "project_id": "light-the-space",
+    "branch": "lts-v2/judge-2-codex",
+    "base_sha": "30cb150e9e36292325f4069f317571a356db1037",
+    "head_sha": "853ff16ebc7d7b4ede1d3eabb17701c35b853ead",
+    "changed_files": [
+      "artifacts/judge-2/architecture-invariants.json",
+      "artifacts/judge-2/golden-cases.json",
+      "artifacts/judge-2/judge-2-evidence.json",
+      "artifacts/judge-2/performance.json",
+      "docs/LTS_V2_JUDGE_2.md",
+      "src/judge-2/evaluate.ts",
+      "src/judge-2/imageMetrics.ts",
+      "src/judge-2/index.ts",
+      "src/judge-2/profile.ts",
+      "src/judge-2/projection.ts",
+      "src/judge-2/schema.ts",
+      "src/render/judge2Capture.ts",
+      "src/ui/InteractionDevPanel.tsx",
+      "tests/judge-2.test.ts"
+    ],
+    "commits": [
+      "853ff16ebc7d7b4ede1d3eabb17701c35b853ead"
+    ],
+    "tests": {
+      "id": "npm run test",
+      "status": "FAIL",
+      "command": [
+        "npm",
+        "run",
+        "test"
+      ],
+      "exit_code": 1,
+      "duration_ms": 1000,
+      "stdout_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "stderr_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "typecheck": {
+      "id": "npm run typecheck",
+      "status": "PASS",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exit_code": 0,
+      "duration_ms": 3200,
+      "stdout_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "stderr_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "lint": {
+      "id": "npm run lint",
+      "status": "PASS",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exit_code": 0,
+      "duration_ms": 1700,
+      "stdout_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "stderr_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "build": {
+      "id": "npm run build",
+      "status": "FAIL",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 1,
+      "duration_ms": 3600,
+      "stdout_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "stderr_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "artifacts": [
+      {
+        "path": "artifacts/judge-2/architecture-invariants.json",
+        "sha256": "f09f5cdadccb63fd95c34d6017556f8d48161e0c98afbe700af78d433c54a9fc",
+        "bytes": 222
+      },
+      {
+        "path": "artifacts/judge-2/golden-cases.json",
+        "sha256": "9ae21818bd3002d5f4e8f3849c484c5400268a37dc00fa0eacd38940e1d81875",
+        "bytes": 362
+      },
+      {
+        "path": "artifacts/judge-2/judge-2-evidence.json",
+        "sha256": "32df4c54fc0e7e0ad953be6123f402da33c1d73350447b0cf1369717c4e87286",
+        "bytes": 231
+      },
+      {
+        "path": "artifacts/judge-2/performance.json",
+        "sha256": "823d9ef7d905dce5a2d076f2aec01f3e6959f6b903631c70ca9ce1b66cd9c2d9",
+        "bytes": 204
+      }
+    ],
+    "warnings": [
+      "The workspace sandbox denied creation of .git/index.lock, so changes could not be staged, committed, or pushed. Remote head therefore remains the required base SHA.",
+      "npm run test and npm run build could not start Vite/esbuild because the environment denied child-process spawn with EPERM. This is an environment failure, not a passing verification result.",
+      "Browser evidence capture and clean screenshot artifacts were not executed or produced. The generated artifacts are schema/provenance placeholders only, so the release acceptance gate is not met.",
+      "The source implementation is present but uncommitted in the working tree and must not be treated as READY_FOR_JARVIS_REVIEW.",
+      "JARVIS checkpointed and published the worker bytes because the managed worker sandbox protects Git metadata; independent verification remains authoritative."
+    ],
+    "worker_terminal_state": "WORK_PRODUCT_READY",
+    "summary": "Implemented an initial separate Judge 2 pure image-analysis, semantic projection, profile-driven evaluation branch, browser capture adapter, developer evidence panel, tests, documentation, and artifact templates. Typecheck and lint pass. The worker cannot publish the branch because .git writes are denied, and test/build verification cannot start because child-process spawning is denied. No JARVIS approval is claimed; stop before review."
+  },
+  "evidence": {
+    "screenshots": [],
+    "browser_acceptance": [],
+    "performance": [
+      {
+        "path": "artifacts/judge-2/performance.json",
+        "sha256": "823d9ef7d905dce5a2d076f2aec01f3e6959f6b903631c70ca9ce1b66cd9c2d9",
+        "bytes": 204
+      }
+    ],
+    "architecture": [
+      {
+        "path": "artifacts/judge-2/architecture-invariants.json",
+        "sha256": "f09f5cdadccb63fd95c34d6017556f8d48161e0c98afbe700af78d433c54a9fc",
+        "bytes": 222
+      }
+    ]
+  },
+  "created_at": "2026-08-22T18:09:32.775Z",
+  "status": "READY_FOR_JARVIS_REVIEW"
+}
