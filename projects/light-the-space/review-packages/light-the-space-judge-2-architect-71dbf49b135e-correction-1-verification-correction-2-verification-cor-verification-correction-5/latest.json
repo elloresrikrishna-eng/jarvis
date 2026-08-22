@@ -1,0 +1,11 @@
+{
+  "protocol_version": "jarvis-review-package-pointer-v1",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-2-architect-71dbf49b135e-correction-1-verification-correction-2-verification-cor-verification-correction-5",
+  "base_sha": "0f2164a7895b3f38e4cef1bba6d049ca021cbc06",
+  "head_sha": "781dceb4001076a2aa0340174ebf9d03b7d86946",
+  "review_package_revision": "9a420c84b2fca3781894b4b8bbd11215e51080257e118cc6313fec6e530bb7d1",
+  "path": "projects/light-the-space/review-packages/light-the-space-judge-2-architect-71dbf49b135e-correction-1-verification-correction-2-verification-cor-verification-correction-5/9a420c84b2fca3781894b4b8bbd11215e51080257e118cc6313fec6e530bb7d1.json",
+  "status": "READY_FOR_JARVIS_REVIEW",
+  "updated_at": "2026-08-22T19:18:28.072Z"
+}
