@@ -1,0 +1,35 @@
+{
+  "protocol_version": "jarvis-engineering-decision-v1",
+  "decision_id": "jarvis-lts-j2-ffc67151-reject-001",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-2-architect-71dbf49b135e",
+  "base_sha": "30cb150e9e36292325f4069f317571a356db1037",
+  "candidate_head_sha": "853ff16ebc7d7b4ede1d3eabb17701c35b853ead",
+  "review_package_revision": "ffc6715175c4ec1fa21af2134f78523ed700a7d080a851fb3f34acdd62d1b849",
+  "reviewer": "JARVIS_CHATGPT",
+  "timestamp": "2026-08-22T23:49:19.3483589+05:30",
+  "decision": "REJECT",
+  "reason": "Judge 2 is a perceptual rendered-image evaluator, but the immutable review package contains no actual screenshot evidence or browser-acceptance capture. Its declarative golden-case artifacts do not prove that the perceptual metrics behave correctly on real Light the Space renders.",
+  "required_changes": [
+    "Produce actual rendered browser evidence from the same Light the Space scene and exact candidate-state provenance using the frozen Judge 2 render profile: 960 by 540 pixels, DPR 1, and fixed ACES exposure 0.72.",
+    "Capture clean rendered screenshots for a strong PASS case, a second materially different PASS case, a flat or weak-hierarchy case, a harsh overbright or clipped case, and a too-dark or poor-legibility case. Also capture a compositionally poor but technically valid case when feasible.",
+    "For every rendered screenshot, publish machine-readable Judge 2 evidence containing exact state and candidate provenance, viewpoint and camera ID, semantic target projection or mask, target and context pixel counts, hierarchy metrics, restraint metrics, highlight fraction, near-black fraction, entropy, luminance centroid, dimension verdicts, and final Judge 2 verdict.",
+    "Replace the declarative golden-case artifact with actual rendered golden-case results bound to their screenshot artifacts and hashes.",
+    "Add browser acceptance proving same-render and same-state deterministic evidence within documented tolerance, semantic artwork-mask alignment, visibly stronger hierarchy for PASS than flat scenes, the intended clipping and darkness rules, and evaluation non-mutation of scene, exposure, camera, and player state.",
+    "Validate current thresholds against real captures. Adjust and version the perceptual profile with documented calibration rationale wherever real evidence shows the current threshold is unsound.",
+    "Critically document and calibrate the limitations of global-top-decile offTargetBrightPixelShare, coarse global luminance entropy, and composition balance that reports but does not currently rule on luminance centroid. Improve a proxy only where rendered evidence demonstrates a clear need, and do not claim these proxies are stronger perceptual measures than they are.",
+    "Required artifact: artifacts/judge-2/captures/strong-pass.png",
+    "Required artifact: artifacts/judge-2/captures/second-pass.png",
+    "Required artifact: artifacts/judge-2/captures/flat-weak-hierarchy.png",
+    "Required artifact: artifacts/judge-2/captures/harsh-overbright-clipped.png",
+    "Required artifact: artifacts/judge-2/captures/too-dark-poor-legibility.png",
+    "Required artifact: artifacts/judge-2/browser-acceptance.json"
+  ],
+  "protected_aspects": [
+    "Preserve Judge 1 unchanged.",
+    "Preserve fixed ACES exposure 0.72, renderer-independent evaluation logic, semantic target projection, deterministic image analysis, and the exact player state.",
+    "Do not add an LLM or cloud visual judge inside Judge 2.",
+    "Do not implement or start Alya Mentor, merge branches, self-approve the candidate, or modify Pulla Reddy."
+  ],
+  "human_decision_required": false
+}
