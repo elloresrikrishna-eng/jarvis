@@ -1,0 +1,261 @@
+{
+  "protocol_version": "jarvis-review-package-v1",
+  "review_package_revision": "b617187748eb51337564333b291b98572ffabc2901b43d5e0cbba9b59f9e89ce",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence-correction-5-infra-4ba8ea7e",
+  "project_state_revision": 35,
+  "base_sha": "14d22bedf0cb833991abf479c2a334799a01a36e",
+  "head_sha": "52c962d621fd98c1fbd77e0a26dc3f654419b2d7",
+  "branch": "lts-v2/judge-1-codex",
+  "github_comparison": "https://github.com/elloresrikrishna-eng/Light-the-Space/compare/14d22bedf0cb833991abf479c2a334799a01a36e...52c962d621fd98c1fbd77e0a26dc3f654419b2d7",
+  "commit_list": [
+    "52c962d621fd98c1fbd77e0a26dc3f654419b2d7"
+  ],
+  "changed_files": [
+    "artifacts/judge-1/architecture-invariants.json",
+    "artifacts/judge-1/browser-acceptance.json",
+    "docs/LTS_V2_JUDGE_1.md",
+    "docs/LTS_V2_SIMULATION_FOUNDATION.md",
+    "docs/PHOTOMETRIC_UNITS.md",
+    "src/judge-1/evaluate.ts",
+    "src/judge-1/profile.ts",
+    "src/judge-1/schema.ts",
+    "src/sim/photometry/dimming.ts",
+    "src/sim/selectors/luminaires.ts",
+    "src/sim/snapshot/build.ts",
+    "tests/judge-1.test.ts",
+    "tests/renderer-adapter.test.ts"
+  ],
+  "verification": {
+    "protocol_version": "jarvis-verification-v1",
+    "project_id": "light-the-space",
+    "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence-correction-5-infra-4ba8ea7e",
+    "base_sha": "14d22bedf0cb833991abf479c2a334799a01a36e",
+    "head_sha": "52c962d621fd98c1fbd77e0a26dc3f654419b2d7",
+    "branch": "lts-v2/judge-1-codex",
+    "verified_at": "2026-08-22T16:40:12.786Z",
+    "profile": "ENGINEERING_WITH_BROWSER_EVIDENCE",
+    "passed": true,
+    "changed_files": [
+      "artifacts/judge-1/architecture-invariants.json",
+      "artifacts/judge-1/browser-acceptance.json",
+      "docs/LTS_V2_JUDGE_1.md",
+      "docs/LTS_V2_SIMULATION_FOUNDATION.md",
+      "docs/PHOTOMETRIC_UNITS.md",
+      "src/judge-1/evaluate.ts",
+      "src/judge-1/profile.ts",
+      "src/judge-1/schema.ts",
+      "src/sim/photometry/dimming.ts",
+      "src/sim/selectors/luminaires.ts",
+      "src/sim/snapshot/build.ts",
+      "tests/judge-1.test.ts",
+      "tests/renderer-adapter.test.ts"
+    ],
+    "commits": [
+      "52c962d621fd98c1fbd77e0a26dc3f654419b2d7"
+    ],
+    "checks": [
+      {
+        "id": "tests",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "test"
+        ],
+        "exit_code": 0,
+        "duration_ms": 2073,
+        "stdout_sha256": "95d466385500140b015b2f900de4606840187d886ad73efcf65c604b213e1e4f",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "typecheck",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "typecheck"
+        ],
+        "exit_code": 0,
+        "duration_ms": 2446,
+        "stdout_sha256": "780ba77ce80fd28cf1c4371f48dc108cd21b8593ba75bd036b26ade4239431b8",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "lint",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "lint"
+        ],
+        "exit_code": 0,
+        "duration_ms": 1582,
+        "stdout_sha256": "97b17b3534ab83399d73b954c7deea525049255ecc6eae1c728bfe49fe0c671c",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "build",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "exit_code": 0,
+        "duration_ms": 3204,
+        "stdout_sha256": "7764d00cc27f93a002858b2161f0b3977b4a44e4d7f1e6d50a3ec9d7472a53f5",
+        "stderr_sha256": "0d58b2b6768def1c29901addd0aeae3f8d90bdb739c8b3e83b5b34bb7da6983a"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "artifacts/judge-1/browser-acceptance.json",
+        "sha256": "aa2711e3f3aeba160bf00ebfbdcde855238220c9db0f567c5ffc9b4e0c14804e",
+        "bytes": 1180
+      },
+      {
+        "path": "artifacts/judge-1/judge-1.png",
+        "sha256": "4cc2c0a5457b16f99690e6f437049027248737ad573f86e6dd8571c3d718c23e",
+        "bytes": 337413
+      },
+      {
+        "path": "artifacts/judge-1/architecture-invariants.json",
+        "sha256": "c97ff67de0391400901f26c1a7584e2b823a5ba3402389c2ede59f4734c555c8",
+        "bytes": 1378
+      }
+    ],
+    "failures": [],
+    "remote_head": "52c962d621fd98c1fbd77e0a26dc3f654419b2d7"
+  },
+  "worker_report": {
+    "protocol_version": "jarvis-worker-result-v1",
+    "job_id": "d41c0bee273d0f62b58067886efcfbf515d59b8626f8f65b613d593a84ca782a",
+    "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence-correction-5-infra-4ba8ea7e",
+    "project_id": "light-the-space",
+    "branch": "lts-v2/judge-1-codex",
+    "base_sha": "14d22bedf0cb833991abf479c2a334799a01a36e",
+    "head_sha": "52c962d621fd98c1fbd77e0a26dc3f654419b2d7",
+    "changed_files": [
+      "artifacts/judge-1/architecture-invariants.json",
+      "artifacts/judge-1/browser-acceptance.json",
+      "docs/LTS_V2_JUDGE_1.md",
+      "docs/LTS_V2_SIMULATION_FOUNDATION.md",
+      "docs/PHOTOMETRIC_UNITS.md",
+      "src/judge-1/evaluate.ts",
+      "src/judge-1/profile.ts",
+      "src/judge-1/schema.ts",
+      "src/sim/photometry/dimming.ts",
+      "src/sim/selectors/luminaires.ts",
+      "src/sim/snapshot/build.ts",
+      "tests/judge-1.test.ts",
+      "tests/renderer-adapter.test.ts"
+    ],
+    "commits": [
+      "52c962d621fd98c1fbd77e0a26dc3f654419b2d7"
+    ],
+    "tests": {
+      "id": "tests",
+      "status": "FAIL",
+      "command": [
+        "npm",
+        "run",
+        "test"
+      ],
+      "exit_code": 1,
+      "duration_ms": 0,
+      "stdout_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "stderr_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "typecheck": {
+      "id": "typecheck",
+      "status": "PASS",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exit_code": 0,
+      "duration_ms": 3100,
+      "stdout_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "stderr_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "lint": {
+      "id": "lint",
+      "status": "PASS",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exit_code": 0,
+      "duration_ms": 1600,
+      "stdout_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "stderr_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "build": {
+      "id": "build",
+      "status": "FAIL",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 1,
+      "duration_ms": 0,
+      "stdout_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "stderr_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "artifacts": [
+      {
+        "path": "artifacts/judge-1/browser-acceptance.json",
+        "sha256": "aa2711e3f3aeba160bf00ebfbdcde855238220c9db0f567c5ffc9b4e0c14804e",
+        "bytes": 1180
+      },
+      {
+        "path": "artifacts/judge-1/judge-1.png",
+        "sha256": "4cc2c0a5457b16f99690e6f437049027248737ad573f86e6dd8571c3d718c23e",
+        "bytes": 337413
+      },
+      {
+        "path": "artifacts/judge-1/architecture-invariants.json",
+        "sha256": "c97ff67de0391400901f26c1a7584e2b823a5ba3402389c2ede59f4734c555c8",
+        "bytes": 1378
+      }
+    ],
+    "warnings": [
+      "Implemented changes remain uncommitted because Git cannot create .git/index.lock: Permission denied. Consequently no normal push was possible and head_sha remains the exact base SHA.",
+      "Tests and build could not start because Vite/Vitest's esbuild config loader was denied child-process spawning (EPERM). This is an execution-environment restriction, not a reported test assertion.",
+      "Judge 1 now uses per-beam maximum geometric spill without output weighting, explicitly permits exactly one live fixture until union-footprint evidence exists, separates rated connected load from output-dependent demand, updates versioned documentation/artifacts, and adds adversarial tests. Typecheck and lint passed.",
+      "JARVIS checkpointed and published the worker bytes because the managed worker sandbox protects Git metadata; independent verification remains authoritative."
+    ],
+    "worker_terminal_state": "WORK_PRODUCT_READY",
+    "summary": "Worktree remediation is complete but cannot be delivered: the sandbox denies writes under .git, blocking commit/push, and denies child-process spawning required by Vitest/Vite, blocking tests/build verification. Typecheck and lint passed."
+  },
+  "evidence": {
+    "screenshots": [
+      {
+        "path": "artifacts/judge-1/judge-1.png",
+        "sha256": "4cc2c0a5457b16f99690e6f437049027248737ad573f86e6dd8571c3d718c23e",
+        "bytes": 337413
+      }
+    ],
+    "browser_acceptance": [
+      {
+        "path": "artifacts/judge-1/browser-acceptance.json",
+        "sha256": "aa2711e3f3aeba160bf00ebfbdcde855238220c9db0f567c5ffc9b4e0c14804e",
+        "bytes": 1180
+      }
+    ],
+    "performance": [],
+    "architecture": [
+      {
+        "path": "artifacts/judge-1/architecture-invariants.json",
+        "sha256": "c97ff67de0391400901f26c1a7584e2b823a5ba3402389c2ede59f4734c555c8",
+        "bytes": 1378
+      }
+    ]
+  },
+  "created_at": "2026-08-22T16:40:13.252Z",
+  "status": "READY_FOR_JARVIS_REVIEW"
+}
