@@ -1,0 +1,11 @@
+{
+  "protocol_version": "jarvis-review-package-pointer-v1",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence",
+  "base_sha": "66806edab7f77c65a380833a8b7e3124fb9df5af",
+  "head_sha": "14d22bedf0cb833991abf479c2a334799a01a36e",
+  "review_package_revision": "7e7983a05039ca165768fd89d1f6f3db64bdbff173d4ceb7814f760ab3109706",
+  "path": "projects/light-the-space/review-packages/light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence/7e7983a05039ca165768fd89d1f6f3db64bdbff173d4ceb7814f760ab3109706.json",
+  "status": "READY_FOR_JARVIS_REVIEW",
+  "updated_at": "2026-08-22T16:09:29.615Z"
+}
