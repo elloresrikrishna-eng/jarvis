@@ -1,0 +1,11 @@
+{
+  "protocol_version": "jarvis-engineering-decision-consumption-v1",
+  "decision_id": "jarvis-lts-j2-ffc67151-reject-001",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-2-architect-71dbf49b135e",
+  "candidate_head_sha": "853ff16ebc7d7b4ede1d3eabb17701c35b853ead",
+  "review_package_revision": "ffc6715175c4ec1fa21af2134f78523ed700a7d080a851fb3f34acdd62d1b849",
+  "action": "CORRECT",
+  "resulting_state_revision": 53,
+  "consumed_at": "2026-08-22T23:49:19.3483589+05:30"
+}
