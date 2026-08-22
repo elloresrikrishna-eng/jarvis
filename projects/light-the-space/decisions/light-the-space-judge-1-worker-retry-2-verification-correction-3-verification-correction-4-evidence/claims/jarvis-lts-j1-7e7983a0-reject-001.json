@@ -1,0 +1,9 @@
+{
+  "protocol_version": "jarvis-engineering-decision-claim-v1",
+  "decision_id": "jarvis-lts-j1-7e7983a0-reject-001",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence",
+  "candidate_head_sha": "14d22bedf0cb833991abf479c2a334799a01a36e",
+  "review_package_revision": "7e7983a05039ca165768fd89d1f6f3db64bdbff173d4ceb7814f760ab3109706",
+  "claimed_at": "2026-08-22T16:24:14.1506481Z"
+}
