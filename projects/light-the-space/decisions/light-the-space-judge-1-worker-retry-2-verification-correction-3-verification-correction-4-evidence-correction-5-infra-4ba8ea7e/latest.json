@@ -1,0 +1,27 @@
+{
+  "protocol_version": "jarvis-engineering-decision-v1",
+  "decision_id": "jarvis-lts-j1-b6171877-reject-001",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence-correction-5-infra-4ba8ea7e",
+  "base_sha": "14d22bedf0cb833991abf479c2a334799a01a36e",
+  "candidate_head_sha": "52c962d621fd98c1fbd77e0a26dc3f654419b2d7",
+  "review_package_revision": "b617187748eb51337564333b291b98572ffabc2901b43d5e0cbba9b59f9e89ce",
+  "reviewer": "JARVIS_CHATGPT",
+  "timestamp": "2026-08-22T16:54:40.1792288Z",
+  "decision": "REJECT",
+  "reason": "Judge 1 still allows geometrically valid artwork accenting to pass at near-zero or effectively zero output because liveness is enabled-state based, coverage is geometric, and the single-fixture profile has no deterministic minimum meaningful target-contribution floor.",
+  "required_changes": [
+    "Add one deterministic minimum-contribution rule for the single-fixture Judge 1 profile using evidence already available in SimulationSnapshot, preferring centreIlluminanceLux with its provisional status preserved, then effectiveCandela, then effectiveLumens or outputPercent as an explicitly provisional contribution floor.",
+    "Make the minimum-contribution rule profile-driven and versioned.",
+    "Do not describe provisional evidence as measured lux or certified photometry.",
+    "Add adversarial tests proving valid geometry at 0 percent output blocks, valid geometry at 0.01 percent or similarly negligible output blocks, the existing 24, 34, and 36 degree valid solutions still pass, and dimming does not affect geometric spill verdicts.",
+    "Do not expand scope to add snapshot hash or state binding because the current snapshot contract does not expose an authoritative state hash."
+  ],
+  "protected_aspects": [
+    "Preserve maximum per-beam geometric spill logic without output weighting.",
+    "Preserve the single-live-fixture policy and rated connected-load semantics.",
+    "Preserve Judge 1 purity, SimulationSnapshot-owned geometry, renderer independence, fixed exposure, and existing UI behavior.",
+    "Do not implement or start Judge 2, merge branches, or self-approve the corrected candidate."
+  ],
+  "human_decision_required": false
+}
