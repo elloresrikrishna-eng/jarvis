@@ -1,0 +1,11 @@
+{
+  "protocol_version": "jarvis-engineering-decision-consumption-v1",
+  "decision_id": "jarvis-lts-j1-b6171877-reject-001",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence-correction-5-infra-4ba8ea7e",
+  "candidate_head_sha": "52c962d621fd98c1fbd77e0a26dc3f654419b2d7",
+  "review_package_revision": "b617187748eb51337564333b291b98572ffabc2901b43d5e0cbba9b59f9e89ce",
+  "action": "HUMAN_GATE",
+  "resulting_state_revision": 37,
+  "consumed_at": "2026-08-22T16:54:40.1792288Z"
+}
