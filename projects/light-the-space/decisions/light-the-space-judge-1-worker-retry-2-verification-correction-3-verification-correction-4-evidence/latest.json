@@ -1,0 +1,28 @@
+{
+  "protocol_version": "jarvis-engineering-decision-v1",
+  "decision_id": "jarvis-lts-j1-7e7983a0-reject-001",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-judge-1-worker-retry-2-verification-correction-3-verification-correction-4-evidence",
+  "base_sha": "66806edab7f77c65a380833a8b7e3124fb9df5af",
+  "candidate_head_sha": "14d22bedf0cb833991abf479c2a334799a01a36e",
+  "review_package_revision": "7e7983a05039ca165768fd89d1f6f3db64bdbff173d4ceb7814f760ab3109706",
+  "reviewer": "JARVIS_CHATGPT",
+  "timestamp": "2026-08-22T16:24:14.1506481Z",
+  "decision": "REJECT",
+  "reason": "Judge 1 passes engineering verification but its aggregation semantics admit unsafe adversarial multi-fixture and near-zero-output cases, and its load terminology, documentation, and evidence binding need correction before approval.",
+  "required_changes": [
+    "Fix artwork spill aggregation so one clean beam cannot hide another high-spill live beam.",
+    "Prevent near-zero output from gaming geometric coverage through output-weighted spill.",
+    "Make multi-fixture target coverage semantics coherent by implementing combined coverage or temporarily constraining and enforcing the profile to exactly one fixture.",
+    "Add adversarial tests for bad secondary spill, near-zero-output gaming, and the declared multi-fixture policy.",
+    "Correct connected-load terminology and calculation so rated connected load and output-dependent demand are not conflated.",
+    "Update stale Judge 1 evaluator and profile version documentation.",
+    "If supported cleanly by the existing architecture, bind snapshot evidence to the exact canonical state revision or hash without introducing renderer or UI coupling."
+  ],
+  "protected_aspects": [
+    "Preserve the pure, deterministic Judge 1 architecture and renderer independence.",
+    "Preserve Phase 2 canonical state, semantic geometry, SimulationSnapshot evidence ownership, fixed exposure, UI behavior, and all previously passing verification behavior.",
+    "Do not implement or start Judge 2, merge branches, or self-approve the corrected candidate."
+  ],
+  "human_decision_required": false
+}
