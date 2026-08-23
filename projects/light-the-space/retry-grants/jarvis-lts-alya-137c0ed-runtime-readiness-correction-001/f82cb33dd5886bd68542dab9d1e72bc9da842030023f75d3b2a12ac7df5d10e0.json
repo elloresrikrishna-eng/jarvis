@@ -1,0 +1,19 @@
+{
+  "protocol_version": "jarvis-authorized-retry-grant-v1",
+  "grant_id": "f82cb33dd5886bd68542dab9d1e72bc9da842030023f75d3b2a12ac7df5d10e0",
+  "project_id": "light-the-space",
+  "decision_id": "jarvis-lts-alya-137c0ed-runtime-readiness-correction-001",
+  "prior_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1-correction-2-verification-a-infrastructure-recovery-60c6c11e822f",
+  "correction_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1-correction-2-verification-authorized-verification-7-54fb9e388158",
+  "binding_type": "VERIFICATION_EVIDENCE",
+  "verification_revision": "5ef1f0845fa90bdcc70ecc8741122348be88cf2974c2f997c19461411ad101f4",
+  "base_sha": "137c0ed74959a9c5ecc460c2044ea05d0775322f",
+  "prior_attempt": 6,
+  "granted_attempt": 7,
+  "prior_retry_budget": 6,
+  "granted_retry_budget": 7,
+  "task_definition_sha256": "4274e4e16643f8eaefab4108af6559eec759c02c87c293e76343c859353b2f14",
+  "authorized_by": "USER",
+  "authorized_at": "2026-08-23T14:29:14.4096820Z",
+  "scope": "One bounded Alya Mentor runtime-readiness correction from exact candidate 137c0ed74959a9c5ecc460c2044ea05d0775322f, restricted to the judge2-request-capture and Judge2RuntimeCaptureBridge readiness handshake."
+}
