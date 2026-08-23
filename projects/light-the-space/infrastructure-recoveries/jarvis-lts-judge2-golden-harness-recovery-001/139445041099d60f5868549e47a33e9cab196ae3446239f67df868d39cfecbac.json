@@ -1,0 +1,18 @@
+{
+  "protocol_version": "jarvis-authorized-infrastructure-recovery-v1",
+  "recovery_id": "139445041099d60f5868549e47a33e9cab196ae3446239f67df868d39cfecbac",
+  "project_id": "light-the-space",
+  "authorization_id": "jarvis-lts-judge2-golden-harness-recovery-001",
+  "prior_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1-correction-2-verification-authorized-verification-6-ae9bd6c0efb5",
+  "recovery_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1-correction-2-verification-a-infrastructure-recovery-60c6c11e822f",
+  "verification_revision": "913d227e84e545a5b8e5e25c90d268e7424248d3601c64dd75ff046771114470",
+  "base_sha": "05a0c25b0e2c0ec8af2ebb94c6179da8c4447e3c",
+  "restoration_head_sha": "781dceb4001076a2aa0340174ebf9d03b7d86946",
+  "attempt": 6,
+  "retry_budget": 6,
+  "budget_effect": "NONE_INFRASTRUCTURE_RECOVERY",
+  "task_definition_sha256": "965d7e2072e640a20af769183e64d71b18f0823b05921949008ed921203d6db0",
+  "authorized_by": "USER",
+  "authorized_at": "2026-08-23T13:25:00.000Z",
+  "scope": "Judge 2 golden browser regression-harness infrastructure recovery at Alya candidate 05a0c25b0e2c0ec8af2ebb94c6179da8c4447e3c, with no Alya product retry-budget effect."
+}
