@@ -1,0 +1,20 @@
+{
+  "protocol_version": "jarvis-authorized-verification-evidence-correction-v1",
+  "correction_id": "9912fdd79bdd730d5cad32ce358a45f9d31052aed32e6336bb79459507c6f565",
+  "project_id": "light-the-space",
+  "authorization_id": "jarvis-lts-alya-efdf6d3-lifecycle-observer-001",
+  "prior_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1-correction-2-verifica-bro-authorized-verification-8-0fba9c9bb08c",
+  "correction_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1-correction-2-verif-verification-evidence-correction-9f3523b6e7f3",
+  "verification_revision": "64518f69b1181cdcb1cce92d29db7ddd7f4da7571ae030731cb0730131773dca",
+  "base_sha": "efdf6d376c33f71a8b5cdfbd63ec6269e3ae1b24",
+  "attempt": 8,
+  "retry_budget": 8,
+  "allowed_source_paths": [
+    "scripts/alya-mentor-browser-evidence.mjs"
+  ],
+  "budget_effect": "NONE_VERIFICATION_EVIDENCE_CORRECTION",
+  "task_definition_sha256": "0abc62e831cdf6de1af84c32468ffca3935ff573f088e74964a35e48d2ae7f2e",
+  "authorized_by": "USER",
+  "authorized_at": "2026-08-23T15:56:12.7033403Z",
+  "scope": "One exact-head verification-evidence-only lifecycle observer correction from efdf6d376c33f71a8b5cdfbd63ec6269e3ae1b24; no product or runtime code changes and no Alya retry-budget effect."
+}
