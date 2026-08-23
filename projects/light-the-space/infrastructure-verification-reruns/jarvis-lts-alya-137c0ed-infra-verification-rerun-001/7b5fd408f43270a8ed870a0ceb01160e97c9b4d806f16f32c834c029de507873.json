@@ -1,0 +1,17 @@
+{
+  "protocol_version": "jarvis-authorized-infrastructure-verification-rerun-v1",
+  "rerun_id": "7b5fd408f43270a8ed870a0ceb01160e97c9b4d806f16f32c834c029de507873",
+  "project_id": "light-the-space",
+  "authorization_id": "jarvis-lts-alya-137c0ed-infra-verification-rerun-001",
+  "task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1-correction-2-verification-a-infrastructure-recovery-60c6c11e822f",
+  "candidate_head_sha": "137c0ed74959a9c5ecc460c2044ea05d0775322f",
+  "failed_verification_revision": "91c9137f0b5820bbc961f50085541a295bca972321ffea69bccab312b19e5ccc",
+  "attempt": 6,
+  "retry_budget": 6,
+  "max_runs": 1,
+  "product_code_changes_permitted": false,
+  "budget_effect": "NONE_INFRASTRUCTURE_VERIFICATION_RERUN",
+  "authorized_by": "USER",
+  "authorized_at": "2026-08-23T13:55:00.000Z",
+  "scope": "One infrastructure-only exact-head verification rerun. Run the unchanged golden Judge 2 browser evidence gate first, then the unchanged Alya normal-player browser acceptance only if the golden gate passes. Do not modify product code, alter assertions, consume or extend the 6/6 Alya retry budget, merge, self-approve, start the next phase, or touch Pulla Reddy."
+}
