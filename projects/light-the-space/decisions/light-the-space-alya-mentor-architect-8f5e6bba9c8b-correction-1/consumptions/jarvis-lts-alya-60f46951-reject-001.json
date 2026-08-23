@@ -1,0 +1,11 @@
+{
+  "protocol_version": "jarvis-engineering-decision-consumption-v1",
+  "decision_id": "jarvis-lts-alya-60f46951-reject-001",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1",
+  "candidate_head_sha": "62b2e6623c914255f189284273b66bad77cb54b7",
+  "review_package_revision": "60f4695187e57540bf94340ccb94388056b964544f3217afce4b5683ebe99e3d",
+  "action": "CORRECT",
+  "resulting_state_revision": 96,
+  "consumed_at": "2026-08-23T12:12:46Z"
+}
