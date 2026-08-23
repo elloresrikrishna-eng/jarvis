@@ -1,0 +1,9 @@
+{
+  "protocol_version": "jarvis-engineering-decision-claim-v1",
+  "decision_id": "jarvis-lts-alya-0621bdca-reject-001",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b",
+  "candidate_head_sha": "a19cb8de8222d1867ea03646177601bcf16b240a",
+  "review_package_revision": "0621bdcad64e4e11e36674abdc4feeb41ad08d5d6d345546bfb558ec89cc1f97",
+  "claimed_at": "2026-08-22T20:00:00Z"
+}
