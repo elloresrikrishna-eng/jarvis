@@ -1,0 +1,18 @@
+{
+  "protocol_version": "jarvis-authorized-retry-grant-v1",
+  "grant_id": "235a219dbf9d1bc7a15c5892773440bdb020d589237ae9d5a72d80d75b88a787",
+  "project_id": "light-the-space",
+  "decision_id": "jarvis-lts-alya-0621bdca-reject-001",
+  "prior_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b",
+  "correction_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-authorized-correction-2",
+  "review_package_revision": "0621bdcad64e4e11e36674abdc4feeb41ad08d5d6d345546bfb558ec89cc1f97",
+  "base_sha": "781dceb4001076a2aa0340174ebf9d03b7d86946",
+  "prior_attempt": 1,
+  "granted_attempt": 2,
+  "prior_retry_budget": 5,
+  "granted_retry_budget": 6,
+  "task_definition_sha256": "c64a114fb51c6bf88f2d1f3d7dc88edcfefaa7d6181b203abf13d14993182958",
+  "authorized_by": "USER",
+  "authorized_at": "2026-08-23T10:28:27.000Z",
+  "scope": "One immediate bounded Alya Mentor correction attempt for jarvis-lts-alya-0621bdca-reject-001. Implement only the rejected acceptance gaps: provenance-safe frozen same-state Judge 2 handoff, player-facing hint/technical/perceptual critique/Why browser acceptance, clean Alya Mentor UI screenshots, stale/wrong-provenance and low-confidence adversarial tests. Preserve the deterministic planner, Judge 1, Judge 2, fixed exposure, simulation state, renderer behavior, and all protected aspects. Do not start the next product phase, merge branches, self-approve, or touch Pulla Reddy."
+}
