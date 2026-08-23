@@ -1,0 +1,286 @@
+{
+  "protocol_version": "jarvis-review-package-v1",
+  "review_package_revision": "60f4695187e57540bf94340ccb94388056b964544f3217afce4b5683ebe99e3d",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1",
+  "project_state_revision": 93,
+  "base_sha": "a19cb8de8222d1867ea03646177601bcf16b240a",
+  "head_sha": "62b2e6623c914255f189284273b66bad77cb54b7",
+  "branch": "lts-v2/alya-mentor-codex",
+  "github_comparison": "https://github.com/elloresrikrishna-eng/Light-the-Space/compare/a19cb8de8222d1867ea03646177601bcf16b240a...62b2e6623c914255f189284273b66bad77cb54b7",
+  "commit_list": [
+    "62b2e6623c914255f189284273b66bad77cb54b7"
+  ],
+  "changed_files": [
+    "artifacts/alya-mentor/browser-acceptance.json",
+    "artifacts/alya-mentor/screenshots/hint.png",
+    "artifacts/alya-mentor/screenshots/observe.png",
+    "artifacts/alya-mentor/screenshots/perceptual-critique.png",
+    "artifacts/alya-mentor/screenshots/technical-critique.png",
+    "artifacts/alya-mentor/screenshots/why-expanded.png",
+    "docs/LTS_V2_ALYA_MENTOR.md",
+    "package.json",
+    "scripts/alya-mentor-browser-evidence.mjs",
+    "src/App.tsx",
+    "src/alya-mentor/schema.ts",
+    "src/render/Judge2EvidenceHarness.tsx",
+    "src/styles/app.css",
+    "src/ui/AlyaMentorPanel.tsx",
+    "src/ui/judge2MentorCapture.ts",
+    "tests/alya-mentor.test.ts"
+  ],
+  "verification": {
+    "protocol_version": "jarvis-verification-v1",
+    "project_id": "light-the-space",
+    "task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1",
+    "base_sha": "a19cb8de8222d1867ea03646177601bcf16b240a",
+    "head_sha": "62b2e6623c914255f189284273b66bad77cb54b7",
+    "branch": "lts-v2/alya-mentor-codex",
+    "verified_at": "2026-08-23T12:06:10.522Z",
+    "profile": "ENGINEERING_WITH_BROWSER_EVIDENCE",
+    "passed": true,
+    "changed_files": [
+      "artifacts/alya-mentor/browser-acceptance.json",
+      "artifacts/alya-mentor/screenshots/hint.png",
+      "artifacts/alya-mentor/screenshots/observe.png",
+      "artifacts/alya-mentor/screenshots/perceptual-critique.png",
+      "artifacts/alya-mentor/screenshots/technical-critique.png",
+      "artifacts/alya-mentor/screenshots/why-expanded.png",
+      "docs/LTS_V2_ALYA_MENTOR.md",
+      "package.json",
+      "scripts/alya-mentor-browser-evidence.mjs",
+      "src/App.tsx",
+      "src/alya-mentor/schema.ts",
+      "src/render/Judge2EvidenceHarness.tsx",
+      "src/styles/app.css",
+      "src/ui/AlyaMentorPanel.tsx",
+      "src/ui/judge2MentorCapture.ts",
+      "tests/alya-mentor.test.ts"
+    ],
+    "commits": [
+      "62b2e6623c914255f189284273b66bad77cb54b7"
+    ],
+    "checks": [
+      {
+        "id": "browser-evidence",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "evidence:browser"
+        ],
+        "exit_code": 0,
+        "duration_ms": 57262,
+        "stdout_sha256": "3f4f56238c2e1b3f81ef94531738b9b88f1aba1ac776f7f695e61bba649772d8",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "tests",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "test"
+        ],
+        "exit_code": 0,
+        "duration_ms": 4066,
+        "stdout_sha256": "3d664fdfe41ee2458ef65d865e20a985e4ffa6b24a7ce58e546030c829e4cc00",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "typecheck",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "typecheck"
+        ],
+        "exit_code": 0,
+        "duration_ms": 2640,
+        "stdout_sha256": "780ba77ce80fd28cf1c4371f48dc108cd21b8593ba75bd036b26ade4239431b8",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "lint",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "lint"
+        ],
+        "exit_code": 0,
+        "duration_ms": 1680,
+        "stdout_sha256": "97b17b3534ab83399d73b954c7deea525049255ecc6eae1c728bfe49fe0c671c",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "build",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "exit_code": 0,
+        "duration_ms": 3810,
+        "stdout_sha256": "83de0bc6d867e27d947bb6b13675dccd2a1ee4c5f6bc8e9c57143c9cc6634983",
+        "stderr_sha256": "0d58b2b6768def1c29901addd0aeae3f8d90bdb739c8b3e83b5b34bb7da6983a"
+      },
+      {
+        "id": "evidence:browser",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "run",
+          "evidence:browser"
+        ],
+        "exit_code": 0,
+        "duration_ms": 55925,
+        "stdout_sha256": "3f4f56238c2e1b3f81ef94531738b9b88f1aba1ac776f7f695e61bba649772d8",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "artifacts/alya-mentor/mentor-plans.json",
+        "sha256": "9fa70d081b357ac608ff1068560b56c02b5ad980c896d39f748624c6df3c8b60",
+        "bytes": 555
+      },
+      {
+        "path": "artifacts/alya-mentor/golden-feedback-cases.json",
+        "sha256": "3aaab3a9b123ca84024f52def05dd48763bd0b5f3317a460078462d410e9bf84",
+        "bytes": 476
+      },
+      {
+        "path": "artifacts/alya-mentor/claim-safety.json",
+        "sha256": "5c4822c8372fdc9f21322d5aed9d4707d21326b94d92071562ee314f0d34f4e9",
+        "bytes": 252
+      },
+      {
+        "path": "artifacts/alya-mentor/architecture-invariants.json",
+        "sha256": "e915884bb1ef5538ac7384e33aad3e89d3030ea42d12586dd523c69890a84799",
+        "bytes": 269
+      },
+      {
+        "path": "artifacts/alya-mentor/browser-acceptance.json",
+        "sha256": "5fe1ecf522d87fc8b8257ee0cb570c8f66accd7ee554ef91d024250a12963285",
+        "bytes": 2310
+      }
+    ],
+    "failures": [],
+    "remote_head": "62b2e6623c914255f189284273b66bad77cb54b7"
+  },
+  "worker_report": {
+    "protocol_version": "jarvis-worker-result-v1",
+    "job_id": "66f7c9324e59f1588eeee5d0b742b671e0e47ff86edfb42fa5c774b8566a2a47",
+    "task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1",
+    "project_id": "light-the-space",
+    "branch": "lts-v2/alya-mentor-codex",
+    "base_sha": "a19cb8de8222d1867ea03646177601bcf16b240a",
+    "head_sha": "62b2e6623c914255f189284273b66bad77cb54b7",
+    "changed_files": [
+      "artifacts/alya-mentor/browser-acceptance.json",
+      "artifacts/alya-mentor/screenshots/hint.png",
+      "artifacts/alya-mentor/screenshots/observe.png",
+      "artifacts/alya-mentor/screenshots/perceptual-critique.png",
+      "artifacts/alya-mentor/screenshots/technical-critique.png",
+      "artifacts/alya-mentor/screenshots/why-expanded.png",
+      "docs/LTS_V2_ALYA_MENTOR.md",
+      "package.json",
+      "scripts/alya-mentor-browser-evidence.mjs",
+      "src/App.tsx",
+      "src/alya-mentor/schema.ts",
+      "src/render/Judge2EvidenceHarness.tsx",
+      "src/styles/app.css",
+      "src/ui/AlyaMentorPanel.tsx",
+      "src/ui/judge2MentorCapture.ts",
+      "tests/alya-mentor.test.ts"
+    ],
+    "commits": [
+      "62b2e6623c914255f189284273b66bad77cb54b7"
+    ],
+    "tests": {
+      "id": "npm run test",
+      "status": "FAIL",
+      "command": [
+        "npm",
+        "run",
+        "test"
+      ],
+      "exit_code": 1,
+      "duration_ms": 18400,
+      "stdout_sha256": "0e7cf5eec44b8371cc8c80de909d0161ceefdc5f26e148493222a121e2ca6e6e",
+      "stderr_sha256": "0e7cf5eec44b8371cc8c80de909d0161ceefdc5f26e148493222a121e2ca6e6e"
+    },
+    "typecheck": {
+      "id": "npm run typecheck",
+      "status": "PASS",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exit_code": 0,
+      "duration_ms": 13100,
+      "stdout_sha256": "d7ac71e59b34e65bf11765731fbc314654d10355614862e3704b26ff29830c92",
+      "stderr_sha256": "d7ac71e59b34e65bf11765731fbc314654d10355614862e3704b26ff29830c92"
+    },
+    "lint": {
+      "id": "npm run lint",
+      "status": "PASS",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exit_code": 0,
+      "duration_ms": 11500,
+      "stdout_sha256": "d7ac71e59b34e65bf11765731fbc314654d10355614862e3704b26ff29830c92",
+      "stderr_sha256": "d7ac71e59b34e65bf11765731fbc314654d10355614862e3704b26ff29830c92"
+    },
+    "build": {
+      "id": "npm run build",
+      "status": "FAIL",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit_code": 1,
+      "duration_ms": 11500,
+      "stdout_sha256": "0e7cf5eec44b8371cc8c80de909d0161ceefdc5f26e148493222a121e2ca6e6e",
+      "stderr_sha256": "0e7cf5eec44b8371cc8c80de909d0161ceefdc5f26e148493222a121e2ca6e6e"
+    },
+    "artifacts": [],
+    "warnings": [
+      "Implemented but could not commit or push: the managed filesystem denies writes to .git/index.lock.",
+      "npm run test and npm run build are blocked by sandbox child-process EPERM while loading Vite/Vitest configuration.",
+      "npm run evidence:browser is implemented but Chromium CDP cannot start in this sandbox, so required rendered screenshots were not published. Host JARVIS must run it.",
+      "Typecheck and lint pass.",
+      "JARVIS executed the allowlisted host browser evidence handoff before checkpointing.",
+      "JARVIS checkpointed and published the worker bytes because the managed worker sandbox protects Git metadata; independent verification remains authoritative."
+    ],
+    "worker_terminal_state": "WORK_PRODUCT_READY",
+    "summary": "Implemented strict frozen Judge 2 handoff and fail-closed provenance validation for state, candidate state, viewpoint, render profile, Judge 2 profile, and evidence IDs. The panel now consumes matching captured Judge 2 critique without committed-case matching, retains no-guess behavior when absent, and browser automation covers observe, hint, technical critique, perceptual critique, Why expansion, and non-mutation. Workspace changes remain uncommitted because .git is read-only in this worker environment."
+  },
+  "evidence": {
+    "screenshots": [],
+    "browser_acceptance": [
+      {
+        "path": "artifacts/alya-mentor/browser-acceptance.json",
+        "sha256": "5fe1ecf522d87fc8b8257ee0cb570c8f66accd7ee554ef91d024250a12963285",
+        "bytes": 2310
+      }
+    ],
+    "performance": [],
+    "architecture": [
+      {
+        "path": "artifacts/alya-mentor/architecture-invariants.json",
+        "sha256": "e915884bb1ef5538ac7384e33aad3e89d3030ea42d12586dd523c69890a84799",
+        "bytes": 269
+      }
+    ]
+  },
+  "created_at": "2026-08-23T12:06:10.555Z",
+  "status": "READY_FOR_JARVIS_REVIEW"
+}
