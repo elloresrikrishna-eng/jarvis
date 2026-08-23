@@ -1,0 +1,19 @@
+{
+  "protocol_version": "jarvis-authorized-retry-grant-v1",
+  "grant_id": "fb6224b8b27b5d290949c8108d3db5c89697ba7f87b00919540b644f152a2274",
+  "project_id": "light-the-space",
+  "decision_id": "jarvis-lts-alya-035e1ad-runtime-capture-readiness-001",
+  "prior_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1-correction-2-verifica-browser-infrastructure-repair-81acd4b4d1e9",
+  "correction_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1-correction-2-verifica-bro-authorized-verification-8-0fba9c9bb08c",
+  "binding_type": "VERIFICATION_EVIDENCE",
+  "verification_revision": "f5da5bf3646ce3f92ff11e640dbee7f1bf480497b9994fe23de839dd60a8785d",
+  "base_sha": "035e1ad3a2475e1d5ffad9d1df6719cfba0328b5",
+  "prior_attempt": 7,
+  "granted_attempt": 8,
+  "prior_retry_budget": 7,
+  "granted_retry_budget": 8,
+  "task_definition_sha256": "251d86987c50ec49943b9cafc8d96fee3bbc2b508f2a03a45d2c1ea115d63d85",
+  "authorized_by": "USER",
+  "authorized_at": "2026-08-23T15:32:10.1820390Z",
+  "scope": "One exact-head bounded Alya Mentor runtime-capture readiness correction from 035e1ad3a2475e1d5ffad9d1df6719cfba0328b5; accepted browser infrastructure and golden Judge 2 path remain immutable."
+}
