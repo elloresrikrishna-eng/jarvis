@@ -1,0 +1,18 @@
+{
+  "protocol_version": "jarvis-authorized-browser-infrastructure-repair-v1",
+  "repair_id": "3d73772d33c5dde742f7d2582b4d64a3ec02cc67b924f42b0f2b4371b66ba26f",
+  "project_id": "light-the-space",
+  "authorization_id": "jarvis-lts-browser-cdp-launcher-repair-001",
+  "prior_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1-correction-2-verification-authorized-verification-infra-a500aff0",
+  "repair_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1-correction-2-verifica-browser-infrastructure-repair-81acd4b4d1e9",
+  "failed_worker_result_sha256": "c8c75136393b42754f59cb7a9dd5da20f5acae1d82dd400efa1b75cbd89f6e49",
+  "base_sha": "137c0ed74959a9c5ecc460c2044ea05d0775322f",
+  "attempt": 7,
+  "retry_budget": 7,
+  "max_internal_launch_retries": 1,
+  "budget_effect": "NONE_BROWSER_INFRASTRUCTURE_REPAIR",
+  "task_definition_sha256": "7a9000f097b6460eb5ff1b5865918911f105b91adf72e7c9335eeb0e1331ed9c",
+  "authorized_by": "USER",
+  "authorized_at": "2026-08-23T15:05:00.000Z",
+  "scope": "Chromium CDP startup and diagnostics infrastructure only at exact Light the Space base 137c0ed74959a9c5ecc460c2044ea05d0775322f; one internal browser-launch retry; no ordinary Alya retry-budget effect."
+}
