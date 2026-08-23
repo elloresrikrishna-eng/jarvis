@@ -1,0 +1,11 @@
+{
+  "protocol_version": "jarvis-review-package-pointer-v1",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1",
+  "base_sha": "a19cb8de8222d1867ea03646177601bcf16b240a",
+  "head_sha": "62b2e6623c914255f189284273b66bad77cb54b7",
+  "review_package_revision": "60f4695187e57540bf94340ccb94388056b964544f3217afce4b5683ebe99e3d",
+  "path": "projects/light-the-space/review-packages/light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1/60f4695187e57540bf94340ccb94388056b964544f3217afce4b5683ebe99e3d.json",
+  "status": "READY_FOR_JARVIS_REVIEW",
+  "updated_at": "2026-08-23T12:06:10.555Z"
+}
