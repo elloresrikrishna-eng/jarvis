@@ -1,0 +1,19 @@
+{
+  "protocol_version": "jarvis-authorized-retry-grant-v1",
+  "grant_id": "424236906c8fb73c4b2e199dc372f7fa86b9053de409f8212a07ebc0130d7d78",
+  "project_id": "light-the-space",
+  "decision_id": "jarvis-lts-alya-734d567-browser-evidence-retry-001",
+  "prior_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1-correction-2-verification-correction-3-ver-evidence-16fb949fa0d3",
+  "correction_task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1-correction-2-verification-authorized-verification-6-ae9bd6c0efb5",
+  "binding_type": "VERIFICATION_EVIDENCE",
+  "verification_revision": "afd6744a26ab490ad3ba61eca23a28c720cfd02dc3ed0a76336e3231b1d446f7",
+  "base_sha": "734d567c55cf16f17e21e49ea2a155ce0f898f8e",
+  "prior_attempt": 5,
+  "granted_attempt": 6,
+  "prior_retry_budget": 5,
+  "granted_retry_budget": 6,
+  "task_definition_sha256": "ebc744bf82dcde372da0e65c913f952141f5408d83d45ce24eb9ae05395c4388",
+  "authorized_by": "USER",
+  "authorized_at": "2026-08-23T13:10:00.000Z",
+  "scope": "One additional bounded Alya Mentor browser-evidence verification-harness correction attempt at candidate 734d567c55cf16f17e21e49ea2a155ce0f898f8e; no product redesign and no further retry."
+}
