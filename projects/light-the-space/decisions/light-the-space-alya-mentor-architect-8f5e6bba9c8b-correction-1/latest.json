@@ -1,0 +1,27 @@
+{
+  "protocol_version": "jarvis-engineering-decision-v1",
+  "decision_id": "jarvis-lts-alya-60f46951-reject-001",
+  "project_id": "light-the-space",
+  "task_id": "light-the-space-alya-mentor-architect-8f5e6bba9c8b-correction-1",
+  "base_sha": "a19cb8de8222d1867ea03646177601bcf16b240a",
+  "candidate_head_sha": "62b2e6623c914255f189284273b66bad77cb54b7",
+  "review_package_revision": "60f4695187e57540bf94340ccb94388056b964544f3217afce4b5683ebe99e3d",
+  "reviewer": "JARVIS_CHATGPT",
+  "timestamp": "2026-08-23T12:12:46Z",
+  "decision": "REJECT",
+  "reason": "The correction materially improves provenance safety and independently passes tests, typecheck, lint, build, and browser evidence, and the five requested Mentor screenshots are genuinely committed. However, the central player-facing defect remains. Alya's Judge 1 PASS critique only consumes an already-published window.__judge2Evidence capture; the normal interaction route does not mount or trigger the Judge 2 clean-frame harness for the player's current authored state. The browser acceptance instead enters a special ?mentorCapture=<golden-case> route, which loads a predefined JUDGE_2_CAPTURE_CASES state before proving that Alya can consume its frozen result. This verifies evidence consumption for controlled cases, not the required runtime path in which a player edits a design, reaches Judge 1 PASS, requests critique, and receives a newly captured exact-same-state Judge 2 perceptual critique. The empty normalized evidence.screenshots index is not a rejection reason because the five PNGs and their hashes are present in the candidate and browser-acceptance manifest.",
+  "required_changes": [
+    "Wire the normal player interaction flow so Critique or submission after Judge 1 PASS requests the existing clean-frame Judge 2 capture/evaluation for the exact current SimulationState, authored viewpoint, render profile, and Judge 2 profile, then supplies that frozen result to Alya Mentor. The runtime path must not depend on a predefined JUDGE_2_CAPTURE_CASES or mentorCapture query parameter.",
+    "Keep the new exact provenance checks and fail-closed behavior. If the current state, candidate state, viewpoint/camera, render profile, Judge 2 profile, or evidence binding does not match, Alya must refuse perceptual claims and retain the explicit no-guess behavior.",
+    "Replace or extend browser acceptance so at least one perceptual-critique scenario begins on the normal interaction route, creates or changes the design through the normal player controls/commands, reaches Judge 1 PASS, invokes Critique, performs a clean same-state Judge 2 capture, and visibly receives the evidence-backed perceptual critique without page navigation into a golden-case evidence route.",
+    "Keep browser proof for hint progression, Judge 1 technical critique, Why expansion, and mentor non-mutation. Republish clean Mentor screenshots from the corrected player-facing flow. The current package normalizer may also populate evidence.screenshots, but that indexing omission by itself is non-blocking."
+  ],
+  "protected_aspects": [
+    "Preserve the correction's new Judge 1 state binding, Judge 2 capture provenance binding, dimension-to-evidence binding, stale/wrong-provenance adversarial tests, and low-confidence wording safeguards.",
+    "Preserve the deterministic MentorPlanner as authority and the rule that Alya never guesses visual consequence without matching Judge 2 evidence.",
+    "Preserve Judge 1 and Judge 2 evaluator behavior, fixed exposure, simulation semantics, and renderer behavior. Use only the minimal capture/handoff integration required for the normal player path.",
+    "Preserve clean measured Judge 2 pixels separately from player-facing Mentor UI screenshots, and preserve non-mutation of design state, camera, and exposure during evidence capture and mentor actions.",
+    "Do not add an LLM or cloud dependency, do not merge branches, do not start the next product phase, and do not touch Pulla Reddy."
+  ],
+  "human_decision_required": false
+}
