@@ -92,11 +92,10 @@ async function run() {
   threadId = thread?.thread?.id;
   if (!threadId) throw new Error("thread/start did not return a thread id.");
 
-  const prompt = promptFor(mode);
   const turn = await request("turn/start", {
     threadId,
     clientUserMessageId: `jarvis-${planId}`,
-    input: [{ type: "text", text: prompt }],
+    input: [{ type: "text", text: promptFor(mode) }],
     cwd,
     approvalPolicy: mode === "approval-deny" ? "on-request" : "never",
     sandboxPolicy: { type: "readOnly", networkAccess: false },
@@ -149,11 +148,15 @@ async function handleMessage(msg) {
     turnCompleted = true;
     const status = msg.params?.turn?.status;
     turnFailed = status === "failed";
-    const expectedInterrupt = mode === "interrupt";
-    const ok = expectedInterrupt
-      ? interrupted && !sawFileChange
-      : turnStarted && !turnFailed && !sawFileChange && (mode === "approval-deny" ? sawApprovalRequest : !sawApprovalRequest && sawCanaryToken);
-    finish(ok, expectedInterrupt ? "Interrupt path completed without target-repository writes." : "Turn completed.");
+    let ok;
+    if (mode === "interrupt") {
+      ok = interrupted && !sawFileChange;
+    } else if (mode === "approval-deny") {
+      ok = turnStarted && !turnFailed && sawApprovalRequest;
+    } else {
+      ok = turnStarted && !turnFailed && !sawFileChange && !sawApprovalRequest && sawCanaryToken;
+    }
+    finish(ok, mode === "interrupt" ? "Interrupt path completed without target-repository writes." : "Turn completed.");
   }
 }
 
@@ -281,12 +284,7 @@ function gitSnapshot(repoCwd) {
 }
 
 function audit(direction, payload) {
-  const record = {
-    at: new Date().toISOString(),
-    direction,
-    payload,
-  };
-  trace.write(`${JSON.stringify(record)}\n`);
+  trace.write(`${JSON.stringify({ at: new Date().toISOString(), direction, payload })}\n`);
 }
 
 function loadJournal(path) {
